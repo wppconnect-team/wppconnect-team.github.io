@@ -71,6 +71,11 @@ export const HeroContainer = styled.section`
         background: #fff;
         border: 1px solid rgba(0, 0, 0, .1);
         margin-left: 2em;
+
+        @media (max-width: 768px) {
+          margin-left: 0;
+          margin-top: 10px;
+        }
       }
 
       :hover {
@@ -85,6 +90,10 @@ export const HeroContainer = styled.section`
     max-width: 600px;
     mix-blend-mode: color;
     object-fit: contain;
+
+    @media(max-width: 768px){
+      display: none;
+    }
   }
 `
 
@@ -105,10 +114,21 @@ export const PresentingContainer = styled.div`
 
   margin-top: 3em;
 
+  @media (max-width: 768px) {
+    padding: 10px;
+    margin-top: 1em;
+  }
+
   h2 {
     font-size: 32px;
     text-align: center;
     margin-bottom: 2em;
+    max-width: 500px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+      font-size: 28px;
+    }
 
     span {
       background: rgb(221, 99, 147);
@@ -125,6 +145,11 @@ export const PresentingContainer = styled.div`
     justify-content: center;
     width: 100%;
 
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+    }
 
     li {
       margin-top: 3em;
@@ -136,6 +161,10 @@ export const PresentingContainer = styled.div`
       cursor: pointer;
       position: relative;
       z-index: 1;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
 
       a {
         color: #000;
@@ -174,6 +203,10 @@ export const PresentingContainer = styled.div`
         margin-left: 2em;
         overflow: hidden;
 
+        @media (max-width: 768px) {
+          margin-left: 0;
+        }
+
         ::before {
           content: "";
           position: absolute;
@@ -199,7 +232,7 @@ export const PresentingContainer = styled.div`
 
         :nth-child(1) {
           background: #3D39CC;
-          
+
           a {
             color: #fff;
           }
@@ -230,6 +263,11 @@ export const WhyUsContainer = styled.div`
     font-size: 40px;
     text-align: center;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+      margin: 0;
+      font-size: 30px;
+    }
 
     b {
       font-weight: 700;
@@ -277,6 +315,21 @@ export const CollaborativeContainer = styled.div`
     p {
       color: #333;
       font-size: 18px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 0;
+    padding: 2em;
+    
+    div {
+      h2 {
+        font-size: 30px;
+      }
+    }
+    
+    img {
+      display: none;
     }
   }
 `

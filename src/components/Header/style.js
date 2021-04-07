@@ -16,6 +16,14 @@ export const Container = styled.div`
   justify-content: space-between;
 
   padding: 0 2em;
+  
+  .menu-mobile {
+    display: none;
+    
+    @media(max-width: 768px){
+      display: block;
+    }
+  }
 `
 
 export const LogoWPP = styled.span`
@@ -36,6 +44,10 @@ export const LogoWPP = styled.span`
 
 export const Buttons = styled.nav`
   display: flex;
+
+  @media(max-width: 768px){
+    display: none;
+  }
 
   ul {
     display: flex;

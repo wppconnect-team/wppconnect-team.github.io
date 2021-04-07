@@ -52,7 +52,7 @@ const HomePage = () => {
 
                 <PresentingContainer>
                     <h2>
-                        A <span>primeira</span> biblioteca que<br/>
+                        A <span>primeira</span> biblioteca que
                         te oferece tudo sem complicações
                     </h2>
 
@@ -113,8 +113,7 @@ const HomePage = () => {
 
                 <WhyUsContainer>
                     <h2 className={"title"}>
-                        Porque utilizar o<br/>
-                        <b>WPPConnect?</b>
+                        Porque utilizar o <b>WPPConnect?</b>
                     </h2>
 
                     <div className={"info-presestion"}>

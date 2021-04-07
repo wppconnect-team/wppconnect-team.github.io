@@ -29,10 +29,19 @@ export const Container = styled.div`
     justify-content: center;
     padding: 0 3em;
     margin-top: 3em;
+
+    @media(max-width: 768px){
+      flex-direction: column;
+      text-align: center;
+    }
     
     div{
       :nth-child(2){
         margin: 0 5em;
+
+        @media(max-width: 768px){
+          margin: 3em 0;
+        }
       }
     }
 

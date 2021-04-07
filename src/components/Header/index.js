@@ -1,6 +1,6 @@
 import React from 'react';
 import {Buttons, Container, Layout, Link, LogoWPP} from "./style";
-import {GitHub} from "react-feather";
+import {GitHub, Menu} from "react-feather";
 
 const Header = () => {
     return (
@@ -32,6 +32,10 @@ const Header = () => {
                         </li>
                     </ul>
                 </Buttons>
+
+                <div className={"menu-mobile"}>
+                    <Menu/>
+                </div>
             </Container>
         </Layout>
     );
