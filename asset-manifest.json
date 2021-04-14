@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.b33beaa1.chunk.js",
-    "main.js.map": "/static/js/main.b33beaa1.chunk.js.map",
+    "main.js": "/static/js/main.b5086ba4.chunk.js",
+    "main.js.map": "/static/js/main.b5086ba4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e1166ac.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e1166ac.js.map",
-    "static/js/2.db15ed37.chunk.js": "/static/js/2.db15ed37.chunk.js",
-    "static/js/2.db15ed37.chunk.js.map": "/static/js/2.db15ed37.chunk.js.map",
+    "static/js/2.016b4473.chunk.js": "/static/js/2.016b4473.chunk.js",
+    "static/js/2.016b4473.chunk.js.map": "/static/js/2.016b4473.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.db15ed37.chunk.js.LICENSE.txt": "/static/js/2.db15ed37.chunk.js.LICENSE.txt",
+    "static/js/2.016b4473.chunk.js.LICENSE.txt": "/static/js/2.016b4473.chunk.js.LICENSE.txt",
     "static/media/business-3d-15.29b294a5.png": "/static/media/business-3d-15.29b294a5.png",
     "static/media/business-3d-businessman-and-coffee.21259a47.png": "/static/media/business-3d-businessman-and-coffee.21259a47.png",
     "static/media/business-3d-businessman-walking.acd0f81b.png": "/static/media/business-3d-businessman-walking.acd0f81b.png",
-    "static/media/collaboration-hands-cursor.607a06b7.webp": "/static/media/collaboration-hands-cursor.607a06b7.webp"
+    "static/media/collaboration-hands-cursor.607a06b7.webp": "/static/media/collaboration-hands-cursor.607a06b7.webp",
+    "static/media/flamenco-waiting.7b819e5e.png": "/static/media/flamenco-waiting.7b819e5e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7e1166ac.js",
-    "static/js/2.db15ed37.chunk.js",
-    "static/js/main.b33beaa1.chunk.js"
+    "static/js/2.016b4473.chunk.js",
+    "static/js/main.b5086ba4.chunk.js"
   ]
 }
