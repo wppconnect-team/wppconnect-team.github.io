@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from "react";
 import {
     CollaborativeContainer,
     Container,
@@ -8,15 +8,49 @@ import {
     PresentingContainer,
     WhyUsContainer
 } from "./style";
-import BusinessMan from '../../assets/business-3d-15.png'
+import BusinessMan from "../../assets/business-3d-15.png";
 import Header from "../../components/Header";
-import CollaborativeImage from '../../assets/collaboration-hands-cursor.webp'
+import CollaborativeImage from "../../assets/collaboration-hands-cursor.webp";
 import Footer from "../../components/Footer";
+import ModalStarGithub from "../../components/ModalStarGithub";
+import moment from "moment";
 
 const HomePage = () => {
+    const [open, setOpen] = useState(false);
+
+    const handleOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    useEffect(() => {
+        setTimeout(() => {
+            const modalStorage = localStorage.getItem("@WPPConnect-modal-wpp");
+            if (!modalStorage) {
+                localStorage.setItem("@WPPConnect-modal-wpp", JSON.stringify({timestamp: moment()}));
+                handleOpen();
+            } else {
+                let today = moment(moment());
+                let oldDate = moment(JSON.parse(localStorage.getItem("@WPPConnect-modal-wpp")).timestamp);
+                if (today.diff(oldDate, "days") >= 3) {
+                    localStorage.setItem("@WPPConnect-modal-wpp", JSON.stringify({timestamp: moment()}));
+                    handleOpen();
+                }
+            }
+        }, 3000);
+
+        return () => {
+            setOpen(false);
+        };
+    }, []);
+
     return (
         <Layout>
             <Header/>
+            <ModalStarGithub open={open} handleClose={handleClose}/>
 
             <Container>
                 <HeroContainer>
@@ -33,7 +67,7 @@ const HomePage = () => {
 
                         <div className={"hero-buttons"}>
                             <a href={"https://github.com/wppconnect-team/wppconnect"} rel={"noreferrer"}
-                               target={'_blank'}>
+                               target={"_blank"}>
                                 Acessar Biblioteca
                             </a>
 
@@ -48,7 +82,7 @@ const HomePage = () => {
                          onDragStart={(e) => e.preventDefault()}/>
                 </HeroContainer>
 
-                <Divisor style={{marginTop: '-.7em'}}/>
+                <Divisor style={{marginTop: "-.7em"}}/>
 
                 <PresentingContainer>
                     <h2>
