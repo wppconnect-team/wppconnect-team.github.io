@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Layout = styled.div`
   width: 60%;
-  height: 60%;
+  height: auto;
   max-width: 500px;
 
   display: flex;
@@ -11,8 +11,9 @@ export const Layout = styled.div`
   align-items: center;
 
   background-color: #333;
+  border-radius: 12.5px;
 
-  color: #fff;
+  color: #ddd;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -46,7 +47,7 @@ export const Container = styled.div`
 
   p {
     b {
-      color: #ECBE16;
+      color: #b1812f;
     }
   }
 

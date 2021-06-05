@@ -18,6 +18,7 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  //background: #e6e9ef;
 
   .container-session {
     max-width: 500px;

@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Layout = styled.footer`
   width: 100%;
-  background: #000;
+  padding: 2em;
 `
 
 export const Container = styled.div`
   display: flex;
-  //justify-content: center;
-  //align-items: center;
+  border-radius: 20px;
+  background: #141618;
   flex-direction: column;
   padding: 3em;
 

@@ -48,7 +48,7 @@ export default function ModalStarGithub({open, handleClose}) {
                         </p>
 
                         <p style={{marginTop: 5}}>
-                            <b>Não???</b> Como não, pô? Isso ajuda a gente demais
+                            <b>Não???</b> Como não, pô? Isso ajuda a gente demais!
                         </p>
 
                         <iframe

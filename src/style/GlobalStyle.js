@@ -35,12 +35,16 @@ export default createGlobalStyle`
   }
 
   body {
+    max-height: 100vh;
+    max-width: 100vw;
     height: 100vh;
+    overflow: hidden;
     background: var(--background);
   }
 
   #root {
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
   }
 
   .saida-bottom-top {

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Layout} from "./style";
-import {GitHub, MessageCircle} from "react-feather";
+import {GitHub, MessageCircle, Youtube} from "react-feather";
 
 const Footer = () => {
     return (
@@ -12,7 +12,7 @@ const Footer = () => {
 
                 <div className={"main"}>
                     <div>
-                        <h3>Resources</h3>
+                        <h3>Recursos</h3>
                         <nav>
                             <li>
                                 <a href={"https://github.com/wppconnect-team/wppconnect"} rel={"noreferrer"}
@@ -24,14 +24,14 @@ const Footer = () => {
                             <li>
                                 <a href={"https://github.com/wppconnect-team/wppconnect-server"} rel={"noreferrer"}
                                    target={"_blank"}>
-                                    Server Code
+                                    Servidor
                                 </a>
                             </li>
 
                             <li>
                                 <a href={"https://github.com/wppconnect-team/wppconnect-frontend"} rel={"noreferrer"}
                                    target={"_blank"}>
-                                    Front End Code
+                                    FrontEnd
                                 </a>
                             </li>
                         </nav>
@@ -39,20 +39,27 @@ const Footer = () => {
 
                     <div>
                         <h3>
-                            Company
+                            Links Úteis
                         </h3>
                         <nav>
                             <li>
-                                <a href={"https://github.com/wppconnect-team/wppconnect"} rel={"noreferrer"}
+                                <a href={"https://discord.gg/fJe76FvR"} rel={"noreferrer"}
                                    target={"_blank"}>
-                                    License
+                                    Discord
                                 </a>
                             </li>
 
                             <li>
                                 <a href={"https://chat.whatsapp.com/C1ChjyShl5cA7KvmtecF3L"} rel={"noreferrer"}
                                    target={"_blank"}>
-                                    Contact
+                                    Grupo WhatsApp
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href={"https://apoia.se/wppconnect"} rel={"noreferrer"}
+                                   target={"_blank"}>
+                                    Apoia-se
                                 </a>
                             </li>
                         </nav>
@@ -71,9 +78,9 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <a href={"https://chat.whatsapp.com/C1ChjyShl5cA7KvmtecF3L"} rel={"noreferrer"}
+                                <a href={"https://www.youtube.com/channel/UCD7J9LG08PmGQrF5IS7Yv9A"} rel={"noreferrer"}
                                    target={"_blank"}>
-                                    <MessageCircle/>
+                                    <Youtube/>
                                 </a>
                             </li>
                         </nav>

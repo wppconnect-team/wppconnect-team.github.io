@@ -5,7 +5,12 @@ export const Layout = styled.header`
   height: 68px;
   display: flex;
   background: #fff;
-  //border-bottom: 1px solid rgba(0, 0, 0, .1);
+  z-index: 2;
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(41, 41, 41, .25);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(41, 41, 41, .25);
+  box-shadow: 0px 0px 9px 3px rgba(41, 41, 41, .25);
+  position: sticky;
+  top: 0;
 `
 
 export const Container = styled.div`
@@ -16,22 +21,27 @@ export const Container = styled.div`
   justify-content: space-between;
 
   padding: 0 2em;
-  
+
+  background: #fff;
+  z-index: 2;
+
   .menu-mobile {
     display: none;
-    
-    @media(max-width: 768px){
+
+    @media (max-width: 768px) {
       display: block;
     }
   }
 `
 
 export const LogoWPP = styled.span`
-  font-size: 20px;
+  font-size: 24px;
   cursor: pointer;
+  font-weight: 800;
 
   b {
-    color: #007AF3
+    color: #283acd;
+    font-weight: 800;
   }
 
   small {
@@ -45,7 +55,7 @@ export const LogoWPP = styled.span`
 export const Buttons = styled.nav`
   display: flex;
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     display: none;
   }
 
@@ -68,6 +78,28 @@ export const Buttons = styled.nav`
       svg {
         margin-right: 10px;
       }
+    }
+
+    .donate {
+      border: 1px solid #0bc75b;
+      padding: 10px 1.5em;
+      border-radius: 20px;
+      transition-duration: 200ms;
+
+      * {
+        color: #15763f;
+      }
+
+      :hover {
+        background: #15763f;
+        border: 1px solid #0bc75b;
+
+        * {
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+
     }
   }
 `
