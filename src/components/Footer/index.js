@@ -43,7 +43,7 @@ const Footer = () => {
                         </h3>
                         <nav>
                             <li>
-                                <a href={"https://discord.gg/Zp87zesMPY"} rel={"noreferrer"}
+                                <a href={"https://discord.gg/JU5JGGKGNG"} rel={"noreferrer"}
                                    target={"_blank"}>
                                     Discord
                                 </a>
