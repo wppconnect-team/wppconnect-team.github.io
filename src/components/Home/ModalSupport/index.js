@@ -50,7 +50,7 @@ export default function ModalSupport({open, handleClose}) {
                             <a href={"https://chat.whatsapp.com/C1ChjyShl5cA7KvmtecF3L"} rel={"noreferrer"} target={"_blank"}>
                                 <img src={WhatsAppImage} alt={"WhatsApp"}/>
                             </a>
-                            <a href={"https://discord.gg/Zp87zesMPY"} rel={"noreferrer"} target={"_blank"}>
+                            <a href={"https://discord.gg/JU5JGGKGNG"} rel={"noreferrer"} target={"_blank"}>
                                 <img src={DiscordImage} alt={"Discord"}/>
                             </a>
                         </SocialContainer>
