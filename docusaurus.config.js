@@ -81,6 +81,22 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
+      },
+    ],
+  ],
+
   plugins: [
     [
       "@docusaurus/plugin-pwa",
@@ -120,6 +136,8 @@ const config = {
         id: "support_us", // Increment on change
         content:
           '⭐️ If you like WPPConnect, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">GitHub</a>',
+        backgroundColor: "#fafbfc",
+        textColor: "#091E42",
       },
       navbar: {
         title: "WPPConnect",
@@ -156,7 +174,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/docs/tutorial/intro",
               },
             ],
           },
