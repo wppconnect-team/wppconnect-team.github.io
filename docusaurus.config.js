@@ -30,6 +30,9 @@ const config = {
           editUrl:
             'https://github.com/wppconnect-team/wppconnect-team.github.io/tree/main/',
         },
+        gtag: {
+          trackingID: 'G-X2JJJ2ZZG8'
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
