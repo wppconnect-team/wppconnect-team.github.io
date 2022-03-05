@@ -116,6 +116,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "support_us", // Increment on change
+        content:
+          '⭐️ If you like WPPConnect, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">GitHub</a>',
+      },
       navbar: {
         title: "WPPConnect",
         logo: {
