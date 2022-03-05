@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>WPPConnect Blog</title>
+        <link>https://wppconnect-team.github.io/blog</link>
+        <description>WPPConnect Blog</description>
+        <lastBuildDate>Sat, 05 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[New Site]]></title>
+            <link>https://wppconnect-team.github.io/blog/new-site</link>
+            <guid>new-site</guid>
+            <pubDate>Sat, 05 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is the new site, built with Docusaurus]]></description>
+            <content:encoded><![CDATA[<p>This is the new site, built with Docusaurus</p>]]></content:encoded>
+            <category>hello</category>
+            <category>docusaurus</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wppconnect-team.github.io/blog</id>
+    <title>WPPConnect Blog</title>
+    <updated>2022-03-05T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
+    <subtitle>WPPConnect Blog</subtitle>
+    <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[New Site]]></title>
+        <id>new-site</id>
+        <link href="https://wppconnect-team.github.io/blog/new-site"/>
+        <updated>2022-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the new site, built with Docusaurus]]></summary>
+        <content type="html"><![CDATA[<p>This is the new site, built with Docusaurus</p>]]></content>
+        <author>
+            <name>Edgard Messias</name>
+            <uri>https://github.com/edgardmessias</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
