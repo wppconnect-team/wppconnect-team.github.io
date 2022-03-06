@@ -39,11 +39,12 @@ const typeDocPlugins = packageFolders.map((d) => {
       out: `api/${folder}`,
       entryPoints: [`${fullFolder}/src`],
       tsconfig: `${fullFolder}/tsconfig.json`,
-      // readme: `${fullFolder}/README.md`,
       sidebar: {
+        indexLabel: `Exports (v${package.version})`,
         categoryLabel: package.name,
         position: null,
       },
+      gitRevision: `v${package.version}`,
     }),
   ];
 
@@ -218,7 +219,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Built with Docusaurus.`,
       },
       prism: {
-        additionalLanguages: ['javascript', 'json'],
+        additionalLanguages: ["javascript", "json"],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
