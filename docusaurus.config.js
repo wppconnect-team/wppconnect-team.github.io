@@ -218,6 +218,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Built with Docusaurus.`,
       },
       prism: {
+        additionalLanguages: ['javascript', 'json'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
