@@ -2,8 +2,9 @@ name: test
 
 on:
   push:
-    branches:
-      - "*"
+    branches-ignore:
+      - "main"
+      - "old-site"
 
   pull_request:
     branches:
