@@ -12,37 +12,43 @@ const typeDocOptions = {
   excludeInternal: true,
   gitRevision: "main",
   plugin: ["typedoc-plugin-mdn-links"],
-  // validation: {
-  //   invalidLink: true,
-  // },
 };
 
-/** @type {import('@docusaurus/types').PluginConfig[]} */
-const allTypeDocPlugins = [
-  [
+const packageFolders = fs
+  .readdirSync("./packages", {
+    encoding: "utf8",
+    withFileTypes: true,
+  })
+  .filter((d) => d.isDirectory());
+
+const typeDocPlugins = packageFolders.map((d) => {
+  const folder = d.name;
+  const fullFolder = `./packages/${folder}`;
+
+  const package = require(`${fullFolder}/package.json`);
+
+  /** @type {import('@docusaurus/types').PluginConfig} */
+  const config = [
     "docusaurus-plugin-typedoc",
 
     // Plugin / TypeDoc options
     /** @type {Partial<import('docusaurus-plugin-typedoc/dist/types').PluginOptions>} */
     ({
       ...typeDocOptions,
-      id: "api-wa-version",
-      out: "api/wa-version",
-      name: "@wppconnect/wa-version",
-      entryPoints: ["./packages/wa-version/src"],
-      tsconfig: "./packages/wa-version/tsconfig.json",
-      readme: "../packages/wa-version/README.md",
+      id: `api-${folder}`,
+      out: `api/${folder}`,
+      entryPoints: [`${fullFolder}/src`],
+      tsconfig: `${fullFolder}/tsconfig.json`,
+      // readme: `${fullFolder}/README.md`,
       sidebar: {
-        categoryLabel: "@wppconnect/wa-version",
+        categoryLabel: package.name,
         position: null,
       },
     }),
-  ],
-];
+  ];
 
-const typeDocPlugins = allTypeDocPlugins.filter((p) =>
-  fs.existsSync(p[1].tsconfig)
-);
+  return config;
+});
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
