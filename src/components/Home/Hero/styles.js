@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Layout = styled.div`
   background: #fff;
   height: 100%;
-  padding: 2em;
+  padding: 0 2em 2em 2em;
 `;
 
 export const Container = styled.div`
@@ -29,7 +29,7 @@ export const GrayTop = styled.div`
     content: "";
     position: absolute;
     background: #e6e9ef;
-    top: -15em;
+    top: 0;
     right: 0;
     left: 0;
     width: 100%;

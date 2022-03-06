@@ -14,6 +14,8 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --site-primary-hue-saturation: 130 86%;
+  --site-primary-hue-saturation-light: 130 56%;
   --doc-sidebar-width: 310px !important;
 }
 
@@ -26,6 +28,13 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+}
+
+div[class^=announcementBar_] {
+  --site-announcement-bar-stripe-color1: hsl(var(--site-primary-hue-saturation) 85%);
+  --site-announcement-bar-stripe-color2: hsl(var(--site-primary-hue-saturation) 95%);
+  background: repeating-linear-gradient(35deg,var(--site-announcement-bar-stripe-color1),var(--site-announcement-bar-stripe-color1) 20px,var(--site-announcement-bar-stripe-color2) 10px,var(--site-announcement-bar-stripe-color2) 40px);
+  font-weight: 700
 }
 
 .docusaurus-highlight-code-line {
