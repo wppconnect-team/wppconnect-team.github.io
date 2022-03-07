@@ -167,9 +167,15 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/wppconnect-team",
-            label: "GitHub",
+            href: "https://discord.gg/JU5JGGKGNG",
+            label: "Discord",
             position: "right",
+          },
+          {
+            href: "https://github.com/wppconnect-team",
+            position: "right",
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
