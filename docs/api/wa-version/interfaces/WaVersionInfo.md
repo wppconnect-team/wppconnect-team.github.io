@@ -14,7 +14,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[checkUpdate.ts:34](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L34)
+[checkUpdate.ts:34](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L34)
 
 ___
 
@@ -26,7 +26,7 @@ Versão atual do WhatsApp web
 
 #### Defined in
 
-[checkUpdate.ts:38](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L38)
+[checkUpdate.ts:38](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L38)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[checkUpdate.ts:33](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L33)
+[checkUpdate.ts:33](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L33)
 
 ___
 
@@ -48,7 +48,7 @@ Caso true, a versão informada não é mais suportada
 
 #### Defined in
 
-[checkUpdate.ts:32](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L32)
+[checkUpdate.ts:32](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L32)
 
 ___
 
@@ -60,7 +60,7 @@ Caso true, a versão é desatualizada, mas ainda funciona com funcionalidades re
 
 #### Defined in
 
-[checkUpdate.ts:28](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L28)
+[checkUpdate.ts:28](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L28)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[checkUpdate.ts:24](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L24)
+[checkUpdate.ts:24](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L24)
 
 ___
 
@@ -82,7 +82,7 @@ Se a versão está atualizada
 
 #### Defined in
 
-[checkUpdate.ts:46](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L46)
+[checkUpdate.ts:46](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L46)
 
 ___
 
@@ -94,4 +94,4 @@ Versão infomada
 
 #### Defined in
 
-[checkUpdate.ts:42](https://github.com/wppconnect-team/wa-version/blob/v1.1.39/src/checkUpdate.ts#L42)
+[checkUpdate.ts:42](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L42)
