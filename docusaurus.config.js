@@ -44,7 +44,7 @@ const typeDocPlugins = packageFolders.map((d) => {
         categoryLabel: package.name,
         position: null,
       },
-      gitRevision: `v${package.version}`,
+      // gitRevision: `v${package.version}`,
     }),
   ];
 
@@ -174,8 +174,8 @@ const config = {
           {
             href: "https://github.com/wppconnect-team",
             position: "right",
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
