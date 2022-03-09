@@ -1,0 +1,791 @@
+---
+id: "group"
+title: "Namespace: group"
+sidebar_label: "group"
+sidebar_position: 0
+custom_edit_url: null
+---
+
+## Enumerations
+
+- [GroupProperty](../enums/group.GroupProperty.md)
+
+## Interfaces
+
+- [EventTypes](../interfaces/group.EventTypes.md)
+
+## Group Functions
+
+- [getGroupInfoFromInviteCode](group.md#getgroupinfofrominvitecode)
+- [join](group.md#join)
+- [leave](group.md#leave)
+- [revokeInviteCode](group.md#revokeinvitecode)
+- [setDescription](group.md#setdescription)
+- [setProperty](group.md#setproperty)
+- [setSubject](group.md#setsubject)
+
+## Other Functions
+
+- [addParticipants](group.md#addparticipants)
+- [canAdd](group.md#canadd)
+- [canDemote](group.md#candemote)
+- [canPromote](group.md#canpromote)
+- [canRemove](group.md#canremove)
+- [create](group.md#create)
+- [demoteParticipants](group.md#demoteparticipants)
+- [ensureGroup](group.md#ensuregroup)
+- [ensureGroupAndParticipants](group.md#ensuregroupandparticipants)
+- [getInviteCode](group.md#getinvitecode)
+- [getParticipants](group.md#getparticipants)
+- [iAmAdmin](group.md#iamadmin)
+- [iAmMember](group.md#iammember)
+- [iAmRestrictedMember](group.md#iamrestrictedmember)
+- [iAmSuperAdmin](group.md#iamsuperadmin)
+- [promoteParticipants](group.md#promoteparticipants)
+- [removeParticipants](group.md#removeparticipants)
+
+## Type aliases
+
+### UnsubscribeFn
+
+Ƭ **UnsubscribeFn**: () => `void`
+
+#### Type declaration
+
+▸ (): `void`
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[packages/wa-js/src/group/eventEmitter.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L22)
+
+## Events
+
+### clearListeners
+
+• **clearListeners**<`Name`\>(`eventName?`): `void`
+
+Clear all event listeners on the instance.
+
+If `eventName` is given, only the listeners for that event are cleared.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `Name` | extends `never` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `eventName?` | `Name` \| `Name`[] |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/wa-js/src/group/eventEmitter.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L72)
+
+___
+
+### listenerCount
+
+• **listenerCount**<`Name`\>(`eventName?`): `number`
+
+The number of listeners for the `eventName` or all events if not specified.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `Name` | extends `never` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `eventName?` | `Name` \| `Name`[] |
+
+#### Returns
+
+`number`
+
+#### Defined in
+
+[packages/wa-js/src/group/eventEmitter.ts:80](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L80)
+
+___
+
+### off
+
+• **off**<`Name`\>(`eventName`, `listener`): `void`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `Name` | extends `never` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `eventName` | `Name` |
+| `listener` | (`eventData`: [`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/wa-js/src/group/eventEmitter.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L60)
+
+___
+
+### on
+
+• **on**<`Name`\>(`eventName`, `listener`): [`UnsubscribeFn`](group.md#unsubscribefn)
+
+Subscribe to one event.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `Name` | extends `never` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `eventName` | `Name` |
+| `listener` | (`eventData`: [`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
+
+#### Returns
+
+[`UnsubscribeFn`](group.md#unsubscribefn)
+
+An unsubscribe method.
+
+#### Defined in
+
+[packages/wa-js/src/group/eventEmitter.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L44)
+
+___
+
+### once
+
+• **once**<`Name`\>(`eventName`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]\>
+
+Subscribe to one or more events only once. It will be unsubscribed after the first event.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `Name` | extends `never` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `eventName` | `Name` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]\>
+
+#### Defined in
+
+[packages/wa-js/src/group/eventEmitter.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L53)
+
+## Group Functions
+
+### getGroupInfoFromInviteCode
+
+▸ **getGroupInfoFromInviteCode**(`inviteCode`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `announce`: `boolean` ; `creation`: `number` ; `desc`: `string` ; `descId`: `string` ; `descOwner`: `string` ; `descTime`: `number` ; `id`: `string` ; `noFrequentlyForwarded`: `boolean` ; `owner`: `string` ; `parent`: `boolean` ; `participants`: { `id`: `string` ; `isAdmin`: `boolean` ; `isSuperAdmin`: `boolean`  }[] ; `pvId?`: `string` ; `restrict`: `boolean` ; `size`: `number` ; `status`: `number` ; `subject`: `string` ; `subjectOwner`: `string` ; `subjectTime`: `number` ; `support`: `boolean` ; `suspended`: `boolean`  }\>
+
+Get group info from an inviteCode
+
+**`example`**
+```javascript
+await WPP.group.getGroupInfoFromInviteCode('<inviteCode>');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `inviteCode` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `announce`: `boolean` ; `creation`: `number` ; `desc`: `string` ; `descId`: `string` ; `descOwner`: `string` ; `descTime`: `number` ; `id`: `string` ; `noFrequentlyForwarded`: `boolean` ; `owner`: `string` ; `parent`: `boolean` ; `participants`: { `id`: `string` ; `isAdmin`: `boolean` ; `isSuperAdmin`: `boolean`  }[] ; `pvId?`: `string` ; `restrict`: `boolean` ; `size`: `number` ; `status`: `number` ; `subject`: `string` ; `subjectOwner`: `string` ; `subjectTime`: `number` ; `support`: `boolean` ; `suspended`: `boolean`  }\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/getGroupInfoFromInviteCode.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/getGroupInfoFromInviteCode.ts#L30)
+
+___
+
+### join
+
+▸ **join**(`inviteCode`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `id`: `string`  }\>
+
+Join in a group from an invite code.
+
+**`example`**
+```javascript
+await WPP.group.join('abcde....');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `inviteCode` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `id`: `string`  }\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/join.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/join.ts#L29)
+
+___
+
+### leave
+
+▸ **leave**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+Leave from a group.
+
+**`example`**
+```javascript
+await WPP.group.leave('[number]@g.us');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/leave.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/leave.ts#L31)
+
+___
+
+### revokeInviteCode
+
+▸ **revokeInviteCode**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
+
+Revoke the current invite code and generate new one.
+
+**`example`**
+```javascript
+const code = WPP.group.revokeInviteCode('[group-id]@g.us');
+const link = 'https://chat.whatsapp.com/' + code;
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/revokeInviteCode.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/revokeInviteCode.ts#L32)
+
+___
+
+### setDescription
+
+▸ **setDescription**(`groupId`, `description`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+Define the group description
+
+**`example`**
+```javascript
+await WPP.group.setDescription('[group-id]@g.us', 'new group description');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `description` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/setDescription.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/setDescription.ts#L35)
+
+___
+
+### setProperty
+
+▸ **setProperty**(`groupId`, `property`, `value`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+Set the group property
+
+**`example`**
+```javascript
+// Only admins can send message
+await WPP.group.setProperty('[group-id]@g.us', 'announcement', true);
+
+// All can send message
+await WPP.group.setProperty('[group-id]@g.us', 'announcement', false);
+
+// Disatble temporary messages
+await WPP.group.setProperty('[group-id]@g.us', 'ephemeral', 0);
+
+// Enable temporary messages for 24 hours
+await WPP.group.setProperty('[group-id]@g.us', 'ephemeral', 86400);
+
+// Enable temporary messages for 7 days
+await WPP.group.setProperty('[group-id]@g.us', 'ephemeral', 604800);
+
+// Enable temporary messages for 90 days
+await WPP.group.setProperty('[group-id]@g.us', 'ephemeral', 7776000);
+
+// Only admins can edit group properties
+await WPP.group.setProperty('[group-id]@g.us', 'restrict', true);
+
+// All can edit group properties
+await WPP.group.setProperty('[group-id]@g.us', 'restrict', false);
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `property` | [`GroupProperty`](../enums/group.GroupProperty.md) |
+| `value` | `boolean` \| ``0`` \| ``1`` \| ``86400`` \| ``604800`` \| ``7776000`` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/setProperty.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/setProperty.ts#L61)
+
+___
+
+### setSubject
+
+▸ **setSubject**(`groupId`, `subject`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+Define the group subject
+
+**`example`**
+```javascript
+await WPP.group.setSubject('[group-id]@g.us', 'new group subject');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `subject` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/setSubject.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/setSubject.ts#L32)
+
+___
+
+## Other Functions
+
+### addParticipants
+
+▸ **addParticipants**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/addParticipants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/addParticipants.ts#L22)
+
+___
+
+### canAdd
+
+▸ **canAdd**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/canAdd.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/canAdd.ts#L20)
+
+___
+
+### canDemote
+
+▸ **canDemote**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/canDemote.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/canDemote.ts#L20)
+
+___
+
+### canPromote
+
+▸ **canPromote**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/canPromote.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/canPromote.ts#L20)
+
+___
+
+### canRemove
+
+▸ **canRemove**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/canRemove.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/canRemove.ts#L20)
+
+___
+
+### create
+
+▸ **create**(`groupName`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `gid`: [`Wid`](../classes/whatsapp.Wid.md) ; `participants`: { `[key: string]`: { `code`: `string`  };  }[] ; `status`: `number`  }\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupName` | `string` |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `gid`: [`Wid`](../classes/whatsapp.Wid.md) ; `participants`: { `[key: string]`: { `code`: `string`  };  }[] ; `status`: `number`  }\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/create.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/create.ts#L24)
+
+___
+
+### demoteParticipants
+
+▸ **demoteParticipants**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/demoteParticipants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/demoteParticipants.ts#L22)
+
+___
+
+### ensureGroup
+
+▸ **ensureGroup**(`groupId`, `checkIsAdmin?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)\>
+
+#### Parameters
+
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) | `undefined` |
+| `checkIsAdmin` | `boolean` | `false` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/ensureGroup.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/ensureGroup.ts#L22)
+
+___
+
+### ensureGroupAndParticipants
+
+▸ **ensureGroupAndParticipants**(`groupId`, `participantsIds`, `createIfNotExists?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `groupChat`: [`ChatModel`](../classes/whatsapp.ChatModel.md) ; `participants`: [`ParticipantModel`](../classes/whatsapp.ParticipantModel.md)[]  }\>
+
+#### Parameters
+
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) | `undefined` |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] | `undefined` |
+| `createIfNotExists` | `boolean` | `false` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `groupChat`: [`ChatModel`](../classes/whatsapp.ChatModel.md) ; `participants`: [`ParticipantModel`](../classes/whatsapp.ParticipantModel.md)[]  }\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/ensureGroupAndParticipants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/ensureGroupAndParticipants.ts#L22)
+
+___
+
+### getInviteCode
+
+▸ **getInviteCode**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
+
+Get the currend invite code of the group
+
+**`example`**
+```javascript
+const code = WPP.group.getInviteCode('[group-id]@g.us');
+const link = 'https://chat.whatsapp.com/' + code;
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/getInviteCode.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/getInviteCode.ts#L30)
+
+___
+
+### getParticipants
+
+▸ **getParticipants**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ParticipantModel`](../classes/whatsapp.ParticipantModel.md)[]\>
+
+Get an array of participants of a group
+
+**`example`**
+```javascript
+WPP.group.getParticipants('[group-id]@g.us');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ParticipantModel`](../classes/whatsapp.ParticipantModel.md)[]\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/getParticipants.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/getParticipants.ts#L28)
+
+___
+
+### iAmAdmin
+
+▸ **iAmAdmin**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/iAmAdmin.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/iAmAdmin.ts#L20)
+
+___
+
+### iAmMember
+
+▸ **iAmMember**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/iAmMember.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/iAmMember.ts#L20)
+
+___
+
+### iAmRestrictedMember
+
+▸ **iAmRestrictedMember**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/iAmRestrictedMember.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/iAmRestrictedMember.ts#L20)
+
+___
+
+### iAmSuperAdmin
+
+▸ **iAmSuperAdmin**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/iAmSuperAdmin.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/iAmSuperAdmin.ts#L20)
+
+___
+
+### promoteParticipants
+
+▸ **promoteParticipants**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/promoteParticipants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/promoteParticipants.ts#L22)
+
+___
+
+### removeParticipants
+
+▸ **removeParticipants**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/removeParticipants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/removeParticipants.ts#L22)
