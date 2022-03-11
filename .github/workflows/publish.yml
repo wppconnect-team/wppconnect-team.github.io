@@ -30,6 +30,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
+      - name: Setup docusaurus cache
+        uses: actions/cache@v2
+        with:
+          path: '.docusaurus'
+          key: ${{ runner.os }}-docusaurus-${{ hashFiles('**/docusaurus.config.js') }}
+          restore-keys: |
+            ${{ runner.os }}-docusaurus-
+
       - name: Install Dependencies
         run: npm ci || npm install
 
