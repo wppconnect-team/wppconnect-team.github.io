@@ -67,7 +67,7 @@ jobs:
       - name: Build Page
         run: npm run build
 
-      - uses: EndBug/add-and-commit@v8
+      - uses: EndBug/add-and-commit@v9
         with:
           message: "chore: Update API of wa-version"
           committer_name: GitHub Actions
