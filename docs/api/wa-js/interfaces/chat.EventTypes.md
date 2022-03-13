@@ -23,7 +23,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:80](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L80)
+[packages/wa-js/src/chat/eventEmitter.ts:84](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L84)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L58)
+[packages/wa-js/src/chat/eventEmitter.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L62)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L69)
+[packages/wa-js/src/chat/eventEmitter.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L73)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L43)
+[packages/wa-js/src/chat/eventEmitter.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L47)
 
 ___
 
@@ -107,6 +107,7 @@ ___
 | `id` | [`MsgKey`](../classes/whatsapp.MsgKey.md) | Message id of revoke event |
 | `refId` | [`MsgKey`](../classes/whatsapp.MsgKey.md) | Message id of revoked message |
 | `to` | [`Wid`](../classes/whatsapp.Wid.md) | - |
+| `type` | ``"revoke"`` \| ``"sender_revoke"`` \| ``"admin_revoke"`` | Type of revoke |
 
 #### Defined in
 

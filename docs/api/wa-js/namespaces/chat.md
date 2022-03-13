@@ -134,7 +134,7 @@ If `eventName` is given, only the listeners for that event are cleared.
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:132](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L132)
+[packages/wa-js/src/chat/eventEmitter.ts:136](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L136)
 
 ___
 
@@ -162,7 +162,7 @@ The number of listeners for the `eventName` or all events if not specified.
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:140](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L140)
+[packages/wa-js/src/chat/eventEmitter.ts:144](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L144)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:120](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L120)
+[packages/wa-js/src/chat/eventEmitter.ts:124](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L124)
 
 ___
 
@@ -220,7 +220,7 @@ An unsubscribe method.
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:104](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L104)
+[packages/wa-js/src/chat/eventEmitter.ts:108](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L108)
 
 ___
 
@@ -248,7 +248,7 @@ Subscribe to one or more events only once. It will be unsubscribed after the fir
 
 #### Defined in
 
-[packages/wa-js/src/chat/eventEmitter.ts:113](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L113)
+[packages/wa-js/src/chat/eventEmitter.ts:117](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/eventEmitter.ts#L117)
 
 ## Variables
 
