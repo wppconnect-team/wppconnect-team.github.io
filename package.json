@@ -32,7 +32,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.17",
     "@tsconfig/docusaurus": "^1.0.5",
-    "docusaurus-plugin-typedoc": "^0.17.2",
+    "docusaurus-plugin-typedoc": "^0.17.3",
     "typedoc": "^0.22.13",
     "typedoc-plugin-markdown": "^3.11.14",
     "typedoc-plugin-mdn-links": "^1.0.5",
