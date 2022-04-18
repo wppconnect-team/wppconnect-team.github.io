@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[1713],{53457:function(a){a.exports=JSON.parse('{"hello":{"allTagsPath":"/blog/tags","name":"hello","count":1,"permalink":"/blog/tags/hello"},"docusaurus":{"allTagsPath":"/blog/tags","name":"docusaurus","count":1,"permalink":"/blog/tags/docusaurus"}}')}}]);
