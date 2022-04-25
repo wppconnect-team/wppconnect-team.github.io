@@ -26,6 +26,8 @@ custom_edit_url: null
 
 **`whatsapp`** 15461
 
+**`whatsapp`** 69618 >= 2.2204.13
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L58)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L62)

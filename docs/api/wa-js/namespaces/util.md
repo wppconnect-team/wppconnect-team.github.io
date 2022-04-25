@@ -24,7 +24,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L23)
+[packages/wa-js/src/util/types.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L30)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:19](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L19)
+[packages/wa-js/src/util/types.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L26)
 
 ___
 
@@ -59,7 +59,39 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L31)
+[packages/wa-js/src/util/types.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L38)
+
+___
+
+### InferArgs
+
+Ƭ **InferArgs**<`T`\>: `T` extends (...`t`: [...infer Arg]) => `any` ? `Arg` : `never`
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Defined in
+
+[packages/wa-js/src/util/types.ts:19](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L19)
+
+___
+
+### InferReturn
+
+Ƭ **InferReturn**<`T`\>: `T` extends (...`t`: [...infer Arg]) => infer Res ? `Res` : `never`
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Defined in
+
+[packages/wa-js/src/util/types.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L22)
 
 ___
 
@@ -75,7 +107,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L29)
+[packages/wa-js/src/util/types.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L36)
 
 ___
 
@@ -91,7 +123,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L25)
+[packages/wa-js/src/util/types.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L32)
 
 ___
 
@@ -107,7 +139,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L56)
+[packages/wa-js/src/util/types.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L63)
 
 ___
 
@@ -123,7 +155,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L47)
+[packages/wa-js/src/util/types.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L54)
 
 ___
 
@@ -139,7 +171,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L45)
+[packages/wa-js/src/util/types.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L52)
 
 ___
 
@@ -155,7 +187,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/util/types.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L37)
+[packages/wa-js/src/util/types.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/util/types.ts#L44)
 
 ## Functions
 
@@ -238,3 +270,46 @@ ___
 #### Defined in
 
 [packages/wa-js/src/util/isBase64.ts:19](https://github.com/wppconnect-team/wa-js/blob/main/src/util/isBase64.ts#L19)
+
+___
+
+### wrapFunction
+
+▸ **wrapFunction**<`TFunc`\>(`func`, `callback`): (...`args`: [`InferArgs`](util.md#inferargs)<`TFunc`\>) => [`InferReturn`](util.md#inferreturn)<`TFunc`\>
+
+Wrap a function with the callback
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `TFunc` | extends (...`args`: `any`[]) => `any` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `func` | `TFunc` |
+| `callback` | (`func`: `TFunc`, ...`args`: [`InferArgs`](util.md#inferargs)<`TFunc`\>) => [`InferReturn`](util.md#inferreturn)<`TFunc`\> |
+
+#### Returns
+
+`fn`
+
+▸ (...`args`): [`InferReturn`](util.md#inferreturn)<`TFunc`\>
+
+Wrap a function with the callback
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `...args` | [`InferArgs`](util.md#inferargs)<`TFunc`\> |
+
+##### Returns
+
+[`InferReturn`](util.md#inferreturn)<`TFunc`\>
+
+#### Defined in
+
+[packages/wa-js/src/util/wrapFunction.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/util/wrapFunction.ts#L22)

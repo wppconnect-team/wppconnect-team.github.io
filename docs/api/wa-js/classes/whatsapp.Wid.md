@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 89867
 
+**`whatsapp`** 39546 >= 2.2204.13
+
 ## Constructors
 
 ### constructor
@@ -25,7 +27,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L20)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L22)
 
 ## Properties
 
@@ -35,7 +37,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L25)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L27)
 
 ___
 
@@ -45,7 +47,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L27)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L29)
 
 ___
 
@@ -55,7 +57,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L29)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L31)
 
 ___
 
@@ -65,7 +67,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L59)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L61)
 
 ___
 
@@ -75,7 +77,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L67)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L69)
 
 ## Methods
 
@@ -95,7 +97,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L69)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L71)
 
 ___
 
@@ -115,7 +117,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L31)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L33)
 
 ___
 
@@ -129,7 +131,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L33)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L35)
 
 ___
 
@@ -143,7 +145,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L35)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L37)
 
 ___
 
@@ -157,7 +159,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L37)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L39)
 
 ___
 
@@ -171,7 +173,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L39)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L41)
 
 ___
 
@@ -191,7 +193,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L41)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L43)
 
 ___
 
@@ -205,7 +207,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L43)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L45)
 
 ___
 
@@ -219,7 +221,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L45)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L47)
 
 ___
 
@@ -239,7 +241,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L47)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L49)
 
 ___
 
@@ -253,7 +255,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L49)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L51)
 
 ___
 
@@ -267,7 +269,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L51)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L53)
 
 ___
 
@@ -281,7 +283,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L53)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L55)
 
 ___
 
@@ -295,7 +297,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L55)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L57)
 
 ___
 
@@ -309,7 +311,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L57)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L59)
 
 ___
 
@@ -323,7 +325,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L63)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L65)
 
 ___
 
@@ -337,7 +339,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L61)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L63)
 
 ___
 
@@ -359,7 +361,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L65)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L67)
 
 ___
 
@@ -380,7 +382,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L71)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L73)
 
 ___
 
@@ -400,7 +402,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L73)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:75](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L75)
 
 ___
 
@@ -421,7 +423,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:75](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L75)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:77](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L77)
 
 ___
 
@@ -441,7 +443,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:77](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L77)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:79](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L79)
 
 ___
 
@@ -461,7 +463,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:79](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L79)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:81](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L81)
 
 ___
 
@@ -482,7 +484,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:81](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L81)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:83](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L83)
 
 ___
 
@@ -502,7 +504,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:83](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L83)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:85](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L85)
 
 ___
 
@@ -522,7 +524,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:85](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L85)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:87](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L87)
 
 ___
 
@@ -542,7 +544,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:87](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L87)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:89](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L89)
 
 ___
 
@@ -562,7 +564,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:89](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L89)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:91](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L91)
 
 ___
 
@@ -582,7 +584,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:91](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L91)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:93](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L93)
 
 ___
 
@@ -602,7 +604,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:93](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L93)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:95](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L95)
 
 ___
 
@@ -623,7 +625,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:95](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L95)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:97](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L97)
 
 ___
 
@@ -643,4 +645,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wid.ts:97](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L97)
+[packages/wa-js/src/whatsapp/misc/Wid.ts:99](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wid.ts#L99)

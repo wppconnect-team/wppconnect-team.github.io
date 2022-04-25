@@ -7,7 +7,9 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).Browser
 
-**`whatsapp`** 87045
+**`whatsapp`** 79264
+
+**`whatsapp`** 87045 >= 2.2204.13
 
 ## Variables
 
@@ -17,7 +19,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L21)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L23)
 
 ## Functions
 
@@ -31,7 +33,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L31)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L33)
 
 ___
 
@@ -45,7 +47,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L29)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L31)
 
 ___
 
@@ -59,7 +61,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L22)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L24)
 
 ___
 
@@ -80,7 +82,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L23)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L25)
 
 ___
 
@@ -94,7 +96,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L32)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L34)
 
 ___
 
@@ -114,7 +116,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L33)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L35)
 
 ___
 
@@ -128,4 +130,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Browser.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L30)
+[packages/wa-js/src/whatsapp/misc/Browser.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Browser.ts#L32)

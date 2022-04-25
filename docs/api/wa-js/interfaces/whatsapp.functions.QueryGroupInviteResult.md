@@ -51,7 +51,7 @@ ___
 
 ### descOwner
 
-• **descOwner**: [`Wid`](../classes/whatsapp.Wid.md)
+• `Optional` **descOwner**: [`Wid`](../classes/whatsapp.Wid.md)
 
 #### Defined in
 
@@ -91,7 +91,7 @@ ___
 
 ### owner
 
-• **owner**: [`Wid`](../classes/whatsapp.Wid.md)
+• `Optional` **owner**: [`Wid`](../classes/whatsapp.Wid.md)
 
 #### Defined in
 
@@ -171,7 +171,7 @@ ___
 
 ### subjectOwner
 
-• **subjectOwner**: [`Wid`](../classes/whatsapp.Wid.md)
+• `Optional` **subjectOwner**: [`Wid`](../classes/whatsapp.Wid.md)
 
 #### Defined in
 

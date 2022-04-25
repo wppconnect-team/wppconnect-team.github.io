@@ -7,7 +7,9 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).VCard
 
-**`whatsapp`** 78521
+**`whatsapp`** 93778
+
+**`whatsapp`** 78521 >= 2.2204.13
 
 ## Functions
 
@@ -27,7 +29,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/VCard.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/VCard.ts#L29)
+[packages/wa-js/src/whatsapp/misc/VCard.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/VCard.ts#L31)
 
 ___
 
@@ -47,4 +49,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/VCard.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/VCard.ts#L28)
+[packages/wa-js/src/whatsapp/misc/VCard.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/VCard.ts#L30)

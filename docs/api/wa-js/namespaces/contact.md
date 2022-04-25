@@ -6,178 +6,35 @@ sidebar_position: 0
 custom_edit_url: null
 ---
 
-## Interfaces
-
-- [EventTypes](../interfaces/contact.EventTypes.md)
-
 ## Chat Functions
 
-- [getStatus](contact.md#getstatus)
-- [queryExists](contact.md#queryexists)
+### getProfilePictureUrl
 
-## Type aliases
+▸ **getProfilePictureUrl**(`contactId`, `full?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| ``null`` \| `string`\>
 
-### UnsubscribeFn
+Get the current text status
 
-Ƭ **UnsubscribeFn**: () => `void`
-
-#### Type declaration
-
-▸ (): `void`
-
-##### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/contact/eventEmitter.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/eventEmitter.ts#L22)
-
-## Events
-
-### clearListeners
-
-• **clearListeners**<`Name`\>(`eventName?`): `void`
-
-Clear all event listeners on the instance.
-
-If `eventName` is given, only the listeners for that event are cleared.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
+**`example`**
+```javascript
+const url = await WPP.contact.getProfilePicture('[number]@c.us');
+```
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `eventName?` | `Name` \| `Name`[] |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `contactId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) | `undefined` |
+| `full` | `boolean` | `true` |
 
 #### Returns
 
-`void`
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| ``null`` \| `string`\>
 
 #### Defined in
 
-[packages/wa-js/src/contact/eventEmitter.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/eventEmitter.ts#L72)
+[packages/wa-js/src/contact/functions/getProfilePictureUrl.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/functions/getProfilePictureUrl.ts#L31)
 
 ___
-
-### listenerCount
-
-• **listenerCount**<`Name`\>(`eventName?`): `number`
-
-The number of listeners for the `eventName` or all events if not specified.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName?` | `Name` \| `Name`[] |
-
-#### Returns
-
-`number`
-
-#### Defined in
-
-[packages/wa-js/src/contact/eventEmitter.ts:80](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/eventEmitter.ts#L80)
-
-___
-
-### off
-
-• **off**<`Name`\>(`eventName`, `listener`): `void`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-| `listener` | (`eventData`: [`EventTypes`](../interfaces/contact.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/contact/eventEmitter.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/eventEmitter.ts#L60)
-
-___
-
-### on
-
-• **on**<`Name`\>(`eventName`, `listener`): [`UnsubscribeFn`](contact.md#unsubscribefn)
-
-Subscribe to one event.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-| `listener` | (`eventData`: [`EventTypes`](../interfaces/contact.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
-
-#### Returns
-
-[`UnsubscribeFn`](contact.md#unsubscribefn)
-
-An unsubscribe method.
-
-#### Defined in
-
-[packages/wa-js/src/contact/eventEmitter.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/eventEmitter.ts#L44)
-
-___
-
-### once
-
-• **once**<`Name`\>(`eventName`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/contact.EventTypes.md)[`Name`]\>
-
-Subscribe to one or more events only once. It will be unsubscribed after the first event.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-
-#### Returns
-
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/contact.EventTypes.md)[`Name`]\>
-
-#### Defined in
-
-[packages/wa-js/src/contact/eventEmitter.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/eventEmitter.ts#L53)
-
-## Chat Functions
 
 ### getStatus
 

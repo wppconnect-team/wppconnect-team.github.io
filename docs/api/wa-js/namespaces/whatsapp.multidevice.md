@@ -17,11 +17,13 @@ custom_edit_url: null
 
 • `Const` **waNoiseInfo**: `NoiseInfo`
 
-**`whatsapp`** 14111
+**`whatsapp`** 15875
+
+**`whatsapp`** 14111 >= 2.2204.13
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/multidevice/waNoiseInfo.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/multidevice/waNoiseInfo.ts#L33)
+[packages/wa-js/src/whatsapp/multidevice/waNoiseInfo.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/multidevice/waNoiseInfo.ts#L35)
 
 ___
 

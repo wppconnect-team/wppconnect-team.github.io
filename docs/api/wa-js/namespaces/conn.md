@@ -10,7 +10,6 @@ custom_edit_url: null
 
 - [AuthCodeMultiDevice](../interfaces/conn.AuthCodeMultiDevice.md)
 - [AuthCodeSingleDevice](../interfaces/conn.AuthCodeSingleDevice.md)
-- [EventTypes](../interfaces/conn.EventTypes.md)
 
 ## Type aliases
 
@@ -21,168 +20,6 @@ custom_edit_url: null
 #### Defined in
 
 [packages/wa-js/src/conn/types.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/types.ts#L34)
-
-___
-
-### UnsubscribeFn
-
-Ƭ **UnsubscribeFn**: () => `void`
-
-#### Type declaration
-
-▸ (): `void`
-
-##### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/conn/eventEmitter.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/eventEmitter.ts#L24)
-
-## Events
-
-### clearListeners
-
-• **clearListeners**<`Name`\>(`eventName?`): `void`
-
-Clear all event listeners on the instance.
-
-If `eventName` is given, only the listeners for that event are cleared.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends keyof [`EventTypes`](../interfaces/conn.EventTypes.md) |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName?` | `Name` \| `Name`[] |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/conn/eventEmitter.ts:111](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/eventEmitter.ts#L111)
-
-___
-
-### listenerCount
-
-• **listenerCount**<`Name`\>(`eventName?`): `number`
-
-The number of listeners for the `eventName` or all events if not specified.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends keyof [`EventTypes`](../interfaces/conn.EventTypes.md) |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName?` | `Name` \| `Name`[] |
-
-#### Returns
-
-`number`
-
-#### Defined in
-
-[packages/wa-js/src/conn/eventEmitter.ts:119](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/eventEmitter.ts#L119)
-
-___
-
-### off
-
-• **off**<`Name`\>(`eventName`, `listener`): `void`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends keyof [`EventTypes`](../interfaces/conn.EventTypes.md) |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-| `listener` | (`eventData`: [`EventTypes`](../interfaces/conn.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/conn/eventEmitter.ts:99](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/eventEmitter.ts#L99)
-
-___
-
-### on
-
-• **on**<`Name`\>(`eventName`, `listener`): [`UnsubscribeFn`](conn.md#unsubscribefn)
-
-Subscribe to one event.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends keyof [`EventTypes`](../interfaces/conn.EventTypes.md) |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-| `listener` | (`eventData`: [`EventTypes`](../interfaces/conn.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
-
-#### Returns
-
-[`UnsubscribeFn`](conn.md#unsubscribefn)
-
-An unsubscribe method.
-
-#### Defined in
-
-[packages/wa-js/src/conn/eventEmitter.ts:83](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/eventEmitter.ts#L83)
-
-___
-
-### once
-
-• **once**<`Name`\>(`eventName`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/conn.EventTypes.md)[`Name`]\>
-
-Subscribe to one or more events only once. It will be unsubscribed after the first event.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends keyof [`EventTypes`](../interfaces/conn.EventTypes.md) |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-
-#### Returns
-
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/conn.EventTypes.md)[`Name`]\>
-
-#### Defined in
-
-[packages/wa-js/src/conn/eventEmitter.ts:92](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/eventEmitter.ts#L92)
 
 ## Functions
 
@@ -300,6 +137,37 @@ await WPP.conn.refreshQR();
 #### Defined in
 
 [packages/wa-js/src/conn/functions/refreshQR.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/refreshQR.ts#L33)
+
+___
+
+### setKeepAlive
+
+▸ **setKeepAlive**(`enable?`): `boolean`
+
+Set keep alive state, that will force the focused and online state
+
+**`example`**
+```javascript
+// To enable
+await WPP.conn.setKeepAlive();
+
+// To disable
+await WPP.conn.setKeepAlive(false);
+```
+
+#### Parameters
+
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `enable` | `boolean` | `true` |
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[packages/wa-js/src/conn/functions/setKeepAlive.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/setKeepAlive.ts#L32)
 
 ___
 

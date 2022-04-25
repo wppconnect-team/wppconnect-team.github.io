@@ -19,7 +19,7 @@ custom_edit_url: null
 
 ### buttons
 
-• `Optional` **buttons**: { `id`: `string` ; `text`: `string`  }[]
+• `Optional` **buttons**: `MessageButtonsTypes`[]
 
 List of buttons, with at least 1 option and a maximum of 3
 
@@ -29,7 +29,7 @@ List of buttons, with at least 1 option and a maximum of 3
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L24)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L50)
 
 ___
 
@@ -123,7 +123,7 @@ Footer text for buttons
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L35)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L63)
 
 ___
 
@@ -249,7 +249,7 @@ Title for buttons, only for text message
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L31)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L54)
 
 ___
 
@@ -264,6 +264,24 @@ ___
 #### Defined in
 
 [packages/wa-js/src/chat/functions/sendFileMessage.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L62)
+
+___
+
+### useTemplateButtons
+
+• `Optional` **useTemplateButtons**: `boolean`
+
+Set to use template buttons instead of reply buttons.
+
+**`default:`** undefined - auto detect
+
+#### Inherited from
+
+[MessageButtonsOptions](chat.MessageButtonsOptions.md).[useTemplateButtons](chat.MessageButtonsOptions.md#usetemplatebuttons)
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L59)
 
 ___
 

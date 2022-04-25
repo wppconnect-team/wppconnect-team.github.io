@@ -90,6 +90,7 @@ custom_edit_url: null
 - [ParticipantCollection](../classes/whatsapp.ParticipantCollection.md)
 - [ParticipantModel](../classes/whatsapp.ParticipantModel.md)
 - [PresenceCollection](../classes/whatsapp.PresenceCollection.md)
+- [PresenceModel](../classes/whatsapp.PresenceModel.md)
 - [ProductCollCollection](../classes/whatsapp.ProductCollCollection.md)
 - [ProductCollModel](../classes/whatsapp.ProductCollModel.md)
 - [ProductCollection](../classes/whatsapp.ProductCollection.md)
@@ -211,11 +212,13 @@ ___
 
 • `Const` **CallStore**: [`CallCollection`](../classes/whatsapp.CallCollection.md)
 
-**`whatsapp`** 31218
+**`whatsapp`** 60868
+
+**`whatsapp`** 31218 >= 2.2204.13
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L27)
+[packages/wa-js/src/whatsapp/stores.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L29)
 
 ___
 
@@ -227,7 +230,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L29)
+[packages/wa-js/src/whatsapp/stores.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L31)
 
 ___
 
@@ -239,7 +242,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L31)
+[packages/wa-js/src/whatsapp/stores.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L33)
 
 ___
 
@@ -251,7 +254,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L33)
+[packages/wa-js/src/whatsapp/stores.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L35)
 
 ___
 
@@ -259,11 +262,13 @@ ___
 
 • `Const` **Clock**: [`ClockClass`](../classes/whatsapp.ClockClass.md)
 
-**`whatsapp`** 22683
+**`whatsapp`** 40234
+
+**`whatsapp`** 22683 >= 2.2204.13
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L49)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L53)
 
 ___
 
@@ -296,6 +301,8 @@ ___
 • `Const` **Constants**: `Object`
 
 **`whatsapp`** 64369
+
+**`whatsapp`** 69618 >= 2.2204.13
 
 #### Type declaration
 
@@ -331,7 +338,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Constants.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Constants.ts#L20)
+[packages/wa-js/src/whatsapp/misc/Constants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Constants.ts#L22)
 
 ___
 
@@ -343,7 +350,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L35)
+[packages/wa-js/src/whatsapp/stores.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L37)
 
 ___
 
@@ -355,7 +362,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L37)
+[packages/wa-js/src/whatsapp/stores.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L39)
 
 ___
 
@@ -379,7 +386,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L39)
+[packages/wa-js/src/whatsapp/stores.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L41)
 
 ___
 
@@ -391,7 +398,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L41)
+[packages/wa-js/src/whatsapp/stores.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L43)
 
 ___
 
@@ -403,7 +410,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L43)
+[packages/wa-js/src/whatsapp/stores.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L45)
 
 ___
 
@@ -411,11 +418,13 @@ ___
 
 • `Const` **Locale**: `LocaleClass`
 
-**`whatsapp`** 43725
+**`whatsapp`** 14296
+
+**`whatsapp`** 43725 >= 2.2204.13
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Locale.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Locale.ts#L22)
+[packages/wa-js/src/whatsapp/misc/Locale.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Locale.ts#L24)
 
 ___
 
@@ -439,7 +448,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L47)
+[packages/wa-js/src/whatsapp/stores.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L49)
 
 ___
 
@@ -451,7 +460,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L45)
+[packages/wa-js/src/whatsapp/stores.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L47)
 
 ___
 
@@ -463,7 +472,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L49)
+[packages/wa-js/src/whatsapp/stores.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L51)
 
 ___
 
@@ -475,7 +484,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L51)
+[packages/wa-js/src/whatsapp/stores.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L53)
 
 ___
 
@@ -487,7 +496,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L53)
+[packages/wa-js/src/whatsapp/stores.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L55)
 
 ___
 
@@ -499,7 +508,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L55)
+[packages/wa-js/src/whatsapp/stores.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L57)
 
 ___
 
@@ -511,7 +520,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L57)
+[packages/wa-js/src/whatsapp/stores.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L59)
 
 ___
 
@@ -523,7 +532,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L59)
+[packages/wa-js/src/whatsapp/stores.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L61)
 
 ___
 
@@ -535,7 +544,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L61)
+[packages/wa-js/src/whatsapp/stores.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L63)
 
 ___
 
@@ -547,7 +556,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L63)
+[packages/wa-js/src/whatsapp/stores.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L65)
 
 ___
 
@@ -571,7 +580,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L65)
+[packages/wa-js/src/whatsapp/stores.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L67)
 
 ___
 
@@ -583,7 +592,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L67)
+[packages/wa-js/src/whatsapp/stores.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L69)
 
 ___
 
@@ -595,7 +604,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L69)
+[packages/wa-js/src/whatsapp/stores.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L71)
 
 ___
 
@@ -607,7 +616,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L71)
+[packages/wa-js/src/whatsapp/stores.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L73)
 
 ___
 
@@ -619,7 +628,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:75](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L75)
+[packages/wa-js/src/whatsapp/stores.ts:77](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L77)
 
 ___
 
@@ -631,7 +640,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:77](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L77)
+[packages/wa-js/src/whatsapp/stores.ts:79](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L79)
 
 ___
 
@@ -643,7 +652,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/stores.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L73)
+[packages/wa-js/src/whatsapp/stores.ts:75](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/stores.ts#L75)
 
 ___
 
@@ -665,9 +674,11 @@ ___
 
 **`whatsapp`** 86875
 
+**`whatsapp`** 56891 >= 2.2212.8
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wap.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wap.ts#L35)
+[packages/wa-js/src/whatsapp/misc/Wap.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wap.ts#L39)
 
 ___
 
@@ -677,4 +688,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/exportModule.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/exportModule.ts#L21)
+[packages/wa-js/src/whatsapp/exportModule.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/exportModule.ts#L23)

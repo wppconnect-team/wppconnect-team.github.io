@@ -21,4 +21,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/status/functions/sendRawStatus.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L22)
+[packages/wa-js/src/status/functions/sendRawStatus.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L25)

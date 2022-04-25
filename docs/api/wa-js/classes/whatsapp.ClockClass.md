@@ -7,7 +7,9 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ClockClass
 
-**`whatsapp`** 22683
+**`whatsapp`** 40234
+
+**`whatsapp`** 22683 >= 2.2204.13
 
 ## Constructors
 
@@ -23,7 +25,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L21)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L23)
 
 ___
 
@@ -33,7 +35,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L22)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L24)
 
 ___
 
@@ -43,7 +45,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L23)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L25)
 
 ___
 
@@ -53,7 +55,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L24)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L26)
 
 ## Methods
 
@@ -73,7 +75,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L38)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L40)
 
 ___
 
@@ -94,7 +96,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L41)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L43)
 
 ___
 
@@ -114,7 +116,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L42)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L44)
 
 ___
 
@@ -128,7 +130,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L25)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L27)
 
 ___
 
@@ -142,7 +144,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L28)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L30)
 
 ___
 
@@ -162,7 +164,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L30)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L32)
 
 ___
 
@@ -182,7 +184,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L40)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L42)
 
 ___
 
@@ -202,7 +204,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L44)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L46)
 
 ___
 
@@ -222,7 +224,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L29)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L31)
 
 ___
 
@@ -242,7 +244,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L43)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L45)
 
 ___
 
@@ -262,7 +264,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L33)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L35)
 
 ___
 
@@ -282,7 +284,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L32)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L34)
 
 ___
 
@@ -302,7 +304,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L31)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L33)
 
 ___
 
@@ -322,7 +324,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L26)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L28)
 
 ___
 
@@ -342,7 +344,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L27)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L29)
 
 ___
 
@@ -356,7 +358,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L45)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L47)
 
 ___
 
@@ -376,7 +378,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L34)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L36)
 
 ___
 
@@ -396,7 +398,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L37)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L39)
 
 ___
 
@@ -416,7 +418,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L35)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L37)
 
 ___
 
@@ -430,7 +432,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L36)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L38)
 
 ___
 
@@ -450,4 +452,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Clock.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L39)
+[packages/wa-js/src/whatsapp/misc/Clock.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Clock.ts#L41)

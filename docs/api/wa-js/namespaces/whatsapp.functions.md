@@ -12,6 +12,7 @@ custom_edit_url: null
 - [LinkPreviewResult](../interfaces/whatsapp.functions.LinkPreviewResult.md)
 - [MsgFindQueryParams](../interfaces/whatsapp.functions.MsgFindQueryParams.md)
 - [QueryGroupInviteResult](../interfaces/whatsapp.functions.QueryGroupInviteResult.md)
+- [SimpleAckData](../interfaces/whatsapp.functions.SimpleAckData.md)
 
 ## Functions
 
@@ -147,7 +148,7 @@ ___
 
 ### createMsgProtobuf
 
-▸ **createMsgProtobuf**(`e`, `t?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+▸ **createMsgProtobuf**(`e`, `t?`): `Object`
 
 **`whatsapp`** 6565
 
@@ -160,7 +161,7 @@ ___
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+`Object`
 
 #### Defined in
 
@@ -241,7 +242,9 @@ ___
 
 ▸ **fetchLinkPreview**(`url`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<``null`` \| [`LinkPreviewResult`](../interfaces/whatsapp.functions.LinkPreviewResult.md)\>
 
-**`whatsapp`** 75820
+**`whatsapp`** 19146
+
+**`whatsapp`** 75820 >= 2.2204.13
 
 #### Parameters
 
@@ -255,7 +258,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/fetchLinkPreview.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/fetchLinkPreview.ts#L34)
+[packages/wa-js/src/whatsapp/functions/fetchLinkPreview.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/fetchLinkPreview.ts#L36)
 
 ___
 
@@ -285,7 +288,9 @@ ___
 
 ▸ **findFirstWebLink**(`message`): `undefined` \| `string`
 
-**`whatsapp`** 31042
+**`whatsapp`** 29929
+
+**`whatsapp`** 31042 >= 2.2204.13
 
 #### Parameters
 
@@ -299,7 +304,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/findFirstWebLink.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/findFirstWebLink.ts#L20)
+[packages/wa-js/src/whatsapp/functions/findFirstWebLink.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/findFirstWebLink.ts#L22)
 
 ___
 
@@ -307,7 +312,9 @@ ___
 
 ▸ **getOrGenerate**(): `string`
 
-**`whatsapp`** 16413
+**`whatsapp`** 98250
+
+**`whatsapp`** 16413 >= 2.2204.13
 
 #### Returns
 
@@ -315,7 +322,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/getOrGenerate.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getOrGenerate.ts#L20)
+[packages/wa-js/src/whatsapp/functions/getOrGenerate.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getOrGenerate.ts#L22)
 
 ___
 
@@ -323,7 +330,9 @@ ___
 
 ▸ **getStatus**(`contactId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `id`: [`Wid`](../classes/whatsapp.Wid.md) ; `status`: `string`  }\>
 
-**`whatsapp`** 51316
+**`whatsapp`** 46898
+
+**`whatsapp`** 51316 >= 2.2204.13
 
 #### Parameters
 
@@ -337,7 +346,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/status.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L21)
+[packages/wa-js/src/whatsapp/functions/status.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L23)
 
 ___
 
@@ -351,7 +360,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `ackData` | `any` |
+| `ackData` | [`SimpleAckData`](../interfaces/whatsapp.functions.SimpleAckData.md) |
 
 #### Returns
 
@@ -359,7 +368,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/handleAck.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L23)
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L40)
 
 ___
 
@@ -373,7 +382,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `ackData` | `any` |
+| `ackData` | [`SimpleAckData`](../interfaces/whatsapp.functions.SimpleAckData.md) |
 
 #### Returns
 
@@ -381,7 +390,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/handleAck.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L26)
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L45)
 
 ___
 
@@ -395,7 +404,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `ackData` | `any` |
+| `ackData` | [`SimpleAckData`](../interfaces/whatsapp.functions.SimpleAckData.md) |
 
 #### Returns
 
@@ -403,7 +412,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/handleAck.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L20)
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L35)
 
 ___
 
@@ -413,13 +422,65 @@ ___
 
 **`whatsapp`** 13194
 
+**`whatsapp`** 9530 >= 2.2210.9
+
 #### Returns
 
 `boolean`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/isAuthenticated.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isAuthenticated.ts#L20)
+[packages/wa-js/src/whatsapp/functions/isAuthenticated.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isAuthenticated.ts#L23)
+
+___
+
+### isLegacyWebdBackend
+
+▸ **isLegacyWebdBackend**(): `boolean`
+
+**`whatsapp`** 88555
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/isMDBackend.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isMDBackend.ts#L23)
+
+___
+
+### isLoggedIn
+
+▸ **isLoggedIn**(): `boolean`
+
+**`whatsapp`** 13194 >= 2.2208.11
+
+**`whatsapp`** 9530 >= 2.2210.9
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/isAuthenticated.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isAuthenticated.ts#L29)
+
+___
+
+### isMDBackend
+
+▸ **isMDBackend**(): `boolean`
+
+**`whatsapp`** 88555
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/isMDBackend.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isMDBackend.ts#L20)
 
 ___
 
@@ -465,6 +526,28 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/functions/markSeen.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/markSeen.ts#L21)
+
+___
+
+### mediaTypeFromProtobuf
+
+▸ **mediaTypeFromProtobuf**(`protoMessage`): `string`
+
+**`whatsapp`** 95318
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `protoMessage` | `Object` |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/mediaTypeFromProtobuf.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/mediaTypeFromProtobuf.ts#L20)
 
 ___
 
@@ -520,13 +603,15 @@ ___
 
 **`whatsapp`** 65212
 
+**`whatsapp`** 15860 >= 2.2204.13
+
 #### Returns
 
 `string`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/randomId.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/randomId.ts#L20)
+[packages/wa-js/src/whatsapp/functions/randomId.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/randomId.ts#L22)
 
 ___
 
@@ -721,7 +806,9 @@ ___
 
 ▸ **sendQueryExists**(`contact`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `biz`: `boolean` ; `bizInfo?`: { `verifiedName?`: { `isApi`: `boolean` ; `level`: `string` ; `name`: `string` ; `privacyMode`: `any` ; `serial`: `string`  }  } ; `disappearingMode?`: { `duration`: `number` ; `settingTimestamp`: `number`  } ; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
 
-**`whatsapp`** 69722
+**`whatsapp`** 57547
+
+**`whatsapp`** 69722 >= 2.2204.13
 
 #### Parameters
 
@@ -735,7 +822,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendQueryExists.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendQueryExists.ts#L21)
+[packages/wa-js/src/whatsapp/functions/sendQueryExists.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendQueryExists.ts#L23)
 
 ___
 
@@ -884,7 +971,9 @@ ___
 
 This function can be used to define a group picture or self profile
 
-**`whatsapp`** 5018
+**`whatsapp`** 78426
+
+**`whatsapp`** 5018 >= 2.2204.13
 
 #### Parameters
 
@@ -900,7 +989,7 @@ This function can be used to define a group picture or self profile
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/profilePic.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/profilePic.ts#L24)
+[packages/wa-js/src/whatsapp/functions/profilePic.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/profilePic.ts#L25)
 
 ___
 
@@ -932,7 +1021,9 @@ ___
 
 ▸ **setMyStatus**(`status`, `seqId?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `status`: `number`  }\>
 
-**`whatsapp`** 51316
+**`whatsapp`** 46898
+
+**`whatsapp`** 51316 >= 2.2204.13
 
 #### Parameters
 
@@ -947,7 +1038,29 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/status.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L27)
+[packages/wa-js/src/whatsapp/functions/status.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L31)
+
+___
+
+### typeAttributeFromProtobuf
+
+▸ **typeAttributeFromProtobuf**(`protoMessage`): `string`
+
+**`whatsapp`** 93650
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `protoMessage` | `Object` |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/typeAttributeFromProtobuf.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/typeAttributeFromProtobuf.ts#L20)
 
 ___
 

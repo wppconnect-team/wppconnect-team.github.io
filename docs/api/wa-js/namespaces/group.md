@@ -10,10 +10,6 @@ custom_edit_url: null
 
 - [GroupProperty](../enums/group.GroupProperty.md)
 
-## Interfaces
-
-- [EventTypes](../interfaces/group.EventTypes.md)
-
 ## Group Functions
 
 - [getGroupInfoFromInviteCode](group.md#getgroupinfofrominvitecode)
@@ -44,173 +40,11 @@ custom_edit_url: null
 - [promoteParticipants](group.md#promoteparticipants)
 - [removeParticipants](group.md#removeparticipants)
 
-## Type aliases
-
-### UnsubscribeFn
-
-Ƭ **UnsubscribeFn**: () => `void`
-
-#### Type declaration
-
-▸ (): `void`
-
-##### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/group/eventEmitter.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L22)
-
-## Events
-
-### clearListeners
-
-• **clearListeners**<`Name`\>(`eventName?`): `void`
-
-Clear all event listeners on the instance.
-
-If `eventName` is given, only the listeners for that event are cleared.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName?` | `Name` \| `Name`[] |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/group/eventEmitter.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L72)
-
-___
-
-### listenerCount
-
-• **listenerCount**<`Name`\>(`eventName?`): `number`
-
-The number of listeners for the `eventName` or all events if not specified.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName?` | `Name` \| `Name`[] |
-
-#### Returns
-
-`number`
-
-#### Defined in
-
-[packages/wa-js/src/group/eventEmitter.ts:80](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L80)
-
-___
-
-### off
-
-• **off**<`Name`\>(`eventName`, `listener`): `void`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-| `listener` | (`eventData`: [`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[packages/wa-js/src/group/eventEmitter.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L60)
-
-___
-
-### on
-
-• **on**<`Name`\>(`eventName`, `listener`): [`UnsubscribeFn`](group.md#unsubscribefn)
-
-Subscribe to one event.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-| `listener` | (`eventData`: [`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]) => `void` \| [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> |
-
-#### Returns
-
-[`UnsubscribeFn`](group.md#unsubscribefn)
-
-An unsubscribe method.
-
-#### Defined in
-
-[packages/wa-js/src/group/eventEmitter.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L44)
-
-___
-
-### once
-
-• **once**<`Name`\>(`eventName`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]\>
-
-Subscribe to one or more events only once. It will be unsubscribed after the first event.
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Name` | extends `never` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `eventName` | `Name` |
-
-#### Returns
-
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`EventTypes`](../interfaces/group.EventTypes.md)[`Name`]\>
-
-#### Defined in
-
-[packages/wa-js/src/group/eventEmitter.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/group/eventEmitter.ts#L53)
-
 ## Group Functions
 
 ### getGroupInfoFromInviteCode
 
-▸ **getGroupInfoFromInviteCode**(`inviteCode`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `announce`: `boolean` ; `creation`: `number` ; `desc`: `string` ; `descId`: `string` ; `descOwner`: `string` ; `descTime`: `number` ; `id`: `string` ; `noFrequentlyForwarded`: `boolean` ; `owner`: `string` ; `parent`: `boolean` ; `participants`: { `id`: `string` ; `isAdmin`: `boolean` ; `isSuperAdmin`: `boolean`  }[] ; `pvId?`: `string` ; `restrict`: `boolean` ; `size`: `number` ; `status`: `number` ; `subject`: `string` ; `subjectOwner`: `string` ; `subjectTime`: `number` ; `support`: `boolean` ; `suspended`: `boolean`  }\>
+▸ **getGroupInfoFromInviteCode**(`inviteCode`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `announce`: `boolean` ; `creation`: `number` ; `desc`: `string` ; `descId`: `string` ; `descOwner`: `undefined` \| `string` ; `descTime`: `number` ; `id`: `string` ; `noFrequentlyForwarded`: `boolean` ; `owner`: `undefined` \| `string` ; `parent`: `boolean` ; `participants`: { `id`: `string` ; `isAdmin`: `boolean` ; `isSuperAdmin`: `boolean`  }[] ; `pvId?`: `string` ; `restrict`: `boolean` ; `size`: `number` ; `status`: `number` ; `subject`: `string` ; `subjectOwner`: `undefined` \| `string` ; `subjectTime`: `number` ; `support`: `boolean` ; `suspended`: `boolean`  }\>
 
 Get group info from an inviteCode
 
@@ -227,7 +61,7 @@ await WPP.group.getGroupInfoFromInviteCode('<inviteCode>');
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `announce`: `boolean` ; `creation`: `number` ; `desc`: `string` ; `descId`: `string` ; `descOwner`: `string` ; `descTime`: `number` ; `id`: `string` ; `noFrequentlyForwarded`: `boolean` ; `owner`: `string` ; `parent`: `boolean` ; `participants`: { `id`: `string` ; `isAdmin`: `boolean` ; `isSuperAdmin`: `boolean`  }[] ; `pvId?`: `string` ; `restrict`: `boolean` ; `size`: `number` ; `status`: `number` ; `subject`: `string` ; `subjectOwner`: `string` ; `subjectTime`: `number` ; `support`: `boolean` ; `suspended`: `boolean`  }\>
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `announce`: `boolean` ; `creation`: `number` ; `desc`: `string` ; `descId`: `string` ; `descOwner`: `undefined` \| `string` ; `descTime`: `number` ; `id`: `string` ; `noFrequentlyForwarded`: `boolean` ; `owner`: `undefined` \| `string` ; `parent`: `boolean` ; `participants`: { `id`: `string` ; `isAdmin`: `boolean` ; `isSuperAdmin`: `boolean`  }[] ; `pvId?`: `string` ; `restrict`: `boolean` ; `size`: `number` ; `status`: `number` ; `subject`: `string` ; `subjectOwner`: `undefined` \| `string` ; `subjectTime`: `number` ; `support`: `boolean` ; `suspended`: `boolean`  }\>
 
 #### Defined in
 

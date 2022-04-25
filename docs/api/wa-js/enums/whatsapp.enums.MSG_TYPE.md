@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 15461
 
+**`whatsapp`** 69618 >= 2.2204.13
+
 ## Enumeration members
 
 ### AUDIO
@@ -17,7 +19,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L42)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L44)
 
 ___
 
@@ -27,7 +29,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L25)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L27)
 
 ___
 
@@ -37,7 +39,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L51)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L53)
 
 ___
 
@@ -47,7 +49,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L27)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L29)
 
 ___
 
@@ -57,7 +59,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L29)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L31)
 
 ___
 
@@ -67,7 +69,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L33)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L35)
 
 ___
 
@@ -77,7 +79,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L45)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L47)
 
 ___
 
@@ -87,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L26)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L28)
 
 ___
 
@@ -97,7 +99,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L24)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L26)
 
 ___
 
@@ -107,7 +109,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L37)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L39)
 
 ___
 
@@ -117,7 +119,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L23)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L25)
 
 ___
 
@@ -127,7 +129,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L38)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L40)
 
 ___
 
@@ -137,7 +139,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L40)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L42)
 
 ___
 
@@ -147,7 +149,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L49)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L51)
 
 ___
 
@@ -157,7 +159,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L48)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L50)
 
 ___
 
@@ -167,7 +169,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L50)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L52)
 
 ___
 
@@ -177,7 +179,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L30)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L32)
 
 ___
 
@@ -187,7 +189,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L34)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L36)
 
 ___
 
@@ -197,7 +199,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L53)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L55)
 
 ___
 
@@ -207,7 +209,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L21)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L23)
 
 ___
 
@@ -217,7 +219,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L22)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L24)
 
 ___
 
@@ -227,7 +229,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L47)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L49)
 
 ___
 
@@ -237,7 +239,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L36)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L38)
 
 ___
 
@@ -247,7 +249,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L31)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L33)
 
 ___
 
@@ -257,7 +259,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L46)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L48)
 
 ___
 
@@ -267,7 +269,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L28)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L30)
 
 ___
 
@@ -277,7 +279,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L43)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L45)
 
 ___
 
@@ -287,7 +289,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L52)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L54)
 
 ___
 
@@ -297,7 +299,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L35)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L37)
 
 ___
 
@@ -307,7 +309,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L44)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L46)
 
 ___
 
@@ -317,7 +319,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L39)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L41)
 
 ___
 
@@ -327,7 +329,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L54)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L56)
 
 ___
 
@@ -337,7 +339,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L32)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L34)
 
 ___
 
@@ -347,4 +349,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L41)
+[packages/wa-js/src/whatsapp/enums/MSG_TYPE.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/MSG_TYPE.ts#L43)

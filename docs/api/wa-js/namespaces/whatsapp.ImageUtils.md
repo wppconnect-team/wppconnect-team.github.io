@@ -7,7 +7,9 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).ImageUtils
 
-**`whatsapp`** 36638
+**`whatsapp`** 51428
+
+**`whatsapp`** 36638 >= 2.2204.13
 
 ## Functions
 
@@ -29,4 +31,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ImageUtils.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ImageUtils.ts#L21)
+[packages/wa-js/src/whatsapp/misc/ImageUtils.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ImageUtils.ts#L23)

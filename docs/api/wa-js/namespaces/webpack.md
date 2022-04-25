@@ -29,7 +29,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L47)
+[packages/wa-js/src/webpack/index.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L41)
 
 ## Variables
 
@@ -41,7 +41,7 @@ Is setted true when the loader is injected
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L32)
+[packages/wa-js/src/webpack/index.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L26)
 
 ___
 
@@ -53,7 +53,7 @@ Is setted true when the all webpack modules are fully loaded
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L37)
+[packages/wa-js/src/webpack/index.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L31)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L49)
+[packages/wa-js/src/webpack/index.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L43)
 
 ## Functions
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L64)
+[packages/wa-js/src/webpack/index.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L58)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:131](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L131)
+[packages/wa-js/src/webpack/index.ts:125](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L125)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:114](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L114)
+[packages/wa-js/src/webpack/index.ts:108](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L108)
 
 ___
 
@@ -140,7 +140,7 @@ Return the webpack module from a search function
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:208](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L208)
+[packages/wa-js/src/webpack/index.ts:202](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L202)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L39)
+[packages/wa-js/src/webpack/index.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L33)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L43)
+[packages/wa-js/src/webpack/index.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L37)
 
 ___
 
@@ -209,7 +209,7 @@ Return the webpack module from a search function
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:191](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L191)
+[packages/wa-js/src/webpack/index.ts:185](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L185)
 
 ___
 
@@ -232,4 +232,4 @@ Return the webpack module id from a search function
 
 #### Defined in
 
-[packages/wa-js/src/webpack.ts:151](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack.ts#L151)
+[packages/wa-js/src/webpack/index.ts:145](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L145)

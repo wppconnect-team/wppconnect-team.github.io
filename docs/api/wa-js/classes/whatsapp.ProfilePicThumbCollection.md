@@ -11,7 +11,7 @@ custom_edit_url: null
 
 ## Hierarchy
 
-- [`Collection`](whatsapp.Collection.md)<[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
+- [`BaseCollection`](whatsapp.BaseCollection.md)<[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
 
   ↳ **`ProfilePicThumbCollection`**
 
@@ -31,7 +31,7 @@ custom_edit_url: null
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[constructor](whatsapp.Collection.md#constructor)
+[BaseCollection](whatsapp.BaseCollection.md).[constructor](whatsapp.BaseCollection.md#constructor)
 
 #### Defined in
 
@@ -82,7 +82,7 @@ otherwise.
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[findFirst](whatsapp.Collection.md#findfirst)
+[BaseCollection](whatsapp.BaseCollection.md).[findFirst](whatsapp.BaseCollection.md#findfirst)
 
 #### Defined in
 
@@ -96,7 +96,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[modelClass](whatsapp.Collection.md#modelclass)
+[BaseCollection](whatsapp.BaseCollection.md).[modelClass](whatsapp.BaseCollection.md#modelclass)
 
 #### Defined in
 
@@ -104,13 +104,53 @@ ___
 
 ___
 
-### cachePolicy
+### onResume
 
-▪ `Static` `Optional` **cachePolicy**: `any`
+• **onResume**: (...`args`: `any`) => `any`
+
+#### Type declaration
+
+▸ (...`args`): `any`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `...args` | `any` |
+
+##### Returns
+
+`any`
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[onResume](whatsapp.BaseCollection.md#onresume)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L26)
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L29)
+
+___
+
+### cachePolicy
+
+▪ `Static` **cachePolicy**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | `string` |
+| `policy` | `string` |
+| `trigger` | `string` |
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[cachePolicy](whatsapp.BaseCollection.md#cachepolicy)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L23)
 
 ___
 
@@ -135,7 +175,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[comparator](whatsapp.Collection.md#comparator)
+[BaseCollection](whatsapp.BaseCollection.md).[comparator](whatsapp.BaseCollection.md#comparator)
 
 #### Defined in
 
@@ -149,7 +189,7 @@ ___
 
 #### Overrides
 
-[Collection](whatsapp.Collection.md).[model](whatsapp.Collection.md#model)
+[BaseCollection](whatsapp.BaseCollection.md).[model](whatsapp.BaseCollection.md#model)
 
 #### Defined in
 
@@ -187,7 +227,7 @@ ___
 
 #### Inherited from
 
-Collection.isCollection
+BaseCollection.isCollection
 
 #### Defined in
 
@@ -205,7 +245,7 @@ ___
 
 #### Inherited from
 
-Collection.length
+BaseCollection.length
 
 #### Defined in
 
@@ -223,7 +263,7 @@ ___
 
 #### Inherited from
 
-Collection.models
+BaseCollection.models
 
 #### Defined in
 
@@ -248,7 +288,7 @@ Collection.models
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[add](whatsapp.Collection.md#add)
+[BaseCollection](whatsapp.BaseCollection.md).[add](whatsapp.BaseCollection.md#add)
 
 #### Defined in
 
@@ -272,7 +312,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[assertGet](whatsapp.Collection.md#assertget)
+[BaseCollection](whatsapp.BaseCollection.md).[assertGet](whatsapp.BaseCollection.md#assertget)
 
 #### Defined in
 
@@ -296,7 +336,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[at](whatsapp.Collection.md#at)
+[BaseCollection](whatsapp.BaseCollection.md).[at](whatsapp.BaseCollection.md#at)
 
 #### Defined in
 
@@ -326,11 +366,29 @@ Alias of `on`
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[bind](whatsapp.Collection.md#bind)
+[BaseCollection](whatsapp.BaseCollection.md).[bind](whatsapp.BaseCollection.md#bind)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:96](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L96)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:98](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L98)
+
+___
+
+### delete
+
+▸ **delete**(): `void`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[delete](whatsapp.BaseCollection.md#delete)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L56)
 
 ___
 
@@ -355,11 +413,65 @@ Alias of `trigger`
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[emit](whatsapp.Collection.md#emit)
+[BaseCollection](whatsapp.BaseCollection.md).[emit](whatsapp.BaseCollection.md#emit)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:117](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L117)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:119](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L119)
+
+___
+
+### find
+
+▸ **find**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `id` | `Stringable` |
+| `options?` | `Object` |
+| `options.logOnSend?` | `boolean` |
+| `options.set?` | `boolean` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[find](whatsapp.BaseCollection.md#find)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L40)
+
+___
+
+### findQuery
+
+▸ **findQuery**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `id` | `Stringable` |
+| `options?` | `Object` |
+| `options.logOnSend?` | `boolean` |
+| `options.set?` | `boolean` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[findQuery](whatsapp.BaseCollection.md#findquery)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L35)
 
 ___
 
@@ -379,7 +491,55 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L30)
+[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L28)
+
+___
+
+### gadd
+
+▸ **gadd**(`id`): [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `id` | `Stringable` \| [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md) |
+
+#### Returns
+
+[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[gadd](whatsapp.BaseCollection.md#gadd)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L52)
+
+___
+
+### gaddUp
+
+▸ **gaddUp**(`id`): [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `id` | `Stringable` \| [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md) |
+
+#### Returns
+
+[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[gaddUp](whatsapp.BaseCollection.md#gaddup)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L54)
 
 ___
 
@@ -399,7 +559,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[get](whatsapp.Collection.md#get)
+[BaseCollection](whatsapp.BaseCollection.md).[get](whatsapp.BaseCollection.md#get)
 
 #### Defined in
 
@@ -417,7 +577,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[getModelsArray](whatsapp.Collection.md#getmodelsarray)
+[BaseCollection](whatsapp.BaseCollection.md).[getModelsArray](whatsapp.BaseCollection.md#getmodelsarray)
 
 #### Defined in
 
@@ -441,7 +601,31 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L31)
+[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L29)
+
+___
+
+### handle
+
+▸ **handle**(`values`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `values` | [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md) \| [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)[] |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[handle](whatsapp.BaseCollection.md#handle)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L50)
 
 ___
 
@@ -455,7 +639,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[head](whatsapp.Collection.md#head)
+[BaseCollection](whatsapp.BaseCollection.md).[head](whatsapp.BaseCollection.md#head)
 
 #### Defined in
 
@@ -480,7 +664,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L28)
+[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L26)
 
 ___
 
@@ -501,11 +685,35 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[includes](whatsapp.Collection.md#includes)
+[BaseCollection](whatsapp.BaseCollection.md).[includes](whatsapp.BaseCollection.md#includes)
 
 #### Defined in
 
 [packages/wa-js/src/whatsapp/collections/Collection.ts:85](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/Collection.ts#L85)
+
+___
+
+### initializeFromCache
+
+▸ **initializeFromCache**(`value`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `value` | [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md) \| [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)[] |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[initializeFromCache](whatsapp.BaseCollection.md#initializefromcache)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L31)
 
 ___
 
@@ -525,11 +733,11 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[isListening](whatsapp.Collection.md#islistening)
+[BaseCollection](whatsapp.BaseCollection.md).[isListening](whatsapp.BaseCollection.md#islistening)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:90](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L90)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:92](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L92)
 
 ___
 
@@ -549,11 +757,35 @@ model is ProfilePicThumbModel
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[isModel](whatsapp.Collection.md#ismodel)
+[BaseCollection](whatsapp.BaseCollection.md).[isModel](whatsapp.BaseCollection.md#ismodel)
 
 #### Defined in
 
 [packages/wa-js/src/whatsapp/collections/Collection.ts:83](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/Collection.ts#L83)
+
+___
+
+### isStateStale
+
+▸ **isStateStale**(`id`): `boolean`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `id` | `Stringable` |
+
+#### Returns
+
+`boolean`
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[isStateStale](whatsapp.BaseCollection.md#isstatestale)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L58)
 
 ___
 
@@ -567,7 +799,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[last](whatsapp.Collection.md#last)
+[BaseCollection](whatsapp.BaseCollection.md).[last](whatsapp.BaseCollection.md#last)
 
 #### Defined in
 
@@ -593,11 +825,11 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[listenTo](whatsapp.Collection.md#listento)
+[BaseCollection](whatsapp.BaseCollection.md).[listenTo](whatsapp.BaseCollection.md#listento)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:74](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L74)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:76](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L76)
 
 ___
 
@@ -619,11 +851,11 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[listenToAndRun](whatsapp.Collection.md#listentoandrun)
+[BaseCollection](whatsapp.BaseCollection.md).[listenToAndRun](whatsapp.BaseCollection.md#listentoandrun)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:88](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L88)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:90](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L90)
 
 ___
 
@@ -645,11 +877,11 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[listenToOnce](whatsapp.Collection.md#listentoonce)
+[BaseCollection](whatsapp.BaseCollection.md).[listenToOnce](whatsapp.BaseCollection.md#listentoonce)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:81](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L81)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:83](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L83)
 
 ___
 
@@ -675,11 +907,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[off](whatsapp.Collection.md#off)
+[BaseCollection](whatsapp.BaseCollection.md).[off](whatsapp.BaseCollection.md#off)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L59)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L61)
 
 ___
 
@@ -705,25 +937,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[on](whatsapp.Collection.md#on)
+[BaseCollection](whatsapp.BaseCollection.md).[on](whatsapp.BaseCollection.md#on)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L39)
-
-___
-
-### onResume
-
-▸ **onResume**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L27)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L41)
 
 ___
 
@@ -749,11 +967,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[once](whatsapp.Collection.md#once)
+[BaseCollection](whatsapp.BaseCollection.md).[once](whatsapp.BaseCollection.md#once)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L49)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L51)
 
 ___
 
@@ -776,7 +994,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[remove](whatsapp.Collection.md#remove)
+[BaseCollection](whatsapp.BaseCollection.md).[remove](whatsapp.BaseCollection.md#remove)
 
 #### Defined in
 
@@ -798,11 +1016,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[removeAllListeners](whatsapp.Collection.md#removealllisteners)
+[BaseCollection](whatsapp.BaseCollection.md).[removeAllListeners](whatsapp.BaseCollection.md#removealllisteners)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:112](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L112)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:114](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L114)
 
 ___
 
@@ -828,11 +1046,11 @@ Alias of `off`
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[removeListener](whatsapp.Collection.md#removelistener)
+[BaseCollection](whatsapp.BaseCollection.md).[removeListener](whatsapp.BaseCollection.md#removelistener)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:107](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L107)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:109](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L109)
 
 ___
 
@@ -853,7 +1071,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[reorder](whatsapp.Collection.md#reorder)
+[BaseCollection](whatsapp.BaseCollection.md).[reorder](whatsapp.BaseCollection.md#reorder)
 
 #### Defined in
 
@@ -878,7 +1096,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[reorderMutate](whatsapp.Collection.md#reordermutate)
+[BaseCollection](whatsapp.BaseCollection.md).[reorderMutate](whatsapp.BaseCollection.md#reordermutate)
 
 #### Defined in
 
@@ -903,7 +1121,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[replaceId](whatsapp.Collection.md#replaceid)
+[BaseCollection](whatsapp.BaseCollection.md).[replaceId](whatsapp.BaseCollection.md#replaceid)
 
 #### Defined in
 
@@ -921,7 +1139,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[reset](whatsapp.Collection.md#reset)
+[BaseCollection](whatsapp.BaseCollection.md).[reset](whatsapp.BaseCollection.md#reset)
 
 #### Defined in
 
@@ -945,7 +1163,25 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L29)
+[packages/wa-js/src/whatsapp/collections/ProfilePicThumbCollection.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ProfilePicThumbCollection.ts#L27)
+
+___
+
+### saveToCache
+
+▸ **saveToCache**(): `void`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[saveToCache](whatsapp.BaseCollection.md#savetocache)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L33)
 
 ___
 
@@ -959,7 +1195,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[serialize](whatsapp.Collection.md#serialize)
+[BaseCollection](whatsapp.BaseCollection.md).[serialize](whatsapp.BaseCollection.md#serialize)
 
 #### Defined in
 
@@ -984,7 +1220,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[set](whatsapp.Collection.md#set)
+[BaseCollection](whatsapp.BaseCollection.md).[set](whatsapp.BaseCollection.md#set)
 
 #### Defined in
 
@@ -1009,7 +1245,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[sort](whatsapp.Collection.md#sort)
+[BaseCollection](whatsapp.BaseCollection.md).[sort](whatsapp.BaseCollection.md#sort)
 
 #### Defined in
 
@@ -1035,11 +1271,11 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[stopListening](whatsapp.Collection.md#stoplistening)
+[BaseCollection](whatsapp.BaseCollection.md).[stopListening](whatsapp.BaseCollection.md#stoplistening)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L67)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L69)
 
 ___
 
@@ -1053,7 +1289,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[toArray](whatsapp.Collection.md#toarray)
+[BaseCollection](whatsapp.BaseCollection.md).[toArray](whatsapp.BaseCollection.md#toarray)
 
 #### Defined in
 
@@ -1071,7 +1307,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[toJSON](whatsapp.Collection.md#tojson)
+[BaseCollection](whatsapp.BaseCollection.md).[toJSON](whatsapp.BaseCollection.md#tojson)
 
 #### Defined in
 
@@ -1100,11 +1336,11 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[trigger](whatsapp.Collection.md#trigger)
+[BaseCollection](whatsapp.BaseCollection.md).[trigger](whatsapp.BaseCollection.md#trigger-1)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L65)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L67)
 
 ___
 
@@ -1130,11 +1366,38 @@ Alias of `off`
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[unbind](whatsapp.Collection.md#unbind)
+[BaseCollection](whatsapp.BaseCollection.md).[unbind](whatsapp.BaseCollection.md#unbind)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:102](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L102)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:104](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L104)
+
+___
+
+### update
+
+▸ **update**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `id` | `Stringable` |
+| `options?` | `Object` |
+| `options.logOnSend?` | `boolean` |
+| `options.set?` | `boolean` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)\>
+
+#### Inherited from
+
+[BaseCollection](whatsapp.BaseCollection.md).[update](whatsapp.BaseCollection.md#update)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/BaseCollection.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/BaseCollection.ts#L45)
 
 ___
 
@@ -1154,7 +1417,7 @@ ___
 
 #### Inherited from
 
-[Collection](whatsapp.Collection.md).[where](whatsapp.Collection.md#where)
+[BaseCollection](whatsapp.BaseCollection.md).[where](whatsapp.BaseCollection.md#where)
 
 #### Defined in
 

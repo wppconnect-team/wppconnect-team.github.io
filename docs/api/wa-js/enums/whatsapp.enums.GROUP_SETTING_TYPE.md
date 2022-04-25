@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 12380
 
+**`whatsapp`** 69618 >= 2.2204.13
+
 ## Enumeration members
 
 ### ANNOUNCEMENT
@@ -17,7 +19,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L21)
+[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L23)
 
 ___
 
@@ -27,7 +29,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L24)
+[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L26)
 
 ___
 
@@ -37,7 +39,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L23)
+[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L25)
 
 ___
 
@@ -47,4 +49,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L22)
+[packages/wa-js/src/whatsapp/enums/GROUP_SETTING_TYPE.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/GROUP_SETTING_TYPE.ts#L24)
