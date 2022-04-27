@@ -17,6 +17,8 @@ custom_edit_url: null
 
   ↳ [`VideoMessageOptions`](chat.VideoMessageOptions.md)
 
+  ↳ [`LocationMessageOptions`](chat.LocationMessageOptions.md)
+
 ## Properties
 
 ### buttons

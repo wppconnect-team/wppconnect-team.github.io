@@ -15,6 +15,8 @@ custom_edit_url: null
 
   ↳ [`ListMessageOptions`](chat.ListMessageOptions.md)
 
+  ↳ [`LocationMessageOptions`](chat.LocationMessageOptions.md)
+
 ## Properties
 
 ### createChat

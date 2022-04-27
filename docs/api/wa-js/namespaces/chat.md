@@ -17,6 +17,7 @@ custom_edit_url: null
 - [ImageMessageOptions](../interfaces/chat.ImageMessageOptions.md)
 - [LinkPreviewOptions](../interfaces/chat.LinkPreviewOptions.md)
 - [ListMessageOptions](../interfaces/chat.ListMessageOptions.md)
+- [LocationMessageOptions](../interfaces/chat.LocationMessageOptions.md)
 - [MessageButtonsOptions](../interfaces/chat.MessageButtonsOptions.md)
 - [SendMessageOptions](../interfaces/chat.SendMessageOptions.md)
 - [SendMessageReturn](../interfaces/chat.SendMessageReturn.md)
@@ -52,6 +53,7 @@ custom_edit_url: null
 - [getMessages](chat.md#getmessages)
 - [sendFileMessage](chat.md#sendfilemessage)
 - [sendListMessage](chat.md#sendlistmessage)
+- [sendLocationMessage](chat.md#sendlocationmessage)
 - [sendRawMessage](chat.md#sendrawmessage)
 - [sendTextMessage](chat.md#sendtextmessage)
 - [sendVCardContactMessage](chat.md#sendvcardcontactmessage)
@@ -866,6 +868,85 @@ WPP.chat.sendListMessage('[number]@c.us', {
 #### Defined in
 
 [packages/wa-js/src/chat/functions/sendListMessage.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L63)
+
+___
+
+### sendLocationMessage
+
+▸ **sendLocationMessage**(`chatId`, `options`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`SendMessageReturn`](../interfaces/chat.SendMessageReturn.md)\>
+
+Send a location message
+
+**`example`**
+```javascript
+// full example
+WPP.chat.sendLocationMessage('[number]@c.us', {
+ lat: -22.95201,
+ lng: -43.2102601,
+ name: 'Cristo Rendentor', // optional
+ address: 'Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ', // optional
+ url: 'https://santuariocristoredentor.com.br/' // optional
+});
+
+// minimal
+WPP.chat.sendLocationMessage('[number]@c.us', {
+ lat: -22.95201,
+ lng: -43.2102601,
+});
+
+// name and address
+WPP.chat.sendLocationMessage('[number]@c.us', {
+ lat: -22.95201,
+ lng: -43.2102601,
+ name: 'Cristo Rendentor',
+ address: 'Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ'
+});
+
+// with buttons
+WPP.chat.sendLocationMessage('[number]@c.us', {
+ lat: -22.95201,
+ lng: -43.2102601,
+ name: 'Cristo Rendentor',
+ address: 'Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ',
+ buttons: [
+     {
+         url: 'https://example.test/',
+         text: 'URL example'
+     },
+     {
+         phoneNumber: '+55 12 3456 7777',
+         text: 'Phone Number'
+     },
+     {
+         id: 'id1',
+         text: 'First'
+     },
+     {
+         id: 'id2',
+         text: 'Second'
+     },
+     {
+         id: 'other',
+         text: 'Other'
+     }
+ ],
+});
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `chatId` | `any` |
+| `options` | [`LocationMessageOptions`](../interfaces/chat.LocationMessageOptions.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`SendMessageReturn`](../interfaces/chat.SendMessageReturn.md)\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/sendLocationMessage.ts:114](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendLocationMessage.ts#L114)
 
 ___
 

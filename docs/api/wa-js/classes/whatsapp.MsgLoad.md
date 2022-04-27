@@ -1275,7 +1275,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[BaseCollection](whatsapp.BaseCollection.md).[trigger](whatsapp.BaseCollection.md#trigger-1)
+[BaseCollection](whatsapp.BaseCollection.md).[trigger](whatsapp.BaseCollection.md#trigger)
 
 #### Defined in
 
