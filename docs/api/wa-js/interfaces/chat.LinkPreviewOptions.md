@@ -33,4 +33,4 @@ WPP.chat.sendTextMessage('[number]@c.us', 'See https://www.youtube.com/watch?v=v
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareLinkPreview.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareLinkPreview.ts#L40)
+[packages/wa-js/src/chat/functions/prepareLinkPreview.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareLinkPreview.ts#L50)

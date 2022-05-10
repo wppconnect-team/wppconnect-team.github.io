@@ -1,7 +1,7 @@
 ---
 id: "modules"
 title: "@wppconnect/wa-js"
-sidebar_label: "Exports (v2.1.0)"
+sidebar_label: "Exports (v2.2.1)"
 sidebar_position: 0.5
 custom_edit_url: null
 ---

@@ -55,6 +55,7 @@ custom_edit_url: null
 - [sendListMessage](chat.md#sendlistmessage)
 - [sendLocationMessage](chat.md#sendlocationmessage)
 - [sendRawMessage](chat.md#sendrawmessage)
+- [sendReactionToMessage](chat.md#sendreactiontomessage)
 - [sendTextMessage](chat.md#sendtextmessage)
 - [sendVCardContactMessage](chat.md#sendvcardcontactmessage)
 - [starMessage](chat.md#starmessage)
@@ -655,40 +656,6 @@ List of raw messages
 
 [packages/wa-js/src/chat/functions/getMessageById.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getMessageById.ts#L41)
 
-▸ **getMessageById**(`notUsed`, `id`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`MsgModel`](../classes/whatsapp.MsgModel.md)\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `notUsed` | `any` |
-| `id` | `string` |
-
-#### Returns
-
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`MsgModel`](../classes/whatsapp.MsgModel.md)\>
-
-#### Defined in
-
-[packages/wa-js/src/chat/functions/getMessageById.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getMessageById.ts#L44)
-
-▸ **getMessageById**(`notUsed`, `ids`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`MsgModel`](../classes/whatsapp.MsgModel.md)[]\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `notUsed` | `any` |
-| `ids` | `string`[] |
-
-#### Returns
-
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`MsgModel`](../classes/whatsapp.MsgModel.md)[]\>
-
-#### Defined in
-
-[packages/wa-js/src/chat/functions/getMessageById.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getMessageById.ts#L48)
-
 ___
 
 ### getMessages
@@ -824,7 +791,7 @@ The result
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendFileMessage.ts:148](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L148)
+[packages/wa-js/src/chat/functions/sendFileMessage.ts:149](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L149)
 
 ___
 
@@ -837,8 +804,10 @@ Send a list message
 **`example`**
 ```javascript
 WPP.chat.sendListMessage('[number]@c.us', {
-  buttonText: 'Click Me!',
-  description: "Hello it's list message",
+  buttonText: 'Click Me!', //required
+  description: "Hello it's list message", //required
+  title: 'Hello user', //optional
+  footer: 'Click and choose one', //optional
   sections: [{
     title: 'Section 1',
     rows: [{
@@ -867,7 +836,7 @@ WPP.chat.sendListMessage('[number]@c.us', {
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L63)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:70](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L70)
 
 ___
 
@@ -971,6 +940,41 @@ Send a raw message
 #### Defined in
 
 [packages/wa-js/src/chat/functions/sendRawMessage.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendRawMessage.ts#L36)
+
+___
+
+### sendReactionToMessage
+
+▸ **sendReactionToMessage**(`messageId`, `reaction`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `sendMsgResult`: `string`  }\>
+
+Send a reaction to a message
+
+Full Emoji List: https://unicode.org/emoji/charts/full-emoji-list.html
+
+**`example`**
+```javascript
+// to react a message
+WPP.chat.sendReactionMessage('[message_id]', '🤯');
+
+// to remove
+WPP.chat.sendReactionMessage('[message_id]', false);
+
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `messageId` | `string` \| [`MsgKey`](../classes/whatsapp.MsgKey.md) \| [`MsgModel`](../classes/whatsapp.MsgModel.md) \| `Stringable` |
+| `reaction` | ``null`` \| `string` \| ``false`` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `sendMsgResult`: `string`  }\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/sendReactionToMessage.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendReactionToMessage.ts#L38)
 
 ___
 

@@ -29,6 +29,16 @@ ___
 
 ___
 
+### hexColor
+
+• **hexColor**: `string`
+
+#### Defined in
+
+[packages/wa-js/src/labels/types.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/labels/types.ts#L22)
+
+___
+
 ### id
 
 • **id**: `string`

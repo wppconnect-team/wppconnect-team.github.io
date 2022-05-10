@@ -89,6 +89,20 @@ ___
 
 #### Defined in
 
+[packages/wa-js/src/chat/functions/sendFileMessage.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L41)
+
+___
+
+### footer
+
+• `Optional` **footer**: `string`
+
+#### Inherited from
+
+[FileMessageOptions](chat.FileMessageOptions.md).[footer](chat.FileMessageOptions.md#footer)
+
+#### Defined in
+
 [packages/wa-js/src/chat/functions/sendFileMessage.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L40)
 
 ___
@@ -166,7 +180,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendFileMessage.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L41)
+[packages/wa-js/src/chat/functions/sendFileMessage.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L42)
 
 ___
 
@@ -203,7 +217,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendFileMessage.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L45)
+[packages/wa-js/src/chat/functions/sendFileMessage.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L46)
 
 ___
 

@@ -13,6 +13,7 @@ custom_edit_url: null
 - [MsgFindQueryParams](../interfaces/whatsapp.functions.MsgFindQueryParams.md)
 - [QueryGroupInviteResult](../interfaces/whatsapp.functions.QueryGroupInviteResult.md)
 - [SimpleAckData](../interfaces/whatsapp.functions.SimpleAckData.md)
+- [ThumbnailData](../interfaces/whatsapp.functions.ThumbnailData.md)
 
 ## Functions
 
@@ -305,6 +306,41 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/functions/findFirstWebLink.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/findFirstWebLink.ts#L22)
+
+___
+
+### genMinimalLinkPreview
+
+▸ **genMinimalLinkPreview**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<``null`` \| [`LinkPreviewResult`](../interfaces/whatsapp.functions.LinkPreviewResult.md)\>
+
+**`whatsapp`** 92375
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.anchor` | `undefined` |
+| `data.domain?` | `string` |
+| `data.href` | `string` |
+| `data.index` | `number` |
+| `data.input` | `string` |
+| `data.isHttp` | `boolean` |
+| `data.params?` | `string` |
+| `data.path?` | `string` |
+| `data.port?` | `number` |
+| `data.scheme` | `string` |
+| `data.suspiciousCharacters?` | `string` |
+| `data.url` | `string` |
+| `data.username?` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<``null`` \| [`LinkPreviewResult`](../interfaces/whatsapp.functions.LinkPreviewResult.md)\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/genMinimalLinkPreview.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/genMinimalLinkPreview.ts#L23)
 
 ___
 
@@ -848,6 +884,29 @@ ___
 
 ___
 
+### sendReactionToMsg
+
+▸ **sendReactionToMsg**(`msg`, `reactionText`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
+
+**`whatsapp`** 21357
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `msg` | [`MsgModel`](../classes/whatsapp.MsgModel.md) |
+| `reactionText` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/sendReactionToMsg.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendReactionToMsg.ts#L21)
+
+___
+
 ### sendRevokeGroupInviteCode
 
 ▸ **sendRevokeGroupInviteCode**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
@@ -1106,3 +1165,25 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/functions/uploadProductImage.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/uploadProductImage.ts#L21)
+
+___
+
+### uploadThumbnail
+
+▸ **uploadThumbnail**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `filehash`: `string` ; `kind`: `string` ; `mediaEntry`: [`MediaEntry`](../classes/whatsapp.MediaEntry.md)  }\>
+
+**`whatsapp`** 74460
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`ThumbnailData`](../interfaces/whatsapp.functions.ThumbnailData.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `filehash`: `string` ; `kind`: `string` ; `mediaEntry`: [`MediaEntry`](../classes/whatsapp.MediaEntry.md)  }\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/uploadThumbnail.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/uploadThumbnail.ts#L38)

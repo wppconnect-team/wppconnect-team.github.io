@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L27)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L30)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L28)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L31)
 
 ___
 
@@ -82,6 +82,16 @@ WPP.chat.sendTextMessage('[number]@c.us', 'Hello @123 and @456', {
 #### Defined in
 
 [packages/wa-js/src/chat/types.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/types.ts#L47)
+
+___
+
+### footer
+
+• `Optional` **footer**: `string`
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/sendListMessage.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L33)
 
 ___
 
@@ -177,7 +187,17 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L29)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L34)
+
+___
+
+### title
+
+• `Optional` **title**: `string`
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/sendListMessage.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L32)
 
 ___
 

@@ -46,8 +46,6 @@ custom_edit_url: null
 
   ↳↳ [`EmojiVariantCollection`](whatsapp.EmojiVariantCollection.md)
 
-  ↳↳ [`LabelCollection`](whatsapp.LabelCollection.md)
-
   ↳↳ [`LabelItemCollection`](whatsapp.LabelItemCollection.md)
 
   ↳↳ [`MsgInfoCollection`](whatsapp.MsgInfoCollection.md)

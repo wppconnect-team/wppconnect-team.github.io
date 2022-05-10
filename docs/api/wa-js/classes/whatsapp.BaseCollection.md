@@ -28,6 +28,8 @@ custom_edit_url: null
 
   ↳↳ [`GroupMetadataCollection`](whatsapp.GroupMetadataCollection.md)
 
+  ↳↳ [`LabelCollection`](whatsapp.LabelCollection.md)
+
   ↳↳ [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
 
   ↳↳ [`MsgCollection`](whatsapp.MsgCollection.md)

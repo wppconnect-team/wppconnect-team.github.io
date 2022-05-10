@@ -253,6 +253,48 @@ ___
 
 ___
 
+### downloadImage
+
+▸ **downloadImage**(`url`, `type?`, `quality?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `data`: `string` ; `height`: `number` ; `width`: `number`  }\>
+
+#### Parameters
+
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `url` | `string` | `undefined` |
+| `type` | `string` | `'image/jpeg'` |
+| `quality` | `any` | `0.85` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `data`: `string` ; `height`: `number` ; `width`: `number`  }\>
+
+#### Defined in
+
+[packages/wa-js/src/util/downloadImage.ts:17](https://github.com/wppconnect-team/wa-js/blob/main/src/util/downloadImage.ts#L17)
+
+___
+
+### fetchDataFromPNG
+
+▸ **fetchDataFromPNG**(`url`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`Uint8Array`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array )\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`Uint8Array`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array )\>
+
+#### Defined in
+
+[packages/wa-js/src/util/fetchDataFromPNG.ts:17](https://github.com/wppconnect-team/wa-js/blob/main/src/util/fetchDataFromPNG.ts#L17)
+
+___
+
 ### isBase64
 
 ▸ **isBase64**(`data`): `boolean`

@@ -38,6 +38,7 @@ custom_edit_url: null
 | `options` | `Object` |
 | `options.caption?` | `string` |
 | `options.ctwaContext?` | `any` |
+| `options.footer?` | `string` |
 | `options.forwardedFromWeb?` | `boolean` |
 | `options.forwardingScore?` | `any` |
 | `options.isForwarded?` | `boolean` |
@@ -46,7 +47,7 @@ custom_edit_url: null
 | `options.multicast?` | `any` |
 | `options.productMsgOptions?` | [`ModelPropertiesContructor`](../namespaces/whatsapp.md#modelpropertiescontructor)<[`MsgModel`](whatsapp.MsgModel.md), `any`\> |
 | `options.quotedMsg?` | [`MsgModel`](whatsapp.MsgModel.md) |
-| `options.type?` | `any` |
+| `options.type?` | ``null`` \| `string` |
 
 #### Returns
 
@@ -68,4 +69,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L59)
+[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L60)

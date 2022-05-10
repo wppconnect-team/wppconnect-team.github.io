@@ -36,7 +36,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/LabelModel.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L46)
+[packages/wa-js/src/whatsapp/models/LabelModel.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L47)
 
 ## Properties
 
@@ -70,7 +70,7 @@ ___
 
 ### color
 
-• `Optional` **color**: `any`
+• `Optional` **color**: `number`
 
 #### Inherited from
 
@@ -78,13 +78,13 @@ ModelProxy.color
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/LabelModel.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L28)
+[packages/wa-js/src/whatsapp/models/LabelModel.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L29)
 
 ___
 
 ### colorIndex
 
-• `Optional` **colorIndex**: `any`
+• `Optional` **colorIndex**: `number`
 
 #### Inherited from
 
@@ -92,7 +92,7 @@ ModelProxy.colorIndex
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/LabelModel.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L27)
+[packages/wa-js/src/whatsapp/models/LabelModel.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L28)
 
 ___
 
@@ -106,13 +106,13 @@ ModelProxy.count
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/LabelModel.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L29)
+[packages/wa-js/src/whatsapp/models/LabelModel.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L30)
 
 ___
 
 ### hexColor
 
-• `Optional` `Readonly` **hexColor**: `any`
+• `Readonly` **hexColor**: `string`
 
 #### Inherited from
 
@@ -120,13 +120,13 @@ ModelProxy.hexColor
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/LabelModel.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L37)
+[packages/wa-js/src/whatsapp/models/LabelModel.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L38)
 
 ___
 
 ### id
 
-• `Optional` **id**: `any`
+• **id**: `string`
 
 #### Inherited from
 
@@ -163,8 +163,9 @@ ___
 | `change:color` | `undefined` \| `number` |
 | `change:colorIndex` | `undefined` \| `number` |
 | `change:count` | `undefined` \| `number` |
-| `change:hexColor` | `undefined` \| `number` |
-| `change:id` | `undefined` \| `number` |
+| `change:hexColor` | `number` |
+| `change:id` | `number` |
+| `change:name` | `number` |
 | `change:stale` | `undefined` \| `number` |
 
 #### Inherited from
@@ -174,6 +175,20 @@ ModelProxy.mirrorMask
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L29)
+
+___
+
+### name
+
+• **name**: `string`
+
+#### Inherited from
+
+ModelProxy.name
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/LabelModel.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L27)
 
 ___
 
@@ -215,7 +230,7 @@ ModelProxy.stale
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/LabelModel.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L33)
+[packages/wa-js/src/whatsapp/models/LabelModel.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/LabelModel.ts#L34)
 
 ___
 

@@ -68,6 +68,7 @@ custom_edit_url: null
 - [LiveLocationParticipantModel](../classes/whatsapp.LiveLocationParticipantModel.md)
 - [MediaBlobCacheImpl](../classes/whatsapp.MediaBlobCacheImpl.md)
 - [MediaDataModel](../classes/whatsapp.MediaDataModel.md)
+- [MediaEntry](../classes/whatsapp.MediaEntry.md)
 - [MediaObject](../classes/whatsapp.MediaObject.md)
 - [Model](../classes/whatsapp.Model.md)
 - [ModelChatBase](../classes/whatsapp.ModelChatBase.md)
