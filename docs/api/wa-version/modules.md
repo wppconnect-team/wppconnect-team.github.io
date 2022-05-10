@@ -1,7 +1,7 @@
 ---
 id: "modules"
 title: "@wppconnect/wa-version"
-sidebar_label: "Exports (v1.1.40)"
+sidebar_label: "Exports (v1.1.74)"
 sidebar_position: 0.5
 custom_edit_url: null
 ---
@@ -36,7 +36,7 @@ Dados de atualização
 
 #### Defined in
 
-[checkUpdate.ts:54](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/checkUpdate.ts#L54)
+[checkUpdate.ts:54](https://github.com/wppconnect-team/wa-version/blob/main/src/checkUpdate.ts#L54)
 
 ___
 
@@ -54,7 +54,7 @@ HTML da página
 
 #### Defined in
 
-[fetchLatest.ts:24](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/fetchLatest.ts#L24)
+[fetchLatest.ts:24](https://github.com/wppconnect-team/wa-version/blob/main/src/fetchLatest.ts#L24)
 
 ___
 
@@ -72,7 +72,7 @@ HTML da página
 
 #### Defined in
 
-[fetchLatestBeta.ts:24](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/fetchLatestBeta.ts#L24)
+[fetchLatestBeta.ts:24](https://github.com/wppconnect-team/wa-version/blob/main/src/fetchLatestBeta.ts#L24)
 
 ___
 
@@ -96,7 +96,7 @@ Lista de versões
 
 #### Defined in
 
-[getAvailableVersions.ts:27](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/getAvailableVersions.ts#L27)
+[getAvailableVersions.ts:27](https://github.com/wppconnect-team/wa-version/blob/main/src/getAvailableVersions.ts#L27)
 
 ___
 
@@ -114,21 +114,22 @@ Retorna a última versão disponível localmente
 
 #### Defined in
 
-[getLatestVersion.ts:23](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/getLatestVersion.ts#L23)
+[getLatestVersion.ts:23](https://github.com/wppconnect-team/wa-version/blob/main/src/getLatestVersion.ts#L23)
 
 ___
 
 ### getPageContent
 
-▸ **getPageContent**(`versionMatch?`): `string`
+▸ **getPageContent**(`versionMatch?`, `includePrerelease?`): `string`
 
 Retorna o conteúdo da última versão disponível pela versão informada, aceitando regras semver
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `versionMatch?` | `string` \| `Range` | Versão da página para retornar |
+| Name | Type | Default value | Description |
+| :------ | :------ | :------ | :------ |
+| `versionMatch?` | `string` \| `Range` | `undefined` | Versão da página para retornar |
+| `includePrerelease` | `boolean` | `true` | - |
 
 #### Returns
 
@@ -138,4 +139,4 @@ Conteúdo HTML da página
 
 #### Defined in
 
-[getPageContent.ts:29](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/getPageContent.ts#L29)
+[getPageContent.ts:29](https://github.com/wppconnect-team/wa-version/blob/main/src/getPageContent.ts#L29)

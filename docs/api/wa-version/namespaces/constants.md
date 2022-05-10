@@ -14,7 +14,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[constants.ts:27](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/constants.ts#L27)
+[constants.ts:27](https://github.com/wppconnect-team/wa-version/blob/main/src/constants.ts#L27)
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 #### Defined in
 
-[constants.ts:21](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/constants.ts#L21)
+[constants.ts:21](https://github.com/wppconnect-team/wa-version/blob/main/src/constants.ts#L21)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[constants.ts:19](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/constants.ts#L19)
+[constants.ts:19](https://github.com/wppconnect-team/wa-version/blob/main/src/constants.ts#L19)
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 #### Defined in
 
-[constants.ts:24](https://github.com/wppconnect-team/wa-version/blob/v1.1.40/src/constants.ts#L24)
+[constants.ts:24](https://github.com/wppconnect-team/wa-version/blob/main/src/constants.ts#L24)
