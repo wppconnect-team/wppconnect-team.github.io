@@ -344,6 +344,32 @@ ___
 
 ___
 
+### generateVideoThumbsAndDuration
+
+▸ **generateVideoThumbsAndDuration**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `duration`: `number` ; `thumbs`: { `fullHeight`: `number` ; `fullWidth`: `number` ; `height`: `number` ; `url`: `string` ; `width`: `number`  }[]  }\>
+
+**`whatsapp`** 51428
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.debugHint` | `string` |
+| `data.file` | `Blob` |
+| `data.maxDimensions` | `number`[] |
+| `data.throwOnBlack` | `boolean` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `duration`: `number` ; `thumbs`: { `fullHeight`: `number` ; `fullWidth`: `number` ; `height`: `number` ; `url`: `string` ; `width`: `number`  }[]  }\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/generateVideoThumbsAndDuration.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/generateVideoThumbsAndDuration.ts#L22)
+
+___
+
 ### getOrGenerate
 
 ▸ **getOrGenerate**(): `string`

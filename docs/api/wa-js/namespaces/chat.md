@@ -791,7 +791,7 @@ The result
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendFileMessage.ts:149](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L149)
+[packages/wa-js/src/chat/functions/sendFileMessage.ts:153](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendFileMessage.ts#L153)
 
 ___
 

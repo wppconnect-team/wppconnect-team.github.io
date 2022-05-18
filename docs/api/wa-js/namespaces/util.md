@@ -295,6 +295,38 @@ ___
 
 ___
 
+### getVideoInfoFromBuffer
+
+▸ **getVideoInfoFromBuffer**(`arrayBuffer`): `Object`
+
+Get the video file duration
+
+**`see`** https://gist.github.com/Elements-/cf063254730cd754599e#gistcomment-3241210
+
+**`see`** https://gist.github.com/OllieJones/5ffb011fa3a11964154975582360391c
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `arrayBuffer` | [`ArrayBuffer`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer ) |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `duration` | `number` |
+| `height` | `number` |
+| `width` | `number` |
+
+#### Defined in
+
+[packages/wa-js/src/util/getVideoInfoFromBuffer.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/util/getVideoInfoFromBuffer.ts#L22)
+
+___
+
 ### isBase64
 
 ▸ **isBase64**(`data`): `boolean`
