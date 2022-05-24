@@ -4,6 +4,10 @@
         "config:base",
         ":semanticCommits"
     ],
+    "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": true
+    },
     "packageRules": [
         {
             "matchManagers": [
