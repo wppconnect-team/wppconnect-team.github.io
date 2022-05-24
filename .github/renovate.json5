@@ -18,12 +18,34 @@
             "semanticCommitScope": "deps-dev"
         },
         {
+            "description": "USe bump strategy",
             "matchPackagePatterns": [
                 "*"
             ],
             "rangeStrategy": "bump"
         },
         {
+            "description": "Schedule digest updates daily",
+            "matchUpdateTypes": [
+                "digest"
+            ],
+            "extends": [
+                "schedule:daily"
+            ]
+        },
+        {
+            "description": "Automatically merge minor and patch-level updates",
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "automerge": true,
+            "automergeType": "branch"
+        },
+        {
+            "description": "Ignore 2.x version because the docusaurus is imcompatible",
             "matchPackageNames": [
                 "@mdx-js/react"
             ],
