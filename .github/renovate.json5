@@ -6,7 +6,7 @@
     ],
     "packageRules": [
         {
-            "matchDatasources": [
+            "matchManagers": [
                 "github-actions"
             ],
             "semanticCommitType": "ci"
