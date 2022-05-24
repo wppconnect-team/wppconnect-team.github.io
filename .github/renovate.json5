@@ -10,6 +10,24 @@
                 "github-actions"
             ],
             "semanticCommitType": "ci"
+        },
+        {
+            "matchDepTypes": [
+                "devDependencies"
+            ],
+            "semanticCommitScope": "deps-dev"
+        },
+        {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "rangeStrategy": "bump"
+        },
+        {
+            "matchPackageNames": [
+                "@mdx-js/react"
+            ],
+            "allowedVersions": "<2"
         }
     ]
 }
