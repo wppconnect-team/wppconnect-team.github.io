@@ -5,46 +5,6 @@ on:
     branches:
       - 'main'
 
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@edgardmessias 
-wppconnect-team
-/
-server-cli
-Code
-Issues
-3
-Pull requests
-1
-Actions
-Projects
-Wiki
-0
-Settings
-Releases
-9
-More
-server-cli/.github/workflows/update-lock.yml
-@edgardmessias
-edgardmessias ci: Updated node to 16.x
-Latest commit 55bbe67 15 days ago
- History
- 2 contributors
-@dependabot@edgardmessias
-41 lines (34 sloc)  1 KB
-   
-name: update-lock
-
-on:
-  push:
-    branches:
-      - 'main'
-
 jobs:
   update-lock:
     runs-on: ubuntu-latest
