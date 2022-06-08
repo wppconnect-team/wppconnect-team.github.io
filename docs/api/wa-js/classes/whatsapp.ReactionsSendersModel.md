@@ -1,33 +1,33 @@
 ---
-id: "whatsapp.StatusV3Model"
-title: "Class: StatusV3Model"
-sidebar_label: "StatusV3Model"
+id: "whatsapp.ReactionsSendersModel"
+title: "Class: ReactionsSendersModel"
+sidebar_label: "ReactionsSendersModel"
 custom_edit_url: null
 ---
 
-[whatsapp](../namespaces/whatsapp.md).StatusV3Model
+[whatsapp](../namespaces/whatsapp.md).ReactionsSendersModel
 
-**`whatsapp`** 47896
+**`whatsapp`** 81130
 
 ## Hierarchy
 
 - [`ModelProxy`](../namespaces/whatsapp.md#modelproxy)<`Props`, `Session`, `Derived`\>
 
-- [`Model`](whatsapp.Model.md)<[`StatusV3Collection`](whatsapp.StatusV3Collection.md)\>
+- [`Model`](whatsapp.Model.md)
 
-  ↳ **`StatusV3Model`**
+  ↳ **`ReactionsSendersModel`**
 
 ## Constructors
 
 ### constructor
 
-• **new StatusV3Model**(`proterties?`, `options?`)
+• **new ReactionsSendersModel**(`proterties?`, `options?`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `proterties?` | [`ModelPropertiesContructor`](../namespaces/whatsapp.md#modelpropertiescontructor)<[`StatusV3Model`](whatsapp.StatusV3Model.md), `any`\> |
+| `proterties?` | [`ModelPropertiesContructor`](../namespaces/whatsapp.md#modelpropertiescontructor)<[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md), `any`\> |
 | `options?` | [`ModelOptions`](../interfaces/whatsapp.ModelOptions.md) |
 
 #### Inherited from
@@ -36,9 +36,23 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L56)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L57)
 
 ## Properties
+
+### ack
+
+• `Optional` **ack**: `number`
+
+#### Inherited from
+
+ModelProxy.ack
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L34)
+
+___
 
 ### attributes
 
@@ -56,7 +70,7 @@ ___
 
 ### collection
 
-• `Optional` **collection**: [`StatusV3Collection`](whatsapp.StatusV3Collection.md)
+• `Optional` **collection**: `undefined`
 
 #### Inherited from
 
@@ -68,79 +82,9 @@ ___
 
 ___
 
-### contact
-
-• `Optional` **contact**: `any`
-
-#### Inherited from
-
-ModelProxy.contact
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L38)
-
-___
-
-### disableUnreadAnchor
-
-• **disableUnreadAnchor**: `any`
-
-#### Inherited from
-
-ModelProxy.disableUnreadAnchor
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L33)
-
-___
-
-### expireTimer
-
-• `Optional` **expireTimer**: `any`
-
-#### Inherited from
-
-ModelProxy.expireTimer
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L39)
-
-___
-
-### expireTs
-
-• `Optional` **expireTs**: `any`
-
-#### Inherited from
-
-ModelProxy.expireTs
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L40)
-
-___
-
-### hasUnread
-
-• `Readonly` **hasUnread**: `boolean`
-
-#### Inherited from
-
-ModelProxy.hasUnread
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L44)
-
-___
-
 ### id
 
-• **id**: [`Wid`](whatsapp.Wid.md)
+• `Optional` **id**: `any`
 
 #### Inherited from
 
@@ -148,17 +92,35 @@ ModelProxy.id
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L24)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L26)
 
 ___
 
-### idClass
+### isFailed
 
-• **idClass**: typeof [`Wid`](whatsapp.Wid.md)
+• `Readonly` **isFailed**: `boolean`
+
+#### Inherited from
+
+ModelProxy.isFailed
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L55)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L43)
+
+___
+
+### isSendFailure
+
+• `Optional` **isSendFailure**: `boolean`
+
+#### Inherited from
+
+ModelProxy.isSendFailure
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L35)
 
 ___
 
@@ -176,48 +138,6 @@ ModelProxy.isState
 
 ___
 
-### labels
-
-• `Optional` **labels**: `string`[]
-
-#### Inherited from
-
-ModelProxy.labels
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L26)
-
-___
-
-### lastReceivedKey
-
-• `Optional` **lastReceivedKey**: [`MsgKey`](whatsapp.MsgKey.md)
-
-#### Inherited from
-
-ModelProxy.lastReceivedKey
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L31)
-
-___
-
-### lastStatus
-
-• `Optional` `Readonly` **lastStatus**: `any`
-
-#### Inherited from
-
-ModelProxy.lastStatus
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L46)
-
-___
-
 ### mirrorMask
 
 • `Readonly` **mirrorMask**: `Object`
@@ -226,27 +146,19 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `change:contact` | `undefined` \| `number` |
-| `change:disableUnreadAnchor` | `number` |
-| `change:expireTimer` | `undefined` \| `number` |
-| `change:expireTs` | `undefined` \| `number` |
-| `change:hasUnread` | `number` |
-| `change:id` | `number` |
-| `change:labels` | `undefined` \| `number` |
-| `change:lastReceivedKey` | `undefined` \| `number` |
-| `change:lastStatus` | `undefined` \| `number` |
-| `change:msgChunks` | `number` |
-| `change:msgsChanged` | `number` |
-| `change:msgsLength` | `number` |
-| `change:pendingMsgs` | `number` |
-| `change:pic` | `undefined` \| `number` |
-| `change:readCount` | `undefined` \| `number` |
-| `change:readKeys` | `undefined` \| `number` |
-| `change:stale` | `undefined` \| `number` |
-| `change:t` | `undefined` \| `number` |
-| `change:totalCount` | `undefined` \| `number` |
-| `change:unreadCount` | `undefined` \| `number` |
-| `change:unreadMsgAnchor` | `number` |
+| `change:ack` | `undefined` \| `number` |
+| `change:id` | `undefined` \| `number` |
+| `change:isFailed` | `number` |
+| `change:isSendFailure` | `undefined` \| `number` |
+| `change:msgKey` | `undefined` \| `number` |
+| `change:orphan` | `undefined` \| `number` |
+| `change:parentMsg` | `undefined` \| `number` |
+| `change:parentMsgKey` | `undefined` \| `number` |
+| `change:reactionText` | `undefined` \| `number` |
+| `change:read` | `undefined` \| `number` |
+| `change:senderObj` | `undefined` \| `number` |
+| `change:senderUserJid` | `undefined` \| `number` |
+| `change:timestamp` | `undefined` \| `number` |
 
 #### Inherited from
 
@@ -258,45 +170,31 @@ ModelProxy.mirrorMask
 
 ___
 
-### msgChunks
+### msgKey
 
-• **msgChunks**: [`MsgLoad`](whatsapp.MsgLoad.md)[]
+• `Optional` **msgKey**: `string`
 
 #### Inherited from
 
-ModelProxy.msgChunks
+ModelProxy.msgKey
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L30)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L27)
 
 ___
 
-### msgsChanged
+### orphan
 
-• **msgsChanged**: `number`
-
-#### Inherited from
-
-ModelProxy.msgsChanged
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L35)
-
-___
-
-### msgsLength
-
-• **msgsLength**: `number`
+• `Optional` **orphan**: `number`
 
 #### Inherited from
 
-ModelProxy.msgsLength
+ModelProxy.orphan
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L34)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L33)
 
 ___
 
@@ -314,31 +212,31 @@ ___
 
 ___
 
-### pendingMsgs
+### parentMsg
 
-• **pendingMsgs**: `boolean`
+• `Optional` `Readonly` **parentMsg**: `any`
 
 #### Inherited from
 
-ModelProxy.pendingMsgs
+ModelProxy.parentMsg
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L25)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L44)
 
 ___
 
-### pic
+### parentMsgKey
 
-• `Optional` **pic**: `any`
+• `Optional` **parentMsgKey**: `string`
 
 #### Inherited from
 
-ModelProxy.pic
+ModelProxy.parentMsgKey
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L32)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L28)
 
 ___
 
@@ -356,101 +254,73 @@ ___
 
 ___
 
-### readCount
+### reactionText
 
-• `Optional` `Readonly` **readCount**: `any`
+• `Optional` **reactionText**: `string`
 
 #### Inherited from
 
-ModelProxy.readCount
+ModelProxy.reactionText
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L45)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L29)
 
 ___
 
-### readKeys
+### read
 
-• `Optional` **readKeys**: `any`
+• `Optional` **read**: `boolean`
 
 #### Inherited from
 
-ModelProxy.readKeys
+ModelProxy.read
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L37)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L32)
 
 ___
 
-### stale
+### senderObj
 
-• `Optional` **stale**: `any`
+• `Optional` **senderObj**: `any`
 
 #### Inherited from
 
-ModelProxy.stale
+ModelProxy.senderObj
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L36)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L39)
 
 ___
 
-### t
+### senderUserJid
 
-• `Optional` **t**: `any`
+• `Optional` **senderUserJid**: `string`
 
 #### Inherited from
 
-ModelProxy.t
+ModelProxy.senderUserJid
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L29)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L31)
 
 ___
 
-### totalCount
+### timestamp
 
-• `Optional` **totalCount**: `any`
-
-#### Inherited from
-
-ModelProxy.totalCount
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L31)
-
-___
-
-### unreadCount
-
-• `Optional` **unreadCount**: `any`
+• `Optional` **timestamp**: `number`
 
 #### Inherited from
 
-ModelProxy.unreadCount
+ModelProxy.timestamp
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L30)
-
-___
-
-### unreadMsgAnchor
-
-• **unreadMsgAnchor**: `any`
-
-#### Inherited from
-
-ModelProxy.unreadMsgAnchor
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L32)
+[packages/wa-js/src/whatsapp/models/ReactionsSendersModel.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ReactionsSendersModel.ts#L30)
 
 ___
 
@@ -523,7 +393,7 @@ ___
 
 ### bind
 
-▸ **bind**(`eventName`, `listener`, `context?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **bind**(`eventName`, `listener`, `context?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Alias of `on`
 
@@ -539,7 +409,7 @@ Alias of `on`
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 
@@ -607,7 +477,7 @@ ___
 
 ### emit
 
-▸ **emit**(`eventName`, ...`args`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **emit**(`eventName`, ...`args`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Alias of `trigger`
 
@@ -622,7 +492,7 @@ Alias of `trigger`
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 
@@ -634,29 +504,15 @@ Alias of `trigger`
 
 ___
 
-### expireMsg
-
-▸ **expireMsg**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L61)
-
-___
-
 ### get
 
-▸ **get**<`T`\>(`attr`): [`StatusV3Model`](whatsapp.StatusV3Model.md)[`T`]
+▸ **get**<`T`\>(`attr`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)[`T`]
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends keyof [`StatusV3Model`](whatsapp.StatusV3Model.md) |
+| `T` | extends keyof [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md) |
 
 #### Parameters
 
@@ -666,7 +522,7 @@ ___
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)[`T`]
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)[`T`]
 
 #### Inherited from
 
@@ -678,48 +534,6 @@ ___
 
 ___
 
-### getAllCMCs
-
-▸ **getAllCMCs**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:68](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L68)
-
-___
-
-### getAllMsgs
-
-▸ **getAllMsgs**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L69)
-
-___
-
-### getCollection
-
-▸ **getCollection**(): [`StatusV3Collection`](whatsapp.StatusV3Collection.md)
-
-#### Returns
-
-[`StatusV3Collection`](whatsapp.StatusV3Collection.md)
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L66)
-
-___
-
 ### getDefault
 
 ▸ **getDefault**<`T`\>(`attr`): `any`
@@ -728,7 +542,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends keyof [`StatusV3Model`](whatsapp.StatusV3Model.md) |
+| `T` | extends keyof [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md) |
 
 #### Parameters
 
@@ -747,26 +561,6 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:94](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L94)
-
-___
-
-### handleReadStatus
-
-▸ **handleReadStatus**(`e?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L64)
 
 ___
 
@@ -874,7 +668,7 @@ ___
 
 ### listenTo
 
-▸ **listenTo**(`context`, `eventName`, `listener?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **listenTo**(`context`, `eventName`, `listener?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Parameters
 
@@ -886,7 +680,7 @@ ___
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 
@@ -900,7 +694,7 @@ ___
 
 ### listenToAndRun
 
-▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Parameters
 
@@ -912,7 +706,7 @@ ___
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 
@@ -926,7 +720,7 @@ ___
 
 ### listenToOnce
 
-▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Parameters
 
@@ -938,7 +732,7 @@ ___
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 
@@ -950,52 +744,9 @@ ___
 
 ___
 
-### loadMore
-
-▸ **loadMore**(`e?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `number` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L63)
-
-___
-
-### notifyMsgCollectionMerge
-
-▸ **notifyMsgCollectionMerge**(`e?`, `t?`, `r?`, `a?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-| `t?` | `any` |
-| `r?` | `any` |
-| `a?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L72)
-
-___
-
 ### off
 
-▸ **off**(`eventName?`, `listener?`, `context?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **off**(`eventName?`, `listener?`, `context?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Removes the specified listener from the listener array for the event named eventName.
 
@@ -1009,7 +760,7 @@ Removes the specified listener from the listener array for the event named event
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -1025,7 +776,7 @@ ___
 
 ### on
 
-▸ **on**(`eventName`, `listener`, `context?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **on**(`eventName`, `listener`, `context?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Adds the listener function to the end of the listeners array for the event named eventName.
 
@@ -1039,7 +790,7 @@ Adds the listener function to the end of the listeners array for the event named
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -1053,23 +804,9 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 ___
 
-### onEmptyMRM
-
-▸ **onEmptyMRM**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L62)
-
-___
-
 ### once
 
-▸ **once**(`eventName`, `listener`, `context?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **once**(`eventName`, `listener`, `context?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Adds a one-time listener function for the event named eventName.
 
@@ -1083,7 +820,7 @@ Adds a one-time listener function for the event named eventName.
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -1099,13 +836,13 @@ ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **removeAllListeners**(): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Removes all listeners.
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -1121,7 +858,7 @@ ___
 
 ### removeListener
 
-▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Alias of `off`
 
@@ -1137,7 +874,7 @@ Alias of `off`
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 
@@ -1146,66 +883,6 @@ Alias of `off`
 #### Defined in
 
 [packages/wa-js/src/whatsapp/misc/EventEmitter.ts:109](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L109)
-
-___
-
-### removeMsg
-
-▸ **removeMsg**(`e?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L67)
-
-___
-
-### removeMsgsCollection
-
-▸ **removeMsgsCollection**(`e?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L71)
-
-___
-
-### replaceMsgsCollection
-
-▸ **replaceMsgsCollection**(`e?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:70](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L70)
 
 ___
 
@@ -1224,27 +901,6 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:92](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L92)
-
-___
-
-### sendReadStatus
-
-▸ **sendReadStatus**(`e?`, `t?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-| `t?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L65)
 
 ___
 
@@ -1290,23 +946,9 @@ ___
 
 ___
 
-### setupStatusExpiration
-
-▸ **setupStatusExpiration**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L60)
-
-___
-
 ### stopListening
 
-▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Parameters
 
@@ -1318,7 +960,7 @@ ___
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 
@@ -1350,7 +992,7 @@ ___
 
 ### trigger
 
-▸ **trigger**(`eventName`, ...`args`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **trigger**(`eventName`, ...`args`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Synchronously calls each of the listeners registered for the event named eventName, in the order they were registered, passing the supplied arguments to each.
 
@@ -1363,7 +1005,7 @@ Synchronously calls each of the listeners registered for the event named eventNa
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -1379,7 +1021,7 @@ ___
 
 ### unbind
 
-▸ **unbind**(`eventName?`, `listener?`, `context?`): [`StatusV3Model`](whatsapp.StatusV3Model.md)
+▸ **unbind**(`eventName?`, `listener?`, `context?`): [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 Alias of `off`
 
@@ -1395,7 +1037,7 @@ Alias of `off`
 
 #### Returns
 
-[`StatusV3Model`](whatsapp.StatusV3Model.md)
+[`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Inherited from
 

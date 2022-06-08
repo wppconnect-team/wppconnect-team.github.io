@@ -1,25 +1,25 @@
 ---
-id: "whatsapp.LiveLocationCollection"
-title: "Class: LiveLocationCollection"
-sidebar_label: "LiveLocationCollection"
+id: "whatsapp.ReactionsCollection"
+title: "Class: ReactionsCollection"
+sidebar_label: "ReactionsCollection"
 custom_edit_url: null
 ---
 
-[whatsapp](../namespaces/whatsapp.md).LiveLocationCollection
+[whatsapp](../namespaces/whatsapp.md).ReactionsCollection
 
-**`whatsapp`** 85865
+**`whatsapp`** 57162
 
 ## Hierarchy
 
-- [`BaseCollection`](whatsapp.BaseCollection.md)<[`LiveLocationModel`](whatsapp.LiveLocationModel.md)\>
+- [`BaseCollection`](whatsapp.BaseCollection.md)<[`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
-  ↳ **`LiveLocationCollection`**
+  ↳ **`ReactionsCollection`**
 
 ## Constructors
 
 ### constructor
 
-• **new LiveLocationCollection**(`e?`, `t?`)
+• **new ReactionsCollection**(`e?`, `t?`)
 
 #### Parameters
 
@@ -41,7 +41,7 @@ custom_edit_url: null
 
 ### findFirst
 
-• **findFirst**: <S\>(`predicate`: (`this`: `void`, `value`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md), `index`: `number`, `obj`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]) => value is S, `thisArg?`: `any`) => `undefined` \| `S`(`predicate`: (`value`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md), `index`: `number`, `obj`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]) => `unknown`, `thisArg?`: `any`) => `undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+• **findFirst**: <S\>(`predicate`: (`this`: `void`, `value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => value is S, `thisArg?`: `any`) => `undefined` \| `S`(`predicate`: (`value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => `unknown`, `thisArg?`: `any`) => `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Type declaration
 
@@ -54,31 +54,31 @@ otherwise.
 
 | Name | Type |
 | :------ | :------ |
-| `S` | extends [`LiveLocationModel`](whatsapp.LiveLocationModel.md)<`S`\> |
+| `S` | extends [`ReactionsModel`](whatsapp.ReactionsModel.md)<`S`\> |
 
 ##### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `predicate` | (`this`: `void`, `value`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md), `index`: `number`, `obj`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined. |
+| `predicate` | (`this`: `void`, `value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined. |
 | `thisArg?` | `any` | If provided, it will be used as the this value for each invocation of predicate. If it is not provided, undefined is used instead. |
 
 ##### Returns
 
 `undefined` \| `S`
 
-▸ (`predicate`, `thisArg?`): `undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ (`predicate`, `thisArg?`): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 ##### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `predicate` | (`value`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md), `index`: `number`, `obj`: [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]) => `unknown` |
+| `predicate` | (`value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => `unknown` |
 | `thisArg?` | `any` |
 
 ##### Returns
 
-`undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -92,7 +92,7 @@ ___
 
 ### modelClass
 
-• **modelClass**: [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+• **modelClass**: [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -154,38 +154,9 @@ ___
 
 ___
 
-### comparator
-
-▪ `Static` **comparator**: (`a`: `any`, `b`: `any`) => `number`
-
-#### Type declaration
-
-▸ (`a`, `b`): `number`
-
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `a` | `any` |
-| `b` | `any` |
-
-##### Returns
-
-`number`
-
-#### Inherited from
-
-[BaseCollection](whatsapp.BaseCollection.md).[comparator](whatsapp.BaseCollection.md#comparator)
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/Collection.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/Collection.ts#L47)
-
-___
-
 ### model
 
-▪ `Static` **model**: [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▪ `Static` **model**: [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Overrides
 
@@ -193,27 +164,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/LiveLocationCollection.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/LiveLocationCollection.ts#L23)
-
-___
-
-### resumeOnAvailable
-
-▪ `Static` `Optional` **resumeOnAvailable**: `any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/LiveLocationCollection.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/LiveLocationCollection.ts#L25)
-
-___
-
-### staleCollection
-
-▪ `Static` `Optional` **staleCollection**: `any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/LiveLocationCollection.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/LiveLocationCollection.ts#L24)
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L23)
 
 ## Accessors
 
@@ -237,18 +188,18 @@ BaseCollection.length
 
 ### add
 
-▸ **add**(`value`, `options?`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+▸ **add**(`value`, `options?`): [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[] \| [`WritableProperties`](../namespaces/util.md#writableproperties)<[`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]\> |
+| `value` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] \| [`WritableProperties`](../namespaces/util.md#writableproperties)<[`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]\> |
 | `options?` | `Option` |
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -260,9 +211,29 @@ BaseCollection.length
 
 ___
 
+### addOrUpdateReaction
+
+▸ **addOrUpdateReaction**(`e?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `e?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L25)
+
+___
+
 ### assertGet
 
-▸ **assertGet**(`e`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ **assertGet**(`e`): [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
@@ -272,7 +243,7 @@ ___
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+[`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -286,7 +257,7 @@ ___
 
 ### at
 
-▸ **at**(`position`): `undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ **at**(`position`): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
@@ -296,7 +267,7 @@ ___
 
 #### Returns
 
-`undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -310,7 +281,7 @@ ___
 
 ### bind
 
-▸ **bind**(`eventName`, `listener`, `context?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **bind**(`eventName`, `listener`, `context?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Alias of `on`
 
@@ -326,7 +297,7 @@ Alias of `on`
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -356,9 +327,29 @@ ___
 
 ___
 
+### deleteReactionsByParentMessageKey
+
+▸ **deleteReactionsByParentMessageKey**(`e?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `e?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L32)
+
+___
+
 ### emit
 
-▸ **emit**(`eventName`, ...`args`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **emit**(`eventName`, ...`args`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Alias of `trigger`
 
@@ -373,7 +364,7 @@ Alias of `trigger`
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -387,7 +378,7 @@ ___
 
 ### find
 
-▸ **find**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`LiveLocationModel`](whatsapp.LiveLocationModel.md)\>
+▸ **find**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
 #### Parameters
 
@@ -400,7 +391,7 @@ ___
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`LiveLocationModel`](whatsapp.LiveLocationModel.md)\>
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
 #### Inherited from
 
@@ -414,7 +405,7 @@ ___
 
 ### findQuery
 
-▸ **findQuery**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)\>
+▸ **findQuery**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
 #### Parameters
 
@@ -427,7 +418,7 @@ ___
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)\>
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
 #### Inherited from
 
@@ -441,17 +432,17 @@ ___
 
 ### gadd
 
-▸ **gadd**(`id`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ **gadd**(`id`): [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `id` | `Stringable` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md) |
+| `id` | `Stringable` \| [`ReactionsModel`](whatsapp.ReactionsModel.md) |
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+[`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -465,17 +456,17 @@ ___
 
 ### gaddUp
 
-▸ **gaddUp**(`id`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ **gaddUp**(`id`): [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `id` | `Stringable` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md) |
+| `id` | `Stringable` \| [`ReactionsModel`](whatsapp.ReactionsModel.md) |
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+[`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -489,7 +480,7 @@ ___
 
 ### get
 
-▸ **get**(`e`): `undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ **get**(`e`): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
@@ -499,7 +490,7 @@ ___
 
 #### Returns
 
-`undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -511,9 +502,30 @@ ___
 
 ___
 
-### getActive
+### getAggregateEmojiAndSender
 
-▸ **getActive**(`e?`): `any`
+▸ **getAggregateEmojiAndSender**(`e?`, `t?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `e?` | `any` |
+| `t?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L27)
+
+___
+
+### getExistingSenderModelFromReactionDetails
+
+▸ **getExistingSenderModelFromReactionDetails**(`e?`): `any`
 
 #### Parameters
 
@@ -527,17 +539,17 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/LiveLocationCollection.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/LiveLocationCollection.ts#L26)
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L29)
 
 ___
 
 ### getModelsArray
 
-▸ **getModelsArray**(): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+▸ **getModelsArray**(): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -557,7 +569,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `values` | [`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[] |
+| `values` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] |
 
 #### Returns
 
@@ -575,11 +587,11 @@ ___
 
 ### head
 
-▸ **head**(): `undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ **head**(): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Returns
 
-`undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -599,7 +611,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `model` | [`LiveLocationModel`](whatsapp.LiveLocationModel.md) |
+| `model` | [`ReactionsModel`](whatsapp.ReactionsModel.md) |
 | `position?` | `number` |
 
 #### Returns
@@ -624,7 +636,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[] |
+| `value` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] |
 
 #### Returns
 
@@ -666,7 +678,7 @@ ___
 
 ### isModel
 
-▸ **isModel**(`model`): model is LiveLocationModel
+▸ **isModel**(`model`): model is ReactionsModel
 
 #### Parameters
 
@@ -676,7 +688,7 @@ ___
 
 #### Returns
 
-model is LiveLocationModel
+model is ReactionsModel
 
 #### Inherited from
 
@@ -714,11 +726,11 @@ ___
 
 ### last
 
-▸ **last**(): `undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+▸ **last**(): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Returns
 
-`undefined` \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -732,7 +744,7 @@ ___
 
 ### listenTo
 
-▸ **listenTo**(`context`, `eventName`, `listener?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **listenTo**(`context`, `eventName`, `listener?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Parameters
 
@@ -744,7 +756,7 @@ ___
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -758,7 +770,7 @@ ___
 
 ### listenToAndRun
 
-▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Parameters
 
@@ -770,7 +782,7 @@ ___
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -784,7 +796,7 @@ ___
 
 ### listenToOnce
 
-▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Parameters
 
@@ -796,7 +808,7 @@ ___
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -808,9 +820,29 @@ ___
 
 ___
 
+### markReactionsAsRead
+
+▸ **markReactionsAsRead**(`e?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `e?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L28)
+
+___
+
 ### off
 
-▸ **off**(`eventName?`, `listener?`, `context?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **off**(`eventName?`, `listener?`, `context?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Removes the specified listener from the listener array for the event named eventName.
 
@@ -824,7 +856,7 @@ Removes the specified listener from the listener array for the event named event
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -840,7 +872,7 @@ ___
 
 ### on
 
-▸ **on**(`eventName`, `listener`, `context?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **on**(`eventName`, `listener`, `context?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Adds the listener function to the end of the listeners array for the event named eventName.
 
@@ -854,7 +886,7 @@ Adds the listener function to the end of the listeners array for the event named
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -870,7 +902,7 @@ ___
 
 ### once
 
-▸ **once**(`eventName`, `listener`, `context?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **once**(`eventName`, `listener`, `context?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Adds a one-time listener function for the event named eventName.
 
@@ -884,7 +916,7 @@ Adds a one-time listener function for the event named eventName.
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -898,43 +930,22 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 ___
 
-### processMsg
-
-▸ **processMsg**(`e?`, `t?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-| `t?` | `boolean` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/LiveLocationCollection.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/LiveLocationCollection.ts#L27)
-
-___
-
 ### remove
 
-▸ **remove**(`value`, `options?`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+▸ **remove**(`value`, `options?`): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[] |
+| `value` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] |
 | `options?` | `Object` |
 | `options.index?` | `boolean` |
 | `options.silent?` | `boolean` |
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -948,13 +959,13 @@ ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **removeAllListeners**(): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Removes all listeners.
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -970,7 +981,7 @@ ___
 
 ### removeListener
 
-▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Alias of `off`
 
@@ -986,7 +997,7 @@ Alias of `off`
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -998,9 +1009,9 @@ Alias of `off`
 
 ___
 
-### removeMsg
+### removeReaction
 
-▸ **removeMsg**(`e?`): `any`
+▸ **removeReaction**(`e?`): `void`
 
 #### Parameters
 
@@ -1010,17 +1021,17 @@ ___
 
 #### Returns
 
-`any`
+`void`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/LiveLocationCollection.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/LiveLocationCollection.ts#L28)
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L26)
 
 ___
 
 ### reorder
 
-▸ **reorder**(`e`, `t`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+▸ **reorder**(`e`, `t`): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
@@ -1031,7 +1042,7 @@ ___
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -1149,18 +1160,18 @@ ___
 
 ### set
 
-▸ **set**(`value`, `options?`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+▸ **set**(`value`, `options?`): [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[] |
+| `value` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] |
 | `options?` | `Option` |
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md) \| [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -1172,9 +1183,29 @@ ___
 
 ___
 
+### shouldUpdateAck
+
+▸ **shouldUpdateAck**(`e?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `e?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L31)
+
+___
+
 ### sort
 
-▸ **sort**(`options?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **sort**(`options?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Parameters
 
@@ -1185,7 +1216,7 @@ ___
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -1199,7 +1230,7 @@ ___
 
 ### stopListening
 
-▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Parameters
 
@@ -1211,7 +1242,7 @@ ___
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -1225,11 +1256,11 @@ ___
 
 ### toArray
 
-▸ **toArray**(): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+▸ **toArray**(): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -1261,7 +1292,7 @@ ___
 
 ### trigger
 
-▸ **trigger**(`eventName`, ...`args`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **trigger**(`eventName`, ...`args`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Synchronously calls each of the listeners registered for the event named eventName, in the order they were registered, passing the supplied arguments to each.
 
@@ -1274,7 +1305,7 @@ Synchronously calls each of the listeners registered for the event named eventNa
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -1290,7 +1321,7 @@ ___
 
 ### unbind
 
-▸ **unbind**(`eventName?`, `listener?`, `context?`): [`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+▸ **unbind**(`eventName?`, `listener?`, `context?`): [`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 Alias of `off`
 
@@ -1306,7 +1337,7 @@ Alias of `off`
 
 #### Returns
 
-[`LiveLocationCollection`](whatsapp.LiveLocationCollection.md)
+[`ReactionsCollection`](whatsapp.ReactionsCollection.md)
 
 #### Inherited from
 
@@ -1320,7 +1351,7 @@ ___
 
 ### update
 
-▸ **update**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`LiveLocationModel`](whatsapp.LiveLocationModel.md)\>
+▸ **update**(`id`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
 #### Parameters
 
@@ -1333,7 +1364,7 @@ ___
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`LiveLocationModel`](whatsapp.LiveLocationModel.md)\>
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
 #### Inherited from
 
@@ -1345,9 +1376,29 @@ ___
 
 ___
 
+### updateFailedPropsForExistingSentReaction
+
+▸ **updateFailedPropsForExistingSentReaction**(`e?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `e?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L30)
+
+___
+
 ### where
 
-▸ **where**(`ids`): [`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+▸ **where**(`ids`): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
@@ -1357,7 +1408,7 @@ ___
 
 #### Returns
 
-[`LiveLocationModel`](whatsapp.LiveLocationModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -1366,3 +1417,21 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/collections/Collection.ts:85](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/Collection.ts#L85)
+
+___
+
+### comparator
+
+▸ `Static` **comparator**(): `any`
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+BaseCollection.comparator
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsCollection.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsCollection.ts#L24)

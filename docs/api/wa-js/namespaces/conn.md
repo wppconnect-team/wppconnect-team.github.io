@@ -11,7 +11,7 @@ custom_edit_url: null
 - [AuthCodeMultiDevice](../interfaces/conn.AuthCodeMultiDevice.md)
 - [AuthCodeSingleDevice](../interfaces/conn.AuthCodeSingleDevice.md)
 
-## Type aliases
+## Type Aliases
 
 ### AuthCode
 
@@ -36,6 +36,50 @@ Return the current auth code
 #### Defined in
 
 [packages/wa-js/src/conn/functions/getAuthCode.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/getAuthCode.ts#L28)
+
+___
+
+### getMyDeviceId
+
+▸ **getMyDeviceId**(): [`Wid`](../classes/whatsapp.Wid.md) \| `undefined`
+
+Return the current logged user ID with device id
+
+**`example`**
+```javascript
+const wid = WPP.conn.getMyDeviceId();
+console.log(wid.toString()); // Output: 123:4@c.us
+```
+
+#### Returns
+
+[`Wid`](../classes/whatsapp.Wid.md) \| `undefined`
+
+#### Defined in
+
+[packages/wa-js/src/conn/functions/getMyDeviceId.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/getMyDeviceId.ts#L28)
+
+___
+
+### getMyUserId
+
+▸ **getMyUserId**(): [`Wid`](../classes/whatsapp.Wid.md) \| `undefined`
+
+Return the current logged user ID without device id
+
+**`example`**
+```javascript
+const wid = WPP.conn.getMyUserId();
+console.log(wid.toString()); // Output: 123@c.us
+```
+
+#### Returns
+
+[`Wid`](../classes/whatsapp.Wid.md) \| `undefined`
+
+#### Defined in
+
+[packages/wa-js/src/conn/functions/getMyUserId.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/getMyUserId.ts#L28)
 
 ___
 
@@ -71,7 +115,7 @@ ___
 
 ▸ **isMainLoaded**(): `boolean`
 
-Check is main interface is loaded and authenticated
+Check is main interface is authenticated and loaded, bot not synced
 
 **`example`**
 ```javascript

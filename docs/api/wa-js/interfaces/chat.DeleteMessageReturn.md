@@ -39,6 +39,16 @@ ___
 
 ___
 
+### isSentByMe
+
+• **isSentByMe**: `boolean`
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/deleteMessage.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/deleteMessage.ts#L27)
+
+___
+
 ### sendMsgResult
 
 • **sendMsgResult**: [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`SendMsgResult`](../enums/whatsapp.enums.SendMsgResult.md)\>

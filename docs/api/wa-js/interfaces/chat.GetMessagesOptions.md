@@ -36,3 +36,13 @@ ___
 #### Defined in
 
 [packages/wa-js/src/chat/functions/getMessages.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getMessages.ts#L26)
+
+___
+
+### onlyUnread
+
+• `Optional` **onlyUnread**: `boolean`
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/getMessages.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getMessages.ts#L27)

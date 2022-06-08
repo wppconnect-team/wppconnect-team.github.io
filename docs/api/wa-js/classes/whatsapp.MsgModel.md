@@ -36,7 +36,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:324](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L324)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:325](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L325)
 
 ## Properties
 
@@ -1130,7 +1130,7 @@ ModelProxy.hasBodyOrFooter
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:313](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L313)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:314](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L314)
 
 ___
 
@@ -1210,7 +1210,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:323](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L323)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:324](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L324)
 
 ___
 
@@ -1224,7 +1224,7 @@ ModelProxy.initialPageSize
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:314](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L314)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:315](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L315)
 
 ___
 
@@ -1662,6 +1662,20 @@ ModelProxy.isRTL
 
 ___
 
+### isRevokedByMe
+
+• `Readonly` **isRevokedByMe**: `boolean`
+
+#### Inherited from
+
+ModelProxy.isRevokedByMe
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:309](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L309)
+
+___
+
 ### isSendFailure
 
 • **isSendFailure**: `boolean`
@@ -1756,7 +1770,7 @@ ModelProxy.isUnreadType
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:309](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L309)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:310](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L310)
 
 ___
 
@@ -1784,7 +1798,7 @@ ModelProxy.isUserCreatedType
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:310](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L310)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:311](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L311)
 
 ___
 
@@ -2055,7 +2069,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:328](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L328)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:329](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L329)
 
 ___
 
@@ -2222,6 +2236,7 @@ ___
 | `change:isQuickReply` | `number` |
 | `change:isQuotedMsgAvailable` | `number` |
 | `change:isRTL` | `number` |
+| `change:isRevokedByMe` | `number` |
 | `change:isSendFailure` | `number` |
 | `change:isSentByMe` | `number` |
 | `change:isSentByMeFromWeb` | `number` |
@@ -2683,7 +2698,7 @@ ModelProxy.productListHeaderImage
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:315](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L315)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:316](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L316)
 
 ___
 
@@ -3257,7 +3272,7 @@ ModelProxy.supportsMessageFooter
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:311](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L311)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:312](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L312)
 
 ___
 
@@ -3271,7 +3286,7 @@ ModelProxy.supportsMessageFooterLinks
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:312](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L312)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:313](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L313)
 
 ___
 
@@ -3722,7 +3737,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:356](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L356)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:357](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L357)
 
 ___
 
@@ -3736,7 +3751,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:366](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L366)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:367](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L367)
 
 ___
 
@@ -3780,7 +3795,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:340](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L340)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:341](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L341)
 
 ___
 
@@ -3794,7 +3809,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:338](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L338)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:339](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L339)
 
 ___
 
@@ -3808,7 +3823,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:339](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L339)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:340](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L340)
 
 ___
 
@@ -3822,7 +3837,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:341](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L341)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:342](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L342)
 
 ___
 
@@ -3836,7 +3851,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:337](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L337)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:338](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L338)
 
 ___
 
@@ -3850,7 +3865,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:370](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L370)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:371](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L371)
 
 ___
 
@@ -3864,7 +3879,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:342](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L342)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:343](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L343)
 
 ___
 
@@ -3878,7 +3893,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:351](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L351)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:352](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L352)
 
 ___
 
@@ -3892,7 +3907,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:353](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L353)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:354](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L354)
 
 ___
 
@@ -3967,7 +3982,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:361](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L361)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:362](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L362)
 
 ___
 
@@ -3987,7 +4002,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:355](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L355)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:356](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L356)
 
 ___
 
@@ -4030,7 +4045,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:349](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L349)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:350](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L350)
 
 ___
 
@@ -4074,7 +4089,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:376](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L376)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:377](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L377)
 
 ___
 
@@ -4118,7 +4133,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:331](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L331)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:332](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L332)
 
 ___
 
@@ -4132,7 +4147,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:373](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L373)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:374](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L374)
 
 ___
 
@@ -4146,7 +4161,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:332](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L332)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:333](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L333)
 
 ___
 
@@ -4160,7 +4175,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:330](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L330)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:331](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L331)
 
 ___
 
@@ -4180,7 +4195,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:329](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L329)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:330](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L330)
 
 ___
 
@@ -4194,7 +4209,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:347](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L347)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:348](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L348)
 
 ___
 
@@ -4208,7 +4223,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:359](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L359)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:360](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L360)
 
 ___
 
@@ -4222,7 +4237,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:333](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L333)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:334](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L334)
 
 ___
 
@@ -4236,7 +4251,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:346](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L346)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:347](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L347)
 
 ___
 
@@ -4250,7 +4265,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:372](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L372)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:373](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L373)
 
 ___
 
@@ -4264,7 +4279,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:371](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L371)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:372](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L372)
 
 ___
 
@@ -4296,7 +4311,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:334](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L334)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:335](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L335)
 
 ___
 
@@ -4370,7 +4385,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:343](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L343)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:344](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L344)
 
 ___
 
@@ -4384,7 +4399,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:377](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L377)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:378](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L378)
 
 ___
 
@@ -4398,7 +4413,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:375](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L375)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:376](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L376)
 
 ___
 
@@ -4412,7 +4427,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:350](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L350)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:351](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L351)
 
 ___
 
@@ -4426,7 +4441,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:344](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L344)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:345](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L345)
 
 ___
 
@@ -4470,7 +4485,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:363](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L363)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:364](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L364)
 
 ___
 
@@ -4490,7 +4505,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:362](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L362)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:363](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L363)
 
 ___
 
@@ -4504,7 +4519,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:345](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L345)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:346](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L346)
 
 ___
 
@@ -4518,7 +4533,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:336](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L336)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:337](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L337)
 
 ___
 
@@ -4610,7 +4625,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:335](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L335)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:336](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L336)
 
 ___
 
@@ -4624,7 +4639,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:364](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L364)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:365](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L365)
 
 ___
 
@@ -4644,7 +4659,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:360](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L360)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:361](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L361)
 
 ___
 
@@ -4718,7 +4733,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:368](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L368)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:369](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L369)
 
 ___
 
@@ -4732,7 +4747,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:369](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L369)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:370](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L370)
 
 ___
 
@@ -4776,7 +4791,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:358](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L358)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:359](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L359)
 
 ___
 
@@ -4842,7 +4857,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:367](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L367)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:368](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L368)
 
 ___
 
@@ -4874,7 +4889,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:348](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L348)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:349](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L349)
 
 ___
 
@@ -4888,7 +4903,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:352](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L352)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:353](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L353)
 
 ___
 
@@ -4902,7 +4917,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:378](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L378)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:379](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L379)
 
 ___
 
@@ -5061,7 +5076,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:379](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L379)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:380](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L380)
 
 ___
 
@@ -5107,7 +5122,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:365](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L365)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:366](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L366)
 
 ___
 
@@ -5127,7 +5142,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:374](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L374)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:375](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L375)
 
 ___
 
@@ -5141,7 +5156,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:354](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L354)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:355](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L355)
 
 ___
 
@@ -5155,7 +5170,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/MsgModel.ts:357](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L357)
+[packages/wa-js/src/whatsapp/models/MsgModel.ts:358](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/MsgModel.ts#L358)
 
 ___
 

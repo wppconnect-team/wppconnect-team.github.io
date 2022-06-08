@@ -11,7 +11,7 @@ custom_edit_url: null
 - [SendStatusOptions](../interfaces/status.SendStatusOptions.md)
 - [TextStatusOptions](../interfaces/status.TextStatusOptions.md)
 
-## Type aliases
+## Type Aliases
 
 ### AllStatusOptions
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/status/functions/sendRawStatus.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L28)
+[packages/wa-js/src/status/functions/sendRawStatus.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L34)
 
 ___
 

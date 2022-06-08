@@ -9,11 +9,11 @@ custom_edit_url: null
 
 **`whatsapp`** 58668
 
-## Enumeration members
+## Enumeration Members
 
 ### AUDIO
 
-• **AUDIO** = `"audio"`
+• **AUDIO**
 
 #### Defined in
 
@@ -23,7 +23,7 @@ ___
 
 ### DOCUMENT
 
-• **DOCUMENT** = `"document"`
+• **DOCUMENT**
 
 #### Defined in
 
@@ -33,7 +33,7 @@ ___
 
 ### IMAGE
 
-• **IMAGE** = `"image"`
+• **IMAGE**
 
 #### Defined in
 
@@ -43,7 +43,7 @@ ___
 
 ### PRODUCT
 
-• **PRODUCT** = `"product"`
+• **PRODUCT**
 
 #### Defined in
 
@@ -53,7 +53,7 @@ ___
 
 ### PTT
 
-• **PTT** = `"ptt"`
+• **PTT**
 
 #### Defined in
 
@@ -63,7 +63,7 @@ ___
 
 ### STICKER
 
-• **STICKER** = `"sticker"`
+• **STICKER**
 
 #### Defined in
 
@@ -73,7 +73,7 @@ ___
 
 ### UNKNOWN
 
-• **UNKNOWN** = `"unknown"`
+• **UNKNOWN**
 
 #### Defined in
 
@@ -83,7 +83,7 @@ ___
 
 ### VIDEO
 
-• **VIDEO** = `"video"`
+• **VIDEO**
 
 #### Defined in
 

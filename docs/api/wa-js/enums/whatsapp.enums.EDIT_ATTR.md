@@ -11,11 +11,11 @@ custom_edit_url: null
 
 **`whatsapp`** 69618 >= 2.2204.13
 
-## Enumeration members
+## Enumeration Members
 
 ### ADMIN\_REVOKE
 
-• **ADMIN\_REVOKE** = `8`
+• **ADMIN\_REVOKE**
 
 #### Defined in
 
@@ -25,7 +25,7 @@ ___
 
 ### SENDER\_REVOKE
 
-• **SENDER\_REVOKE** = `7`
+• **SENDER\_REVOKE**
 
 #### Defined in
 

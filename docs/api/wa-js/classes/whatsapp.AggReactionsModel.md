@@ -1,162 +1,80 @@
 ---
-id: "whatsapp.Model"
-title: "Class: Model<Collection>"
-sidebar_label: "Model"
+id: "whatsapp.AggReactionsModel"
+title: "Class: AggReactionsModel"
+sidebar_label: "AggReactionsModel"
 custom_edit_url: null
 ---
 
-[whatsapp](../namespaces/whatsapp.md).Model
+[whatsapp](../namespaces/whatsapp.md).AggReactionsModel
 
-**`whatsapp`** 11290
-
-## Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Collection` | `undefined` |
+**`whatsapp`** 81130
 
 ## Hierarchy
 
-- [`EventEmitter`](whatsapp.EventEmitter.md)
+- [`ModelProxy`](../namespaces/whatsapp.md#modelproxy)<`Props`, `Session`, `Derived`\>
 
-  ↳ **`Model`**
+- [`Model`](whatsapp.Model.md)
 
-  ↳↳ [`MsgLoadState`](whatsapp.MsgLoadState.md)
-
-  ↳↳ [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
-
-  ↳↳ [`AttachMediaModel`](whatsapp.AttachMediaModel.md)
-
-  ↳↳ [`BlocklistModel`](whatsapp.BlocklistModel.md)
-
-  ↳↳ [`BusinessCategoriesResultModel`](whatsapp.BusinessCategoriesResultModel.md)
-
-  ↳↳ [`BusinessProfileModel`](whatsapp.BusinessProfileModel.md)
-
-  ↳↳ [`CallModel`](whatsapp.CallModel.md)
-
-  ↳↳ [`CallParticipantModel`](whatsapp.CallParticipantModel.md)
-
-  ↳↳ [`CartItemModel`](whatsapp.CartItemModel.md)
-
-  ↳↳ [`CartModel`](whatsapp.CartModel.md)
-
-  ↳↳ [`CatalogModel`](whatsapp.CatalogModel.md)
-
-  ↳↳ [`ChatPreferenceModel`](whatsapp.ChatPreferenceModel.md)
-
-  ↳↳ [`ChatstateModel`](whatsapp.ChatstateModel.md)
-
-  ↳↳ [`ConnModel`](whatsapp.ConnModel.md)
-
-  ↳↳ [`ContactModel`](whatsapp.ContactModel.md)
-
-  ↳↳ [`ConversionTupleModel`](whatsapp.ConversionTupleModel.md)
-
-  ↳↳ [`EmojiVariantModel`](whatsapp.EmojiVariantModel.md)
-
-  ↳↳ [`GroupMetadataModel`](whatsapp.GroupMetadataModel.md)
-
-  ↳↳ [`LabelItemModel`](whatsapp.LabelItemModel.md)
-
-  ↳↳ [`LabelModel`](whatsapp.LabelModel.md)
-
-  ↳↳ [`LiveLocationModel`](whatsapp.LiveLocationModel.md)
-
-  ↳↳ [`LiveLocationParticipantModel`](whatsapp.LiveLocationParticipantModel.md)
-
-  ↳↳ [`MediaDataModel`](whatsapp.MediaDataModel.md)
-
-  ↳↳ [`ModelChatBase`](whatsapp.ModelChatBase.md)
-
-  ↳↳ [`MsgButtonReplyMsgModel`](whatsapp.MsgButtonReplyMsgModel.md)
-
-  ↳↳ [`MsgInfoModel`](whatsapp.MsgInfoModel.md)
-
-  ↳↳ [`MsgModel`](whatsapp.MsgModel.md)
-
-  ↳↳ [`MuteModel`](whatsapp.MuteModel.md)
-
-  ↳↳ [`OrderItemModel`](whatsapp.OrderItemModel.md)
-
-  ↳↳ [`OrderModel`](whatsapp.OrderModel.md)
-
-  ↳↳ [`ParticipantModel`](whatsapp.ParticipantModel.md)
-
-  ↳↳ [`PresenceModel`](whatsapp.PresenceModel.md)
-
-  ↳↳ [`ProductCollModel`](whatsapp.ProductCollModel.md)
-
-  ↳↳ [`ProductImageModel`](whatsapp.ProductImageModel.md)
-
-  ↳↳ [`ProductMessageListModel`](whatsapp.ProductMessageListModel.md)
-
-  ↳↳ [`ProductModel`](whatsapp.ProductModel.md)
-
-  ↳↳ [`ProfilePicThumbModel`](whatsapp.ProfilePicThumbModel.md)
-
-  ↳↳ [`QuickReplyModel`](whatsapp.QuickReplyModel.md)
-
-  ↳↳ [`ReactionsModel`](whatsapp.ReactionsModel.md)
-
-  ↳↳ [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
-
-  ↳↳ [`RecentEmojiModel`](whatsapp.RecentEmojiModel.md)
-
-  ↳↳ [`RecentStickerModel`](whatsapp.RecentStickerModel.md)
-
-  ↳↳ [`ReplyButtonModel`](whatsapp.ReplyButtonModel.md)
-
-  ↳↳ [`SocketModel`](whatsapp.SocketModel.md)
-
-  ↳↳ [`StatusModel`](whatsapp.StatusModel.md)
-
-  ↳↳ [`StatusV3Model`](whatsapp.StatusV3Model.md)
-
-  ↳↳ [`StickerModel`](whatsapp.StickerModel.md)
-
-  ↳↳ [`StickerPackModel`](whatsapp.StickerPackModel.md)
-
-  ↳↳ [`StreamModel`](whatsapp.StreamModel.md)
-
-  ↳↳ [`TemplateButtonModel`](whatsapp.TemplateButtonModel.md)
-
-  ↳↳ [`UnreadMentionModel`](whatsapp.UnreadMentionModel.md)
-
-  ↳↳ [`WebCallModel`](whatsapp.WebCallModel.md)
+  ↳ **`AggReactionsModel`**
 
 ## Constructors
 
 ### constructor
 
-• **new Model**<`Collection`\>(`proterties?`, `options?`)
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Collection` | `undefined` |
+• **new AggReactionsModel**(`proterties?`, `options?`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `proterties?` | `any` |
-| `options?` | `any` |
+| `proterties?` | [`ModelPropertiesContructor`](../namespaces/whatsapp.md#modelpropertiescontructor)<[`AggReactionsModel`](whatsapp.AggReactionsModel.md), `any`\> |
+| `options?` | [`ModelOptions`](../interfaces/whatsapp.ModelOptions.md) |
 
-#### Overrides
+#### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[constructor](whatsapp.EventEmitter.md#constructor)
+[Model](whatsapp.Model.md).[constructor](whatsapp.Model.md#constructor)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:68](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L68)
+[packages/wa-js/src/whatsapp/models/AggReactionsModel.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/AggReactionsModel.ts#L46)
 
 ## Properties
 
+### aggregateEmoji
+
+• `Optional` **aggregateEmoji**: `any`
+
+#### Inherited from
+
+ModelProxy.aggregateEmoji
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/AggReactionsModel.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/AggReactionsModel.ts#L28)
+
+___
+
+### attributes
+
+• `Readonly` **attributes**: `Props` & `Session`
+
+#### Inherited from
+
+ModelProxy.attributes
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/Model.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L25)
+
+___
+
 ### collection
 
-• `Optional` **collection**: `Collection`
+• `Optional` **collection**: `undefined`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[collection](whatsapp.Model.md#collection)
 
 #### Defined in
 
@@ -164,9 +82,77 @@ custom_edit_url: null
 
 ___
 
+### hasReactionByMe
+
+• **hasReactionByMe**: `boolean`
+
+#### Inherited from
+
+ModelProxy.hasReactionByMe
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/AggReactionsModel.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/AggReactionsModel.ts#L29)
+
+___
+
+### id
+
+• `Optional` **id**: `any`
+
+#### Inherited from
+
+ModelProxy.id
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/AggReactionsModel.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/AggReactionsModel.ts#L27)
+
+___
+
+### isState
+
+• `Readonly` **isState**: ``true``
+
+#### Inherited from
+
+ModelProxy.isState
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/Model.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L27)
+
+___
+
+### mirrorMask
+
+• `Readonly` **mirrorMask**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `change:aggregateEmoji` | `undefined` \| `number` |
+| `change:hasReactionByMe` | `number` |
+| `change:id` | `undefined` \| `number` |
+
+#### Inherited from
+
+ModelProxy.mirrorMask
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/Model.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L29)
+
+___
+
 ### parent
 
 • `Optional` **parent**: `any`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[parent](whatsapp.Model.md#parent)
 
 #### Defined in
 
@@ -178,15 +164,33 @@ ___
 
 • **proxyName**: `string`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[proxyName](whatsapp.Model.md#proxyname)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L66)
 
 ___
 
+### senders
+
+• **senders**: [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/AggReactionsModel.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/AggReactionsModel.ts#L50)
+
+___
+
 ### Proxy
 
 ▪ `Static` **Proxy**: `string`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[Proxy](whatsapp.Model.md#proxy)
 
 #### Defined in
 
@@ -198,6 +202,10 @@ ___
 
 ▪ `Static` `Optional` **allowedIds**: `any`[]
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[allowedIds](whatsapp.Model.md#allowedids)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L58)
@@ -207,6 +215,10 @@ ___
 ### idClass
 
 ▪ `Static` `Optional` **idClass**: `any`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[idClass](whatsapp.Model.md#idclass)
 
 #### Defined in
 
@@ -229,6 +241,10 @@ ___
 
 `void`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[addChild](whatsapp.Model.md#addchild)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:78](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L78)
@@ -237,7 +253,7 @@ ___
 
 ### bind
 
-▸ **bind**(`eventName`, `listener`, `context?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **bind**(`eventName`, `listener`, `context?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Alias of `on`
 
@@ -253,11 +269,11 @@ Alias of `on`
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[bind](whatsapp.EventEmitter.md#bind)
+[Model](whatsapp.Model.md).[bind](whatsapp.Model.md#bind)
 
 #### Defined in
 
@@ -273,6 +289,10 @@ ___
 
 `void`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[clear](whatsapp.Model.md#clear)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:88](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L88)
@@ -286,6 +306,10 @@ ___
 #### Returns
 
 `void`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[decObservers](whatsapp.Model.md#decobservers)
 
 #### Defined in
 
@@ -301,6 +325,10 @@ ___
 
 `void`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[delete](whatsapp.Model.md#delete)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:90](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L90)
@@ -309,7 +337,7 @@ ___
 
 ### emit
 
-▸ **emit**(`eventName`, ...`args`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **emit**(`eventName`, ...`args`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Alias of `trigger`
 
@@ -324,11 +352,11 @@ Alias of `trigger`
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[emit](whatsapp.EventEmitter.md#emit)
+[Model](whatsapp.Model.md).[emit](whatsapp.Model.md#emit)
 
 #### Defined in
 
@@ -338,13 +366,13 @@ ___
 
 ### get
 
-▸ **get**<`T`\>(`attr`): [`Model`](whatsapp.Model.md)<`Collection`\>[`T`]
+▸ **get**<`T`\>(`attr`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)[`T`]
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends keyof [`Model`](whatsapp.Model.md)<`Collection`\> |
+| `T` | extends keyof [`AggReactionsModel`](whatsapp.AggReactionsModel.md) |
 
 #### Parameters
 
@@ -354,7 +382,11 @@ ___
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>[`T`]
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)[`T`]
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[get](whatsapp.Model.md#get)
 
 #### Defined in
 
@@ -370,7 +402,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | extends keyof [`Model`](whatsapp.Model.md)<`Collection`\> |
+| `T` | extends keyof [`AggReactionsModel`](whatsapp.AggReactionsModel.md) |
 
 #### Parameters
 
@@ -381,6 +413,10 @@ ___
 #### Returns
 
 `any`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[getDefault](whatsapp.Model.md#getdefault)
 
 #### Defined in
 
@@ -396,6 +432,10 @@ ___
 
 `boolean`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[hasObservers](whatsapp.Model.md#hasobservers)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:76](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L76)
@@ -409,6 +449,10 @@ ___
 #### Returns
 
 `boolean`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[hasUnfiredChanges](whatsapp.Model.md#hasunfiredchanges)
 
 #### Defined in
 
@@ -430,6 +474,10 @@ ___
 
 `void`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[incObservers](whatsapp.Model.md#incobservers)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L72)
@@ -443,6 +491,10 @@ ___
 #### Returns
 
 `void`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[initialize](whatsapp.Model.md#initialize)
 
 #### Defined in
 
@@ -466,7 +518,7 @@ ___
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[isListening](whatsapp.EventEmitter.md#islistening)
+[Model](whatsapp.Model.md).[isListening](whatsapp.Model.md#islistening)
 
 #### Defined in
 
@@ -476,7 +528,7 @@ ___
 
 ### listenTo
 
-▸ **listenTo**(`context`, `eventName`, `listener?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **listenTo**(`context`, `eventName`, `listener?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Parameters
 
@@ -488,11 +540,11 @@ ___
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[listenTo](whatsapp.EventEmitter.md#listento)
+[Model](whatsapp.Model.md).[listenTo](whatsapp.Model.md#listento)
 
 #### Defined in
 
@@ -502,7 +554,7 @@ ___
 
 ### listenToAndRun
 
-▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Parameters
 
@@ -514,11 +566,11 @@ ___
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[listenToAndRun](whatsapp.EventEmitter.md#listentoandrun)
+[Model](whatsapp.Model.md).[listenToAndRun](whatsapp.Model.md#listentoandrun)
 
 #### Defined in
 
@@ -528,7 +580,7 @@ ___
 
 ### listenToOnce
 
-▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Parameters
 
@@ -540,11 +592,11 @@ ___
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[listenToOnce](whatsapp.EventEmitter.md#listentoonce)
+[Model](whatsapp.Model.md).[listenToOnce](whatsapp.Model.md#listentoonce)
 
 #### Defined in
 
@@ -554,7 +606,7 @@ ___
 
 ### off
 
-▸ **off**(`eventName?`, `listener?`, `context?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **off**(`eventName?`, `listener?`, `context?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Removes the specified listener from the listener array for the event named eventName.
 
@@ -568,13 +620,13 @@ Removes the specified listener from the listener array for the event named event
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[off](whatsapp.EventEmitter.md#off)
+[Model](whatsapp.Model.md).[off](whatsapp.Model.md#off)
 
 #### Defined in
 
@@ -584,7 +636,7 @@ ___
 
 ### on
 
-▸ **on**(`eventName`, `listener`, `context?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **on**(`eventName`, `listener`, `context?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Adds the listener function to the end of the listeners array for the event named eventName.
 
@@ -598,13 +650,13 @@ Adds the listener function to the end of the listeners array for the event named
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[on](whatsapp.EventEmitter.md#on)
+[Model](whatsapp.Model.md).[on](whatsapp.Model.md#on)
 
 #### Defined in
 
@@ -614,7 +666,7 @@ ___
 
 ### once
 
-▸ **once**(`eventName`, `listener`, `context?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **once**(`eventName`, `listener`, `context?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Adds a one-time listener function for the event named eventName.
 
@@ -628,13 +680,13 @@ Adds a one-time listener function for the event named eventName.
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[once](whatsapp.EventEmitter.md#once)
+[Model](whatsapp.Model.md).[once](whatsapp.Model.md#once)
 
 #### Defined in
 
@@ -644,19 +696,19 @@ ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **removeAllListeners**(): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Removes all listeners.
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[removeAllListeners](whatsapp.EventEmitter.md#removealllisteners)
+[Model](whatsapp.Model.md).[removeAllListeners](whatsapp.Model.md#removealllisteners)
 
 #### Defined in
 
@@ -666,7 +718,7 @@ ___
 
 ### removeListener
 
-▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Alias of `off`
 
@@ -682,11 +734,11 @@ Alias of `off`
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[removeListener](whatsapp.EventEmitter.md#removelistener)
+[Model](whatsapp.Model.md).[removeListener](whatsapp.Model.md#removelistener)
 
 #### Defined in
 
@@ -702,9 +754,31 @@ ___
 
 `void`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[reset](whatsapp.Model.md#reset)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:92](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L92)
+
+___
+
+### serialize
+
+▸ **serialize**(): `Props`
+
+#### Returns
+
+`Props`
+
+#### Inherited from
+
+ModelProxy.serialize
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/Model.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L35)
 
 ___
 
@@ -722,6 +796,10 @@ ___
 
 `any`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[set](whatsapp.Model.md#set)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:82](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L82)
@@ -730,7 +808,7 @@ ___
 
 ### stopListening
 
-▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Parameters
 
@@ -742,11 +820,11 @@ ___
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[stopListening](whatsapp.EventEmitter.md#stoplistening)
+[Model](whatsapp.Model.md).[stopListening](whatsapp.Model.md#stoplistening)
 
 #### Defined in
 
@@ -754,9 +832,27 @@ ___
 
 ___
 
+### toJSON
+
+▸ **toJSON**(): `Props`
+
+#### Returns
+
+`Props`
+
+#### Inherited from
+
+ModelProxy.toJSON
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/Model.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L33)
+
+___
+
 ### trigger
 
-▸ **trigger**(`eventName`, ...`args`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **trigger**(`eventName`, ...`args`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Synchronously calls each of the listeners registered for the event named eventName, in the order they were registered, passing the supplied arguments to each.
 
@@ -769,13 +865,13 @@ Synchronously calls each of the listeners registered for the event named eventNa
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[trigger](whatsapp.EventEmitter.md#trigger)
+[Model](whatsapp.Model.md).[trigger](whatsapp.Model.md#trigger)
 
 #### Defined in
 
@@ -785,7 +881,7 @@ ___
 
 ### unbind
 
-▸ **unbind**(`eventName?`, `listener?`, `context?`): [`Model`](whatsapp.Model.md)<`Collection`\>
+▸ **unbind**(`eventName?`, `listener?`, `context?`): [`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 Alias of `off`
 
@@ -801,11 +897,11 @@ Alias of `off`
 
 #### Returns
 
-[`Model`](whatsapp.Model.md)<`Collection`\>
+[`AggReactionsModel`](whatsapp.AggReactionsModel.md)
 
 #### Inherited from
 
-[EventEmitter](whatsapp.EventEmitter.md).[unbind](whatsapp.EventEmitter.md#unbind)
+[Model](whatsapp.Model.md).[unbind](whatsapp.Model.md#unbind)
 
 #### Defined in
 
@@ -828,6 +924,10 @@ ___
 
 `void`
 
+#### Inherited from
+
+[Model](whatsapp.Model.md).[unset](whatsapp.Model.md#unset)
+
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/Model.ts:86](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L86)
@@ -847,6 +947,10 @@ ___
 #### Returns
 
 `boolean`
+
+#### Inherited from
+
+[Model](whatsapp.Model.md).[isIdType](whatsapp.Model.md#isidtype)
 
 #### Defined in
 

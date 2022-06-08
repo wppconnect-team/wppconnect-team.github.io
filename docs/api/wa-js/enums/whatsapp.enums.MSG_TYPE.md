@@ -11,11 +11,11 @@ custom_edit_url: null
 
 **`whatsapp`** 69618 >= 2.2204.13
 
-## Enumeration members
+## Enumeration Members
 
 ### AUDIO
 
-• **AUDIO** = `"audio"`
+• **AUDIO**
 
 #### Defined in
 
@@ -25,7 +25,7 @@ ___
 
 ### BROADCAST\_NOTIFICATION
 
-• **BROADCAST\_NOTIFICATION** = `"broadcast_notification"`
+• **BROADCAST\_NOTIFICATION**
 
 #### Defined in
 
@@ -35,7 +35,7 @@ ___
 
 ### BUTTONS\_RESPONSE
 
-• **BUTTONS\_RESPONSE** = `"buttons_response"`
+• **BUTTONS\_RESPONSE**
 
 #### Defined in
 
@@ -45,7 +45,7 @@ ___
 
 ### CALL\_LOG
 
-• **CALL\_LOG** = `"call_log"`
+• **CALL\_LOG**
 
 #### Defined in
 
@@ -55,7 +55,7 @@ ___
 
 ### CHAT
 
-• **CHAT** = `"chat"`
+• **CHAT**
 
 #### Defined in
 
@@ -65,7 +65,7 @@ ___
 
 ### CIPHERTEXT
 
-• **CIPHERTEXT** = `"ciphertext"`
+• **CIPHERTEXT**
 
 #### Defined in
 
@@ -75,7 +75,7 @@ ___
 
 ### DOCUMENT
 
-• **DOCUMENT** = `"document"`
+• **DOCUMENT**
 
 #### Defined in
 
@@ -85,7 +85,7 @@ ___
 
 ### E2E\_NOTIFICATION
 
-• **E2E\_NOTIFICATION** = `"e2e_notification"`
+• **E2E\_NOTIFICATION**
 
 #### Defined in
 
@@ -95,7 +95,7 @@ ___
 
 ### GP2
 
-• **GP2** = `"gp2"`
+• **GP2**
 
 #### Defined in
 
@@ -105,7 +105,7 @@ ___
 
 ### GROUPS\_V4\_INVITE
 
-• **GROUPS\_V4\_INVITE** = `"groups_v4_invite"`
+• **GROUPS\_V4\_INVITE**
 
 #### Defined in
 
@@ -115,7 +115,7 @@ ___
 
 ### GROUP\_NOTIFICATION
 
-• **GROUP\_NOTIFICATION** = `"group_notification"`
+• **GROUP\_NOTIFICATION**
 
 #### Defined in
 
@@ -125,7 +125,7 @@ ___
 
 ### HSM
 
-• **HSM** = `"hsm"`
+• **HSM**
 
 #### Defined in
 
@@ -135,7 +135,7 @@ ___
 
 ### IMAGE
 
-• **IMAGE** = `"image"`
+• **IMAGE**
 
 #### Defined in
 
@@ -145,7 +145,7 @@ ___
 
 ### INTERACTIVE
 
-• **INTERACTIVE** = `"interactive"`
+• **INTERACTIVE**
 
 #### Defined in
 
@@ -155,7 +155,7 @@ ___
 
 ### LIST
 
-• **LIST** = `"list"`
+• **LIST**
 
 #### Defined in
 
@@ -165,7 +165,7 @@ ___
 
 ### LIST\_RESPONSE
 
-• **LIST\_RESPONSE** = `"list_response"`
+• **LIST\_RESPONSE**
 
 #### Defined in
 
@@ -175,7 +175,7 @@ ___
 
 ### LOCATION
 
-• **LOCATION** = `"location"`
+• **LOCATION**
 
 #### Defined in
 
@@ -185,7 +185,7 @@ ___
 
 ### MULTI\_VCARD
 
-• **MULTI\_VCARD** = `"multi_vcard"`
+• **MULTI\_VCARD**
 
 #### Defined in
 
@@ -195,7 +195,7 @@ ___
 
 ### NATIVE\_FLOW
 
-• **NATIVE\_FLOW** = `"native_flow"`
+• **NATIVE\_FLOW**
 
 #### Defined in
 
@@ -205,7 +205,7 @@ ___
 
 ### NOTIFICATION
 
-• **NOTIFICATION** = `"notification"`
+• **NOTIFICATION**
 
 #### Defined in
 
@@ -215,7 +215,7 @@ ___
 
 ### NOTIFICATION\_TEMPLATE
 
-• **NOTIFICATION\_TEMPLATE** = `"notification_template"`
+• **NOTIFICATION\_TEMPLATE**
 
 #### Defined in
 
@@ -225,7 +225,7 @@ ___
 
 ### ORDER
 
-• **ORDER** = `"order"`
+• **ORDER**
 
 #### Defined in
 
@@ -235,7 +235,7 @@ ___
 
 ### OVERSIZED
 
-• **OVERSIZED** = `"oversized"`
+• **OVERSIZED**
 
 #### Defined in
 
@@ -245,7 +245,7 @@ ___
 
 ### PAYMENT
 
-• **PAYMENT** = `"payment"`
+• **PAYMENT**
 
 #### Defined in
 
@@ -255,7 +255,7 @@ ___
 
 ### PRODUCT
 
-• **PRODUCT** = `"product"`
+• **PRODUCT**
 
 #### Defined in
 
@@ -265,7 +265,7 @@ ___
 
 ### PROTOCOL
 
-• **PROTOCOL** = `"protocol"`
+• **PROTOCOL**
 
 #### Defined in
 
@@ -275,7 +275,7 @@ ___
 
 ### PTT
 
-• **PTT** = `"ptt"`
+• **PTT**
 
 #### Defined in
 
@@ -285,7 +285,7 @@ ___
 
 ### REACTION
 
-• **REACTION** = `"reaction"`
+• **REACTION**
 
 #### Defined in
 
@@ -295,7 +295,7 @@ ___
 
 ### REVOKED
 
-• **REVOKED** = `"revoked"`
+• **REVOKED**
 
 #### Defined in
 
@@ -305,7 +305,7 @@ ___
 
 ### STICKER
 
-• **STICKER** = `"sticker"`
+• **STICKER**
 
 #### Defined in
 
@@ -315,7 +315,7 @@ ___
 
 ### TEMPLATE\_BUTTON\_REPLY
 
-• **TEMPLATE\_BUTTON\_REPLY** = `"template_button_reply"`
+• **TEMPLATE\_BUTTON\_REPLY**
 
 #### Defined in
 
@@ -325,7 +325,7 @@ ___
 
 ### UNKNOWN
 
-• **UNKNOWN** = `"unknown"`
+• **UNKNOWN**
 
 #### Defined in
 
@@ -335,7 +335,7 @@ ___
 
 ### VCARD
 
-• **VCARD** = `"vcard"`
+• **VCARD**
 
 #### Defined in
 
@@ -345,7 +345,7 @@ ___
 
 ### VIDEO
 
-• **VIDEO** = `"video"`
+• **VIDEO**
 
 #### Defined in
 

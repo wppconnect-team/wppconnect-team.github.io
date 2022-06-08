@@ -18,7 +18,7 @@ custom_edit_url: null
 - [StatusEventTypes](../interfaces/ev.StatusEventTypes.md)
 - [WebpackEvents](../interfaces/ev.WebpackEvents.md)
 
-## Type aliases
+## Type Aliases
 
 ### EventTypes
 
@@ -52,7 +52,7 @@ ___
 
 ### addListener
 
-▸ **addListener**<`Name`\>(`event`, `listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\> \| `Listener`
+▸ **addListener**<`Name`\>(`event`, `listener`): `Listener` \| [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Type parameters
 
@@ -69,7 +69,7 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\> \| `Listener`
+`Listener` \| [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 

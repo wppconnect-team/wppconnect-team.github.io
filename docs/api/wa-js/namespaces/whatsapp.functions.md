@@ -12,6 +12,7 @@ custom_edit_url: null
 - [LinkPreviewResult](../interfaces/whatsapp.functions.LinkPreviewResult.md)
 - [MsgFindQueryParams](../interfaces/whatsapp.functions.MsgFindQueryParams.md)
 - [QueryGroupInviteResult](../interfaces/whatsapp.functions.QueryGroupInviteResult.md)
+- [ReactionData](../interfaces/whatsapp.functions.ReactionData.md)
 - [SimpleAckData](../interfaces/whatsapp.functions.SimpleAckData.md)
 - [ThumbnailData](../interfaces/whatsapp.functions.ThumbnailData.md)
 
@@ -170,6 +171,28 @@ ___
 
 ___
 
+### createOrUpdateReactions
+
+▸ **createOrUpdateReactions**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+**`whatsapp`** 7394
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`ReactionData`](../interfaces/whatsapp.functions.ReactionData.md)[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/createOrUpdateReactions.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/createOrUpdateReactions.ts#L31)
+
+___
+
 ### deleteProducts
 
 ▸ **deleteProducts**(`productIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
@@ -236,6 +259,51 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/functions/products.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L31)
+
+___
+
+### encryptAndSendGroupMsg
+
+▸ **encryptAndSendGroupMsg**(`message`, `protobuf`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+**`whatsapp`** 51974
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `message` | [`MsgModel`](../classes/whatsapp.MsgModel.md) |
+| `protobuf` | `any` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/encryptAndSendGroupMsg.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/encryptAndSendGroupMsg.ts#L23)
+
+___
+
+### encryptAndSendMsg
+
+▸ **encryptAndSendMsg**(`message`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+**`whatsapp`** 95547
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `message` | [`MsgModel`](../classes/whatsapp.MsgModel.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/encryptAndSendMsg.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/encryptAndSendMsg.ts#L23)
 
 ___
 
@@ -370,6 +438,51 @@ ___
 
 ___
 
+### getFanOutList
+
+▸ **getFanOutList**(`param`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`Wid`](../classes/whatsapp.Wid.md)[]\>
+
+**`whatsapp`** 16104
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `param` | `Object` |
+| `param.wids` | [`Wid`](../classes/whatsapp.Wid.md)[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`Wid`](../classes/whatsapp.Wid.md)[]\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/getFanOutList.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getFanOutList.ts#L23)
+
+___
+
+### getGroupSenderKeyList
+
+▸ **getGroupSenderKeyList**(`wid`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `rotateKey`: `boolean` ; `skDistribList`: [`Wid`](../classes/whatsapp.Wid.md)[] ; `skList`: [`Wid`](../classes/whatsapp.Wid.md)[]  }\>
+
+**`whatsapp`** 43201
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `wid` | [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `rotateKey`: `boolean` ; `skDistribList`: [`Wid`](../classes/whatsapp.Wid.md)[] ; `skList`: [`Wid`](../classes/whatsapp.Wid.md)[]  }\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/getGroupSenderKeyList.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getGroupSenderKeyList.ts#L23)
+
+___
+
 ### getOrGenerate
 
 ▸ **getOrGenerate**(): `string`
@@ -378,13 +491,15 @@ ___
 
 **`whatsapp`** 16413 >= 2.2204.13
 
+**`whatsapp`** 66333 >= 2.2218.4
+
 #### Returns
 
 `string`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/getOrGenerate.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getOrGenerate.ts#L22)
+[packages/wa-js/src/whatsapp/functions/getOrGenerate.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getOrGenerate.ts#L23)
 
 ___
 
@@ -597,6 +712,8 @@ ___
 
 **`whatsapp`** 95318
 
+**`whatsapp`** 58853 >= 2.2218.4
+
 #### Parameters
 
 | Name | Type |
@@ -609,7 +726,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/mediaTypeFromProtobuf.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/mediaTypeFromProtobuf.ts#L20)
+[packages/wa-js/src/whatsapp/functions/mediaTypeFromProtobuf.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/mediaTypeFromProtobuf.ts#L22)
 
 ___
 
@@ -1102,6 +1219,30 @@ ___
 
 ___
 
+### setArchive
+
+▸ **setArchive**(`chat`, `archive`, `id?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+**`whatsapp`** 59992
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `chat` | [`ChatModel`](../classes/whatsapp.ChatModel.md) |
+| `archive` | `boolean` |
+| `id?` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/setArchive.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setArchive.ts#L23)
+
+___
+
 ### setMyStatus
 
 ▸ **setMyStatus**(`status`, `seqId?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `status`: `number`  }\>
@@ -1124,6 +1265,29 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/functions/status.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L31)
+
+___
+
+### setPin
+
+▸ **setPin**(`chat`, `pin`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+**`whatsapp`** 10236
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `chat` | [`ChatModel`](../classes/whatsapp.ChatModel.md) |
+| `pin` | `boolean` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/setPin.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setPin.ts#L23)
 
 ___
 

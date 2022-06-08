@@ -6,6 +6,20 @@ sidebar_position: 0
 custom_edit_url: null
 ---
 
+## Interfaces
+
+- [ContactListOptions](../interfaces/contact.ContactListOptions.md)
+
+## Chat Functions
+
+- [getProfilePictureUrl](contact.md#getprofilepictureurl)
+- [getStatus](contact.md#getstatus)
+- [queryExists](contact.md#queryexists)
+
+## Contact Functions
+
+- [list](contact.md#list)
+
 ## Chat Functions
 
 ### getProfilePictureUrl
@@ -90,3 +104,45 @@ console.log(result.wid); // Correct ID
 #### Defined in
 
 [packages/wa-js/src/contact/functions/queryExists.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/functions/queryExists.ts#L55)
+
+___
+
+## Contact Functions
+
+### list
+
+▸ **list**(`options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ContactModel`](../classes/whatsapp.ContactModel.md)[]\>
+
+Return a list of contacts
+
+**`example`**
+```javascript
+// All contacts
+const contats = await WPP.contact.list();
+
+// Only my contacts
+const contacts = await WPP.contact.list({onlyMyContacts: true});
+
+// Only with label Text
+const contacts = await WPP.contact.list({withLabels: ['Test']});
+
+// Only with label id
+const contacts = await WPP.contact.list({withLabels: ['1']});
+
+// Only with label with one of text or id
+const contacts = await WPP.contact.list({withLabels: ['Alfa','5']});
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `options` | [`ContactListOptions`](../interfaces/contact.ContactListOptions.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ContactModel`](../classes/whatsapp.ContactModel.md)[]\>
+
+#### Defined in
+
+[packages/wa-js/src/contact/functions/list.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/functions/list.ts#L47)

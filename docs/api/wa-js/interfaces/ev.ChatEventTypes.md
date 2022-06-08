@@ -134,6 +134,38 @@ WPP.on('chat.new_message', (msg) => {
 
 ___
 
+### chat.new\_reaction
+
+• **chat.new\_reaction**: `Object`
+
+Triggered when a new reaction is received
+
+**`example`**
+```javascript
+WPP.on('chat.new_reaction', (msg) => {
+  // Your code
+});
+```
+
+#### Type declaration
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | [`MsgKey`](../classes/whatsapp.MsgKey.md) | Reaction ID |
+| `msgId` | [`MsgKey`](../classes/whatsapp.MsgKey.md) | Message ID that received the reaction |
+| `orphan` | `number` | - |
+| `orphanReason` | `any` | - |
+| `reactionText` | `string` | The reaction emoji or empty if removed |
+| `read` | `boolean` | - |
+| `sender` | [`Wid`](../classes/whatsapp.Wid.md) | - |
+| `timestamp` | `number` | - |
+
+#### Defined in
+
+[packages/wa-js/src/chat/events/eventTypes.ts:104](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/events/eventTypes.ts#L104)
+
+___
+
 ### chat.presence\_change
 
 • **chat.presence\_change**: `Object`
@@ -156,4 +188,4 @@ On presence change
 
 #### Defined in
 
-[packages/wa-js/src/chat/events/eventTypes.ts:96](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/events/eventTypes.ts#L96)
+[packages/wa-js/src/chat/events/eventTypes.ts:127](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/events/eventTypes.ts#L127)

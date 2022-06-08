@@ -7,11 +7,11 @@ custom_edit_url: null
 
 [group](../namespaces/group.md).GroupProperty
 
-## Enumeration members
+## Enumeration Members
 
 ### ANNOUNCEMENT
 
-• **ANNOUNCEMENT** = `"announcement"`
+• **ANNOUNCEMENT**
 
 #### Defined in
 
@@ -21,7 +21,7 @@ ___
 
 ### EPHEMERAL
 
-• **EPHEMERAL** = `"ephemeral"`
+• **EPHEMERAL**
 
 #### Defined in
 
@@ -31,7 +31,7 @@ ___
 
 ### RESTRICT
 
-• **RESTRICT** = `"restrict"`
+• **RESTRICT**
 
 #### Defined in
 

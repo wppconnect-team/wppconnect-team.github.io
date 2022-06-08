@@ -9,11 +9,11 @@ custom_edit_url: null
 
 **`whatsapp`** 13705
 
-## Enumeration members
+## Enumeration Members
 
 ### ERROR\_CANCELLED
 
-• **ERROR\_CANCELLED** = `"ERROR_CANCELLED"`
+• **ERROR\_CANCELLED**
 
 #### Defined in
 
@@ -23,7 +23,7 @@ ___
 
 ### ERROR\_EXPIRED
 
-• **ERROR\_EXPIRED** = `"ERROR_EXPIRED"`
+• **ERROR\_EXPIRED**
 
 #### Defined in
 
@@ -33,7 +33,7 @@ ___
 
 ### ERROR\_NETWORK
 
-• **ERROR\_NETWORK** = `"ERROR_NETWORK"`
+• **ERROR\_NETWORK**
 
 #### Defined in
 
@@ -43,7 +43,7 @@ ___
 
 ### ERROR\_UNKNOWN
 
-• **ERROR\_UNKNOWN** = `"ERROR_UNKNOWN"`
+• **ERROR\_UNKNOWN**
 
 #### Defined in
 
@@ -53,7 +53,7 @@ ___
 
 ### ERROR\_UPLOAD
 
-• **ERROR\_UPLOAD** = `"ERROR_UPLOAD"`
+• **ERROR\_UPLOAD**
 
 #### Defined in
 
@@ -63,7 +63,7 @@ ___
 
 ### OK
 
-• **OK** = `"OK"`
+• **OK**
 
 #### Defined in
 

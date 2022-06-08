@@ -10,6 +10,7 @@ custom_edit_url: null
 
 - [AudioMessageOptions](../interfaces/chat.AudioMessageOptions.md)
 - [AutoDetectMessageOptions](../interfaces/chat.AutoDetectMessageOptions.md)
+- [ChatListOptions](../interfaces/chat.ChatListOptions.md)
 - [DeleteMessageReturn](../interfaces/chat.DeleteMessageReturn.md)
 - [DocumentMessageOptions](../interfaces/chat.DocumentMessageOptions.md)
 - [FileMessageOptions](../interfaces/chat.FileMessageOptions.md)
@@ -28,11 +29,13 @@ custom_edit_url: null
 
 ## Chat Functions
 
+- [archive](chat.md#archive)
 - [canMute](chat.md#canmute)
 - [clear](chat.md#clear)
 - [delete](chat.md#delete)
 - [find](chat.md#find)
 - [get](chat.md#get)
+- [list](chat.md#list)
 - [markIsComposing](chat.md#markiscomposing)
 - [markIsPaused](chat.md#markispaused)
 - [markIsRead](chat.md#markisread)
@@ -42,7 +45,10 @@ custom_edit_url: null
 - [openChatAt](chat.md#openchatat)
 - [openChatBottom](chat.md#openchatbottom)
 - [openChatFromUnread](chat.md#openchatfromunread)
+- [pin](chat.md#pin)
+- [unarchive](chat.md#unarchive)
 - [unmute](chat.md#unmute)
+- [unpin](chat.md#unpin)
 
 ## Message Functions
 
@@ -51,6 +57,7 @@ custom_edit_url: null
 - [generateMessageID](chat.md#generatemessageid)
 - [getMessageById](chat.md#getmessagebyid)
 - [getMessages](chat.md#getmessages)
+- [sendCreatePollMessage](chat.md#sendcreatepollmessage)
 - [sendFileMessage](chat.md#sendfilemessage)
 - [sendListMessage](chat.md#sendlistmessage)
 - [sendLocationMessage](chat.md#sendlocationmessage)
@@ -60,7 +67,7 @@ custom_edit_url: null
 - [sendVCardContactMessage](chat.md#sendvcardcontactmessage)
 - [starMessage](chat.md#starmessage)
 
-## Type aliases
+## Type Aliases
 
 ### AllMessageOptions
 
@@ -69,6 +76,16 @@ custom_edit_url: null
 #### Defined in
 
 [packages/wa-js/src/chat/defaultSendMessageOptions.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/defaultSendMessageOptions.ts#L24)
+
+___
+
+### PoolMessageOptions
+
+Ƭ **PoolMessageOptions**: [`SendMessageOptions`](../interfaces/chat.SendMessageOptions.md)
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/sendCreatePollMessage.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendCreatePollMessage.ts#L25)
 
 ___
 
@@ -101,6 +118,40 @@ ___
 [packages/wa-js/src/chat/defaultSendMessageOptions.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/defaultSendMessageOptions.ts#L29)
 
 ## Chat Functions
+
+### archive
+
+▸ **archive**(`chatId`, `archive?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `archive`: `boolean` ; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+Archive a chat
+
+**`example`**
+```javascript
+// Archive a chat
+WPP.chat.archive('[number]@c.us');
+
+// Unarchive a chat
+WPP.chat.archive('[number]@c.us', false);
+// or
+WPP.chat.unarchive('[number]@c.us');
+```
+
+#### Parameters
+
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `chatId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) | `undefined` |
+| `archive` | `boolean` | `true` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `archive`: `boolean` ; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/archive.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/archive.ts#L37)
+
+___
 
 ### canMute
 
@@ -217,6 +268,49 @@ Find a chat by id
 #### Defined in
 
 [packages/wa-js/src/chat/functions/get.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/get.ts#L25)
+
+___
+
+### list
+
+▸ **list**(`options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)[]\>
+
+Return a list of chats
+
+**`example`**
+```javascript
+// All chats
+const chats = await WPP.chat.list();
+
+// Only users chats
+const chats = await WPP.chat.list({onlyUsers: true});
+
+// Only groups chats
+const chats = await WPP.chat.list({onlyGroups: true});
+
+// Only with label Text
+const chats = await WPP.chat.list({withLabels: ['Test']});
+
+// Only with label id
+const chats = await WPP.chat.list({withLabels: ['1']});
+
+// Only with label with one of text or id
+const chats = await WPP.chat.list({withLabels: ['Alfa','5']});
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `options` | [`ChatListOptions`](../interfaces/chat.ChatListOptions.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)[]\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/list.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/list.ts#L52)
 
 ___
 
@@ -490,6 +584,73 @@ await WPP.chat.openChatFromUnread('[number]@c.us');
 
 ___
 
+### pin
+
+▸ **pin**(`chatId`, `pin?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `pin`: `boolean` = pin; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+Pin a chat
+
+**`example`**
+```javascript
+// Pin a chat
+WPP.chat.pin('[number]@c.us');
+
+// Unpin a chat
+WPP.chat.pin('[number]@c.us', false);
+// or
+WPP.chat.unpin('[number]@c.us');
+```
+
+#### Parameters
+
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `chatId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) | `undefined` |
+| `pin` | `boolean` | `true` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `pin`: `boolean` = pin; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/pin.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/pin.ts#L37)
+
+___
+
+### unarchive
+
+▸ **unarchive**(`chatId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `archive`: `boolean` ; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+Unarchive a chat
+
+**`alias`** archive
+
+**`example`**
+```javascript
+// Unarchive a chat
+WPP.chat.unarchive('[number]@c.us');
+
+// Alias for
+WPP.chat.archive('[number]@c.us', false);
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `chatId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `archive`: `boolean` ; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/archive.ts:75](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/archive.ts#L75)
+
+___
+
 ### unmute
 
 ▸ **unmute**(`chatId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
@@ -517,6 +678,39 @@ WPP.chat.unmute('[number]@c.us');
 
 ___
 
+### unpin
+
+▸ **unpin**(`chatId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `pin`: `boolean` = pin; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+Unpin a chat
+
+**`alias`** pin
+
+**`example`**
+```javascript
+// Unpin a chat
+WPP.chat.unpin('[number]@c.us');
+
+// Alias for
+WPP.chat.pin('[number]@c.us', false);
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `chatId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `pin`: `boolean` = pin; `wid`: [`Wid`](../classes/whatsapp.Wid.md)  }\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/pin.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/pin.ts#L73)
+
+___
+
 ## Message Functions
 
 ### deleteMessage
@@ -524,6 +718,18 @@ ___
 ▸ **deleteMessage**(`chatId`, `id`, `deleteMediaInDevice`, `revoke`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`DeleteMessageReturn`](../interfaces/chat.DeleteMessageReturn.md)\>
 
 Delete a message
+
+**`example`**
+```javascript
+// Delete a message
+WPP.chat.deleteMessage('[number]@callback.us', 'msgid');
+// Delete a list of messages
+WPP.chat.deleteMessage('[number]@callback.us', ['msgid1', 'msgid2]);
+// Delete a message and delete media
+WPP.chat.deleteMessage('[number]@callback.us', 'msgid', true);
+// Revoke a message
+WPP.chat.deleteMessage('[number]@callback.us', 'msgid', true, true);
+```
 
 #### Parameters
 
@@ -540,7 +746,7 @@ Delete a message
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/deleteMessage.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/deleteMessage.ts#L34)
+[packages/wa-js/src/chat/functions/deleteMessage.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/deleteMessage.ts#L47)
 
 ▸ **deleteMessage**(`chatId`, `ids`, `deleteMediaInDevice`, `revoke`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`DeleteMessageReturn`](../interfaces/chat.DeleteMessageReturn.md)[]\>
 
@@ -561,7 +767,7 @@ Delete a list of messages
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/deleteMessage.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/deleteMessage.ts#L45)
+[packages/wa-js/src/chat/functions/deleteMessage.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/deleteMessage.ts#L58)
 
 ___
 
@@ -676,6 +882,18 @@ WPP.chat.getMessages('[number]@c.us', {
   count: -1,
 });
 
+// Last 20 unread messages
+WPP.chat.getMessages('[number]@c.us', {
+  count: 20,
+  onlyUnread: true,
+});
+
+// All unread messages
+WPP.chat.getMessages('[number]@c.us', {
+  count: -1,
+  onlyUnread: true,
+});
+
 // 20 messages before specific message
 WPP.chat.getMessages('[number]@c.us', {
   count: 20,
@@ -699,7 +917,44 @@ List of raw messages
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/getMessages.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getMessages.ts#L54)
+[packages/wa-js/src/chat/functions/getMessages.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getMessages.ts#L67)
+
+___
+
+### sendCreatePollMessage
+
+▸ **sendCreatePollMessage**(`chatId`, `name`, `choices`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`SendMessageReturn`](../interfaces/chat.SendMessageReturn.md)\>
+
+Send a create poll message
+
+Note: This only works for groups
+
+**`example`**
+```javascript
+// Single pool
+WPP.chat.sendCreatePollMessage(
+ '[number]@g.us',
+ 'A poll name',
+ ['Option 1', 'Option 2', 'Option 3']
+);
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `chatId` | `any` |
+| `name` | `string` |
+| `choices` | `string`[] |
+| `options` | [`SendMessageOptions`](../interfaces/chat.SendMessageOptions.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`SendMessageReturn`](../interfaces/chat.SendMessageReturn.md)\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/sendCreatePollMessage.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendCreatePollMessage.ts#L44)
 
 ___
 
@@ -714,7 +969,7 @@ Send a file message, that can be an audio, document, image, sticker or video
 // Single document
 WPP.chat.sendFileMessage(
  '[number]@c.us',
- 'data:image/jpeg;base64,<a long base64 file...>',
+ 'data:application/msword;base64,<a long base64 file...>',
  {
    type: 'document',
    caption: 'My document', // Optional
@@ -781,7 +1036,7 @@ WPP.chat.sendFileMessage(
 | :------ | :------ |
 | `chatId` | `any` |
 | `content` | `any` |
-| `options` | [`AudioMessageOptions`](../interfaces/chat.AudioMessageOptions.md) \| [`AutoDetectMessageOptions`](../interfaces/chat.AutoDetectMessageOptions.md) \| [`DocumentMessageOptions`](../interfaces/chat.DocumentMessageOptions.md) \| [`ImageMessageOptions`](../interfaces/chat.ImageMessageOptions.md) \| [`VideoMessageOptions`](../interfaces/chat.VideoMessageOptions.md) \| [`StickerMessageOptions`](../interfaces/chat.StickerMessageOptions.md) |
+| `options` | [`AutoDetectMessageOptions`](../interfaces/chat.AutoDetectMessageOptions.md) \| [`AudioMessageOptions`](../interfaces/chat.AudioMessageOptions.md) \| [`DocumentMessageOptions`](../interfaces/chat.DocumentMessageOptions.md) \| [`ImageMessageOptions`](../interfaces/chat.ImageMessageOptions.md) \| [`StickerMessageOptions`](../interfaces/chat.StickerMessageOptions.md) \| [`VideoMessageOptions`](../interfaces/chat.VideoMessageOptions.md) |
 
 #### Returns
 
@@ -965,7 +1220,7 @@ WPP.chat.sendReactionMessage('[message_id]', false);
 
 | Name | Type |
 | :------ | :------ |
-| `messageId` | `string` \| [`MsgKey`](../classes/whatsapp.MsgKey.md) \| [`MsgModel`](../classes/whatsapp.MsgModel.md) \| `Stringable` |
+| `messageId` | `string` \| `Stringable` \| [`MsgModel`](../classes/whatsapp.MsgModel.md) \| [`MsgKey`](../classes/whatsapp.MsgKey.md) |
 | `reaction` | ``null`` \| `string` \| ``false`` |
 
 #### Returns

@@ -10,7 +10,7 @@ custom_edit_url: null
 
 - [WPPError](../classes/util.WPPError.md)
 
-## Type aliases
+## Type Aliases
 
 ### FunctionProperties
 
@@ -65,7 +65,7 @@ ___
 
 ### InferArgs
 
-Ƭ **InferArgs**<`T`\>: `T` extends (...`t`: [...infer Arg]) => `any` ? `Arg` : `never`
+Ƭ **InferArgs**<`T`\>: `T` extends (...`t`: [...(infer Arg)]) => `any` ? `Arg` : `never`
 
 #### Type parameters
 
@@ -81,7 +81,7 @@ ___
 
 ### InferReturn
 
-Ƭ **InferReturn**<`T`\>: `T` extends (...`t`: [...infer Arg]) => infer Res ? `Res` : `never`
+Ƭ **InferReturn**<`T`\>: `T` extends (...`t`: [...(infer Arg)]) => infer Res ? `Res` : `never`
 
 #### Type parameters
 

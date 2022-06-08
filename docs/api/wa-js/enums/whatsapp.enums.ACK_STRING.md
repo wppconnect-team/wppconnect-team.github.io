@@ -11,11 +11,11 @@ custom_edit_url: null
 
 **`whatsapp`** 69618 >= 2.2204.13
 
-## Enumeration members
+## Enumeration Members
 
 ### DELIVERY
 
-• **DELIVERY** = `"delivery"`
+• **DELIVERY**
 
 #### Defined in
 
@@ -25,7 +25,7 @@ ___
 
 ### INACTIVE
 
-• **INACTIVE** = `"inactive"`
+• **INACTIVE**
 
 #### Defined in
 
@@ -35,7 +35,7 @@ ___
 
 ### PLAYED
 
-• **PLAYED** = `"played"`
+• **PLAYED**
 
 #### Defined in
 
@@ -45,7 +45,7 @@ ___
 
 ### PLAYED\_SELF
 
-• **PLAYED\_SELF** = `"played-self"`
+• **PLAYED\_SELF**
 
 #### Defined in
 
@@ -55,7 +55,7 @@ ___
 
 ### READ
 
-• **READ** = `"read"`
+• **READ**
 
 #### Defined in
 
@@ -65,7 +65,7 @@ ___
 
 ### READ\_SELF
 
-• **READ\_SELF** = `"read-self"`
+• **READ\_SELF**
 
 #### Defined in
 
@@ -75,7 +75,7 @@ ___
 
 ### SENDER
 
-• **SENDER** = `"sender"`
+• **SENDER**
 
 #### Defined in
 

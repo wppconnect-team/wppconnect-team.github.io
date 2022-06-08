@@ -182,7 +182,7 @@ ___
 
 ### quotedMsg
 
-• `Optional` **quotedMsg**: `string` \| [`MsgKey`](../classes/whatsapp.MsgKey.md) \| [`MsgModel`](../classes/whatsapp.MsgModel.md)
+• `Optional` **quotedMsg**: `string` \| [`MsgModel`](../classes/whatsapp.MsgModel.md) \| [`MsgKey`](../classes/whatsapp.MsgKey.md)
 
 Quote a message, like a reply message
 
@@ -205,7 +205,7 @@ ___
 
 ### type
 
-• **type**: `string`
+• `Optional` **type**: `string`
 
 #### Defined in
 

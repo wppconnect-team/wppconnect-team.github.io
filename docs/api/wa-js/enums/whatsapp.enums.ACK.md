@@ -11,11 +11,11 @@ custom_edit_url: null
 
 **`whatsapp`** 69618 >= 2.2204.13
 
-## Enumeration members
+## Enumeration Members
 
 ### CLOCK
 
-• **CLOCK** = `0`
+• **CLOCK**
 
 #### Defined in
 
@@ -25,7 +25,7 @@ ___
 
 ### CONTENT\_GONE
 
-• **CONTENT\_GONE** = `-3`
+• **CONTENT\_GONE**
 
 #### Defined in
 
@@ -35,7 +35,7 @@ ___
 
 ### CONTENT\_TOO\_BIG
 
-• **CONTENT\_TOO\_BIG** = `-4`
+• **CONTENT\_TOO\_BIG**
 
 #### Defined in
 
@@ -45,7 +45,7 @@ ___
 
 ### CONTENT\_UNUPLOADABLE
 
-• **CONTENT\_UNUPLOADABLE** = `-5`
+• **CONTENT\_UNUPLOADABLE**
 
 #### Defined in
 
@@ -55,7 +55,7 @@ ___
 
 ### EXPIRED
 
-• **EXPIRED** = `-2`
+• **EXPIRED**
 
 #### Defined in
 
@@ -65,7 +65,7 @@ ___
 
 ### FAILED
 
-• **FAILED** = `-1`
+• **FAILED**
 
 #### Defined in
 
@@ -75,7 +75,7 @@ ___
 
 ### INACTIVE
 
-• **INACTIVE** = `-6`
+• **INACTIVE**
 
 #### Defined in
 
@@ -85,7 +85,7 @@ ___
 
 ### MD\_DOWNGRADE
 
-• **MD\_DOWNGRADE** = `-7`
+• **MD\_DOWNGRADE**
 
 #### Defined in
 
@@ -95,7 +95,7 @@ ___
 
 ### PEER
 
-• **PEER** = `5`
+• **PEER**
 
 #### Defined in
 
@@ -105,7 +105,7 @@ ___
 
 ### PLAYED
 
-• **PLAYED** = `4`
+• **PLAYED**
 
 #### Defined in
 
@@ -115,7 +115,7 @@ ___
 
 ### READ
 
-• **READ** = `3`
+• **READ**
 
 #### Defined in
 
@@ -125,7 +125,7 @@ ___
 
 ### RECEIVED
 
-• **RECEIVED** = `2`
+• **RECEIVED**
 
 #### Defined in
 
@@ -135,7 +135,7 @@ ___
 
 ### SENT
 
-• **SENT** = `1`
+• **SENT**
 
 #### Defined in
 

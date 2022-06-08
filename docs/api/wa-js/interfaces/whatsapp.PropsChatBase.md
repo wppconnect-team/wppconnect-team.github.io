@@ -21,7 +21,7 @@ ___
 
 ### labels
 
-• **labels**: `any`
+• `Optional` **labels**: `string`[]
 
 #### Defined in
 

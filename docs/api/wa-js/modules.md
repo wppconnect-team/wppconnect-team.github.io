@@ -1,7 +1,7 @@
 ---
 id: "modules"
 title: "@wppconnect/wa-js"
-sidebar_label: "Exports (v2.2.2)"
+sidebar_label: "Exports (v2.6.0)"
 sidebar_position: 0.5
 custom_edit_url: null
 ---
@@ -10,7 +10,6 @@ custom_edit_url: null
 
 - [blocklist](namespaces/blocklist.md)
 - [chat](namespaces/chat.md)
-- [config](namespaces/config.md)
 - [conn](namespaces/conn.md)
 - [contact](namespaces/contact.md)
 - [ev](namespaces/ev.md)
@@ -179,6 +178,16 @@ ___
 Re-exports [waitFor](namespaces/ev.md#waitfor)
 
 ## Variables
+
+### config
+
+• `Const` **config**: `Config` = `defaultConfig`
+
+#### Defined in
+
+[packages/wa-js/src/config.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/config.ts#L47)
+
+___
 
 ### license
 

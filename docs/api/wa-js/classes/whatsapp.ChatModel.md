@@ -570,7 +570,7 @@ ___
 
 ### labels
 
-• **labels**: `any`
+• `Optional` **labels**: `string`[]
 
 #### Inherited from
 
@@ -708,7 +708,7 @@ ___
 | `change:isReadOnly` | `number` |
 | `change:isUser` | `number` |
 | `change:kind` | `undefined` \| `number` |
-| `change:labels` | `number` |
+| `change:labels` | `undefined` \| `number` |
 | `change:lastReceivedKey` | `undefined` \| `number` |
 | `change:linkCount` | `undefined` \| `number` |
 | `change:liveLocation` | `undefined` \| `number` |
@@ -747,7 +747,7 @@ ___
 | `change:t` | `undefined` \| `number` |
 | `change:trusted` | `undefined` \| `number` |
 | `change:typing` | `undefined` \| `number` |
-| `change:unreadCount` | `undefined` \| `number` |
+| `change:unreadCount` | `number` |
 | `change:unreadMentionsOfMe` | `undefined` \| `number` |
 | `change:unreadMsgAnchor` | `number` |
 | `change:vcardDismissed` | `undefined` \| `number` |
@@ -1258,7 +1258,7 @@ ___
 
 ### unreadCount
 
-• `Optional` **unreadCount**: `number`
+• **unreadCount**: `number`
 
 #### Inherited from
 
@@ -2148,7 +2148,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `msg` | [`MsgKey`](whatsapp.MsgKey.md) \| [`MsgModel`](whatsapp.MsgModel.md) |
+| `msg` | [`MsgModel`](whatsapp.MsgModel.md) \| [`MsgKey`](whatsapp.MsgKey.md) |
 | `options?` | `Object` |
 | `options.isQuotedMsgAvailable` | `boolean` |
 

@@ -1,27 +1,25 @@
 ---
-id: "whatsapp.CallCollection"
-title: "Class: CallCollection"
-sidebar_label: "CallCollection"
+id: "whatsapp.ReactionsSendersCollection"
+title: "Class: ReactionsSendersCollection"
+sidebar_label: "ReactionsSendersCollection"
 custom_edit_url: null
 ---
 
-[whatsapp](../namespaces/whatsapp.md).CallCollection
+[whatsapp](../namespaces/whatsapp.md).ReactionsSendersCollection
 
-**`whatsapp`** 60868
-
-**`whatsapp`** 31218 >= 2.2204.13
+**`whatsapp`** 81130
 
 ## Hierarchy
 
-- [`Collection`](whatsapp.Collection.md)<[`CallModel`](whatsapp.CallModel.md)\>
+- [`Collection`](whatsapp.Collection.md)<[`ReactionsModel`](whatsapp.ReactionsModel.md)\>
 
-  ↳ **`CallCollection`**
+  ↳ **`ReactionsSendersCollection`**
 
 ## Constructors
 
 ### constructor
 
-• **new CallCollection**(`e?`, `t?`)
+• **new ReactionsSendersCollection**(`e?`, `t?`)
 
 #### Parameters
 
@@ -43,7 +41,7 @@ custom_edit_url: null
 
 ### findFirst
 
-• **findFirst**: <S\>(`predicate`: (`this`: `void`, `value`: [`CallModel`](whatsapp.CallModel.md), `index`: `number`, `obj`: [`CallModel`](whatsapp.CallModel.md)[]) => value is S, `thisArg?`: `any`) => `undefined` \| `S`(`predicate`: (`value`: [`CallModel`](whatsapp.CallModel.md), `index`: `number`, `obj`: [`CallModel`](whatsapp.CallModel.md)[]) => `unknown`, `thisArg?`: `any`) => `undefined` \| [`CallModel`](whatsapp.CallModel.md)
+• **findFirst**: <S\>(`predicate`: (`this`: `void`, `value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => value is S, `thisArg?`: `any`) => `undefined` \| `S`(`predicate`: (`value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => `unknown`, `thisArg?`: `any`) => `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Type declaration
 
@@ -56,31 +54,31 @@ otherwise.
 
 | Name | Type |
 | :------ | :------ |
-| `S` | extends [`CallModel`](whatsapp.CallModel.md)<`S`\> |
+| `S` | extends [`ReactionsModel`](whatsapp.ReactionsModel.md)<`S`\> |
 
 ##### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `predicate` | (`this`: `void`, `value`: [`CallModel`](whatsapp.CallModel.md), `index`: `number`, `obj`: [`CallModel`](whatsapp.CallModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined. |
+| `predicate` | (`this`: `void`, `value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined. |
 | `thisArg?` | `any` | If provided, it will be used as the this value for each invocation of predicate. If it is not provided, undefined is used instead. |
 
 ##### Returns
 
 `undefined` \| `S`
 
-▸ (`predicate`, `thisArg?`): `undefined` \| [`CallModel`](whatsapp.CallModel.md)
+▸ (`predicate`, `thisArg?`): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 ##### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `predicate` | (`value`: [`CallModel`](whatsapp.CallModel.md), `index`: `number`, `obj`: [`CallModel`](whatsapp.CallModel.md)[]) => `unknown` |
+| `predicate` | (`value`: [`ReactionsModel`](whatsapp.ReactionsModel.md), `index`: `number`, `obj`: [`ReactionsModel`](whatsapp.ReactionsModel.md)[]) => `unknown` |
 | `thisArg?` | `any` |
 
 ##### Returns
 
-`undefined` \| [`CallModel`](whatsapp.CallModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -94,7 +92,7 @@ ___
 
 ### modelClass
 
-• **modelClass**: [`CallModel`](whatsapp.CallModel.md)
+• **modelClass**: [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -106,58 +104,9 @@ ___
 
 ___
 
-### pendingOffers
-
-• `Optional` **pendingOffers**: `any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/CallCollection.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/CallCollection.ts#L26)
-
-___
-
-### pendingVoipCapChecks
-
-• `Optional` **pendingVoipCapChecks**: `any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/CallCollection.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/CallCollection.ts#L27)
-
-___
-
-### comparator
-
-▪ `Static` **comparator**: (`a`: `any`, `b`: `any`) => `number`
-
-#### Type declaration
-
-▸ (`a`, `b`): `number`
-
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `a` | `any` |
-| `b` | `any` |
-
-##### Returns
-
-`number`
-
-#### Inherited from
-
-[Collection](whatsapp.Collection.md).[comparator](whatsapp.Collection.md#comparator)
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/Collection.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/Collection.ts#L47)
-
-___
-
 ### model
 
-▪ `Static` **model**: [`CallModel`](whatsapp.CallModel.md)
+▪ `Static` **model**: [`ReactionsSendersModel`](whatsapp.ReactionsSendersModel.md)
 
 #### Overrides
 
@@ -165,7 +114,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/collections/CallCollection.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/CallCollection.ts#L25)
+[packages/wa-js/src/whatsapp/collections/ReactionsSendersCollection.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsSendersCollection.ts#L23)
 
 ## Accessors
 
@@ -189,18 +138,18 @@ Collection.length
 
 ### add
 
-▸ **add**(`value`, `options?`): [`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[]
+▸ **add**(`value`, `options?`): [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[] \| [`WritableProperties`](../namespaces/util.md#writableproperties)<[`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[]\> |
+| `value` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] \| [`WritableProperties`](../namespaces/util.md#writableproperties)<[`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]\> |
 | `options?` | `Option` |
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -214,7 +163,7 @@ ___
 
 ### assertGet
 
-▸ **assertGet**(`e`): [`CallModel`](whatsapp.CallModel.md)
+▸ **assertGet**(`e`): [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
@@ -224,7 +173,7 @@ ___
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md)
+[`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -238,7 +187,7 @@ ___
 
 ### at
 
-▸ **at**(`position`): `undefined` \| [`CallModel`](whatsapp.CallModel.md)
+▸ **at**(`position`): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
@@ -248,7 +197,7 @@ ___
 
 #### Returns
 
-`undefined` \| [`CallModel`](whatsapp.CallModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -262,7 +211,7 @@ ___
 
 ### bind
 
-▸ **bind**(`eventName`, `listener`, `context?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **bind**(`eventName`, `listener`, `context?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Alias of `on`
 
@@ -278,7 +227,7 @@ Alias of `on`
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -290,29 +239,9 @@ Alias of `on`
 
 ___
 
-### cleanupPendingOffer
-
-▸ **cleanupPendingOffer**(`e?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/CallCollection.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/CallCollection.ts#L30)
-
-___
-
 ### emit
 
-▸ **emit**(`eventName`, ...`args`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **emit**(`eventName`, ...`args`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Alias of `trigger`
 
@@ -327,7 +256,7 @@ Alias of `trigger`
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -341,7 +270,7 @@ ___
 
 ### get
 
-▸ **get**(`e`): `undefined` \| [`CallModel`](whatsapp.CallModel.md)
+▸ **get**(`e`): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Parameters
 
@@ -351,7 +280,7 @@ ___
 
 #### Returns
 
-`undefined` \| [`CallModel`](whatsapp.CallModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -365,11 +294,11 @@ ___
 
 ### getModelsArray
 
-▸ **getModelsArray**(): [`CallModel`](whatsapp.CallModel.md)[]
+▸ **getModelsArray**(): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -381,27 +310,13 @@ ___
 
 ___
 
-### handleQuery
-
-▸ **handleQuery**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/CallCollection.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/CallCollection.ts#L28)
-
-___
-
 ### head
 
-▸ **head**(): `undefined` \| [`CallModel`](whatsapp.CallModel.md)
+▸ **head**(): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Returns
 
-`undefined` \| [`CallModel`](whatsapp.CallModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -421,7 +336,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `model` | [`CallModel`](whatsapp.CallModel.md) |
+| `model` | [`ReactionsModel`](whatsapp.ReactionsModel.md) |
 | `position?` | `number` |
 
 #### Returns
@@ -464,7 +379,7 @@ ___
 
 ### isModel
 
-▸ **isModel**(`model`): model is CallModel
+▸ **isModel**(`model`): model is ReactionsModel
 
 #### Parameters
 
@@ -474,7 +389,7 @@ ___
 
 #### Returns
 
-model is CallModel
+model is ReactionsModel
 
 #### Inherited from
 
@@ -488,11 +403,11 @@ ___
 
 ### last
 
-▸ **last**(): `undefined` \| [`CallModel`](whatsapp.CallModel.md)
+▸ **last**(): `undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Returns
 
-`undefined` \| [`CallModel`](whatsapp.CallModel.md)
+`undefined` \| [`ReactionsModel`](whatsapp.ReactionsModel.md)
 
 #### Inherited from
 
@@ -506,7 +421,7 @@ ___
 
 ### listenTo
 
-▸ **listenTo**(`context`, `eventName`, `listener?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **listenTo**(`context`, `eventName`, `listener?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Parameters
 
@@ -518,7 +433,7 @@ ___
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -532,7 +447,7 @@ ___
 
 ### listenToAndRun
 
-▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **listenToAndRun**(`context`, `eventName`, `listener?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Parameters
 
@@ -544,7 +459,7 @@ ___
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -558,7 +473,7 @@ ___
 
 ### listenToOnce
 
-▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **listenToOnce**(`context`, `eventName`, `listener?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Parameters
 
@@ -570,7 +485,7 @@ ___
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -584,7 +499,7 @@ ___
 
 ### off
 
-▸ **off**(`eventName?`, `listener?`, `context?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **off**(`eventName?`, `listener?`, `context?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Removes the specified listener from the listener array for the event named eventName.
 
@@ -598,7 +513,7 @@ Removes the specified listener from the listener array for the event named event
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -614,7 +529,7 @@ ___
 
 ### on
 
-▸ **on**(`eventName`, `listener`, `context?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **on**(`eventName`, `listener`, `context?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Adds the listener function to the end of the listeners array for the event named eventName.
 
@@ -628,7 +543,7 @@ Adds the listener function to the end of the listeners array for the event named
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -644,7 +559,7 @@ ___
 
 ### once
 
-▸ **once**(`eventName`, `listener`, `context?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **once**(`eventName`, `listener`, `context?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Adds a one-time listener function for the event named eventName.
 
@@ -658,7 +573,7 @@ Adds a one-time listener function for the event named eventName.
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -672,44 +587,22 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 ___
 
-### processIncomingCall
-
-▸ **processIncomingCall**(`e?`, `t?`, `r?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-| `t?` | `any` |
-| `r?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/CallCollection.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/CallCollection.ts#L29)
-
-___
-
 ### remove
 
-▸ **remove**(`value`, `options?`): [`CallModel`](whatsapp.CallModel.md)[]
+▸ **remove**(`value`, `options?`): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[] |
+| `value` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] |
 | `options?` | `Object` |
 | `options.index?` | `boolean` |
 | `options.silent?` | `boolean` |
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -723,13 +616,13 @@ ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**(): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **removeAllListeners**(): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Removes all listeners.
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -745,7 +638,7 @@ ___
 
 ### removeListener
 
-▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **removeListener**(`eventName?`, `listener?`, `context?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Alias of `off`
 
@@ -761,7 +654,7 @@ Alias of `off`
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -775,7 +668,7 @@ ___
 
 ### reorder
 
-▸ **reorder**(`e`, `t`): [`CallModel`](whatsapp.CallModel.md)[]
+▸ **reorder**(`e`, `t`): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
@@ -786,7 +679,7 @@ ___
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -886,18 +779,18 @@ ___
 
 ### set
 
-▸ **set**(`value`, `options?`): [`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[]
+▸ **set**(`value`, `options?`): [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `value` | [`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[] |
+| `value` | [`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[] |
 | `options?` | `Option` |
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md) \| [`CallModel`](whatsapp.CallModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md) \| [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -909,29 +802,9 @@ ___
 
 ___
 
-### setActiveCall
-
-▸ **setActiveCall**(`e?`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `e?` | `any` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/collections/CallCollection.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/CallCollection.ts#L31)
-
-___
-
 ### sort
 
-▸ **sort**(`options?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **sort**(`options?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Parameters
 
@@ -942,7 +815,7 @@ ___
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -956,7 +829,7 @@ ___
 
 ### stopListening
 
-▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **stopListening**(`context?`, `eventName?`, `listener?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Parameters
 
@@ -968,7 +841,7 @@ ___
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -982,11 +855,11 @@ ___
 
 ### toArray
 
-▸ **toArray**(): [`CallModel`](whatsapp.CallModel.md)[]
+▸ **toArray**(): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -1018,7 +891,7 @@ ___
 
 ### trigger
 
-▸ **trigger**(`eventName`, ...`args`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **trigger**(`eventName`, ...`args`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Synchronously calls each of the listeners registered for the event named eventName, in the order they were registered, passing the supplied arguments to each.
 
@@ -1031,7 +904,7 @@ Synchronously calls each of the listeners registered for the event named eventNa
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -1047,7 +920,7 @@ ___
 
 ### unbind
 
-▸ **unbind**(`eventName?`, `listener?`, `context?`): [`CallCollection`](whatsapp.CallCollection.md)
+▸ **unbind**(`eventName?`, `listener?`, `context?`): [`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 Alias of `off`
 
@@ -1063,7 +936,7 @@ Alias of `off`
 
 #### Returns
 
-[`CallCollection`](whatsapp.CallCollection.md)
+[`ReactionsSendersCollection`](whatsapp.ReactionsSendersCollection.md)
 
 #### Inherited from
 
@@ -1077,7 +950,7 @@ ___
 
 ### where
 
-▸ **where**(`ids`): [`CallModel`](whatsapp.CallModel.md)[]
+▸ **where**(`ids`): [`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Parameters
 
@@ -1087,7 +960,7 @@ ___
 
 #### Returns
 
-[`CallModel`](whatsapp.CallModel.md)[]
+[`ReactionsModel`](whatsapp.ReactionsModel.md)[]
 
 #### Inherited from
 
@@ -1096,3 +969,21 @@ ___
 #### Defined in
 
 [packages/wa-js/src/whatsapp/collections/Collection.ts:85](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/Collection.ts#L85)
+
+___
+
+### comparator
+
+▸ `Static` **comparator**(): `number`
+
+#### Returns
+
+`number`
+
+#### Overrides
+
+Collection.comparator
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/collections/ReactionsSendersCollection.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/collections/ReactionsSendersCollection.ts#L24)

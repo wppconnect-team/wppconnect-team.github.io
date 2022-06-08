@@ -402,7 +402,7 @@ ___
 
 ### labels
 
-• `Optional` **labels**: `any`
+• `Optional` **labels**: `string`[]
 
 #### Inherited from
 

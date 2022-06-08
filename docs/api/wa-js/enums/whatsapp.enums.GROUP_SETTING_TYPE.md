@@ -11,11 +11,11 @@ custom_edit_url: null
 
 **`whatsapp`** 69618 >= 2.2204.13
 
-## Enumeration members
+## Enumeration Members
 
 ### ANNOUNCEMENT
 
-• **ANNOUNCEMENT** = `"announcement"`
+• **ANNOUNCEMENT**
 
 #### Defined in
 
@@ -25,7 +25,7 @@ ___
 
 ### EPHEMERAL
 
-• **EPHEMERAL** = `"ephemeral"`
+• **EPHEMERAL**
 
 #### Defined in
 
@@ -35,7 +35,7 @@ ___
 
 ### NO\_FREQUENTLY\_FORWARDED
 
-• **NO\_FREQUENTLY\_FORWARDED** = `"no_frequently_forwarded"`
+• **NO\_FREQUENTLY\_FORWARDED**
 
 #### Defined in
 
@@ -45,7 +45,7 @@ ___
 
 ### RESTRICT
 
-• **RESTRICT** = `"restrict"`
+• **RESTRICT**
 
 #### Defined in
 
