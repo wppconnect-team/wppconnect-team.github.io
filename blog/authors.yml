@@ -3,3 +3,9 @@ edgardmessias:
   title: Maintainer of WPPConnect
   url: https://github.com/edgardmessias
   image_url: https://github.com/edgardmessias.png
+
+wppconnect:
+  name: WPPConnect Team
+  title: Repository
+  url: https://github.com/wppconnect-team
+  image_url: https://github.com/wppconnect-team.png
