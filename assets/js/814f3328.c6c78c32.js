@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[2535],{45641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"New Site","permalink":"/blog/new-site"}]}')}}]);
