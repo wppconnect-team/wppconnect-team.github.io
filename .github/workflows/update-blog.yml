@@ -58,6 +58,8 @@ jobs:
 
       - name: Update Blog
         run: node .github/actions/publish-blog-releases.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Page
         run: npm run build
