@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-06-11T01:09:27.000Z</updated>
+    <updated>2022-06-15T03:03:16.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.7.1]]></title>
+        <id>/wa-js/v2.7.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.7.1"/>
+        <updated>2022-06-15T03:03:16.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.7.1 for WA-JS with Bug Fixes, Features and BREAKING CHANGES.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.7.1 for WA-JS with Bug Fixes, Features and BREAKING CHANGES.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed compatibility with WhatsApp Web &gt;= 2.2222.8 (<a href="https://github.com/wppconnect-team/wa-js/commit/a1d994cbf243e9fe9eb7eee0802266bb6b81f410" target="_blank" rel="noopener noreferrer">a1d994c</a>)</li><li>Return undefined instead of throw an exception (<a href="https://github.com/wppconnect-team/wa-js/commit/817592b4fec8c18ce3304de1bcab407e22d8809d" target="_blank" rel="noopener noreferrer">817592b</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added Google Analytics (<a href="https://github.com/wppconnect-team/wa-js/commit/946cc80b691adcc2818a0702b821898f73311df7" target="_blank" rel="noopener noreferrer">946cc80</a>)</li><li>Added WPP.call.rejectCall function (<a href="https://github.com/wppconnect-team/wa-js/commit/4461cb0becebbb942e20bc41577dc8be1333cffc" target="_blank" rel="noopener noreferrer">4461cb0</a>)</li><li>Added WPP.catalog.getMyCatalog function (<a href="https://github.com/wppconnect-team/wa-js/commit/7922931a44b691c3f7878b21d1d01a07da0da983" target="_blank" rel="noopener noreferrer">7922931</a>)</li><li>Aded call.incoming_call event (<a href="https://github.com/wppconnect-team/wa-js/commit/e3189021673f866d3c6ebc82af12794d07241614" target="_blank" rel="noopener noreferrer">e318902</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="breaking-changes">BREAKING CHANGES<a class="hash-link" href="#breaking-changes" title="Direct link to heading">​</a></h3><ul><li>Now "not found module" will return undefined value instead of throw an exception</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.7.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v2.7.0]]></title>
+        <id>/wa-js/v2.7.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.7.0"/>
+        <updated>2022-06-15T02:52:55.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.7.0 for WA-JS with Bug Fixes, Features and BREAKING CHANGES.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.7.0 for WA-JS with Bug Fixes, Features and BREAKING CHANGES.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed compatibility with WhatsApp Web &gt;= 2.2222.8 (<a href="https://github.com/wppconnect-team/wa-js/commit/a1d994cbf243e9fe9eb7eee0802266bb6b81f410" target="_blank" rel="noopener noreferrer">a1d994c</a>)</li><li>Return undefined instead of throw an exception (<a href="https://github.com/wppconnect-team/wa-js/commit/817592b4fec8c18ce3304de1bcab407e22d8809d" target="_blank" rel="noopener noreferrer">817592b</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added Google Analytics (<a href="https://github.com/wppconnect-team/wa-js/commit/946cc80b691adcc2818a0702b821898f73311df7" target="_blank" rel="noopener noreferrer">946cc80</a>)</li><li>Added WPP.call.rejectCall function (<a href="https://github.com/wppconnect-team/wa-js/commit/4461cb0becebbb942e20bc41577dc8be1333cffc" target="_blank" rel="noopener noreferrer">4461cb0</a>)</li><li>Added WPP.catalog.getMyCatalog function (<a href="https://github.com/wppconnect-team/wa-js/commit/7922931a44b691c3f7878b21d1d01a07da0da983" target="_blank" rel="noopener noreferrer">7922931</a>)</li><li>Aded call.incoming_call event (<a href="https://github.com/wppconnect-team/wa-js/commit/e3189021673f866d3c6ebc82af12794d07241614" target="_blank" rel="noopener noreferrer">e318902</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="breaking-changes">BREAKING CHANGES<a class="hash-link" href="#breaking-changes" title="Direct link to heading">​</a></h3><ul><li>Now "not found module" will return undefined value instead of throw an exception</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.7.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v1.14.2]]></title>
         <id>/wppconnect/v1.14.2</id>
