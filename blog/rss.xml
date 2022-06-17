@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 15 Jun 2022 03:03:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jun 2022 22:33:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.7.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.7.2</link>
+            <guid>/wa-js/v2.7.2</guid>
+            <pubDate>Fri, 17 Jun 2022 22:33:57 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.7.2 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.7.2 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed group creation when you have your own number in the list (<a href="https://github.com/wppconnect-team/wa-js/commit/4b76f5af4e0312b819652a246b907fdfd50aac00" target="_blank" rel="noopener noreferrer">4b76f5a</a>)</li><li>Improved Google Analytics tracker (<a href="https://github.com/wppconnect-team/wa-js/commit/e51a542d57f4314ec4c192b32da47d487adebb4e" target="_blank" rel="noopener noreferrer">e51a542</a>)</li><li>lint: sort imports (<a href="https://github.com/wppconnect-team/wa-js/commit/23fde0dc20a50079de11acc37c07f7bcdc14a6d2" target="_blank" rel="noopener noreferrer">23fde0d</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>add optional link preview servers via config (<a href="https://github.com/wppconnect-team/wa-js/commit/4f7ac41b9c90a985843452c3d9db6695657a6926" target="_blank" rel="noopener noreferrer">4f7ac41</a>)</li><li>Usage Google Analytics optional, can set own GA track id (<a href="https://github.com/wppconnect-team/wa-js/commit/19079d7c0e7e7c3440e94275d4536226c8f324ea" target="_blank" rel="noopener noreferrer">19079d7</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.7.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.7.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.7.1</link>
