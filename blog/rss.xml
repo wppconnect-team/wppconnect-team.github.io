@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 17 Jun 2022 22:33:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jun 2022 23:27:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.14.3]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.14.3</link>
+            <guid>/wppconnect/v1.14.3</guid>
+            <pubDate>Fri, 17 Jun 2022 23:27:29 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.14.3 for WPPConnect with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.14.3 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.7.2 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1181" target="_blank" rel="noopener noreferrer">#1181</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/5208e621cf79ca5d80cca5ecf3c7b9068ca44e91" target="_blank" rel="noopener noreferrer">5208e62</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.93 (<a href="https://github.com/wppconnect-team/wppconnect/commit/5293613254e3a04388a9a8b916dd13489f2cae05" target="_blank" rel="noopener noreferrer">5293613</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.14.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.7.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.7.2</link>

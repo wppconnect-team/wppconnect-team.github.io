@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-06-17T22:33:57.000Z</updated>
+    <updated>2022-06-17T23:27:29.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.14.3]]></title>
+        <id>/wppconnect/v1.14.3</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.14.3"/>
+        <updated>2022-06-17T23:27:29.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.14.3 for WPPConnect with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.14.3 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.7.2 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1181" target="_blank" rel="noopener noreferrer">#1181</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/5208e621cf79ca5d80cca5ecf3c7b9068ca44e91" target="_blank" rel="noopener noreferrer">5208e62</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.93 (<a href="https://github.com/wppconnect-team/wppconnect/commit/5293613254e3a04388a9a8b916dd13489f2cae05" target="_blank" rel="noopener noreferrer">5293613</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.14.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v2.7.2]]></title>
         <id>/wa-js/v2.7.2</id>
