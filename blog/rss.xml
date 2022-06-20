@@ -4,10 +4,34 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 18 Jun 2022 22:04:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jun 2022 10:49:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v1.3.4]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.3.4</link>
+            <guid>/wppconnect-server/v1.3.4</guid>
+            <pubDate>Mon, 20 Jun 2022 10:49:47 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.4 for WPP Server with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.4 for WPP Server with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.14.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/1217bd0c3de1c9730231236cd9a5794766006af5" target="_blank" rel="noopener noreferrer">1217bd0</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.14.2 (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/6cc9fbb6028a82b340c4dd1fac150c98d0ef2d9c" target="_blank" rel="noopener noreferrer">6cc9fbb</a>)</li><li>Fixed function to load messages (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/789" target="_blank" rel="noopener noreferrer">#789</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/cdcf44971f9aa5aee0e60eef9f6c6a7cc301b109" target="_blank" rel="noopener noreferrer">cdcf449</a>)</li><li>Fixed sendVoice and updated the docs (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/784" target="_blank" rel="noopener noreferrer">#784</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/87757757e4be6ff385fba925ebe1f409190e9ab9" target="_blank" rel="noopener noreferrer">8775775</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>nova versão da lib (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/89e3234b71ca703b0fdd7555822e0d8419815514" target="_blank" rel="noopener noreferrer">89e3234</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.3.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.14.4]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.14.4</link>
+            <guid>/wppconnect/v1.14.4</guid>
+            <pubDate>Mon, 20 Jun 2022 00:37:07 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.14.4 for WPPConnect with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.14.4 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.7.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/ef777ee15cd084da122ef39087960202ff9be4f7" target="_blank" rel="noopener noreferrer">ef777ee</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.97 (<a href="https://github.com/wppconnect-team/wppconnect/commit/e3fd5dfa59ed192b97f56bd44930e258f34f6170" target="_blank" rel="noopener noreferrer">e3fd5df</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.14.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.7.3]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.7.3</link>
