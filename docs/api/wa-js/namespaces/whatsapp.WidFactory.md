@@ -11,6 +11,8 @@ custom_edit_url: null
 
 **`whatsapp`** 58021 >= 2.2204.13
 
+**`whatsapp`** 745454 >= 2.2222.8
+
 ## Functions
 
 ### createDeviceWid
@@ -29,7 +31,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L24)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L25)
 
 ___
 
@@ -50,7 +52,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L26)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L27)
 
 ___
 
@@ -71,7 +73,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L28)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L29)
 
 ___
 
@@ -91,7 +93,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L30)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L31)
 
 ___
 
@@ -111,7 +113,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L32)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L33)
 
 ___
 
@@ -131,7 +133,7 @@ wid is Wid
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L34)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L35)
 
 ___
 
@@ -151,7 +153,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L36)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L37)
 
 ___
 
@@ -171,7 +173,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L38)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L39)
 
 ___
 
@@ -191,4 +193,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/WidFactory.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L40)
+[packages/wa-js/src/whatsapp/misc/WidFactory.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/WidFactory.ts#L41)

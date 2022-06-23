@@ -11,6 +11,8 @@ custom_edit_url: null
 
 **`whatsapp`** 69618 >= 2.2204.13
 
+**`whatsapp`** 535470 >= 2.2222.8
+
 ## Enumeration Members
 
 ### ADMIN\_REVOKE
@@ -19,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L43)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L45)
 
 ___
 
@@ -29,4 +31,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L42)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L44)

@@ -24,6 +24,8 @@ custom_edit_url: null
 
 **`whatsapp`** 75887
 
+**`whatsapp`** 975887 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -37,7 +39,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/addAndSendMsgToChat.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/addAndSendMsgToChat.ts#L22)
+[packages/wa-js/src/whatsapp/functions/addAndSendMsgToChat.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/addAndSendMsgToChat.ts#L24)
 
 ___
 
@@ -46,6 +48,8 @@ ___
 ▸ **addParticipants**(`group`, `participants`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 89389
+
+**`whatsapp`** 389389 >= 2.2222.8
 
 #### Parameters
 
@@ -60,7 +64,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L21)
+[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L23)
 
 ___
 
@@ -69,6 +73,8 @@ ___
 ▸ **addProduct**(`product`, `imageWidth?`, `imageHeight?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
 
 **`whatsapp`** 96519
+
+**`whatsapp`** 196519 >= 2.2222.8
 
 #### Parameters
 
@@ -84,7 +90,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/products.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L24)
+[packages/wa-js/src/whatsapp/functions/products.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L26)
 
 ___
 
@@ -93,6 +99,8 @@ ___
 ▸ **blockContact**(`contact`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 80140
+
+**`whatsapp`** 780140 >= 2.2222.8
 
 #### Parameters
 
@@ -106,7 +114,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/blockContact.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/blockContact.ts#L21)
+[packages/wa-js/src/whatsapp/functions/blockContact.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/blockContact.ts#L23)
 
 ___
 
@@ -128,7 +136,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/markSeen.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/markSeen.ts#L38)
+[packages/wa-js/src/whatsapp/functions/markSeen.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/markSeen.ts#L40)
 
 ___
 
@@ -154,6 +162,8 @@ ___
 
 **`whatsapp`** 6565
 
+**`whatsapp`** 606565 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -167,7 +177,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/createMsgProtobuf.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/createMsgProtobuf.ts#L21)
+[packages/wa-js/src/whatsapp/functions/createMsgProtobuf.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/createMsgProtobuf.ts#L23)
 
 ___
 
@@ -176,6 +186,8 @@ ___
 ▸ **createOrUpdateReactions**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
 
 **`whatsapp`** 7394
+
+**`whatsapp`** 307394 >= 2.2222.8
 
 #### Parameters
 
@@ -189,7 +201,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/createOrUpdateReactions.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/createOrUpdateReactions.ts#L31)
+[packages/wa-js/src/whatsapp/functions/createOrUpdateReactions.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/createOrUpdateReactions.ts#L33)
 
 ___
 
@@ -198,6 +210,8 @@ ___
 ▸ **deleteProducts**(`productIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
 
 **`whatsapp`** 96519
+
+**`whatsapp`** 196519 >= 2.2222.8
 
 #### Parameters
 
@@ -211,7 +225,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/products.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L38)
+[packages/wa-js/src/whatsapp/functions/products.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L44)
 
 ___
 
@@ -220,6 +234,8 @@ ___
 ▸ **demoteParticipants**(`group`, `participants`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 89389
+
+**`whatsapp`** 389389 >= 2.2222.8
 
 #### Parameters
 
@@ -234,7 +250,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L39)
+[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L47)
 
 ___
 
@@ -243,6 +259,8 @@ ___
 ▸ **editProduct**(`product`, `imageWidth?`, `imageHeight?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
 
 **`whatsapp`** 96519
+
+**`whatsapp`** 196519 >= 2.2222.8
 
 #### Parameters
 
@@ -258,7 +276,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/products.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L31)
+[packages/wa-js/src/whatsapp/functions/products.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L35)
 
 ___
 
@@ -267,6 +285,8 @@ ___
 ▸ **encryptAndSendGroupMsg**(`message`, `protobuf`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
 
 **`whatsapp`** 51974
+
+**`whatsapp`** 951974 >= 2.2222.8
 
 #### Parameters
 
@@ -281,7 +301,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/encryptAndSendGroupMsg.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/encryptAndSendGroupMsg.ts#L23)
+[packages/wa-js/src/whatsapp/functions/encryptAndSendGroupMsg.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/encryptAndSendGroupMsg.ts#L24)
 
 ___
 
@@ -290,6 +310,8 @@ ___
 ▸ **encryptAndSendMsg**(`message`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
 
 **`whatsapp`** 95547
+
+**`whatsapp`** 695547 >= 2.2222.8
 
 #### Parameters
 
@@ -303,7 +325,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/encryptAndSendMsg.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/encryptAndSendMsg.ts#L23)
+[packages/wa-js/src/whatsapp/functions/encryptAndSendMsg.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/encryptAndSendMsg.ts#L24)
 
 ___
 
@@ -314,6 +336,8 @@ ___
 **`whatsapp`** 19146
 
 **`whatsapp`** 75820 >= 2.2204.13
+
+**`whatsapp`** 519146 >= 2.2222.8
 
 #### Parameters
 
@@ -327,7 +351,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/fetchLinkPreview.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/fetchLinkPreview.ts#L36)
+[packages/wa-js/src/whatsapp/functions/fetchLinkPreview.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/fetchLinkPreview.ts#L37)
 
 ___
 
@@ -336,6 +360,8 @@ ___
 ▸ **findChat**(`wid`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)\>
 
 **`whatsapp`** 50101
+
+**`whatsapp`** 650101 >= 2.2222.8
 
 #### Parameters
 
@@ -349,7 +375,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/findChat.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/findChat.ts#L22)
+[packages/wa-js/src/whatsapp/functions/findChat.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/findChat.ts#L24)
 
 ___
 
@@ -360,6 +386,8 @@ ___
 **`whatsapp`** 29929
 
 **`whatsapp`** 31042 >= 2.2204.13
+
+**`whatsapp`** 829929 >= 2.2222.8
 
 #### Parameters
 
@@ -373,7 +401,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/findFirstWebLink.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/findFirstWebLink.ts#L22)
+[packages/wa-js/src/whatsapp/functions/findFirstWebLink.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/findFirstWebLink.ts#L23)
 
 ___
 
@@ -382,6 +410,8 @@ ___
 ▸ **genMinimalLinkPreview**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<``null`` \| [`LinkPreviewResult`](../interfaces/whatsapp.functions.LinkPreviewResult.md)\>
 
 **`whatsapp`** 92375
+
+**`whatsapp`** 692375 >= 2.2222.8
 
 #### Parameters
 
@@ -408,7 +438,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/genMinimalLinkPreview.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/genMinimalLinkPreview.ts#L23)
+[packages/wa-js/src/whatsapp/functions/genMinimalLinkPreview.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/genMinimalLinkPreview.ts#L24)
 
 ___
 
@@ -417,6 +447,8 @@ ___
 ▸ **generateVideoThumbsAndDuration**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `duration`: `number` ; `thumbs`: { `fullHeight`: `number` ; `fullWidth`: `number` ; `height`: `number` ; `url`: `string` ; `width`: `number`  }[]  }\>
 
 **`whatsapp`** 51428
+
+**`whatsapp`** 551428 >= 2.2222.8
 
 #### Parameters
 
@@ -434,7 +466,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/generateVideoThumbsAndDuration.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/generateVideoThumbsAndDuration.ts#L22)
+[packages/wa-js/src/whatsapp/functions/generateVideoThumbsAndDuration.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/generateVideoThumbsAndDuration.ts#L23)
 
 ___
 
@@ -443,6 +475,8 @@ ___
 ▸ **getFanOutList**(`param`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`Wid`](../classes/whatsapp.Wid.md)[]\>
 
 **`whatsapp`** 16104
+
+**`whatsapp`** 416104 >= 2.2222.8
 
 #### Parameters
 
@@ -457,7 +491,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/getFanOutList.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getFanOutList.ts#L23)
+[packages/wa-js/src/whatsapp/functions/getFanOutList.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getFanOutList.ts#L24)
 
 ___
 
@@ -466,6 +500,8 @@ ___
 ▸ **getGroupSenderKeyList**(`wid`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `rotateKey`: `boolean` ; `skDistribList`: [`Wid`](../classes/whatsapp.Wid.md)[] ; `skList`: [`Wid`](../classes/whatsapp.Wid.md)[]  }\>
 
 **`whatsapp`** 43201
+
+**`whatsapp`** 543201 >= 2.2222.8
 
 #### Parameters
 
@@ -479,7 +515,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/getGroupSenderKeyList.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getGroupSenderKeyList.ts#L23)
+[packages/wa-js/src/whatsapp/functions/getGroupSenderKeyList.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getGroupSenderKeyList.ts#L24)
 
 ___
 
@@ -493,13 +529,15 @@ ___
 
 **`whatsapp`** 66333 >= 2.2218.4
 
+**`whatsapp`** 266333 >= 2.2222.8
+
 #### Returns
 
 `string`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/getOrGenerate.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getOrGenerate.ts#L23)
+[packages/wa-js/src/whatsapp/functions/getOrGenerate.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/getOrGenerate.ts#L24)
 
 ___
 
@@ -510,6 +548,8 @@ ___
 **`whatsapp`** 46898
 
 **`whatsapp`** 51316 >= 2.2204.13
+
+**`whatsapp`** 546898 >= 2.2222.8
 
 #### Parameters
 
@@ -523,7 +563,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/status.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L23)
+[packages/wa-js/src/whatsapp/functions/status.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L24)
 
 ___
 
@@ -533,6 +573,10 @@ ___
 
 **`whatsapp`** 48309
 
+**`deprecated`**
+
+**`whatsapp`** 648309 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -545,7 +589,31 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/handleAck.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L40)
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L48)
+
+___
+
+### handleChatSimpleReceipt
+
+▸ **handleChatSimpleReceipt**(`ackData`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+**`whatsapp`** 48309
+
+**`whatsapp`** 648309 >= 2.2222.8
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ackData` | [`SimpleAckData`](../interfaces/whatsapp.functions.SimpleAckData.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L71)
 
 ___
 
@@ -555,6 +623,10 @@ ___
 
 **`whatsapp`** 84947
 
+**`deprecated`**
+
+**`whatsapp`** 284947 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -567,7 +639,31 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/handleAck.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L45)
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L57)
+
+___
+
+### handleGroupSimpleReceipt
+
+▸ **handleGroupSimpleReceipt**(`ackData`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+**`whatsapp`** 84947
+
+**`whatsapp`** 284947 >= 2.2222.8
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ackData` | [`SimpleAckData`](../interfaces/whatsapp.functions.SimpleAckData.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:78](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L78)
 
 ___
 
@@ -577,6 +673,10 @@ ___
 
 **`whatsapp`** 90756
 
+**`deprecated`**
+
+**`whatsapp`** 590756 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -589,7 +689,31 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/handleAck.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L35)
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L39)
+
+___
+
+### handleStatusSimpleReceipt
+
+▸ **handleStatusSimpleReceipt**(`ackData`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+**`whatsapp`** 90756
+
+**`whatsapp`** 590756 >= 2.2222.8
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ackData` | [`SimpleAckData`](../interfaces/whatsapp.functions.SimpleAckData.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/handleAck.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/handleAck.ts#L64)
 
 ___
 
@@ -601,13 +725,15 @@ ___
 
 **`whatsapp`** 9530 >= 2.2210.9
 
+**`whatsapp`** 909530 >= 2.2222.8
+
 #### Returns
 
 `boolean`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/isAuthenticated.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isAuthenticated.ts#L23)
+[packages/wa-js/src/whatsapp/functions/isAuthenticated.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isAuthenticated.ts#L24)
 
 ___
 
@@ -635,13 +761,15 @@ ___
 
 **`whatsapp`** 9530 >= 2.2210.9
 
+**`whatsapp`** 909530 >= 2.2222.8
+
 #### Returns
 
 `boolean`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/isAuthenticated.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isAuthenticated.ts#L29)
+[packages/wa-js/src/whatsapp/functions/isAuthenticated.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/isAuthenticated.ts#L31)
 
 ___
 
@@ -667,6 +795,8 @@ ___
 
 **`whatsapp`** 30734
 
+**`whatsapp`** 730734 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -679,7 +809,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/markSeen.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/markSeen.ts#L33)
+[packages/wa-js/src/whatsapp/functions/markSeen.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/markSeen.ts#L35)
 
 ___
 
@@ -714,6 +844,8 @@ ___
 
 **`whatsapp`** 58853 >= 2.2218.4
 
+**`whatsapp`** 458853 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -726,7 +858,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/mediaTypeFromProtobuf.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/mediaTypeFromProtobuf.ts#L22)
+[packages/wa-js/src/whatsapp/functions/mediaTypeFromProtobuf.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/mediaTypeFromProtobuf.ts#L23)
 
 ___
 
@@ -759,6 +891,8 @@ ___
 
 **`whatsapp`** 89389
 
+**`whatsapp`** 389389 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -772,7 +906,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L33)
+[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L39)
 
 ___
 
@@ -784,13 +918,15 @@ ___
 
 **`whatsapp`** 15860 >= 2.2204.13
 
+**`whatsapp`** 465212 >= 2.2222.8
+
 #### Returns
 
 `string`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/randomId.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/randomId.ts#L22)
+[packages/wa-js/src/whatsapp/functions/randomId.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/randomId.ts#L23)
 
 ___
 
@@ -799,6 +935,8 @@ ___
 ▸ **removeParticipants**(`group`, `participants`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 89389
+
+**`whatsapp`** 389389 >= 2.2222.8
 
 #### Parameters
 
@@ -813,13 +951,36 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L27)
+[packages/wa-js/src/whatsapp/functions/groupParticipants.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/groupParticipants.ts#L31)
+
+___
+
+### sendAddParticipants
+
+▸ **sendAddParticipants**(`group`, `participants`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `[key: `${number}@c.us`]`: `number`; `participants?`: { `[key: `${number}@c.us`]`: { `code`: `string` ; `invite_code`: `string` \| ``null`` ; `invite_code_exp`: `string` \| ``null``  };  }[] ; `status`: `number`  }\>
+
+**`whatsapp`** 437722 >= 2.2222.8
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `group` | [`Wid`](../classes/whatsapp.Wid.md) |
+| `participants` | [`Wid`](../classes/whatsapp.Wid.md)[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `[key: `${number}@c.us`]`: `number`; `participants?`: { `[key: `${number}@c.us`]`: { `code`: `string` ; `invite_code`: `string` \| ``null`` ; `invite_code_exp`: `string` \| ``null``  };  }[] ; `status`: `number`  }\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/sendGroupParticipants.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendGroupParticipants.ts#L23)
 
 ___
 
 ### sendCallSignalingMsg
 
-▸ **sendCallSignalingMsg**(`data`, `tagId?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)\>
+▸ **sendCallSignalingMsg**(`data`, `tagId?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `payload`: `any` ; `status`: ``200``  }\>
 
 **`whatsapp`** 56981
 
@@ -830,18 +991,18 @@ ___
 | `data` | `Object` |
 | `data.common` | `Object` |
 | `data.common.call_id?` | `string` |
-| `data.common.peer_jid` | [`Wid`](../classes/whatsapp.Wid.md) |
+| `data.common.peer_jid` | `string` |
 | `data.common.type?` | `string` |
 | `data.payload` | [`string`, { `call-creator`: `string` ; `call-id`: `string` ; `count?`: `any`  }, ``null``] |
 | `tagId?` | `string` |
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)\>
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `payload`: `any` ; `status`: ``200``  }\>
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendCallSignalingMsg.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendCallSignalingMsg.ts#L22)
+[packages/wa-js/src/whatsapp/functions/sendCallSignalingMsg.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendCallSignalingMsg.ts#L20)
 
 ___
 
@@ -850,6 +1011,8 @@ ___
 ▸ **sendClear**(`chat`, `keepStarred?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 83802
+
+**`whatsapp`** 483802 >= 2.2222.8
 
 #### Parameters
 
@@ -864,7 +1027,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendClear.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendClear.ts#L21)
+[packages/wa-js/src/whatsapp/functions/sendClear.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendClear.ts#L23)
 
 ___
 
@@ -899,6 +1062,8 @@ ___
 
 **`whatsapp`** 20052
 
+**`whatsapp`** 920052 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -911,7 +1076,30 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendDelete.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendDelete.ts#L21)
+[packages/wa-js/src/whatsapp/functions/sendDelete.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendDelete.ts#L23)
+
+___
+
+### sendDemoteParticipants
+
+▸ **sendDemoteParticipants**(`group`, `participants`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+**`whatsapp`** 437722 >= 2.2222.8
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `group` | [`Wid`](../classes/whatsapp.Wid.md) |
+| `participants` | [`Wid`](../classes/whatsapp.Wid.md)[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/sendGroupParticipants.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendGroupParticipants.ts#L57)
 
 ___
 
@@ -920,6 +1108,8 @@ ___
 ▸ **sendExitGroup**(`group`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 5501
+
+**`whatsapp`** 605501 >= 2.2222.8
 
 #### Parameters
 
@@ -933,7 +1123,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendExitGroup.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendExitGroup.ts#L21)
+[packages/wa-js/src/whatsapp/functions/sendExitGroup.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendExitGroup.ts#L23)
 
 ___
 
@@ -942,6 +1132,8 @@ ___
 ▸ **sendJoinGroupViaInvite**(`code`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`Wid`](../classes/whatsapp.Wid.md)\>
 
 **`whatsapp`** 69586
+
+**`whatsapp`** 769586 >= 2.2222.8
 
 #### Parameters
 
@@ -955,7 +1147,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendJoinGroupViaInvite.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendJoinGroupViaInvite.ts#L21)
+[packages/wa-js/src/whatsapp/functions/sendJoinGroupViaInvite.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendJoinGroupViaInvite.ts#L23)
 
 ___
 
@@ -964,6 +1156,8 @@ ___
 ▸ **sendProductToChat**(...`args`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`any`\>
 
 **`whatsapp`** 96519
+
+**`whatsapp`** 196519 >= 2.2222.8
 
 #### Parameters
 
@@ -977,7 +1171,30 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/products.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L41)
+[packages/wa-js/src/whatsapp/functions/products.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/products.ts#L49)
+
+___
+
+### sendPromoteParticipants
+
+▸ **sendPromoteParticipants**(`group`, `participants`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+**`whatsapp`** 437722 >= 2.2222.8
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `group` | [`Wid`](../classes/whatsapp.Wid.md) |
+| `participants` | [`Wid`](../classes/whatsapp.Wid.md)[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/sendGroupParticipants.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendGroupParticipants.ts#L49)
 
 ___
 
@@ -1011,6 +1228,8 @@ ___
 
 **`whatsapp`** 10790
 
+**`whatsapp`** 810790 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -1023,7 +1242,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendQueryGroupInvite.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendQueryGroupInvite.ts#L48)
+[packages/wa-js/src/whatsapp/functions/sendQueryGroupInvite.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendQueryGroupInvite.ts#L50)
 
 ___
 
@@ -1032,6 +1251,8 @@ ___
 ▸ **sendReactionToMsg**(`msg`, `reactionText`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
 
 **`whatsapp`** 21357
+
+**`whatsapp`** 621357 >= 2.2222.8
 
 #### Parameters
 
@@ -1046,7 +1267,30 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendReactionToMsg.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendReactionToMsg.ts#L21)
+[packages/wa-js/src/whatsapp/functions/sendReactionToMsg.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendReactionToMsg.ts#L23)
+
+___
+
+### sendRemoveParticipants
+
+▸ **sendRemoveParticipants**(`group`, `participants`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+**`whatsapp`** 437722 >= 2.2222.8
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `group` | [`Wid`](../classes/whatsapp.Wid.md) |
+| `participants` | [`Wid`](../classes/whatsapp.Wid.md)[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/functions/sendGroupParticipants.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendGroupParticipants.ts#L41)
 
 ___
 
@@ -1055,6 +1299,8 @@ ___
 ▸ **sendRevokeGroupInviteCode**(`groupId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
 
 **`whatsapp`** 69586
+
+**`whatsapp`** 769586 >= 2.2222.8
 
 #### Parameters
 
@@ -1068,7 +1314,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendRevokeGroupInviteCode.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendRevokeGroupInviteCode.ts#L21)
+[packages/wa-js/src/whatsapp/functions/sendRevokeGroupInviteCode.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendRevokeGroupInviteCode.ts#L23)
 
 ___
 
@@ -1101,6 +1347,8 @@ ___
 
 **`whatsapp`** 57490
 
+**`whatsapp`** 357490 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -1116,7 +1364,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/setGroup.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setGroup.ts#L28)
+[packages/wa-js/src/whatsapp/functions/setGroup.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setGroup.ts#L32)
 
 ___
 
@@ -1125,6 +1373,8 @@ ___
 ▸ **sendSetGroupProperty**(`groupId`, `property`, `value`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 57490
+
+**`whatsapp`** 357490 >= 2.2222.8
 
 #### Parameters
 
@@ -1140,7 +1390,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/setGroup.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setGroup.ts#L36)
+[packages/wa-js/src/whatsapp/functions/setGroup.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setGroup.ts#L42)
 
 ___
 
@@ -1149,6 +1399,8 @@ ___
 ▸ **sendSetGroupSubject**(`groupId`, `subject`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 57490
+
+**`whatsapp`** 357490 >= 2.2222.8
 
 #### Parameters
 
@@ -1163,7 +1415,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/setGroup.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setGroup.ts#L22)
+[packages/wa-js/src/whatsapp/functions/setGroup.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setGroup.ts#L24)
 
 ___
 
@@ -1201,6 +1453,8 @@ ___
 
 **`whatsapp`** 5524
 
+**`whatsapp`** 105524 >= 2.2222.8
+
 #### Parameters
 
 | Name | Type |
@@ -1215,7 +1469,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/sendTextMsgToChat.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendTextMsgToChat.ts#L20)
+[packages/wa-js/src/whatsapp/functions/sendTextMsgToChat.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/sendTextMsgToChat.ts#L22)
 
 ___
 
@@ -1224,6 +1478,8 @@ ___
 ▸ **setArchive**(`chat`, `archive`, `id?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 59992
+
+**`whatsapp`** 259992 >= 2.2222.8
 
 #### Parameters
 
@@ -1239,7 +1495,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/setArchive.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setArchive.ts#L23)
+[packages/wa-js/src/whatsapp/functions/setArchive.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setArchive.ts#L24)
 
 ___
 
@@ -1250,6 +1506,8 @@ ___
 **`whatsapp`** 46898
 
 **`whatsapp`** 51316 >= 2.2204.13
+
+**`whatsapp`** 546898 >= 2.2222.8
 
 #### Parameters
 
@@ -1264,7 +1522,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/status.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L31)
+[packages/wa-js/src/whatsapp/functions/status.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/status.ts#L33)
 
 ___
 
@@ -1273,6 +1531,8 @@ ___
 ▸ **setPin**(`chat`, `pin`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 10236
+
+**`whatsapp`** 510236 >= 2.2222.8
 
 #### Parameters
 
@@ -1287,7 +1547,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/setPin.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setPin.ts#L23)
+[packages/wa-js/src/whatsapp/functions/setPin.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/setPin.ts#L24)
 
 ___
 
@@ -1296,6 +1556,8 @@ ___
 ▸ **typeAttributeFromProtobuf**(`protoMessage`): `string`
 
 **`whatsapp`** 93650
+
+**`whatsapp`** 193650 >= 2.2222.8
 
 #### Parameters
 
@@ -1309,7 +1571,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/typeAttributeFromProtobuf.ts:20](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/typeAttributeFromProtobuf.ts#L20)
+[packages/wa-js/src/whatsapp/functions/typeAttributeFromProtobuf.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/typeAttributeFromProtobuf.ts#L22)
 
 ___
 
@@ -1318,6 +1580,8 @@ ___
 ▸ **unblockContact**(`contact`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
 **`whatsapp`** 80140
+
+**`whatsapp`** 780140 >= 2.2222.8
 
 #### Parameters
 
@@ -1331,7 +1595,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/blockContact.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/blockContact.ts#L24)
+[packages/wa-js/src/whatsapp/functions/blockContact.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/blockContact.ts#L28)
 
 ___
 
@@ -1340,6 +1604,8 @@ ___
 ▸ **uploadProductImage**(`mediaBlob`, `filehash`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`string`\>
 
 **`whatsapp`** 78986
+
+**`whatsapp`** 778986 >= 2.2222.8
 
 #### Parameters
 
@@ -1354,7 +1620,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/uploadProductImage.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/uploadProductImage.ts#L21)
+[packages/wa-js/src/whatsapp/functions/uploadProductImage.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/uploadProductImage.ts#L23)
 
 ___
 
@@ -1363,6 +1629,8 @@ ___
 ▸ **uploadThumbnail**(`data`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `filehash`: `string` ; `kind`: `string` ; `mediaEntry`: [`MediaEntry`](../classes/whatsapp.MediaEntry.md)  }\>
 
 **`whatsapp`** 74460
+
+**`whatsapp`** 474460 >= 2.2222.8
 
 #### Parameters
 
@@ -1376,4 +1644,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/functions/uploadThumbnail.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/uploadThumbnail.ts#L38)
+[packages/wa-js/src/whatsapp/functions/uploadThumbnail.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/functions/uploadThumbnail.ts#L39)

@@ -52,7 +52,7 @@ ___
 
 ### getStatus
 
-▸ **getStatus**(`contactId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`StatusModel`](../classes/whatsapp.StatusModel.md)\>
+▸ **getStatus**(`contactId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<``null`` \| `string`\>
 
 Get the current text status
 
@@ -69,11 +69,11 @@ await WPP.contact.getStatus('[number]@c.us');
 
 #### Returns
 
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`StatusModel`](../classes/whatsapp.StatusModel.md)\>
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<``null`` \| `string`\>
 
 #### Defined in
 
-[packages/wa-js/src/contact/functions/getStatus.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/functions/getStatus.ts#L31)
+[packages/wa-js/src/contact/functions/getStatus.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/contact/functions/getStatus.ts#L32)
 
 ___
 

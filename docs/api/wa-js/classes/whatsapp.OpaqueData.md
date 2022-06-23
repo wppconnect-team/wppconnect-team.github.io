@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 34949
 
+**`whatsapp`** 534949 >= 2.2222.8
+
 ## Hierarchy
 
 - [`OpaqueDataBase`](whatsapp.OpaqueDataBase.md)
@@ -37,7 +39,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L21)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L23)
 
 ## Methods
 
@@ -55,7 +57,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L23)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L25)
 
 ___
 
@@ -79,7 +81,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L24)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L26)
 
 ___
 
@@ -93,7 +95,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L32)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L36)
 
 ___
 
@@ -107,7 +109,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L39)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L43)
 
 ___
 
@@ -121,7 +123,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L37)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L41)
 
 ___
 
@@ -135,7 +137,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L31)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L35)
 
 ___
 
@@ -155,7 +157,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L40)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L44)
 
 ___
 
@@ -173,7 +175,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L22)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L24)
 
 ___
 
@@ -187,7 +189,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L34)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L38)
 
 ___
 
@@ -201,7 +203,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L36)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L40)
 
 ___
 
@@ -225,7 +227,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L25)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L27)
 
 ___
 
@@ -239,7 +241,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L38)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L42)
 
 ___
 
@@ -253,7 +255,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L30)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L34)
 
 ___
 
@@ -267,7 +269,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L35)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L39)
 
 ___
 
@@ -281,7 +283,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L33)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L37)
 
 ___
 
@@ -301,7 +303,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L42)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L46)
 
 ___
 
@@ -322,4 +324,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L43)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L47)

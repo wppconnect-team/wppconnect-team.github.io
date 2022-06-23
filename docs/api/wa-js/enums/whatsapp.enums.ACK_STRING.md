@@ -11,6 +11,8 @@ custom_edit_url: null
 
 **`whatsapp`** 69618 >= 2.2204.13
 
+**`whatsapp`** 535470 >= 2.2222.8
+
 ## Enumeration Members
 
 ### DELIVERY
@@ -19,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L51)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L54)
 
 ___
 
@@ -29,7 +31,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L54)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L57)
 
 ___
 
@@ -39,7 +41,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L53)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L56)
 
 ___
 
@@ -49,7 +51,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L56)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L59)
 
 ___
 
@@ -59,7 +61,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L52)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L55)
 
 ___
 
@@ -69,7 +71,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L55)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L58)
 
 ___
 
@@ -79,4 +81,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/ACK.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L50)
+[packages/wa-js/src/whatsapp/enums/ACK.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/ACK.ts#L53)

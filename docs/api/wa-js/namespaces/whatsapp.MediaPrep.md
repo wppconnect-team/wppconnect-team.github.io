@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 78986
 
+**`whatsapp`** 778986 >= 2.2222.8
+
 ## Classes
 
 - [MediaPrep](../classes/whatsapp.MediaPrep.MediaPrep.md)
@@ -37,4 +39,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L29)
+[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L31)

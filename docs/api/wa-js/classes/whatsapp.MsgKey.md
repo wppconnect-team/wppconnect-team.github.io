@@ -11,6 +11,8 @@ custom_edit_url: null
 
 **`whatsapp`** 32219 >= 2.2204.13
 
+**`whatsapp`** 465212 >= 2.2222.8
+
 ## Constructors
 
 ### constructor
@@ -25,7 +27,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L24)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L25)
 
 ## Properties
 
@@ -35,7 +37,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L40)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L41)
 
 ___
 
@@ -45,7 +47,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L36)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L37)
 
 ___
 
@@ -55,7 +57,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L37)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L38)
 
 ___
 
@@ -65,7 +67,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L39)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L40)
 
 ___
 
@@ -75,7 +77,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L38)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L39)
 
 ## Methods
 
@@ -89,7 +91,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L42)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L43)
 
 ___
 
@@ -109,7 +111,7 @@ key is MsgKey
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L43)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L44)
 
 ___
 
@@ -123,7 +125,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L41)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L42)
 
 ___
 
@@ -143,7 +145,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L45)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L46)
 
 ___
 
@@ -159,4 +161,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MsgKey.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L50)
+[packages/wa-js/src/whatsapp/misc/MsgKey.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MsgKey.ts#L51)

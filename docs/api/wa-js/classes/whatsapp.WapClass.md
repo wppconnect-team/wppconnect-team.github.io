@@ -11,6 +11,8 @@ custom_edit_url: null
 
 **`whatsapp`** 56891 >= 2.2212.8
 
+**`whatsapp`** 656891 >= 2.2222.8
+
 ## Constructors
 
 ### constructor
@@ -35,7 +37,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wap.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wap.ts#L29)
+[packages/wa-js/src/whatsapp/misc/Wap.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wap.ts#L30)
 
 ___
 
@@ -55,4 +57,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Wap.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wap.ts#L24)
+[packages/wa-js/src/whatsapp/misc/Wap.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Wap.ts#L25)

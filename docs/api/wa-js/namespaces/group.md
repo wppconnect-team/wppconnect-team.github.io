@@ -12,6 +12,7 @@ custom_edit_url: null
 
 ## Group Functions
 
+- [addParticipants](group.md#addparticipants)
 - [getGroupInfoFromInviteCode](group.md#getgroupinfofrominvitecode)
 - [join](group.md#join)
 - [leave](group.md#leave)
@@ -22,7 +23,6 @@ custom_edit_url: null
 
 ## Other Functions
 
-- [addParticipants](group.md#addparticipants)
 - [canAdd](group.md#canadd)
 - [canDemote](group.md#candemote)
 - [canPromote](group.md#canpromote)
@@ -41,6 +41,36 @@ custom_edit_url: null
 - [removeParticipants](group.md#removeparticipants)
 
 ## Group Functions
+
+### addParticipants
+
+▸ **addParticipants**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `[key: `${number}@c.us`]`: { `code`: `number` ; `invite_code`: `string` \| ``null`` ; `invite_code_exp`: `number` \| ``null`` ; `message`: `string`  };  }\>
+
+Add one or more participants to a group
+
+The method return a object with the result of each participant as the key
+
+**`example`**
+```javascript
+await WPP.group.addParticipants('[group@g.us]', [number@c.us]);
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `[key: `${number}@c.us`]`: { `code`: `number` ; `invite_code`: `string` \| ``null`` ; `invite_code_exp`: `number` \| ``null`` ; `message`: `string`  };  }\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/addParticipants.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/addParticipants.ts#L41)
+
+___
 
 ### getGroupInfoFromInviteCode
 
@@ -259,27 +289,6 @@ await WPP.group.setSubject('[group-id]@g.us', 'new group subject');
 ___
 
 ## Other Functions
-
-### addParticipants
-
-▸ **addParticipants**(`groupId`, `participantsIds`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
-| `participantsIds` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) \| (`string` \| [`Wid`](../classes/whatsapp.Wid.md))[] |
-
-#### Returns
-
-[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
-
-#### Defined in
-
-[packages/wa-js/src/group/functions/addParticipants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/addParticipants.ts#L22)
-
-___
 
 ### canAdd
 

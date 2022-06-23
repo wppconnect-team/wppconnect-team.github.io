@@ -22,7 +22,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L41)
+[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L43)
 
 ## Methods
 
@@ -55,7 +55,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L43)
+[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L45)
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L60)
+[packages/wa-js/src/whatsapp/misc/MediaPrep.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaPrep.ts#L62)

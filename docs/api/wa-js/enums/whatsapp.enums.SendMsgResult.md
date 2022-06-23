@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 13705
 
+**`whatsapp`** 413705 >= 2.2222.8
+
 ## Enumeration Members
 
 ### ERROR\_CANCELLED
@@ -17,7 +19,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L24)
+[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L26)
 
 ___
 
@@ -27,7 +29,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L23)
+[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L25)
 
 ___
 
@@ -37,7 +39,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L22)
+[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L24)
 
 ___
 
@@ -47,7 +49,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L26)
+[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L28)
 
 ___
 
@@ -57,7 +59,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L25)
+[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L27)
 
 ___
 
@@ -67,4 +69,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L21)
+[packages/wa-js/src/whatsapp/enums/SendMsgResult.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/enums/SendMsgResult.ts#L23)

@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 21009
 
+**`whatsapp`** 721009 >= 2.2222.8
+
 ## Constructors
 
 ### constructor
@@ -23,7 +25,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L32)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L34)
 
 ___
 
@@ -33,7 +35,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L27)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L29)
 
 ___
 
@@ -43,7 +45,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L23)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L25)
 
 ___
 
@@ -53,7 +55,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L22)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L24)
 
 ___
 
@@ -63,7 +65,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L31)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L33)
 
 ___
 
@@ -73,7 +75,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L29)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L31)
 
 ___
 
@@ -83,7 +85,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L34)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L36)
 
 ___
 
@@ -93,7 +95,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L33)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L35)
 
 ___
 
@@ -103,7 +105,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L30)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L32)
 
 ___
 
@@ -113,7 +115,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L35)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L37)
 
 ___
 
@@ -123,7 +125,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L28)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L30)
 
 ___
 
@@ -133,7 +135,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L24)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L26)
 
 ___
 
@@ -143,7 +145,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L26)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L28)
 
 ___
 
@@ -153,7 +155,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L25)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L27)
 
 ## Methods
 
@@ -173,7 +175,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L42)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L44)
 
 ___
 
@@ -193,7 +195,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L53)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L55)
 
 ___
 
@@ -213,7 +215,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L52)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L54)
 
 ___
 
@@ -227,7 +229,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L45)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L47)
 
 ___
 
@@ -241,7 +243,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L59)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L61)
 
 ___
 
@@ -255,7 +257,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L58)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L60)
 
 ___
 
@@ -269,7 +271,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L38)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L40)
 
 ___
 
@@ -289,7 +291,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L37)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L39)
 
 ___
 
@@ -303,7 +305,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L39)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L41)
 
 ___
 
@@ -317,7 +319,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L48)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L50)
 
 ___
 
@@ -337,7 +339,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L50)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L52)
 
 ___
 
@@ -351,7 +353,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L44)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L46)
 
 ___
 
@@ -365,7 +367,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L57)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L59)
 
 ___
 
@@ -379,7 +381,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L56)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L58)
 
 ___
 
@@ -399,7 +401,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L47)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L49)
 
 ___
 
@@ -413,7 +415,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L41)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L43)
 
 ___
 
@@ -433,7 +435,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L43)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L45)
 
 ___
 
@@ -453,7 +455,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L54)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L56)
 
 ___
 
@@ -473,7 +475,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L55)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L57)
 
 ___
 
@@ -487,7 +489,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L40)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L42)
 
 ___
 
@@ -507,7 +509,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L46)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L48)
 
 ___
 
@@ -529,7 +531,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L49)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L51)
 
 ___
 
@@ -553,7 +555,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L60)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L62)
 
 ___
 
@@ -573,4 +575,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObject.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L51)
+[packages/wa-js/src/whatsapp/misc/MediaObject.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObject.ts#L53)

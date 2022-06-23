@@ -1,7 +1,7 @@
 ---
 id: "modules"
 title: "@wppconnect/wa-js"
-sidebar_label: "Exports (v2.6.0)"
+sidebar_label: "Exports (v2.7.3)"
 sidebar_position: 0.5
 custom_edit_url: null
 ---
@@ -9,6 +9,8 @@ custom_edit_url: null
 ## Namespaces
 
 - [blocklist](namespaces/blocklist.md)
+- [call](namespaces/call.md)
+- [catalog](namespaces/catalog.md)
 - [chat](namespaces/chat.md)
 - [conn](namespaces/conn.md)
 - [contact](namespaces/contact.md)
@@ -185,7 +187,7 @@ Re-exports [waitFor](namespaces/ev.md#waitfor)
 
 #### Defined in
 
-[packages/wa-js/src/config.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/config.ts#L47)
+[packages/wa-js/src/config.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/config.ts#L67)
 
 ___
 
@@ -195,7 +197,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/index.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/index.ts#L73)
+[packages/wa-js/src/index.ts:75](https://github.com/wppconnect-team/wa-js/blob/main/src/index.ts#L75)
 
 ___
 
@@ -205,7 +207,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/index.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/index.ts#L72)
+[packages/wa-js/src/index.ts:74](https://github.com/wppconnect-team/wa-js/blob/main/src/index.ts#L74)
 
 ___
 
@@ -215,4 +217,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/index.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/index.ts#L71)
+[packages/wa-js/src/index.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/index.ts#L73)

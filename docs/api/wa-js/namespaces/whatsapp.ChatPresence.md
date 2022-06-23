@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 371
 
+**`whatsapp`** 800371 >= 2.2222.8
+
 ## Functions
 
 ### clearPresence
@@ -27,7 +29,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L27)
+[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L29)
 
 ___
 
@@ -47,7 +49,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L22)
+[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L24)
 
 ___
 
@@ -67,7 +69,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L23)
+[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L25)
 
 ___
 
@@ -87,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L24)
+[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L26)
 
 ___
 
@@ -101,7 +103,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L25)
+[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L27)
 
 ___
 
@@ -115,4 +117,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L26)
+[packages/wa-js/src/whatsapp/misc/ChatPresence.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ChatPresence.ts#L28)

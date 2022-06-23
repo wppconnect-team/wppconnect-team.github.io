@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 15688
 
+**`whatsapp`** 615688 >= 2.2222.8
+
 ## Variables
 
 ### BASE64\_DATA\_URL\_SCHEME
@@ -17,7 +19,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Base64.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L21)
+[packages/wa-js/src/whatsapp/misc/Base64.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L23)
 
 ## Functions
 
@@ -37,7 +39,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Base64.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L27)
+[packages/wa-js/src/whatsapp/misc/Base64.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L29)
 
 ___
 
@@ -57,7 +59,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Base64.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L29)
+[packages/wa-js/src/whatsapp/misc/Base64.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L31)
 
 ___
 
@@ -77,7 +79,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Base64.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L28)
+[packages/wa-js/src/whatsapp/misc/Base64.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L30)
 
 ___
 
@@ -97,7 +99,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Base64.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L22)
+[packages/wa-js/src/whatsapp/misc/Base64.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L24)
 
 ___
 
@@ -118,7 +120,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Base64.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L23)
+[packages/wa-js/src/whatsapp/misc/Base64.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L25)
 
 ___
 
@@ -138,4 +140,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Base64.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L30)
+[packages/wa-js/src/whatsapp/misc/Base64.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Base64.ts#L32)

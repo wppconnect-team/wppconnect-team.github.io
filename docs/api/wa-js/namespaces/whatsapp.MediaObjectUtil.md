@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 88297
 
+**`whatsapp`** 988297 >= 2.2222.8
+
 ## Functions
 
 ### getOrCreateMediaObject
@@ -27,4 +29,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaObjectUtil.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObjectUtil.ts#L22)
+[packages/wa-js/src/whatsapp/misc/MediaObjectUtil.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaObjectUtil.ts#L24)

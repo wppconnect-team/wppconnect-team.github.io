@@ -11,6 +11,8 @@ custom_edit_url: null
 
 **`whatsapp`** 40122 >= 2.2204.13
 
+**`whatsapp`** 736473 >= 2.2222.8
+
 ## Hierarchy
 
 - [`ModelProxy`](../namespaces/whatsapp.md#modelproxy)<`Props`, `Session`, `Derived`\>
@@ -38,7 +40,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L55)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L59)
 
 ## Properties
 
@@ -66,7 +68,7 @@ ModelProxy.callInfo
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L36)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L38)
 
 ___
 
@@ -80,7 +82,7 @@ ModelProxy.canHandleLocally
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L33)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L35)
 
 ___
 
@@ -94,7 +96,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L64)
+[packages/wa-js/src/whatsapp/models/Model.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L66)
 
 ___
 
@@ -108,13 +110,13 @@ ModelProxy.groupCallParticipants
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L32)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L34)
 
 ___
 
 ### id
 
-• `Optional` **id**: `any`
+• **id**: `string`
 
 #### Inherited from
 
@@ -122,7 +124,7 @@ ModelProxy.id
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L27)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L29)
 
 ___
 
@@ -136,7 +138,7 @@ ModelProxy.isGroup
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L31)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L33)
 
 ___
 
@@ -164,7 +166,7 @@ ModelProxy.isVideo
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L30)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L32)
 
 ___
 
@@ -179,14 +181,14 @@ ___
 | `change:callInfo` | `undefined` \| `number` |
 | `change:canHandleLocally` | `number` |
 | `change:groupCallParticipants` | `undefined` \| `number` |
-| `change:id` | `undefined` \| `number` |
+| `change:id` | `number` |
 | `change:isGroup` | `number` |
 | `change:isVideo` | `number` |
-| `change:offerTime` | `undefined` \| `number` |
-| `change:outgoing` | `undefined` \| `number` |
-| `change:peerJid` | `undefined` \| `number` |
+| `change:offerTime` | `number` |
+| `change:outgoing` | `number` |
+| `change:peerJid` | `number` |
 | `change:stale` | `undefined` \| `number` |
-| `change:webClientShouldHandle` | `undefined` \| `number` |
+| `change:webClientShouldHandle` | `number` |
 
 #### Inherited from
 
@@ -200,7 +202,7 @@ ___
 
 ### offerTime
 
-• `Optional` **offerTime**: `any`
+• **offerTime**: `number`
 
 #### Inherited from
 
@@ -208,13 +210,13 @@ ModelProxy.offerTime
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L29)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L31)
 
 ___
 
 ### outgoing
 
-• `Optional` **outgoing**: `any`
+• **outgoing**: `boolean`
 
 #### Inherited from
 
@@ -222,7 +224,7 @@ ModelProxy.outgoing
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L34)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L36)
 
 ___
 
@@ -236,13 +238,13 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L62)
+[packages/wa-js/src/whatsapp/models/Model.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L64)
 
 ___
 
 ### peerJid
 
-• `Optional` **peerJid**: `any`
+• **peerJid**: [`Wid`](whatsapp.Wid.md)
 
 #### Inherited from
 
@@ -250,7 +252,7 @@ ModelProxy.peerJid
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L28)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L30)
 
 ___
 
@@ -264,7 +266,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L66)
+[packages/wa-js/src/whatsapp/models/Model.ts:68](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L68)
 
 ___
 
@@ -278,13 +280,13 @@ ModelProxy.stale
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L40)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L42)
 
 ___
 
 ### webClientShouldHandle
 
-• `Optional` **webClientShouldHandle**: `any`
+• **webClientShouldHandle**: `boolean`
 
 #### Inherited from
 
@@ -292,7 +294,7 @@ ModelProxy.webClientShouldHandle
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L35)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L37)
 
 ___
 
@@ -306,7 +308,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L54)
+[packages/wa-js/src/whatsapp/models/Model.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L56)
 
 ___
 
@@ -320,7 +322,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L58)
+[packages/wa-js/src/whatsapp/models/Model.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L60)
 
 ___
 
@@ -334,7 +336,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L56)
+[packages/wa-js/src/whatsapp/models/Model.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L58)
 
 ## Methods
 
@@ -359,7 +361,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:78](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L78)
+[packages/wa-js/src/whatsapp/models/Model.ts:80](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L80)
 
 ___
 
@@ -389,7 +391,7 @@ Alias of `on`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:98](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L98)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:99](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L99)
 
 ___
 
@@ -407,7 +409,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:88](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L88)
+[packages/wa-js/src/whatsapp/models/Model.ts:90](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L90)
 
 ___
 
@@ -425,7 +427,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:74](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L74)
+[packages/wa-js/src/whatsapp/models/Model.ts:76](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L76)
 
 ___
 
@@ -443,7 +445,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:90](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L90)
+[packages/wa-js/src/whatsapp/models/Model.ts:92](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L92)
 
 ___
 
@@ -472,7 +474,7 @@ Alias of `trigger`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:119](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L119)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:120](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L120)
 
 ___
 
@@ -502,7 +504,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:80](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L80)
+[packages/wa-js/src/whatsapp/models/Model.ts:82](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L82)
 
 ___
 
@@ -516,7 +518,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L62)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L65)
 
 ___
 
@@ -546,35 +548,21 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:94](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L94)
+[packages/wa-js/src/whatsapp/models/Model.ts:96](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L96)
 
 ___
 
 ### getState
 
-▸ **getState**(): `any`
+▸ **getState**(): [`CALL_STATES`](../enums/whatsapp.enums.CALL_STATES.md)
 
 #### Returns
 
-`any`
+[`CALL_STATES`](../enums/whatsapp.enums.CALL_STATES.md)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L59)
-
-___
-
-### handleNotification
-
-▸ **handleNotification**(): `any`
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-[packages/wa-js/src/whatsapp/models/CallModel.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L61)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L63)
 
 ___
 
@@ -592,7 +580,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:76](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L76)
+[packages/wa-js/src/whatsapp/models/Model.ts:78](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L78)
 
 ___
 
@@ -610,7 +598,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:84](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L84)
+[packages/wa-js/src/whatsapp/models/Model.ts:86](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L86)
 
 ___
 
@@ -634,7 +622,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L72)
+[packages/wa-js/src/whatsapp/models/Model.ts:74](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L74)
 
 ___
 
@@ -652,7 +640,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:70](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L70)
+[packages/wa-js/src/whatsapp/models/Model.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L72)
 
 ___
 
@@ -676,7 +664,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:92](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L92)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:93](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L93)
 
 ___
 
@@ -702,7 +690,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:76](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L76)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:77](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L77)
 
 ___
 
@@ -728,7 +716,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:90](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L90)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:91](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L91)
 
 ___
 
@@ -754,7 +742,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:83](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L83)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:84](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L84)
 
 ___
 
@@ -784,7 +772,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L61)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L62)
 
 ___
 
@@ -814,7 +802,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L41)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L42)
 
 ___
 
@@ -844,7 +832,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L51)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L52)
 
 ___
 
@@ -866,7 +854,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:114](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L114)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:115](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L115)
 
 ___
 
@@ -896,7 +884,7 @@ Alias of `off`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:109](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L109)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:110](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L110)
 
 ___
 
@@ -914,7 +902,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:92](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L92)
+[packages/wa-js/src/whatsapp/models/Model.ts:94](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L94)
 
 ___
 
@@ -956,27 +944,27 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:82](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L82)
+[packages/wa-js/src/whatsapp/models/Model.ts:84](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L84)
 
 ___
 
 ### setState
 
-▸ **setState**(`e?`): `any`
+▸ **setState**(`state`): `void`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `e?` | `any` |
+| `state` | [`CALL_STATES`](../enums/whatsapp.enums.CALL_STATES.md) |
 
 #### Returns
 
-`any`
+`void`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/CallModel.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L60)
+[packages/wa-js/src/whatsapp/models/CallModel.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/CallModel.ts#L64)
 
 ___
 
@@ -1002,7 +990,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L69)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:70](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L70)
 
 ___
 
@@ -1049,7 +1037,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L67)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:68](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L68)
 
 ___
 
@@ -1079,7 +1067,7 @@ Alias of `off`
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:104](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L104)
+[packages/wa-js/src/whatsapp/misc/EventEmitter.ts:105](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/EventEmitter.ts#L105)
 
 ___
 
@@ -1104,7 +1092,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:86](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L86)
+[packages/wa-js/src/whatsapp/models/Model.ts:88](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L88)
 
 ___
 
@@ -1128,4 +1116,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/Model.ts:98](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L98)
+[packages/wa-js/src/whatsapp/models/Model.ts:100](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/Model.ts#L100)

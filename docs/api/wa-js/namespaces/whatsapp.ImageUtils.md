@@ -11,6 +11,8 @@ custom_edit_url: null
 
 **`whatsapp`** 36638 >= 2.2204.13
 
+**`whatsapp`** 551428 >= 2.2222.8
+
 ## Functions
 
 ### rotateAndResize
@@ -31,4 +33,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/ImageUtils.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ImageUtils.ts#L23)
+[packages/wa-js/src/whatsapp/misc/ImageUtils.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/ImageUtils.ts#L24)

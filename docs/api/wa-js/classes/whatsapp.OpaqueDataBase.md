@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 34949
 
+**`whatsapp`** 534949 >= 2.2222.8
+
 ## Hierarchy
 
 - **`OpaqueDataBase`**
@@ -29,7 +31,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L21)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L23)
 
 ## Methods
 
@@ -43,7 +45,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L23)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L25)
 
 ___
 
@@ -63,7 +65,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L24)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L26)
 
 ___
 
@@ -77,7 +79,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L22)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L24)
 
 ___
 
@@ -97,4 +99,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L25)
+[packages/wa-js/src/whatsapp/misc/OpaqueData.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/OpaqueData.ts#L27)

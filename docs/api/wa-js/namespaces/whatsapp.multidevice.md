@@ -23,9 +23,11 @@ custom_edit_url: null
 
 **`whatsapp`** 34898 >= 2.2218.4
 
+**`whatsapp`** 134898 >= 2.2222.8
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/multidevice/waNoiseInfo.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/multidevice/waNoiseInfo.ts#L36)
+[packages/wa-js/src/whatsapp/multidevice/waNoiseInfo.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/multidevice/waNoiseInfo.ts#L37)
 
 ___
 
@@ -37,6 +39,8 @@ ___
 
 **`whatsapp`** 40623 >= 2.2218.4
 
+**`whatsapp`** 640623 >= 2.2222.8
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/multidevice/waSignalStore.ts:79](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/multidevice/waSignalStore.ts#L79)
+[packages/wa-js/src/whatsapp/multidevice/waSignalStore.ts:80](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/multidevice/waSignalStore.ts#L80)

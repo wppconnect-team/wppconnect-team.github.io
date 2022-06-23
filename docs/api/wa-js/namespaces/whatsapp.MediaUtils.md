@@ -9,6 +9,8 @@ custom_edit_url: null
 
 **`whatsapp`** 56406
 
+**`whatsapp`** 756406 >= 2.2222.8
+
 ## Functions
 
 ### getImageWidthHeight
@@ -21,4 +23,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/MediaUtils.ts:21](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaUtils.ts#L21)
+[packages/wa-js/src/whatsapp/misc/MediaUtils.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/MediaUtils.ts#L23)
