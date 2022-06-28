@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-06-20T10:49:47.000Z</updated>
+    <updated>2022-06-28T01:55:19.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v2.8.0]]></title>
+        <id>/wa-js/v2.8.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.8.0"/>
+        <updated>2022-06-28T01:55:19.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.8.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.8.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Added missing data WPP.status.sendTextStatus (<a href="https://github.com/wppconnect-team/wa-js/commit/521c6f221c4c86e325506a1e5e82d3e9864a70e4" target="_blank" rel="noopener noreferrer">521c6f2</a>)</li><li>Improved participant list for send status (<a href="https://github.com/wppconnect-team/wa-js/commit/55cd0a460af4c0fa329501bc934a03075d9f0d2b" target="_blank" rel="noopener noreferrer">55cd0a4</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added googleAnalyticsUserProperty options (<a href="https://github.com/wppconnect-team/wa-js/commit/f425767f0b30d95b24a15fca8ab7c269d4e3240d" target="_blank" rel="noopener noreferrer">f425767</a>)</li><li>Added WPP.group.setIcon function (<a href="https://github.com/wppconnect-team/wa-js/commit/79b0c767866420fe87ea5be7eb5a4fea5c48c6d6" target="_blank" rel="noopener noreferrer">79b0c76</a>)</li><li>Added WPP.profile.setMyProfilePicture (<a href="https://github.com/wppconnect-team/wa-js/commit/3d773b799c507c4865781201a3c48dbf1e7fc3d6" target="_blank" rel="noopener noreferrer">3d773b7</a>)</li><li>Added WPP.status.sendImageStatus function (<a href="https://github.com/wppconnect-team/wa-js/commit/2814ef35b43b74cdbcc47e5b0ad1f76ff7d8a649" target="_blank" rel="noopener noreferrer">2814ef3</a>)</li><li>Added WPP.status.sendVideoStatus function (<a href="https://github.com/wppconnect-team/wa-js/commit/46bb3dc8c532d5bb816e47f5ca6dc11de55b6008" target="_blank" rel="noopener noreferrer">46bb3dc</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.8.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v1.3.4]]></title>
         <id>/wppconnect-server/v1.3.4</id>
