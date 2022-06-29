@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 28 Jun 2022 01:55:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jun 2022 01:05:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server minor release: v1.4.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.4.0</link>
+            <guid>/wppconnect-server/v1.4.0</guid>
+            <pubDate>Wed, 29 Jun 2022 01:05:24 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v1.4.0 for WPP Server with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v1.4.0 for WPP Server with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Archive chat malforming and docs (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/1f6515bafbbc98656555c427d6f6a39f2f1f155a" target="_blank" rel="noopener noreferrer">1f6515b</a>)</li><li>Change router to profile pic, similar lib (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/20c4945e186d870fa369b4064f76bd670663e646" target="_blank" rel="noopener noreferrer">20c4945</a>)</li><li>Change router to similar lib (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/99755754ae552651b667cf6dc0b50239d670c19b" target="_blank" rel="noopener noreferrer">9975575</a>)</li><li>Correct path to download  stickers (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/883c30eaf14c454dbf9d8978ecde41a995dadad9" target="_blank" rel="noopener noreferrer">883c30e</a>)</li><li>Mark unseen error (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/dc3acb9a6d80094b22f49977684df15fa7ba6412" target="_blank" rel="noopener noreferrer">dc3acb9</a>)</li><li>Remove unnecessary var (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/79fe09ad4ef4c8b9a640865122bc8c507eb6e198" target="_blank" rel="noopener noreferrer">79fe09a</a>)</li><li>Send buttons list sections (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/32f82071a515ea1533b2e9a6ab781b0ca706de45" target="_blank" rel="noopener noreferrer">32f8207</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Socket emit on events (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/795" target="_blank" rel="noopener noreferrer">#795</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/7f29c268a1a5ce66d06a2e5da032128df6791a40" target="_blank" rel="noopener noreferrer">7f29c26</a>)</li><li>Added reject call router </li><li>Send List Message</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.4.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v2.8.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.8.0</link>
