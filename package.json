@@ -15,10 +15,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.21",
-    "@docusaurus/plugin-google-gtag": "^2.0.0-beta.21",
-    "@docusaurus/plugin-pwa": "^2.0.0-beta.21",
-    "@docusaurus/preset-classic": "^2.0.0-beta.21",
+    "@docusaurus/core": "^2.0.0-beta.22",
+    "@docusaurus/plugin-google-gtag": "^2.0.0-beta.22",
+    "@docusaurus/plugin-pwa": "^2.0.0-beta.22",
+    "@docusaurus/preset-classic": "^2.0.0-beta.22",
     "@easyops-cn/docusaurus-search-local": "^0.29.0",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
@@ -32,7 +32,7 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.0.0-beta.21",
+    "@docusaurus/module-type-aliases": "^2.0.0-beta.22",
     "@octokit/action": "^3.18.1",
     "@tsconfig/docusaurus": "^1.0.6",
     "babel-plugin-styled-components": "^2.0.7",
