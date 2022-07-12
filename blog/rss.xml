@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 11 Jul 2022 02:41:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Jul 2022 10:52:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server minor release: v1.5.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.5.0</link>
+            <guid>/wppconnect-server/v1.5.0</guid>
+            <pubDate>Tue, 12 Jul 2022 10:52:41 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v1.5.0 for WPP Server with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v1.5.0 for WPP Server with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>message:</strong> fix depercated sendFileFromBase64 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/812" target="_blank" rel="noopener noreferrer">#812</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/49d9152750f94107600f64421fd37f1c89c5e393" target="_blank" rel="noopener noreferrer">49d9152</a>)</li><li>send file name on send-file-base64 and docs fix (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/3016f2f7ad65d18e762f51b98bdcb53bfd5ad8b5" target="_blank" rel="noopener noreferrer">3016f2f</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added archive-all-chats-router (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/8c7d6faacc1246a3b3bac91e926886004b4e8295" target="_blank" rel="noopener noreferrer">8c7d6fa</a>)</li><li>Delete all chats close <a href="https://github.com/wppconnect-team/wppconnect-server/issues/483" target="_blank" rel="noopener noreferrer">#483</a> (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/f47a253b1024778f9c3ed5d14a638689be464936" target="_blank" rel="noopener noreferrer">f47a253</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.5.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.14.5]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.14.5</link>
