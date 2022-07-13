@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 12 Jul 2022 10:52:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Jul 2022 23:33:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.8.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.8.2</link>
+            <guid>/wa-js/v2.8.2</guid>
+            <pubDate>Tue, 12 Jul 2022 23:33:38 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.8.2 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.8.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed eventEmitter export (<a href="https://github.com/wppconnect-team/wa-js/commit/2532a200933d13f61e37fa3557bbb790798330bc" target="_blank" rel="noopener noreferrer">2532a20</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.8.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server minor release: v1.5.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.5.0</link>
