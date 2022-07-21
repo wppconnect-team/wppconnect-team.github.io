@@ -38,7 +38,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "docusaurus-plugin-typedoc": "^0.17.5",
     "typedoc": "^0.23.8",
-    "typedoc-plugin-markdown": "^3.13.3",
+    "typedoc-plugin-markdown": "^3.13.4",
     "typedoc-plugin-mdn-links": "^1.0.6",
     "typescript": "^4.7.4"
   },
