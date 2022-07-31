@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 20 Jul 2022 23:58:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Jul 2022 02:44:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.9.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.9.0</link>
+            <guid>/wa-js/v2.9.0</guid>
+            <pubDate>Sun, 31 Jul 2022 02:44:57 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.9.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.9.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Avoid duplicate self account for send status (<a href="https://github.com/wppconnect-team/wa-js/commit/a7eef5b390473d12eece0d5a096fe44a4bb42b18" target="_blank" rel="noopener noreferrer">a7eef5b</a>)</li><li>Fixed status/stores screen after send (<a href="https://github.com/wppconnect-team/wa-js/commit/3fb61bd9fdd00f437f64de2ed687ad872cbcb95d" target="_blank" rel="noopener noreferrer">3fb61bd</a>)</li><li>Fixed WPP.chat.sendLocationMessage function (wppconnect-team/wppconnect<a href="https://github.com/wppconnect-team/wa-js/issues/1237" target="_blank" rel="noopener noreferrer">#1237</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/23b8cf3ad0470ef8159e427bf1dcc305537be146" target="_blank" rel="noopener noreferrer">23b8cf3</a>)</li><li>Improved message key for status/stories (<a href="https://github.com/wppconnect-team/wa-js/commit/87d28bf609a0c0bacacacd8cdedad5c52690417b" target="_blank" rel="noopener noreferrer">87d28bf</a>)</li><li>Removed offline link-preview server (<a href="https://github.com/wppconnect-team/wa-js/commit/1d10bab27f6d1e0913ae7ba36d6b0d5015a1066d" target="_blank" rel="noopener noreferrer">1d10bab</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added group.participant_changed event (<a href="https://github.com/wppconnect-team/wa-js/commit/e24dcc21307ef173156da7bace07a49afb8922b7" target="_blank" rel="noopener noreferrer">e24dcc2</a>)</li><li>Added WPP.chat.getLastSeen function (<a href="https://github.com/wppconnect-team/wa-js/issues/546" target="_blank" rel="noopener noreferrer">#546</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/925920deb2e9951e24c1263afcd0383d80ff830e" target="_blank" rel="noopener noreferrer">925920d</a>)</li><li>Improved link-preview to try all available servers (<a href="https://github.com/wppconnect-team/wa-js/commit/f728bcbc445a68f2511d847797f1d65982b7f318" target="_blank" rel="noopener noreferrer">f728bcb</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.9.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server minor release: v1.6.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.6.0</link>
