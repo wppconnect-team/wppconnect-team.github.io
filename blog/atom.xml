@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-07-31T02:44:57.000Z</updated>
+    <updated>2022-08-04T12:27:53.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v2.10.0]]></title>
+        <id>/wa-js/v2.10.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.10.0"/>
+        <updated>2022-08-04T12:27:53.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.10.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.10.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed buttons for latest WhatsApp (2.22.16.75) (fix <a href="https://github.com/wppconnect-team/wa-js/issues/571" target="_blank" rel="noopener noreferrer">#571</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/abfc9ad984ed77986330bd507c092856fdbba7dc" target="_blank" rel="noopener noreferrer">abfc9ad</a>)</li><li>Fixed list for latest WhatsApp (2.22.16.75) (fix <a href="https://github.com/wppconnect-team/wa-js/issues/571" target="_blank" rel="noopener noreferrer">#571</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/4cae69ed6006e765f7732ecc542273b9d9fa9dd8" target="_blank" rel="noopener noreferrer">4cae69e</a>)</li><li>onParticipantsChange operation/action (<a href="https://github.com/wppconnect-team/wa-js/commit/ee28ace0226c285d72d8e3b907f3bb47339adde1" target="_blank" rel="noopener noreferrer">ee28ace</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added isMainReady (<a href="https://github.com/wppconnect-team/wa-js/commit/cd411bdf1303f24bb160a875980e56d0a6c4f8a3" target="_blank" rel="noopener noreferrer">cd411bd</a>)</li><li>Added WPP.conn.getPlatform() (<a href="https://github.com/wppconnect-team/wa-js/commit/03416b622d877d28cf2d25d2dd42a534321c5239" target="_blank" rel="noopener noreferrer">03416b6</a>)</li><li>Added WPP.profile.isBusiness() (<a href="https://github.com/wppconnect-team/wa-js/commit/9433b9c54c5bbb2a8d89f82362a258667db13706" target="_blank" rel="noopener noreferrer">9433b9c</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.10.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.9.0]]></title>
         <id>/wa-js/v2.9.0</id>
