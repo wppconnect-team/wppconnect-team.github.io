@@ -2,11 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-08-04T12:27:53.000Z</updated>
+    <updated>2022-08-05T19:06:51.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Server CLI patch release: v1.3.2]]></title>
+        <id>/server-cli/v1.3.2</id>
+        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.2"/>
+        <updated>2022-08-05T19:06:51.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.2 for Server CLI with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.2 for Server CLI with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps-dev:</strong> update dependency @wppconnect/frontend to ^1.0.1 (<a href="https://github.com/wppconnect-team/server-cli/issues/277" target="_blank" rel="noopener noreferrer">#277</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/6b2597c5e79d6dfedd3a4537cd2f1a4faeef1c7e" target="_blank" rel="noopener noreferrer">6b2597c</a>)</li><li><strong>deps-dev:</strong> update dependency @wppconnect/frontend to ^1.0.3 (<a href="https://github.com/wppconnect-team/server-cli/issues/287" target="_blank" rel="noopener noreferrer">#287</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/1b2546e932be6e6e7ba45882d22eadd37bea15f2" target="_blank" rel="noopener noreferrer">1b2546e</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.3.3 (<a href="https://github.com/wppconnect-team/server-cli/issues/276" target="_blank" rel="noopener noreferrer">#276</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/d831b4c1ae0da89ecb6b6c5d243e409c5b53549f" target="_blank" rel="noopener noreferrer">d831b4c</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.3.4 (<a href="https://github.com/wppconnect-team/server-cli/commit/53901c90fbe7639b43580f92a29fdd61c8eb4a53" target="_blank" rel="noopener noreferrer">53901c9</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.4.0 (<a href="https://github.com/wppconnect-team/server-cli/commit/eacfa4cc00db3673e04c3b3daa7ac61504fd1c8e" target="_blank" rel="noopener noreferrer">eacfa4c</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.5.0 (<a href="https://github.com/wppconnect-team/server-cli/commit/1958a54592d88937687144d506305eebba6d4f58" target="_blank" rel="noopener noreferrer">1958a54</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.6.0 (<a href="https://github.com/wppconnect-team/server-cli/commit/813087cf371039787c4d83d4b6298519b047e09b" target="_blank" rel="noopener noreferrer">813087c</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.6.1 (<a href="https://github.com/wppconnect-team/server-cli/issues/309" target="_blank" rel="noopener noreferrer">#309</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/3fc41bba0341a0eb38368472bf7c8fc404182586" target="_blank" rel="noopener noreferrer">3fc41bb</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+        <category label="cli" term="cli"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v1.6.1]]></title>
+        <id>/wppconnect-server/v1.6.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v1.6.1"/>
+        <updated>2022-08-05T18:57:49.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.6.1 for WPP Server with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.6.1 for WPP Server with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Check session isConnected (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/5ae80eb4364829e13bb3b12fc2c5e8f24f1b1c5f" target="_blank" rel="noopener noreferrer">5ae80eb</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.16.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/860" target="_blank" rel="noopener noreferrer">#860</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/5f72973788d2844d2297acd73b96e76001b70c37" target="_blank" rel="noopener noreferrer">5f72973</a>)</li><li>Device  not connected error (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/2a5f16dda0ce60bc25815d3ae89e95170a4be64e" target="_blank" rel="noopener noreferrer">2a5f16d</a>)</li><li>Error on delete message group (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/0e5e2b272e6ab546d7b3ec6916312498c0e179af" target="_blank" rel="noopener noreferrer">0e5e2b2</a>)</li><li>Receive files on set group profile pic (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/6f02e091cbaa20af1604a1ab9b9e7632e764476b" target="_blank" rel="noopener noreferrer">6f02e09</a>)</li><li>Send file image on sendImageStorie (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/38c67493975c020fd2085703031499cede703f58" target="_blank" rel="noopener noreferrer">38c6749</a>)</li><li>Swagger docs for typing (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/2214cfc3887bf88f4dd136699e310b942fb50089" target="_blank" rel="noopener noreferrer">2214cfc</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added router to set recording (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/e49671ea5765516df8712908dfef470515751469" target="_blank" rel="noopener noreferrer">e49671e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.6.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.16.0]]></title>
+        <id>/wppconnect/v1.16.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.16.0"/>
+        <updated>2022-08-05T18:45:35.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.16.0 for WPPConnect with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.16.0 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.10.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/dc8133a2896c011830c874c94c780acd9368a25a" target="_blank" rel="noopener noreferrer">dc8133a</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.8.2 (<a href="https://github.com/wppconnect-team/wppconnect/commit/28d4524807faab0dd4a0b7f93f1557db1dcc9f98" target="_blank" rel="noopener noreferrer">28d4524</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.9.0 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1252" target="_blank" rel="noopener noreferrer">#1252</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/34b7ba979f1f4c6aaae66cb08c165c0b835b40f1" target="_blank" rel="noopener noreferrer">34b7ba9</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.116 (<a href="https://github.com/wppconnect-team/wppconnect/commit/74a36ba000dd279cda598e37789e3045eee63610" target="_blank" rel="noopener noreferrer">74a36ba</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.121 (<a href="https://github.com/wppconnect-team/wppconnect/commit/6cf8ee3d10dbd7f7466cc03483b34a4fd7341c66" target="_blank" rel="noopener noreferrer">6cf8ee3</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.122 (<a href="https://github.com/wppconnect-team/wppconnect/commit/5427ed77ee18c25da4da64acd735326b34ef080c" target="_blank" rel="noopener noreferrer">5427ed7</a>)</li><li>getAllLabels return null (<a href="https://github.com/wppconnect-team/wppconnect/issues/1235" target="_blank" rel="noopener noreferrer">#1235</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/515d8429bb1189ca352542d28d088774fe1c24fb" target="_blank" rel="noopener noreferrer">515d842</a>)</li><li>OnParticipantsChanged (<a href="https://github.com/wppconnect-team/wppconnect/issues/1250" target="_blank" rel="noopener noreferrer">#1250</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/76b179a817433e3bc77f5e2dd92ecb337278d397" target="_blank" rel="noopener noreferrer">76b179a</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Loading Screen callback function with percent and message (<a href="https://github.com/wppconnect-team/wppconnect/issues/1218" target="_blank" rel="noopener noreferrer">#1218</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/1a111172794ace9bfbfe7c371bd537a86707118a" target="_blank" rel="noopener noreferrer">1a11117</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.16.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.10.0]]></title>
         <id>/wa-js/v2.10.0</id>
