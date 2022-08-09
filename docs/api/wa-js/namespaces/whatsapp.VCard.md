@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).VCard
 
-**`whatsapp`** 93778
+**`Whatsapp`**
 
-**`whatsapp`** 78521 >= 2.2204.13
+93778
 
-**`whatsapp`** 893778 >= 2.2222.8
+**`Whatsapp`**
+
+78521 >= 2.2204.13
+
+**`Whatsapp`**
+
+893778 >= 2.2222.8
 
 ## Functions
 

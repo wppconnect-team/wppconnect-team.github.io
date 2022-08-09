@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).PresenceModel
 
-**`whatsapp`** 30000
+**`Whatsapp`**
 
-**`whatsapp`** 330000 >= 2.2222.8
+30000
+
+**`Whatsapp`**
+
+330000 >= 2.2222.8
 
 ## Hierarchy
 
@@ -414,7 +418,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -498,7 +504,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -893,7 +901,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1056,7 +1066,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

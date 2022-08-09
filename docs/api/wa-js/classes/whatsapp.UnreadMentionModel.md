@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).UnreadMentionModel
 
-**`whatsapp`** 41809
+**`Whatsapp`**
 
-**`whatsapp`** 441809 >= 2.2222.8
+41809
+
+**`Whatsapp`**
+
+441809 >= 2.2222.8
 
 ## Hierarchy
 
@@ -249,7 +253,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -333,7 +339,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -714,7 +722,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -877,7 +887,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

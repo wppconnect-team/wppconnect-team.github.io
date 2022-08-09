@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).StickerModel
 
-**`whatsapp`** 99718
+**`Whatsapp`**
 
-**`whatsapp`** 89867 >= 2.2204.13
+99718
 
-**`whatsapp`** 689867 >= 2.2222.8
+**`Whatsapp`**
+
+89867 >= 2.2204.13
+
+**`Whatsapp`**
+
+689867 >= 2.2222.8
 
 ## Hierarchy
 
@@ -461,7 +467,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -559,7 +567,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -940,7 +950,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1124,7 +1136,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

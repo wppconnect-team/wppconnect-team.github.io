@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).EventEmitter
 
-**`whatsapp`** 76521
+**`Whatsapp`**
 
-**`whatsapp`** 34342 >= 2.2204.13
+76521
 
-**`whatsapp`** 876521 >= 2.2222.8
+**`Whatsapp`**
+
+34342 >= 2.2204.13
+
+**`Whatsapp`**
+
+876521 >= 2.2222.8
 
 ## Hierarchy
 
@@ -37,7 +43,9 @@ custom_edit_url: null
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -63,7 +71,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -270,7 +280,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -343,7 +355,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

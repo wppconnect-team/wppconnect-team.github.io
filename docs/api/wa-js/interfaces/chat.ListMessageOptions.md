@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L30)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L33)
 
 ___
 
@@ -31,9 +31,12 @@ ___
 
 Create a new chat to a new contact
 
-**`default`** false
+**`Default`**
 
-**`example`**
+false
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello new contact', {
   createChat: true
@@ -56,7 +59,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L31)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L34)
 
 ___
 
@@ -66,9 +69,12 @@ ___
 
 Automatic detect and add the mentioned contacts with @[number]
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello @123 and @456', {
   detectMentioned: true
@@ -91,7 +97,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L33)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L36)
 
 ___
 
@@ -101,9 +107,12 @@ ___
 
 Automatically mark chat is read after send a message
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Replying your message', {
   markIsRead: true
@@ -127,7 +136,8 @@ ___
 Define a mentioned list for a message
 This option work better with a message with mension
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello @123 and @456', {
   mentionedList: ['123@c.us', '456@c.us']
@@ -164,7 +174,8 @@ ___
 
 Quote a message, like a reply message
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'This is a reply', {
   quotedMsg: 'true_[number]@c.us_3EB0F435D95D32C4C638'
@@ -187,7 +198,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L34)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L37)
 
 ___
 
@@ -197,7 +208,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L32)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L35)
 
 ___
 
@@ -207,9 +218,12 @@ ___
 
 Wait for send while the ACK of message is SENT(1)
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Wait for sent', {
   waitForAck: true

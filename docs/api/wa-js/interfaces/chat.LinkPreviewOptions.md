@@ -15,9 +15,12 @@ custom_edit_url: null
 
 Send text message with link preview
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 // Automatic detection
 WPP.chat.sendTextMessage('[number]@c.us', 'See https://www.youtube.com/watch?v=v1PBptSDIh8');

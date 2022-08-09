@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).CmdClass
 
-**`whatsapp`** 88102
+**`Whatsapp`**
 
-**`whatsapp`** 81572 >= 2.2218.4
+88102
 
-**`whatsapp`** 781572 >= 2.2222.8
+**`Whatsapp`**
+
+81572 >= 2.2218.4
+
+**`Whatsapp`**
+
+781572 >= 2.2222.8
 
 ## Hierarchy
 
@@ -237,7 +243,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -583,7 +591,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -2110,7 +2120,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -2607,7 +2619,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

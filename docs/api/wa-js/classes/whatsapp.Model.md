@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).Model
 
-**`whatsapp`** 11290
+**`Whatsapp`**
 
-**`whatsapp`** 411290 >= 2.2222.8
+11290
+
+**`Whatsapp`**
+
+411290 >= 2.2222.8
 
 ## Type parameters
 
@@ -112,8 +116,6 @@ custom_edit_url: null
   ↳↳ [`SocketModel`](whatsapp.SocketModel.md)
 
   ↳↳ [`StatusModel`](whatsapp.StatusModel.md)
-
-  ↳↳ [`StatusV3Model`](whatsapp.StatusV3Model.md)
 
   ↳↳ [`StickerModel`](whatsapp.StickerModel.md)
 
@@ -243,7 +245,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -315,7 +319,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -672,7 +678,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -791,7 +799,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

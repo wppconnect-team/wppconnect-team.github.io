@@ -11,7 +11,7 @@ custom_edit_url: null
 
 ### ANNOUNCEMENT
 
-• **ANNOUNCEMENT**
+• **ANNOUNCEMENT** = ``"announcement"``
 
 #### Defined in
 
@@ -21,7 +21,7 @@ ___
 
 ### EPHEMERAL
 
-• **EPHEMERAL**
+• **EPHEMERAL** = ``"ephemeral"``
 
 #### Defined in
 
@@ -31,7 +31,7 @@ ___
 
 ### RESTRICT
 
-• **RESTRICT**
+• **RESTRICT** = ``"restrict"``
 
 #### Defined in
 

@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).ImageUtils
 
-**`whatsapp`** 51428
+**`Whatsapp`**
 
-**`whatsapp`** 36638 >= 2.2204.13
+51428
 
-**`whatsapp`** 551428 >= 2.2222.8
+**`Whatsapp`**
+
+36638 >= 2.2204.13
+
+**`Whatsapp`**
+
+551428 >= 2.2222.8
 
 ## Functions
 

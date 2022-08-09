@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ReactionsModel
 
-**`whatsapp`** 80666
+**`Whatsapp`**
 
-**`whatsapp`** 81130 >= 2.2220.8
+80666
 
-**`whatsapp`** 981130 >= 2.2222.8
+**`Whatsapp`**
+
+81130 >= 2.2220.8
+
+**`Whatsapp`**
+
+981130 >= 2.2222.8
 
 ## Hierarchy
 
@@ -246,7 +252,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -330,7 +338,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -725,7 +735,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -888,7 +900,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

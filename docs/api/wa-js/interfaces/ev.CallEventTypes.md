@@ -15,7 +15,8 @@ custom_edit_url: null
 
 Triggered when you a incoming call
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.on('call.incoming_call', (call) => {
   // Your code

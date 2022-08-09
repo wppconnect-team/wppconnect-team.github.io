@@ -15,10 +15,20 @@ custom_edit_url: null
 
 ## Properties
 
+### messageId
+
+• `Optional` **messageId**: `string` \| [`MsgKey`](../classes/whatsapp.MsgKey.md)
+
+#### Defined in
+
+[packages/wa-js/src/status/functions/sendRawStatus.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L41)
+
+___
+
 ### waitForAck
 
 • `Optional` **waitForAck**: `boolean`
 
 #### Defined in
 
-[packages/wa-js/src/status/functions/sendRawStatus.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L31)
+[packages/wa-js/src/status/functions/sendRawStatus.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L40)

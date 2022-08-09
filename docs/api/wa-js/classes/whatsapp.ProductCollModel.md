@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ProductCollModel
 
-**`whatsapp`** 94629
+**`Whatsapp`**
 
-**`whatsapp`** 394629 >= 2.2222.8
+94629
+
+**`Whatsapp`**
+
+394629 >= 2.2222.8
 
 ## Hierarchy
 
@@ -314,7 +318,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -398,7 +404,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -779,7 +787,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -942,7 +952,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

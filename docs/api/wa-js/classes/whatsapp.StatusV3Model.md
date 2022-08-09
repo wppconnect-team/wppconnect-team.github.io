@@ -7,15 +7,19 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).StatusV3Model
 
-**`whatsapp`** 47896
+**`Whatsapp`**
 
-**`whatsapp`** 547896 >= 2.2222.8
+47896
+
+**`Whatsapp`**
+
+547896 >= 2.2222.8
 
 ## Hierarchy
 
 - [`ModelProxy`](../namespaces/whatsapp.md#modelproxy)<`Props`, `Session`, `Derived`\>
 
-- [`Model`](whatsapp.Model.md)<[`StatusV3Collection`](whatsapp.StatusV3Collection.md)\>
+- [`ModelChatBase`](whatsapp.ModelChatBase.md)
 
   ↳ **`StatusV3Model`**
 
@@ -34,11 +38,11 @@ custom_edit_url: null
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[constructor](whatsapp.Model.md#constructor)
+[ModelChatBase](whatsapp.ModelChatBase.md).[constructor](whatsapp.ModelChatBase.md#constructor)
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L60)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L55)
 
 ## Properties
 
@@ -58,11 +62,11 @@ ___
 
 ### collection
 
-• `Optional` **collection**: [`StatusV3Collection`](whatsapp.StatusV3Collection.md)
+• `Optional` **collection**: [`ChatCollection`](whatsapp.ChatCollection.md)
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[collection](whatsapp.Model.md#collection)
+[ModelChatBase](whatsapp.ModelChatBase.md).[collection](whatsapp.ModelChatBase.md#collection)
 
 #### Defined in
 
@@ -80,7 +84,7 @@ ModelProxy.contact
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:38](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L38)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L33)
 
 ___
 
@@ -108,7 +112,7 @@ ModelProxy.expireTimer
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L39)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:34](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L34)
 
 ___
 
@@ -122,7 +126,7 @@ ModelProxy.expireTs
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L40)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:35](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L35)
 
 ___
 
@@ -136,7 +140,7 @@ ModelProxy.hasUnread
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L44)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:39](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L39)
 
 ___
 
@@ -160,7 +164,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L59)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L54)
 
 ___
 
@@ -216,7 +220,7 @@ ModelProxy.lastStatus
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L46)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L41)
 
 ___
 
@@ -274,6 +278,20 @@ ModelProxy.msgChunks
 
 ___
 
+### msgs
+
+• **msgs**: [`MsgLoad`](whatsapp.MsgLoad.md)
+
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[msgs](whatsapp.ModelChatBase.md#msgs)
+
+#### Defined in
+
+[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:42](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L42)
+
+___
+
 ### msgsChanged
 
 • **msgsChanged**: `number`
@@ -308,7 +326,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[parent](whatsapp.Model.md#parent)
+[ModelChatBase](whatsapp.ModelChatBase.md).[parent](whatsapp.ModelChatBase.md#parent)
 
 #### Defined in
 
@@ -340,7 +358,7 @@ ModelProxy.pic
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L32)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L27)
 
 ___
 
@@ -350,7 +368,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[proxyName](whatsapp.Model.md#proxyname)
+[ModelChatBase](whatsapp.ModelChatBase.md).[proxyName](whatsapp.ModelChatBase.md#proxyname)
 
 #### Defined in
 
@@ -368,7 +386,7 @@ ModelProxy.readCount
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L45)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L40)
 
 ___
 
@@ -382,7 +400,7 @@ ModelProxy.readKeys
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:37](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L37)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:32](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L32)
 
 ___
 
@@ -396,7 +414,7 @@ ModelProxy.stale
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L36)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L31)
 
 ___
 
@@ -410,7 +428,7 @@ ModelProxy.t
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:29](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L29)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L24)
 
 ___
 
@@ -424,7 +442,7 @@ ModelProxy.totalCount
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L31)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L26)
 
 ___
 
@@ -438,7 +456,7 @@ ModelProxy.unreadCount
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L30)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L25)
 
 ___
 
@@ -462,7 +480,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[Proxy](whatsapp.Model.md#proxy)
+[ModelChatBase](whatsapp.ModelChatBase.md).[Proxy](whatsapp.ModelChatBase.md#proxy)
 
 #### Defined in
 
@@ -476,7 +494,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[allowedIds](whatsapp.Model.md#allowedids)
+[ModelChatBase](whatsapp.ModelChatBase.md).[allowedIds](whatsapp.ModelChatBase.md#allowedids)
 
 #### Defined in
 
@@ -490,7 +508,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[idClass](whatsapp.Model.md#idclass)
+[ModelChatBase](whatsapp.ModelChatBase.md).[idClass](whatsapp.ModelChatBase.md#idclass)
 
 #### Defined in
 
@@ -515,7 +533,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[addChild](whatsapp.Model.md#addchild)
+[ModelChatBase](whatsapp.ModelChatBase.md).[addChild](whatsapp.ModelChatBase.md#addchild)
 
 #### Defined in
 
@@ -529,7 +547,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -545,7 +565,7 @@ Alias of `on`
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[bind](whatsapp.Model.md#bind)
+[ModelChatBase](whatsapp.ModelChatBase.md).[bind](whatsapp.ModelChatBase.md#bind)
 
 #### Defined in
 
@@ -563,7 +583,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[clear](whatsapp.Model.md#clear)
+[ModelChatBase](whatsapp.ModelChatBase.md).[clear](whatsapp.ModelChatBase.md#clear)
 
 #### Defined in
 
@@ -581,7 +601,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[decObservers](whatsapp.Model.md#decobservers)
+[ModelChatBase](whatsapp.ModelChatBase.md).[decObservers](whatsapp.ModelChatBase.md#decobservers)
 
 #### Defined in
 
@@ -599,7 +619,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[delete](whatsapp.Model.md#delete)
+[ModelChatBase](whatsapp.ModelChatBase.md).[delete](whatsapp.ModelChatBase.md#delete)
 
 #### Defined in
 
@@ -613,7 +633,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -628,7 +650,7 @@ Alias of `trigger`
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[emit](whatsapp.Model.md#emit)
+[ModelChatBase](whatsapp.ModelChatBase.md).[emit](whatsapp.ModelChatBase.md#emit)
 
 #### Defined in
 
@@ -646,7 +668,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L65)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L60)
 
 ___
 
@@ -672,7 +694,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[get](whatsapp.Model.md#get)
+[ModelChatBase](whatsapp.ModelChatBase.md).[get](whatsapp.ModelChatBase.md#get)
 
 #### Defined in
 
@@ -688,9 +710,13 @@ ___
 
 `any`
 
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[getAllCMCs](whatsapp.ModelChatBase.md#getallcmcs)
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:72](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L72)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L67)
 
 ___
 
@@ -702,9 +728,13 @@ ___
 
 `any`
 
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[getAllMsgs](whatsapp.ModelChatBase.md#getallmsgs)
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L73)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:68](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L68)
 
 ___
 
@@ -718,7 +748,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:70](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L70)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L65)
 
 ___
 
@@ -744,7 +774,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[getDefault](whatsapp.Model.md#getdefault)
+[ModelChatBase](whatsapp.ModelChatBase.md).[getDefault](whatsapp.ModelChatBase.md#getdefault)
 
 #### Defined in
 
@@ -768,7 +798,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:68](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L68)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L63)
 
 ___
 
@@ -782,7 +812,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[hasObservers](whatsapp.Model.md#hasobservers)
+[ModelChatBase](whatsapp.ModelChatBase.md).[hasObservers](whatsapp.ModelChatBase.md#hasobservers)
 
 #### Defined in
 
@@ -800,7 +830,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[hasUnfiredChanges](whatsapp.Model.md#hasunfiredchanges)
+[ModelChatBase](whatsapp.ModelChatBase.md).[hasUnfiredChanges](whatsapp.ModelChatBase.md#hasunfiredchanges)
 
 #### Defined in
 
@@ -824,7 +854,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[incObservers](whatsapp.Model.md#incobservers)
+[ModelChatBase](whatsapp.ModelChatBase.md).[incObservers](whatsapp.ModelChatBase.md#incobservers)
 
 #### Defined in
 
@@ -842,7 +872,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[initialize](whatsapp.Model.md#initialize)
+[ModelChatBase](whatsapp.ModelChatBase.md).[initialize](whatsapp.ModelChatBase.md#initialize)
 
 #### Defined in
 
@@ -866,7 +896,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[isListening](whatsapp.Model.md#islistening)
+[ModelChatBase](whatsapp.ModelChatBase.md).[isListening](whatsapp.ModelChatBase.md#islistening)
 
 #### Defined in
 
@@ -892,7 +922,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[listenTo](whatsapp.Model.md#listento)
+[ModelChatBase](whatsapp.ModelChatBase.md).[listenTo](whatsapp.ModelChatBase.md#listento)
 
 #### Defined in
 
@@ -918,7 +948,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[listenToAndRun](whatsapp.Model.md#listentoandrun)
+[ModelChatBase](whatsapp.ModelChatBase.md).[listenToAndRun](whatsapp.ModelChatBase.md#listentoandrun)
 
 #### Defined in
 
@@ -944,7 +974,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[listenToOnce](whatsapp.Model.md#listentoonce)
+[ModelChatBase](whatsapp.ModelChatBase.md).[listenToOnce](whatsapp.ModelChatBase.md#listentoonce)
 
 #### Defined in
 
@@ -968,7 +998,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L67)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L62)
 
 ___
 
@@ -989,9 +1019,13 @@ ___
 
 `any`
 
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[notifyMsgCollectionMerge](whatsapp.ModelChatBase.md#notifymsgcollectionmerge)
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:76](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L76)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L71)
 
 ___
 
@@ -1017,7 +1051,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[off](whatsapp.Model.md#off)
+[ModelChatBase](whatsapp.ModelChatBase.md).[off](whatsapp.ModelChatBase.md#off)
 
 #### Defined in
 
@@ -1047,7 +1081,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[on](whatsapp.Model.md#on)
+[ModelChatBase](whatsapp.ModelChatBase.md).[on](whatsapp.ModelChatBase.md#on)
 
 #### Defined in
 
@@ -1063,9 +1097,13 @@ ___
 
 `any`
 
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[onEmptyMRM](whatsapp.ModelChatBase.md#onemptymrm)
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L66)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L61)
 
 ___
 
@@ -1091,7 +1129,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[once](whatsapp.Model.md#once)
+[ModelChatBase](whatsapp.ModelChatBase.md).[once](whatsapp.ModelChatBase.md#once)
 
 #### Defined in
 
@@ -1113,7 +1151,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[removeAllListeners](whatsapp.Model.md#removealllisteners)
+[ModelChatBase](whatsapp.ModelChatBase.md).[removeAllListeners](whatsapp.ModelChatBase.md#removealllisteners)
 
 #### Defined in
 
@@ -1127,7 +1165,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1143,7 +1183,7 @@ Alias of `off`
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[removeListener](whatsapp.Model.md#removelistener)
+[ModelChatBase](whatsapp.ModelChatBase.md).[removeListener](whatsapp.ModelChatBase.md#removelistener)
 
 #### Defined in
 
@@ -1165,9 +1205,13 @@ ___
 
 `any`
 
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[removeMsg](whatsapp.ModelChatBase.md#removemsg)
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:71](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L71)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L66)
 
 ___
 
@@ -1185,9 +1229,13 @@ ___
 
 `any`
 
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[removeMsgsCollection](whatsapp.ModelChatBase.md#removemsgscollection)
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:75](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L75)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:70](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L70)
 
 ___
 
@@ -1205,9 +1253,13 @@ ___
 
 `any`
 
+#### Inherited from
+
+[ModelChatBase](whatsapp.ModelChatBase.md).[replaceMsgsCollection](whatsapp.ModelChatBase.md#replacemsgscollection)
+
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:74](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L74)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L69)
 
 ___
 
@@ -1221,7 +1273,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[reset](whatsapp.Model.md#reset)
+[ModelChatBase](whatsapp.ModelChatBase.md).[reset](whatsapp.ModelChatBase.md#reset)
 
 #### Defined in
 
@@ -1246,7 +1298,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L69)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L64)
 
 ___
 
@@ -1284,7 +1336,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[set](whatsapp.Model.md#set)
+[ModelChatBase](whatsapp.ModelChatBase.md).[set](whatsapp.ModelChatBase.md#set)
 
 #### Defined in
 
@@ -1302,7 +1354,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L64)
+[packages/wa-js/src/whatsapp/models/StatusV3Model.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/StatusV3Model.ts#L59)
 
 ___
 
@@ -1324,7 +1376,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[stopListening](whatsapp.Model.md#stoplistening)
+[ModelChatBase](whatsapp.ModelChatBase.md).[stopListening](whatsapp.ModelChatBase.md#stoplistening)
 
 #### Defined in
 
@@ -1371,7 +1423,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[trigger](whatsapp.Model.md#trigger)
+[ModelChatBase](whatsapp.ModelChatBase.md).[trigger](whatsapp.ModelChatBase.md#trigger)
 
 #### Defined in
 
@@ -1385,7 +1437,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1401,7 +1455,7 @@ Alias of `off`
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[unbind](whatsapp.Model.md#unbind)
+[ModelChatBase](whatsapp.ModelChatBase.md).[unbind](whatsapp.ModelChatBase.md#unbind)
 
 #### Defined in
 
@@ -1426,7 +1480,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[unset](whatsapp.Model.md#unset)
+[ModelChatBase](whatsapp.ModelChatBase.md).[unset](whatsapp.ModelChatBase.md#unset)
 
 #### Defined in
 
@@ -1450,7 +1504,7 @@ ___
 
 #### Inherited from
 
-[Model](whatsapp.Model.md).[isIdType](whatsapp.Model.md#isidtype)
+[ModelChatBase](whatsapp.ModelChatBase.md).[isIdType](whatsapp.ModelChatBase.md#isidtype)
 
 #### Defined in
 

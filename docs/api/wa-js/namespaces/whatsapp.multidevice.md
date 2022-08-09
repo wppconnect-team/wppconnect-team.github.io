@@ -17,13 +17,21 @@ custom_edit_url: null
 
 • `Const` **waNoiseInfo**: `NoiseInfo`
 
-**`whatsapp`** 15875
+**`Whatsapp`**
 
-**`whatsapp`** 14111 >= 2.2204.13
+15875
 
-**`whatsapp`** 34898 >= 2.2218.4
+**`Whatsapp`**
 
-**`whatsapp`** 134898 >= 2.2222.8
+14111 >= 2.2204.13
+
+**`Whatsapp`**
+
+34898 >= 2.2218.4
+
+**`Whatsapp`**
+
+134898 >= 2.2222.8
 
 #### Defined in
 
@@ -35,11 +43,17 @@ ___
 
 • `Const` **waSignalStore**: `SignalStore`
 
-**`whatsapp`** 11849
+**`Whatsapp`**
 
-**`whatsapp`** 40623 >= 2.2218.4
+11849
 
-**`whatsapp`** 640623 >= 2.2222.8
+**`Whatsapp`**
+
+40623 >= 2.2218.4
+
+**`Whatsapp`**
+
+640623 >= 2.2222.8
 
 #### Defined in
 

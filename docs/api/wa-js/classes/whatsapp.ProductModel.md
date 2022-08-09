@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ProductModel
 
-**`whatsapp`** 9468
+**`Whatsapp`**
 
-**`whatsapp`** 509468 >= 2.2222.8
+9468
+
+**`Whatsapp`**
+
+509468 >= 2.2222.8
 
 ## Hierarchy
 
@@ -609,7 +613,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -693,7 +699,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -1144,7 +1152,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1321,7 +1331,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

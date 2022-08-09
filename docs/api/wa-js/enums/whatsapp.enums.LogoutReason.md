@@ -7,17 +7,23 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).[enums](../namespaces/whatsapp.enums.md).LogoutReason
 
-**`whatsapp`** 83578
+**`Whatsapp`**
 
-**`whatsapp`** 88950 >= 2.2218.4
+83578
 
-**`whatsapp`** 788950 >= 2.2222.8
+**`Whatsapp`**
+
+88950 >= 2.2218.4
+
+**`Whatsapp`**
+
+788950 >= 2.2222.8
 
 ## Enumeration Members
 
 ### ACCOUNT\_SYNC\_ERROR
 
-• **ACCOUNT\_SYNC\_ERROR**
+• **ACCOUNT\_SYNC\_ERROR** = ``"account_sync_error"``
 
 #### Defined in
 
@@ -27,7 +33,7 @@ ___
 
 ### CLIENT\_FATAL\_ERROR
 
-• **CLIENT\_FATAL\_ERROR**
+• **CLIENT\_FATAL\_ERROR** = ``"client_fatal_error"``
 
 #### Defined in
 
@@ -37,7 +43,7 @@ ___
 
 ### CLIENT\_VERSION\_OUTDATED
 
-• **CLIENT\_VERSION\_OUTDATED**
+• **CLIENT\_VERSION\_OUTDATED** = ``"client_version_outdated"``
 
 #### Defined in
 
@@ -47,7 +53,7 @@ ___
 
 ### CRITICAL\_SYNC\_TIMEOUT
 
-• **CRITICAL\_SYNC\_TIMEOUT**
+• **CRITICAL\_SYNC\_TIMEOUT** = ``"critical_sync_timeout"``
 
 #### Defined in
 
@@ -57,7 +63,7 @@ ___
 
 ### SYNCD\_ERROR\_DURING\_BOOTSTRAP
 
-• **SYNCD\_ERROR\_DURING\_BOOTSTRAP**
+• **SYNCD\_ERROR\_DURING\_BOOTSTRAP** = ``"syncd_error_during_bootstrap"``
 
 #### Defined in
 
@@ -67,7 +73,7 @@ ___
 
 ### SYNCD\_FAILURE
 
-• **SYNCD\_FAILURE**
+• **SYNCD\_FAILURE** = ``"syncd_failure"``
 
 #### Defined in
 
@@ -77,7 +83,7 @@ ___
 
 ### UNKNOWN
 
-• **UNKNOWN**
+• **UNKNOWN** = ``"unknown"``
 
 #### Defined in
 
@@ -87,7 +93,7 @@ ___
 
 ### UNKNOWN\_COMPANION
 
-• **UNKNOWN\_COMPANION**
+• **UNKNOWN\_COMPANION** = ``"unknown_companion"``
 
 #### Defined in
 
@@ -97,7 +103,7 @@ ___
 
 ### USER\_INITIATED
 
-• **USER\_INITIATED**
+• **USER\_INITIATED** = ``"user_initiated"``
 
 #### Defined in
 

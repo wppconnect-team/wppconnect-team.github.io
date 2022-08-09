@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).BusinessProfileModel
 
-**`whatsapp`** 48018
+**`Whatsapp`**
 
-**`whatsapp`** 348018 >= 2.2222.8
+48018
+
+**`Whatsapp`**
+
+348018 >= 2.2222.8
 
 ## Hierarchy
 
@@ -424,7 +428,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -508,7 +514,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -931,7 +939,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1094,7 +1104,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

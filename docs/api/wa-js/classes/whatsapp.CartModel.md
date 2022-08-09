@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).CartModel
 
-**`whatsapp`** 65999
+**`Whatsapp`**
 
-**`whatsapp`** 565999 >= 2.2222.8
+65999
+
+**`Whatsapp`**
+
+565999 >= 2.2222.8
 
 ## Hierarchy
 
@@ -309,7 +313,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -407,7 +413,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -802,7 +810,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -965,7 +975,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

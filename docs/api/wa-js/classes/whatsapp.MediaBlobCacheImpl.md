@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).MediaBlobCacheImpl
 
-**`whatsapp`** 84866
+**`Whatsapp`**
 
-**`whatsapp`** 284866 >= 2.2222.8
+84866
+
+**`Whatsapp`**
+
+284866 >= 2.2222.8
 
 ## Constructors
 

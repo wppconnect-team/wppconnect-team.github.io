@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ClockClass
 
-**`whatsapp`** 40234
+**`Whatsapp`**
 
-**`whatsapp`** 22683 >= 2.2204.13
+40234
+
+**`Whatsapp`**
+
+22683 >= 2.2204.13
 
 ## Constructors
 

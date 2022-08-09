@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).[multidevice](whatsapp.multidevice.md).adv
 
-**`whatsapp`** 46308
+**`Whatsapp`**
 
-**`whatsapp`** 24863 >= 2.2204.13
+46308
 
-**`whatsapp`** 946308 >= 2.2222.8
+**`Whatsapp`**
+
+24863 >= 2.2204.13
+
+**`Whatsapp`**
+
+946308 >= 2.2222.8
 
 ## Functions
 

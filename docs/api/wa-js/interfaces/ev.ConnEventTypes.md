@@ -25,7 +25,8 @@ ___
 
 Triggered afted a success QR code scan
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.on('conn.authenticated', () => {
   // Your code
@@ -54,7 +55,8 @@ ___
 
 Triggered when the main interface is loaded, but is syncing
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.on('conn.main_loaded', () => {
   // Your code
@@ -73,7 +75,8 @@ ___
 
 Triggered when the main interface is loaded, authenticated and ready to send message
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.on('conn.main_ready', () => {
   // Your code

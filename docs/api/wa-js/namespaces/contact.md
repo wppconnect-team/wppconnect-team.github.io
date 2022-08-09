@@ -28,7 +28,8 @@ custom_edit_url: null
 
 Get the current text status
 
-**`example`**
+**`Example`**
+
 ```javascript
 const url = await WPP.contact.getProfilePicture('[number]@c.us');
 ```
@@ -56,7 +57,8 @@ ___
 
 Get the current text status
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.contact.getStatus('[number]@c.us');
 ```
@@ -85,7 +87,8 @@ Check if the number exists and what is correct ID
 
 This help to identify numbers with nine digit in Brazil
 
-**`example`**
+**`Example`**
+
 ```javascript
 const result = await WPP.contact.queryExists('[number]@c.us');
 console.log(result.wid); // Correct ID
@@ -115,7 +118,8 @@ ___
 
 Return a list of contacts
 
-**`example`**
+**`Example`**
+
 ```javascript
 // All contacts
 const contats = await WPP.contact.list();

@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).Base64
 
-**`whatsapp`** 15688
+**`Whatsapp`**
 
-**`whatsapp`** 615688 >= 2.2222.8
+15688
+
+**`Whatsapp`**
+
+615688 >= 2.2222.8
 
 ## Variables
 

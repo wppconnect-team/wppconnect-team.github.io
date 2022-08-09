@@ -18,6 +18,7 @@ custom_edit_url: null
 - [UserPrefs](whatsapp.UserPrefs.md)
 - [VCard](whatsapp.VCard.md)
 - [WidFactory](whatsapp.WidFactory.md)
+- [contants](whatsapp.contants.md)
 - [enums](whatsapp.enums.md)
 - [functions](whatsapp.functions.md)
 - [multidevice](whatsapp.multidevice.md)
@@ -183,9 +184,13 @@ ___
 
 • `Const` **BlocklistStore**: [`BlocklistCollection`](../classes/whatsapp.BlocklistCollection.md)
 
-**`whatsapp`** 32826
+**`Whatsapp`**
 
-**`whatsapp`** 132826 >= 2.2222.8
+32826
+
+**`Whatsapp`**
+
+132826 >= 2.2222.8
 
 #### Defined in
 
@@ -197,9 +202,13 @@ ___
 
 • `Const` **BusinessCategoriesResultStore**: [`BusinessCategoriesResultCollection`](../classes/whatsapp.BusinessCategoriesResultCollection.md)
 
-**`whatsapp`** 3754
+**`Whatsapp`**
 
-**`whatsapp`** 203754 >= 2.2222.8
+3754
+
+**`Whatsapp`**
+
+203754 >= 2.2222.8
 
 #### Defined in
 
@@ -211,9 +220,13 @@ ___
 
 • `Const` **BusinessProfileStore**: [`BusinessProfileCollection`](../classes/whatsapp.BusinessProfileCollection.md)
 
-**`whatsapp`** 93581
+**`Whatsapp`**
 
-**`whatsapp`** 493581 >= 2.2222.8
+93581
+
+**`Whatsapp`**
+
+493581 >= 2.2222.8
 
 #### Defined in
 
@@ -225,11 +238,17 @@ ___
 
 • `Const` **CallStore**: [`CallCollection`](../classes/whatsapp.CallCollection.md)
 
-**`whatsapp`** 60868
+**`Whatsapp`**
 
-**`whatsapp`** 31218 >= 2.2204.13
+60868
 
-**`whatsapp`** 160868 >= 2.2222.8
+**`Whatsapp`**
+
+31218 >= 2.2204.13
+
+**`Whatsapp`**
+
+160868 >= 2.2222.8
 
 #### Defined in
 
@@ -241,9 +260,13 @@ ___
 
 • `Const` **CartStore**: [`CartCollection`](../classes/whatsapp.CartCollection.md)
 
-**`whatsapp`** 12392
+**`Whatsapp`**
 
-**`whatsapp`** 612392 >= 2.2222.8
+12392
+
+**`Whatsapp`**
+
+612392 >= 2.2222.8
 
 #### Defined in
 
@@ -255,9 +278,13 @@ ___
 
 • `Const` **CatalogStore**: [`CatalogCollection`](../classes/whatsapp.CatalogCollection.md)
 
-**`whatsapp`** 99989
+**`Whatsapp`**
 
-**`whatsapp`** 599989 >= 2.2222.8
+99989
+
+**`Whatsapp`**
+
+599989 >= 2.2222.8
 
 #### Defined in
 
@@ -269,9 +296,13 @@ ___
 
 • `Const` **ChatStore**: [`ChatCollection`](../classes/whatsapp.ChatCollection.md)
 
-**`whatsapp`** 69951
+**`Whatsapp`**
 
-**`whatsapp`** 669951 >= 2.2222.8
+69951
+
+**`Whatsapp`**
+
+669951 >= 2.2222.8
 
 #### Defined in
 
@@ -283,9 +314,13 @@ ___
 
 • `Const` **Clock**: [`ClockClass`](../classes/whatsapp.ClockClass.md)
 
-**`whatsapp`** 40234
+**`Whatsapp`**
 
-**`whatsapp`** 22683 >= 2.2204.13
+40234
+
+**`Whatsapp`**
+
+22683 >= 2.2204.13
 
 #### Defined in
 
@@ -297,11 +332,17 @@ ___
 
 • `Const` **Cmd**: [`CmdClass`](../classes/whatsapp.CmdClass.md)
 
-**`whatsapp`** 88102
+**`Whatsapp`**
 
-**`whatsapp`** 81572 >= 2.2218.4
+88102
 
-**`whatsapp`** 781572 >= 2.2222.8
+**`Whatsapp`**
+
+81572 >= 2.2218.4
+
+**`Whatsapp`**
+
+781572 >= 2.2222.8
 
 #### Defined in
 
@@ -313,9 +354,13 @@ ___
 
 • `Const` **Conn**: [`ConnModel`](../classes/whatsapp.ConnModel.md)
 
-**`whatsapp`** 17239
+**`Whatsapp`**
 
-**`whatsapp`** 317239 >= 2.2222.8
+17239
+
+**`Whatsapp`**
+
+317239 >= 2.2222.8
 
 #### Defined in
 
@@ -327,11 +372,17 @@ ___
 
 • `Const` **Constants**: `Object`
 
-**`whatsapp`** 64369
+**`Whatsapp`**
 
-**`whatsapp`** 69618 >= 2.2204.13
+64369
 
-**`whatsapp`** 364369 >= 2.2222.8
+**`Whatsapp`**
+
+69618 >= 2.2204.13
+
+**`Whatsapp`**
+
+364369 >= 2.2222.8
 
 #### Type declaration
 
@@ -375,9 +426,13 @@ ___
 
 • `Const` **ContactStore**: [`ContactCollection`](../classes/whatsapp.ContactCollection.md)
 
-**`whatsapp`** 19380
+**`Whatsapp`**
 
-**`whatsapp`** 719380 >= 2.2222.8
+19380
+
+**`Whatsapp`**
+
+719380 >= 2.2222.8
 
 #### Defined in
 
@@ -389,9 +444,13 @@ ___
 
 • `Const` **EmojiVariantStore**: [`EmojiVariantCollection`](../classes/whatsapp.EmojiVariantCollection.md)
 
-**`whatsapp`** 13185
+**`Whatsapp`**
 
-**`whatsapp`** 513185 >= 2.2222.8
+13185
+
+**`Whatsapp`**
+
+513185 >= 2.2222.8
 
 #### Defined in
 
@@ -403,11 +462,17 @@ ___
 
 • `Const` **Features**: `FeatureClass`
 
-**`whatsapp`** 7293
+**`Whatsapp`**
 
-**`whatsapp`** 38184 >= 2.2218.4
+7293
 
-**`whatsapp`** 438184 >= 2.2222.8
+**`Whatsapp`**
+
+38184 >= 2.2218.4
+
+**`Whatsapp`**
+
+438184 >= 2.2222.8
 
 #### Defined in
 
@@ -419,9 +484,13 @@ ___
 
 • `Const` **GroupMetadataStore**: [`GroupMetadataCollection`](../classes/whatsapp.GroupMetadataCollection.md)
 
-**`whatsapp`** 63928
+**`Whatsapp`**
 
-**`whatsapp`** 963928 >= 2.2222.8
+63928
+
+**`Whatsapp`**
+
+963928 >= 2.2222.8
 
 #### Defined in
 
@@ -433,9 +502,13 @@ ___
 
 • `Const` **LabelStore**: [`LabelCollection`](../classes/whatsapp.LabelCollection.md)
 
-**`whatsapp`** 16770
+**`Whatsapp`**
 
-**`whatsapp`** 316770 >= 2.2222.8
+16770
+
+**`Whatsapp`**
+
+316770 >= 2.2222.8
 
 #### Defined in
 
@@ -447,9 +520,13 @@ ___
 
 • `Const` **LiveLocationStore**: [`LiveLocationCollection`](../classes/whatsapp.LiveLocationCollection.md)
 
-**`whatsapp`** 85865
+**`Whatsapp`**
 
-**`whatsapp`** 985865 >= 2.2222.8
+85865
+
+**`Whatsapp`**
+
+985865 >= 2.2222.8
 
 #### Defined in
 
@@ -461,15 +538,25 @@ ___
 
 • `Const` **Locale**: `LocaleClass`
 
-**`whatsapp`** 14296
+**`Whatsapp`**
 
-**`whatsapp`** 43725 >= 2.2204.13
+14296
 
-**`whatsapp`** 914296 >= 2.2222.8
+**`Whatsapp`**
+
+43725 >= 2.2204.13
+
+**`Whatsapp`**
+
+914296 >= 2.2222.8
+
+**`Whatsapp`**
+
+568064 >= 2.2230.8
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/misc/Locale.ts:25](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Locale.ts#L25)
+[packages/wa-js/src/whatsapp/misc/Locale.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/misc/Locale.ts#L26)
 
 ___
 
@@ -477,9 +564,13 @@ ___
 
 • `Const` **MediaBlobCache**: [`MediaBlobCacheImpl`](../classes/whatsapp.MediaBlobCacheImpl.md)
 
-**`whatsapp`** 84866
+**`Whatsapp`**
 
-**`whatsapp`** 284866 >= 2.2222.8
+84866
+
+**`Whatsapp`**
+
+284866 >= 2.2222.8
 
 #### Defined in
 
@@ -491,9 +582,13 @@ ___
 
 • `Const` **MsgInfoStore**: [`MsgInfoCollection`](../classes/whatsapp.MsgInfoCollection.md)
 
-**`whatsapp`** 17972
+**`Whatsapp`**
 
-**`whatsapp`** 617972 >= 2.2222.8
+17972
+
+**`Whatsapp`**
+
+617972 >= 2.2222.8
 
 #### Defined in
 
@@ -505,9 +600,13 @@ ___
 
 • `Const` **MsgStore**: [`MsgCollection`](../classes/whatsapp.MsgCollection.md)
 
-**`whatsapp`** 59871
+**`Whatsapp`**
 
-**`whatsapp`** 559871 >= 2.2222.8
+59871
+
+**`Whatsapp`**
+
+559871 >= 2.2222.8
 
 #### Defined in
 
@@ -519,7 +618,9 @@ ___
 
 • `Const` **MuteStore**: [`MuteCollection`](../classes/whatsapp.MuteCollection.md)
 
-**`whatsapp`** 72472
+**`Whatsapp`**
+
+72472
 
 #### Defined in
 
@@ -531,9 +632,13 @@ ___
 
 • `Const` **OrderStore**: [`OrderCollection`](../classes/whatsapp.OrderCollection.md)
 
-**`whatsapp`** 84312
+**`Whatsapp`**
 
-**`whatsapp`** 584312 >= 2.2222.8
+84312
+
+**`Whatsapp`**
+
+584312 >= 2.2222.8
 
 #### Defined in
 
@@ -545,9 +650,13 @@ ___
 
 • `Const` **PresenceStore**: [`PresenceCollection`](../classes/whatsapp.PresenceCollection.md)
 
-**`whatsapp`** 68315
+**`Whatsapp`**
 
-**`whatsapp`** 868315 >= 2.2222.8
+68315
+
+**`Whatsapp`**
+
+868315 >= 2.2222.8
 
 #### Defined in
 
@@ -559,7 +668,9 @@ ___
 
 • `Const` **ProductMessageListStore**: [`ProductMessageListCollection`](../classes/whatsapp.ProductMessageListCollection.md)
 
-**`whatsapp`** 18952
+**`Whatsapp`**
+
+18952
 
 #### Defined in
 
@@ -571,9 +682,13 @@ ___
 
 • `Const` **ProfilePicThumbStore**: [`ProfilePicThumbCollection`](../classes/whatsapp.ProfilePicThumbCollection.md)
 
-**`whatsapp`** 82039
+**`Whatsapp`**
 
-**`whatsapp`** 582039 >= 2.2222.8
+82039
+
+**`Whatsapp`**
+
+582039 >= 2.2222.8
 
 #### Defined in
 
@@ -585,9 +700,13 @@ ___
 
 • `Const` **QuickReplyStore**: [`QuickReplyCollection`](../classes/whatsapp.QuickReplyCollection.md)
 
-**`whatsapp`** 99662
+**`Whatsapp`**
 
-**`whatsapp`** 999662 >= 2.2222.8
+99662
+
+**`Whatsapp`**
+
+999662 >= 2.2222.8
 
 #### Defined in
 
@@ -599,9 +718,13 @@ ___
 
 • `Const` **ReactionsStore**: [`ReactionsCollection`](../classes/whatsapp.ReactionsCollection.md)
 
-**`whatsapp`** 57162
+**`Whatsapp`**
 
-**`whatsapp`** 257162 >= 2.2222.8
+57162
+
+**`Whatsapp`**
+
+257162 >= 2.2222.8
 
 #### Defined in
 
@@ -613,9 +736,13 @@ ___
 
 • `Const` **RecentEmojiStore**: [`RecentEmojiCollection`](../classes/whatsapp.RecentEmojiCollection.md)
 
-**`whatsapp`** 92671
+**`Whatsapp`**
 
-**`whatsapp`** 492671 >= 2.2222.8
+92671
+
+**`Whatsapp`**
+
+492671 >= 2.2222.8
 
 #### Defined in
 
@@ -627,9 +754,13 @@ ___
 
 • `Const` **RecentStickerStore**: [`RecentStickerCollection`](../classes/whatsapp.RecentStickerCollection.md)
 
-**`whatsapp`** 49264
+**`Whatsapp`**
 
-**`whatsapp`** 191692 >= 2.2222.8
+49264
+
+**`Whatsapp`**
+
+191692 >= 2.2222.8
 
 #### Defined in
 
@@ -641,9 +772,13 @@ ___
 
 • `Const` **Socket**: [`SocketModel`](../classes/whatsapp.SocketModel.md)
 
-**`whatsapp`** 65044
+**`Whatsapp`**
 
-**`whatsapp`** 765044 >= 2.2222.8
+65044
+
+**`Whatsapp`**
+
+765044 >= 2.2222.8
 
 #### Defined in
 
@@ -655,9 +790,13 @@ ___
 
 • `Const` **StarredMsgStore**: [`StarredMsgCollection`](../classes/whatsapp.StarredMsgCollection.md)
 
-**`whatsapp`** 19011
+**`Whatsapp`**
 
-**`whatsapp`** 719011 >= 2.2222.8
+19011
+
+**`Whatsapp`**
+
+719011 >= 2.2222.8
 
 #### Defined in
 
@@ -669,7 +808,9 @@ ___
 
 • `Const` **StarredStickerStore**: [`StarredStickerCollection`](../classes/whatsapp.StarredStickerCollection.md)
 
-**`whatsapp`** 16774
+**`Whatsapp`**
+
+16774
 
 #### Defined in
 
@@ -681,7 +822,9 @@ ___
 
 • `Const` **StatusStore**: [`StatusCollection`](../classes/whatsapp.StatusCollection.md)
 
-**`whatsapp`** 46133
+**`Whatsapp`**
+
+46133
 
 #### Defined in
 
@@ -693,9 +836,13 @@ ___
 
 • `Const` **StatusV3Store**: [`StatusV3Collection`](../classes/whatsapp.StatusV3Collection.md)
 
-**`whatsapp`** 59387
+**`Whatsapp`**
 
-**`whatsapp`** 459387 >= 2.2222.8
+59387
+
+**`Whatsapp`**
+
+459387 >= 2.2222.8
 
 #### Defined in
 
@@ -707,9 +854,13 @@ ___
 
 • `Const` **StickerPackStore**: [`StickerPackCollection`](../classes/whatsapp.StickerPackCollection.md)
 
-**`whatsapp`** 44333
+**`Whatsapp`**
 
-**`whatsapp`** 344333 >= 2.2222.8
+44333
+
+**`Whatsapp`**
+
+344333 >= 2.2222.8
 
 #### Defined in
 
@@ -721,9 +872,13 @@ ___
 
 • `Const` **StickerSearchStore**: [`StickerSearchCollection`](../classes/whatsapp.StickerSearchCollection.md)
 
-**`whatsapp`** 45068
+**`Whatsapp`**
 
-**`whatsapp`** 545068 >= 2.2222.8
+45068
+
+**`Whatsapp`**
+
+545068 >= 2.2222.8
 
 #### Defined in
 
@@ -735,9 +890,13 @@ ___
 
 • `Const` **StickerStore**: [`StickerCollection`](../classes/whatsapp.StickerCollection.md)
 
-**`whatsapp`** 67963
+**`Whatsapp`**
 
-**`whatsapp`** 767963 >= 2.2222.8
+67963
+
+**`Whatsapp`**
+
+767963 >= 2.2222.8
 
 #### Defined in
 
@@ -749,9 +908,13 @@ ___
 
 • `Const` **Stream**: [`StreamModel`](../classes/whatsapp.StreamModel.md)
 
-**`whatsapp`** 8080
+**`Whatsapp`**
 
-**`whatsapp`** 608080 >= 2.2222.8
+8080
+
+**`Whatsapp`**
+
+608080 >= 2.2222.8
 
 #### Defined in
 
@@ -763,11 +926,17 @@ ___
 
 • `Const` **Wap**: [`WapClass`](../classes/whatsapp.WapClass.md)
 
-**`whatsapp`** 86875
+**`Whatsapp`**
 
-**`whatsapp`** 56891 >= 2.2212.8
+86875
 
-**`whatsapp`** 656891 >= 2.2222.8
+**`Whatsapp`**
+
+56891 >= 2.2212.8
+
+**`Whatsapp`**
+
+656891 >= 2.2222.8
 
 #### Defined in
 
@@ -781,4 +950,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/whatsapp/exportModule.ts:23](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/exportModule.ts#L23)
+[packages/wa-js/src/whatsapp/exportModule.ts:24](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/exportModule.ts#L24)

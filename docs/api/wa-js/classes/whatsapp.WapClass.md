@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).WapClass
 
-**`whatsapp`** 86875
+**`Whatsapp`**
 
-**`whatsapp`** 56891 >= 2.2212.8
+86875
 
-**`whatsapp`** 656891 >= 2.2222.8
+**`Whatsapp`**
+
+56891 >= 2.2212.8
+
+**`Whatsapp`**
+
+656891 >= 2.2222.8
 
 ## Constructors
 

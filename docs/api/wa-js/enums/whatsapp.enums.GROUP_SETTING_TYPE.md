@@ -7,17 +7,23 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).[enums](../namespaces/whatsapp.enums.md).GROUP_SETTING_TYPE
 
-**`whatsapp`** 12380
+**`Whatsapp`**
 
-**`whatsapp`** 69618 >= 2.2204.13
+12380
 
-**`whatsapp`** 312380 >= 2.2222.8
+**`Whatsapp`**
+
+69618 >= 2.2204.13
+
+**`Whatsapp`**
+
+312380 >= 2.2222.8
 
 ## Enumeration Members
 
 ### ANNOUNCEMENT
 
-• **ANNOUNCEMENT**
+• **ANNOUNCEMENT** = ``"announcement"``
 
 #### Defined in
 
@@ -27,7 +33,7 @@ ___
 
 ### EPHEMERAL
 
-• **EPHEMERAL**
+• **EPHEMERAL** = ``"ephemeral"``
 
 #### Defined in
 
@@ -37,7 +43,7 @@ ___
 
 ### NO\_FREQUENTLY\_FORWARDED
 
-• **NO\_FREQUENTLY\_FORWARDED**
+• **NO\_FREQUENTLY\_FORWARDED** = ``"no_frequently_forwarded"``
 
 #### Defined in
 
@@ -47,7 +53,7 @@ ___
 
 ### RESTRICT
 
-• **RESTRICT**
+• **RESTRICT** = ``"restrict"``
 
 #### Defined in
 

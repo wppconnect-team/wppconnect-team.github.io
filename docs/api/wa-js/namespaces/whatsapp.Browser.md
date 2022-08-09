@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).Browser
 
-**`whatsapp`** 79264
+**`Whatsapp`**
 
-**`whatsapp`** 87045 >= 2.2204.13
+79264
 
-**`whatsapp`** 379264 >= 2.2222.8
+**`Whatsapp`**
+
+87045 >= 2.2204.13
+
+**`Whatsapp`**
+
+379264 >= 2.2222.8
 
 ## Variables
 

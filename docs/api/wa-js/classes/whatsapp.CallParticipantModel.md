@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).CallParticipantModel
 
-**`whatsapp`** 50064
+**`Whatsapp`**
 
-**`whatsapp`** 8384 >= 2.2204.13
+50064
 
-**`whatsapp`** 850064 >= 2.2222.8
+**`Whatsapp`**
+
+8384 >= 2.2204.13
+
+**`Whatsapp`**
+
+850064 >= 2.2222.8
 
 ## Hierarchy
 
@@ -416,7 +422,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -500,7 +508,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -881,7 +891,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1044,7 +1056,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

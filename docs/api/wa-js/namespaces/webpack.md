@@ -55,16 +55,6 @@ Is setted true when the all webpack modules are fully loaded
 
 [packages/wa-js/src/webpack/index.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L31)
 
-___
-
-### webpackRequire
-
-• **webpackRequire**: <T\>(`moduleId`: `string`) => `T` & { `m`: { `[key: string]`: `any`;  } ; `e`: (`id`: `string`) => [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\> ; `u`: (`id`: `string`) => `string`  }
-
-#### Defined in
-
-[packages/wa-js/src/webpack/index.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L43)
-
 ## Functions
 
 ### injectLoader
@@ -233,3 +223,29 @@ Return the webpack module id from a search function
 #### Defined in
 
 [packages/wa-js/src/webpack/index.ts:145](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L145)
+
+___
+
+### webpackRequire
+
+▸ **webpackRequire**<`T`\>(`moduleId`): `T`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | `any` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `moduleId` | `string` |
+
+#### Returns
+
+`T`
+
+#### Defined in
+
+[packages/wa-js/src/webpack/index.ts:43](https://github.com/wppconnect-team/wa-js/blob/main/src/webpack/index.ts#L43)

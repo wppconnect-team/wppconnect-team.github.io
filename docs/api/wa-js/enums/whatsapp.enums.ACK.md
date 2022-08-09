@@ -7,17 +7,23 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).[enums](../namespaces/whatsapp.enums.md).ACK
 
-**`whatsapp`** 35470
+**`Whatsapp`**
 
-**`whatsapp`** 69618 >= 2.2204.13
+35470
 
-**`whatsapp`** 535470 >= 2.2222.8
+**`Whatsapp`**
+
+69618 >= 2.2204.13
+
+**`Whatsapp`**
+
+535470 >= 2.2222.8
 
 ## Enumeration Members
 
 ### CLOCK
 
-• **CLOCK**
+• **CLOCK** = ``0``
 
 #### Defined in
 
@@ -27,7 +33,7 @@ ___
 
 ### CONTENT\_GONE
 
-• **CONTENT\_GONE**
+• **CONTENT\_GONE** = ``-3``
 
 #### Defined in
 
@@ -37,7 +43,7 @@ ___
 
 ### CONTENT\_TOO\_BIG
 
-• **CONTENT\_TOO\_BIG**
+• **CONTENT\_TOO\_BIG** = ``-4``
 
 #### Defined in
 
@@ -47,7 +53,7 @@ ___
 
 ### CONTENT\_UNUPLOADABLE
 
-• **CONTENT\_UNUPLOADABLE**
+• **CONTENT\_UNUPLOADABLE** = ``-5``
 
 #### Defined in
 
@@ -57,7 +63,7 @@ ___
 
 ### EXPIRED
 
-• **EXPIRED**
+• **EXPIRED** = ``-2``
 
 #### Defined in
 
@@ -67,7 +73,7 @@ ___
 
 ### FAILED
 
-• **FAILED**
+• **FAILED** = ``-1``
 
 #### Defined in
 
@@ -77,7 +83,7 @@ ___
 
 ### INACTIVE
 
-• **INACTIVE**
+• **INACTIVE** = ``-6``
 
 #### Defined in
 
@@ -87,7 +93,7 @@ ___
 
 ### MD\_DOWNGRADE
 
-• **MD\_DOWNGRADE**
+• **MD\_DOWNGRADE** = ``-7``
 
 #### Defined in
 
@@ -97,7 +103,7 @@ ___
 
 ### PEER
 
-• **PEER**
+• **PEER** = ``5``
 
 #### Defined in
 
@@ -107,7 +113,7 @@ ___
 
 ### PLAYED
 
-• **PLAYED**
+• **PLAYED** = ``4``
 
 #### Defined in
 
@@ -117,7 +123,7 @@ ___
 
 ### READ
 
-• **READ**
+• **READ** = ``3``
 
 #### Defined in
 
@@ -127,7 +133,7 @@ ___
 
 ### RECEIVED
 
-• **RECEIVED**
+• **RECEIVED** = ``2``
 
 #### Defined in
 
@@ -137,7 +143,7 @@ ___
 
 ### SENT
 
-• **SENT**
+• **SENT** = ``1``
 
 #### Defined in
 

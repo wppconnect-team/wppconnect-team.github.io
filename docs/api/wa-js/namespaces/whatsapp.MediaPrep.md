@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).MediaPrep
 
-**`whatsapp`** 78986
+**`Whatsapp`**
 
-**`whatsapp`** 778986 >= 2.2222.8
+78986
+
+**`Whatsapp`**
+
+778986 >= 2.2222.8
 
 ## Classes
 

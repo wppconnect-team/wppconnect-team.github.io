@@ -35,6 +35,7 @@ custom_edit_url: null
 - [delete](chat.md#delete)
 - [find](chat.md#find)
 - [get](chat.md#get)
+- [getLastSeen](chat.md#getlastseen)
 - [list](chat.md#list)
 - [markIsComposing](chat.md#markiscomposing)
 - [markIsPaused](chat.md#markispaused)
@@ -125,7 +126,8 @@ ___
 
 Archive a chat
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Archive a chat
 WPP.chat.archive('[number]@c.us');
@@ -159,7 +161,8 @@ ___
 
 Check if is possible to mute this chat
 
-**`example`**
+**`Example`**
+
 ```javascript
 const canMute = WPP.chat.canMute('[number]@c.us');
 ```
@@ -271,13 +274,42 @@ Find a chat by id
 
 ___
 
+### getLastSeen
+
+▸ **getLastSeen**(`chatId`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`number` \| `boolean`\>
+
+Get timestamp of last seen
+
+**`Example`**
+
+```javascript
+WPP.chat.getLastSeen('[number]@c.us');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `chatId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`number` \| `boolean`\>
+
+#### Defined in
+
+[packages/wa-js/src/chat/functions/getLastSeen.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/getLastSeen.ts#L28)
+
+___
+
 ### list
 
 ▸ **list**(`options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`ChatModel`](../classes/whatsapp.ChatModel.md)[]\>
 
 Return a list of chats
 
-**`example`**
+**`Example`**
+
 ```javascript
 // All chats
 const chats = await WPP.chat.list();
@@ -321,7 +353,8 @@ ___
 Mark a chat to composing state
 and keep sending "is writting a message"
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Mark is composing
 WPP.chat.markIsComposing('[number]@c.us');
@@ -353,7 +386,8 @@ ___
 
 Mark a chat is paused state
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Mark as recording
 WPP.chat.markIsPaused('[number]@c.us');
@@ -381,7 +415,8 @@ ___
 
 Mark a chat as read and send SEEN event
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Some messages
 WPP.chat.markIsRead('[number]@c.us');
@@ -410,7 +445,8 @@ ___
 Mark a chat to recording state
 and keep sending "is recording"
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Mark is recording
 WPP.chat.markIsRecording('[number]@c.us');
@@ -442,7 +478,8 @@ ___
 
 Mark a chat as unread
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Some messages
 WPP.chat.markIsUnread('[number]@c.us');
@@ -472,7 +509,8 @@ Mute a chat, you can use duration or expiration
 For expiration, use unix timestamp (seconds only)
 For duration, use seconds
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Mute for 60 seconds
 WPP.chat.mute('[number]@c.us', {duration: 60});
@@ -508,7 +546,8 @@ ___
 
 Open the chat in the WhatsApp interface in a specific message
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.chat.openChatAt('[number]@c.us', <message_id>);
 ```
@@ -536,7 +575,8 @@ ___
 
 Open the chat in the WhatsApp interface in bottom position
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.chat.openChatBottom('[number]@c.us');
 ```
@@ -563,7 +603,8 @@ ___
 
 Open the chat in the WhatsApp interface from first unread message
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.chat.openChatFromUnread('[number]@c.us');
 ```
@@ -590,7 +631,8 @@ ___
 
 Pin a chat
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Pin a chat
 WPP.chat.pin('[number]@c.us');
@@ -624,9 +666,12 @@ ___
 
 Unarchive a chat
 
-**`alias`** archive
+**`Alias`**
 
-**`example`**
+archive
+
+**`Example`**
+
 ```javascript
 // Unarchive a chat
 WPP.chat.unarchive('[number]@c.us');
@@ -657,7 +702,8 @@ ___
 
 Unmute a chat
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.unmute('[number]@c.us');
 ```
@@ -684,9 +730,12 @@ ___
 
 Unpin a chat
 
-**`alias`** pin
+**`Alias`**
 
-**`example`**
+pin
+
+**`Example`**
+
 ```javascript
 // Unpin a chat
 WPP.chat.unpin('[number]@c.us');
@@ -719,7 +768,8 @@ ___
 
 Delete a message
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Delete a message
 WPP.chat.deleteMessage('[number]@callback.us', 'msgid');
@@ -821,7 +871,8 @@ ___
 
 Get message by a single ID or array of IDs
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Single message
 WPP.chat.getMessageById('true_[number]@c.us_ABCDEF');
@@ -870,7 +921,8 @@ ___
 
 Fetch messages from a chat
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Some messages
 WPP.chat.getMessages('[number]@c.us', {
@@ -929,7 +981,8 @@ Send a create poll message
 
 Note: This only works for groups
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Single pool
 WPP.chat.sendCreatePollMessage(
@@ -964,7 +1017,8 @@ ___
 
 Send a file message, that can be an audio, document, image, sticker or video
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Single document
 WPP.chat.sendFileMessage(
@@ -1056,7 +1110,8 @@ ___
 
 Send a list message
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.sendListMessage('[number]@c.us', {
   buttonText: 'Click Me!', //required
@@ -1091,7 +1146,7 @@ WPP.chat.sendListMessage('[number]@c.us', {
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendListMessage.ts:70](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L70)
+[packages/wa-js/src/chat/functions/sendListMessage.ts:73](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendListMessage.ts#L73)
 
 ___
 
@@ -1101,7 +1156,8 @@ ___
 
 Send a location message
 
-**`example`**
+**`Example`**
+
 ```javascript
 // full example
 WPP.chat.sendLocationMessage('[number]@c.us', {
@@ -1170,7 +1226,7 @@ WPP.chat.sendLocationMessage('[number]@c.us', {
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendLocationMessage.ts:114](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendLocationMessage.ts#L114)
+[packages/wa-js/src/chat/functions/sendLocationMessage.ts:117](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendLocationMessage.ts#L117)
 
 ___
 
@@ -1206,7 +1262,8 @@ Send a reaction to a message
 
 Full Emoji List: https://unicode.org/emoji/charts/full-emoji-list.html
 
-**`example`**
+**`Example`**
+
 ```javascript
 // to react a message
 WPP.chat.sendReactionMessage('[message_id]', '🤯');
@@ -1220,7 +1277,7 @@ WPP.chat.sendReactionMessage('[message_id]', false);
 
 | Name | Type |
 | :------ | :------ |
-| `messageId` | `string` \| `Stringable` \| [`MsgModel`](../classes/whatsapp.MsgModel.md) \| [`MsgKey`](../classes/whatsapp.MsgKey.md) |
+| `messageId` | `string` \| [`MsgModel`](../classes/whatsapp.MsgModel.md) \| `Stringable` \| [`MsgKey`](../classes/whatsapp.MsgKey.md) |
 | `reaction` | ``null`` \| `string` \| ``false`` |
 
 #### Returns
@@ -1239,6 +1296,39 @@ ___
 
 Send a text message
 
+**`Example`**
+
+```javascript
+WPP.chat.sendTextMessage('[number]@c.us', 'Hello new contact', {
+  createChat: true
+});
+
+// With Buttons
+WPP.chat.sendTextMessage('[number]@c.us', 'Hello', {
+  useTemplateButtons: true, // False for legacy
+  buttons: [
+    {
+      url: 'https://wppconnect.io/',
+      text: 'WPPConnect Site'
+    },
+    {
+      phoneNumber: '+55 11 22334455',
+      text: 'Call me'
+    },
+    {
+      id: 'your custom id 1',
+      text: 'Some text'
+    },
+    {
+      id: 'another id 2',
+      text: 'Another text'
+    }
+  ],
+  title: 'Title text', // Optional
+  footer: 'Footer text' // Optional
+});
+```
+
 #### Parameters
 
 | Name | Type |
@@ -1253,7 +1343,7 @@ Send a text message
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendTextMessage.ts:36](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendTextMessage.ts#L36)
+[packages/wa-js/src/chat/functions/sendTextMessage.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendTextMessage.ts#L67)
 
 ___
 
@@ -1262,6 +1352,29 @@ ___
 ▸ **sendVCardContactMessage**(`chatId`, `contacts`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`SendMessageReturn`](../interfaces/chat.SendMessageReturn.md)\>
 
 Send a VCard as message
+
+**`Example`**
+
+```javascript
+// single contact
+WPP.chat.sendVCardContactMessage('[number]@c.us', {
+  id: '123456@c.us',
+  name: 'The Contact Name'
+});
+
+// multiple contacts
+WPP.chat.sendVCardContactMessage('[number]@c.us', [
+  {
+    id: '123456@c.us',
+    name: 'The Contact Name'
+  },
+  {
+    id: '456789@c.us',
+    name: 'Another Contact'
+  },
+]);
+
+```
 
 #### Parameters
 
@@ -1277,7 +1390,7 @@ Send a VCard as message
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/sendVCardContactMessage.ts:44](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendVCardContactMessage.ts#L44)
+[packages/wa-js/src/chat/functions/sendVCardContactMessage.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/sendVCardContactMessage.ts#L64)
 
 ___
 
@@ -1287,7 +1400,8 @@ ___
 
 Star/Unstar a message
 
-**`example`**
+**`Example`**
+
 ```javascript
 // star a message
 WPP.chat.starMessage('<message id>');
@@ -1315,7 +1429,8 @@ WPP.chat.starMessage('<message id>', false);
 
 Star/Unstar messages
 
-**`example`**
+**`Example`**
+
 ```javascript
 // star messages
 WPP.chat.starMessage(['<message id>', '<message id>']);

@@ -7,17 +7,23 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).[enums](../namespaces/whatsapp.enums.md).EDIT_ATTR
 
-**`whatsapp`** 35470
+**`Whatsapp`**
 
-**`whatsapp`** 69618 >= 2.2204.13
+35470
 
-**`whatsapp`** 535470 >= 2.2222.8
+**`Whatsapp`**
+
+69618 >= 2.2204.13
+
+**`Whatsapp`**
+
+535470 >= 2.2222.8
 
 ## Enumeration Members
 
 ### ADMIN\_REVOKE
 
-• **ADMIN\_REVOKE**
+• **ADMIN\_REVOKE** = ``8``
 
 #### Defined in
 
@@ -27,7 +33,7 @@ ___
 
 ### SENDER\_REVOKE
 
-• **SENDER\_REVOKE**
+• **SENDER\_REVOKE** = ``7``
 
 #### Defined in
 

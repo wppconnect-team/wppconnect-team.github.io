@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).WebCallModel
 
-**`whatsapp`** 77107
+**`Whatsapp`**
 
-**`whatsapp`** 91932 >= 2.2204.13
+77107
 
-**`whatsapp`** 277107 >= 2.2222.8
+**`Whatsapp`**
+
+91932 >= 2.2204.13
+
+**`Whatsapp`**
+
+277107 >= 2.2222.8
 
 ## Hierarchy
 
@@ -311,7 +317,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -395,7 +403,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -776,7 +786,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -939,7 +951,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

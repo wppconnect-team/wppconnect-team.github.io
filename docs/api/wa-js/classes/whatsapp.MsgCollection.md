@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).MsgCollection
 
-**`whatsapp`** 59871
+**`Whatsapp`**
 
-**`whatsapp`** 559871 >= 2.2222.8
+59871
+
+**`Whatsapp`**
+
+559871 >= 2.2222.8
 
 ## Hierarchy
 
@@ -62,8 +66,8 @@ otherwise.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `predicate` | (`this`: `void`, `value`: [`MsgModel`](whatsapp.MsgModel.md), `index`: `number`, `obj`: [`MsgModel`](whatsapp.MsgModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined. |
-| `thisArg?` | `any` | If provided, it will be used as the this value for each invocation of predicate. If it is not provided, undefined is used instead. |
+| `predicate` | (`this`: `void`, `value`: [`MsgModel`](whatsapp.MsgModel.md), `index`: `number`, `obj`: [`MsgModel`](whatsapp.MsgModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending  order, until it finds one where predicate returns true. If such an element is found, find  immediately returns that element value. Otherwise, find returns undefined. |
+| `thisArg?` | `any` | If provided, it will be used as the this value for each invocation of  predicate. If it is not provided, undefined is used instead. |
 
 ##### Returns
 
@@ -356,7 +360,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -404,7 +410,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -489,7 +497,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | `Stringable` \| [`MsgModel`](whatsapp.MsgModel.md) |
+| `id` | [`MsgModel`](whatsapp.MsgModel.md) \| `Stringable` |
 | `options?` | `any` |
 
 #### Returns
@@ -514,7 +522,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | `Stringable` \| [`MsgModel`](whatsapp.MsgModel.md) |
+| `id` | [`MsgModel`](whatsapp.MsgModel.md) \| `Stringable` |
 
 #### Returns
 
@@ -1204,7 +1212,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -1542,7 +1552,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

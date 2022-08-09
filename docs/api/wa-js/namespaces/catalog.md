@@ -14,7 +14,8 @@ custom_edit_url: null
 
 Get your current catalog
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Get your current catalog
 const myCatalog = await WPP.catalog.getMyCatalog();

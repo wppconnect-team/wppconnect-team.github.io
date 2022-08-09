@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).MsgKey
 
-**`whatsapp`** 65212
+**`Whatsapp`**
 
-**`whatsapp`** 32219 >= 2.2204.13
+65212
 
-**`whatsapp`** 465212 >= 2.2222.8
+**`Whatsapp`**
+
+32219 >= 2.2204.13
+
+**`Whatsapp`**
+
+465212 >= 2.2222.8
 
 ## Constructors
 
@@ -153,7 +159,9 @@ ___
 
 ▸ `Static` **newId**(): `string`
 
-**`whatsapp`** >= 2.2208.7
+**`Whatsapp`**
+
+>= 2.2208.7
 
 #### Returns
 

@@ -33,7 +33,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L59)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L62)
 
 ## Properties
 
@@ -43,7 +43,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:314](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L314)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:317](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L317)
 
 ## Methods
 
@@ -72,7 +72,7 @@ Adds a listener to the end of the listeners array for the specified event.
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:74](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L74)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:77](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L77)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L61)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L64)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L66)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L69)
 
 ___
 
@@ -156,7 +156,7 @@ Note: Listeners order not guaranteed
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:242](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L242)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:245](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L245)
 
 ___
 
@@ -172,7 +172,7 @@ Returns the current max listener value for the EventEmitter which is either set 
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:235](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L235)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:238](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L238)
 
 ___
 
@@ -200,7 +200,7 @@ Checks whether emitter has any listeners.
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:306](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L306)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:309](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L309)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:280](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L280)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:283](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L283)
 
 ▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:286](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L286)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:289](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L289)
 
 ▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -258,7 +258,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:292](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L292)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:295](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L295)
 
 ___
 
@@ -284,7 +284,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:244](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L244)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:247](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L247)
 
 ___
 
@@ -312,7 +312,7 @@ Returns an array of listeners for the specified event. This array can be manipul
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:249](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L249)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:252](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L252)
 
 ___
 
@@ -328,7 +328,7 @@ Returns an array of listeners that are listening for any event that is specified
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:254](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L254)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:257](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L257)
 
 ___
 
@@ -359,7 +359,7 @@ Adds a listener that will execute n times for the event before being removed. Th
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:154](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L154)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:157](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L157)
 
 ▸ **many**<`Name`\>(`event`, `timesToListen`, `listener`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -386,7 +386,7 @@ Adds a listener that will execute n times for the event before being removed. Th
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:164](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L164)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:167](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L167)
 
 ___
 
@@ -415,7 +415,7 @@ Remove a listener from the listener array for the specified event. Caution: Call
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:217](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L217)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:220](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L220)
 
 ___
 
@@ -437,7 +437,7 @@ Removes the listener that will be fired when any event is emitted.'
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:204](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L204)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:207](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L207)
 
 ___
 
@@ -467,7 +467,7 @@ Adds a listener to the end of the listeners array for the specified event.
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:82](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L82)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:85](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L85)
 
 ▸ **on**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -493,7 +493,7 @@ Adds a listener to the end of the listeners array for the specified event.
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:91](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L91)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:94](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L94)
 
 ___
 
@@ -515,7 +515,7 @@ Adds a listener that will be fired when any event is emitted. The event name is 
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:194](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L194)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:197](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L197)
 
 ___
 
@@ -545,7 +545,7 @@ Adds a one time listener for the event. The listener is invoked only the first t
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:118](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L118)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:121](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L121)
 
 ▸ **once**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -571,7 +571,7 @@ Adds a one time listener for the event. The listener is invoked only the first t
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:127](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L127)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:130](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L130)
 
 ___
 
@@ -593,7 +593,7 @@ Adds a listener that will be fired when any event is emitted. The event name is 
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:199](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L199)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:202](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L202)
 
 ___
 
@@ -623,7 +623,7 @@ Adds a listener to the beginning of the listeners array for the specified event.
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:100](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L100)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:103](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L103)
 
 ▸ **prependListener**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -649,7 +649,7 @@ Adds a listener to the beginning of the listeners array for the specified event.
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:109](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L109)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:112](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L112)
 
 ___
 
@@ -680,7 +680,7 @@ Adds a listener that will execute n times for the event before being removed. Th
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:174](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L174)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:177](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L177)
 
 ▸ **prependMany**<`Name`\>(`event`, `timesToListen`, `listener`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -707,7 +707,7 @@ Adds a listener that will execute n times for the event before being removed. Th
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:184](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L184)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:187](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L187)
 
 ___
 
@@ -737,7 +737,7 @@ Adds a one time listener for the event. The listener is invoked only the first t
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:136](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L136)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:139](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L139)
 
 ▸ **prependOnceListener**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](ev.EventEmitter.md)<`EventData`\>
 
@@ -763,7 +763,7 @@ Adds a one time listener for the event. The listener is invoked only the first t
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:145](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L145)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:148](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L148)
 
 ___
 
@@ -791,7 +791,7 @@ Removes all listeners, or those of the specified event.
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:225](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L225)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:228](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L228)
 
 ___
 
@@ -820,7 +820,7 @@ Remove a listener from the listener array for the specified event. Caution: Call
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:209](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L209)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:212](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L212)
 
 ___
 
@@ -842,7 +842,7 @@ By default EventEmitters will print a warning if more than 10 listeners are adde
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:230](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L230)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:233](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L233)
 
 ___
 
@@ -863,7 +863,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:298](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L298)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:301](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L301)
 
 ___
 
@@ -892,7 +892,7 @@ Returns a thenable object (promise interface) that resolves when a specific even
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:259](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L259)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:262](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L262)
 
 ▸ **waitFor**<`Name`\>(`event`, `filter?`): `CancelablePromise`<`ListenerType`<`EventData`[`Name`]\>\>
 
@@ -917,7 +917,7 @@ Returns a thenable object (promise interface) that resolves when a specific even
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:267](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L267)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:270](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L270)
 
 ▸ **waitFor**<`Name`\>(`event`, `options?`): `CancelablePromise`<`ListenerType`<`EventData`[`Name`]\>\>
 
@@ -942,7 +942,7 @@ Returns a thenable object (promise interface) that resolves when a specific even
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:275](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L275)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:278](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L278)
 
 ___
 
@@ -964,4 +964,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventEmitter.ts:308](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L308)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:311](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L311)

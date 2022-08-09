@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).MsgInfoCollection
 
-**`whatsapp`** 17972
+**`Whatsapp`**
 
-**`whatsapp`** 617972 >= 2.2222.8
+17972
+
+**`Whatsapp`**
+
+617972 >= 2.2222.8
 
 ## Hierarchy
 
@@ -62,8 +66,8 @@ otherwise.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `predicate` | (`this`: `void`, `value`: [`MsgInfoModel`](whatsapp.MsgInfoModel.md), `index`: `number`, `obj`: [`MsgInfoModel`](whatsapp.MsgInfoModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined. |
-| `thisArg?` | `any` | If provided, it will be used as the this value for each invocation of predicate. If it is not provided, undefined is used instead. |
+| `predicate` | (`this`: `void`, `value`: [`MsgInfoModel`](whatsapp.MsgInfoModel.md), `index`: `number`, `obj`: [`MsgInfoModel`](whatsapp.MsgInfoModel.md)[]) => value is S | find calls predicate once for each element of the array, in ascending  order, until it finds one where predicate returns true. If such an element is found, find  immediately returns that element value. Otherwise, find returns undefined. |
+| `thisArg?` | `any` | If provided, it will be used as the this value for each invocation of  predicate. If it is not provided, undefined is used instead. |
 
 ##### Returns
 
@@ -256,7 +260,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -286,7 +292,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -683,7 +691,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -965,7 +975,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

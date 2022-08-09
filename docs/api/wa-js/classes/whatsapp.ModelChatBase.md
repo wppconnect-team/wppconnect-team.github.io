@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ModelChatBase
 
-**`whatsapp`** 58492
+**`Whatsapp`**
 
-**`whatsapp`** 558492 >= 2.2222.8
+58492
+
+**`Whatsapp`**
+
+558492 >= 2.2222.8
 
 ## Hierarchy
 
@@ -18,6 +22,8 @@ custom_edit_url: null
   ↳ **`ModelChatBase`**
 
   ↳↳ [`ChatModel`](whatsapp.ChatModel.md)
+
+  ↳↳ [`StatusV3Model`](whatsapp.StatusV3Model.md)
 
 ## Constructors
 
@@ -167,7 +173,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -251,7 +259,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -694,7 +704,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -881,7 +893,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

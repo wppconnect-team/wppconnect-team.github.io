@@ -35,9 +35,12 @@ ___
 
 Create a new chat to a new contact
 
-**`default`** false
+**`Default`**
 
-**`example`**
+false
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello new contact', {
   createChat: true
@@ -60,9 +63,12 @@ ___
 
 Automatic detect and add the mentioned contacts with @[number]
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello @123 and @456', {
   detectMentioned: true
@@ -113,9 +119,12 @@ ___
 
 Automatically mark chat is read after send a message
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Replying your message', {
   markIsRead: true
@@ -139,7 +148,8 @@ ___
 Define a mentioned list for a message
 This option work better with a message with mension
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello @123 and @456', {
   mentionedList: ['123@c.us', '456@c.us']
@@ -190,7 +200,8 @@ ___
 
 Quote a message, like a reply message
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'This is a reply', {
   quotedMsg: 'true_[number]@c.us_3EB0F435D95D32C4C638'
@@ -227,9 +238,12 @@ ___
 
 Wait for send while the ACK of message is SENT(1)
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Wait for sent', {
   waitForAck: true

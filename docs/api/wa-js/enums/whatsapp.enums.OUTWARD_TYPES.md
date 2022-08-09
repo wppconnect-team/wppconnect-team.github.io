@@ -7,13 +7,15 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).[enums](../namespaces/whatsapp.enums.md).OUTWARD_TYPES
 
-**`whatsapp`** 58668
+**`Whatsapp`**
+
+58668
 
 ## Enumeration Members
 
 ### AUDIO
 
-• **AUDIO**
+• **AUDIO** = ``"audio"``
 
 #### Defined in
 
@@ -23,7 +25,7 @@ ___
 
 ### DOCUMENT
 
-• **DOCUMENT**
+• **DOCUMENT** = ``"document"``
 
 #### Defined in
 
@@ -33,7 +35,7 @@ ___
 
 ### IMAGE
 
-• **IMAGE**
+• **IMAGE** = ``"image"``
 
 #### Defined in
 
@@ -43,7 +45,7 @@ ___
 
 ### PRODUCT
 
-• **PRODUCT**
+• **PRODUCT** = ``"product"``
 
 #### Defined in
 
@@ -53,7 +55,7 @@ ___
 
 ### PTT
 
-• **PTT**
+• **PTT** = ``"ptt"``
 
 #### Defined in
 
@@ -63,7 +65,7 @@ ___
 
 ### STICKER
 
-• **STICKER**
+• **STICKER** = ``"sticker"``
 
 #### Defined in
 
@@ -73,7 +75,7 @@ ___
 
 ### UNKNOWN
 
-• **UNKNOWN**
+• **UNKNOWN** = ``"unknown"``
 
 #### Defined in
 
@@ -83,7 +85,7 @@ ___
 
 ### VIDEO
 
-• **VIDEO**
+• **VIDEO** = ``"video"``
 
 #### Defined in
 

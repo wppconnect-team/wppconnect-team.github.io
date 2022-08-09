@@ -39,6 +39,7 @@ custom_edit_url: null
 - [iAmSuperAdmin](group.md#iamsuperadmin)
 - [promoteParticipants](group.md#promoteparticipants)
 - [removeParticipants](group.md#removeparticipants)
+- [setIcon](group.md#seticon)
 
 ## Group Functions
 
@@ -50,7 +51,8 @@ Add one or more participants to a group
 
 The method return a object with the result of each participant as the key
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.group.addParticipants('[group@g.us]', [number@c.us]);
 ```
@@ -78,7 +80,8 @@ ___
 
 Get group info from an inviteCode
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.group.getGroupInfoFromInviteCode('<inviteCode>');
 ```
@@ -105,7 +108,8 @@ ___
 
 Join in a group from an invite code.
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.group.join('abcde....');
 ```
@@ -132,7 +136,8 @@ ___
 
 Leave from a group.
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.group.leave('[number]@g.us');
 ```
@@ -159,7 +164,8 @@ ___
 
 Revoke the current invite code and generate new one.
 
-**`example`**
+**`Example`**
+
 ```javascript
 const code = WPP.group.revokeInviteCode('[group-id]@g.us');
 const link = 'https://chat.whatsapp.com/' + code;
@@ -187,7 +193,8 @@ ___
 
 Define the group description
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.group.setDescription('[group-id]@g.us', 'new group description');
 ```
@@ -215,7 +222,8 @@ ___
 
 Set the group property
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Only admins can send message
 await WPP.group.setProperty('[group-id]@g.us', 'announcement', true);
@@ -266,7 +274,8 @@ ___
 
 Define the group subject
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.group.setSubject('[group-id]@g.us', 'new group subject');
 ```
@@ -464,7 +473,8 @@ ___
 
 Get the currend invite code of the group
 
-**`example`**
+**`Example`**
+
 ```javascript
 const code = WPP.group.getInviteCode('[group-id]@g.us');
 const link = 'https://chat.whatsapp.com/' + code;
@@ -492,7 +502,8 @@ ___
 
 Get an array of participants of a group
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.group.getParticipants('[group-id]@g.us');
 ```
@@ -632,3 +643,32 @@ ___
 #### Defined in
 
 [packages/wa-js/src/group/functions/removeParticipants.ts:22](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/removeParticipants.ts#L22)
+
+___
+
+### setIcon
+
+▸ **setIcon**(`groupId`, `content`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `_duplicate`: `boolean` ; `eurl`: `string` ; `status`: `number` ; `tag`: `string` ; `token`: `string`  }\>
+
+Set the group icon (group profile picture)
+
+**`Example`**
+
+```javascript
+await WPP.group.setIcon('[group@g.us]', 'data:image/jpeg;base64,.....');
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `groupId` | `string` \| [`Wid`](../classes/whatsapp.Wid.md) |
+| `content` | `string` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ `_duplicate`: `boolean` ; `eurl`: `string` ; `status`: `number` ; `tag`: `string` ; `token`: `string`  }\>
+
+#### Defined in
+
+[packages/wa-js/src/group/functions/setIcon.ts:30](https://github.com/wppconnect-team/wa-js/blob/main/src/group/functions/setIcon.ts#L30)

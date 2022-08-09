@@ -1,7 +1,7 @@
 ---
 id: "modules"
 title: "@wppconnect/wa-js"
-sidebar_label: "Exports (v2.7.3)"
+sidebar_label: "Exports (v2.10.1)"
 sidebar_position: 0.5
 custom_edit_url: null
 ---
@@ -187,7 +187,7 @@ Re-exports [waitFor](namespaces/ev.md#waitfor)
 
 #### Defined in
 
-[packages/wa-js/src/config.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/config.ts#L67)
+[packages/wa-js/src/config.ts:81](https://github.com/wppconnect-team/wa-js/blob/main/src/config.ts#L81)
 
 ___
 

@@ -7,7 +7,9 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ChatModel
 
-**`whatsapp`** 63183
+**`Whatsapp`**
+
+63183
 
 ## Hierarchy
 
@@ -593,6 +595,8 @@ ModelProxy.lastReceivedKey
 #### Defined in
 
 [packages/wa-js/src/whatsapp/models/ChatModel.ts:26](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ChatModel.ts#L26)
+
+[packages/wa-js/src/whatsapp/models/ModelChatBase.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/whatsapp/models/ModelChatBase.ts#L31)
 
 ___
 
@@ -1426,7 +1430,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -1720,7 +1726,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -2855,7 +2863,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -3367,7 +3377,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

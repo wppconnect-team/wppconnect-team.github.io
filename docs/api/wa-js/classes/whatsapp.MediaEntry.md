@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).MediaEntry
 
-**`whatsapp`** 80923
+**`Whatsapp`**
 
-**`whatsapp`** 480923 >= 2.2222.8
+80923
+
+**`Whatsapp`**
+
+480923 >= 2.2222.8
 
 ## Constructors
 

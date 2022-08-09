@@ -21,7 +21,8 @@ custom_edit_url: null
 Add a new label
 Use await WPP.labels.getLabelColorPalette() to get the list of available colors
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.labels.addNewLabel(`Name of label`);
 //or
@@ -53,7 +54,8 @@ ___
 
 Add or remove label from chats
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.labels.addOrRemoveLabels(
   ['[number]@c.us','[number]@c.us'],
@@ -84,7 +86,8 @@ ___
 
 Check if color is in label palette
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.labels.colorIsInLabelPalette('#ffd429');
 //or

@@ -29,7 +29,7 @@ List of buttons, with at least 1 option and a maximum of 3
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L50)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L52)
 
 ___
 
@@ -41,7 +41,7 @@ Footer text for buttons
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L63)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L65)
 
 ___
 
@@ -53,18 +53,17 @@ Title for buttons, only for text message
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L54)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L56)
 
 ___
 
 ### useTemplateButtons
 
-• `Optional` **useTemplateButtons**: `boolean`
+• `Optional` **useTemplateButtons**: ``null`` \| `boolean`
 
 Set to use template buttons instead of reply buttons.
-
-**`default:`** undefined - auto detect
+@default: undefined - auto detect
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L59)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L61)

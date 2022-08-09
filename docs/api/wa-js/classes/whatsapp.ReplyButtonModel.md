@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).ReplyButtonModel
 
-**`whatsapp`** 15871
+**`Whatsapp`**
 
-**`whatsapp`** 315871 >= 2.2222.8
+15871
+
+**`Whatsapp`**
+
+315871 >= 2.2222.8
 
 ## Hierarchy
 
@@ -264,7 +268,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -348,7 +354,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -729,7 +737,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -892,7 +902,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

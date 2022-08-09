@@ -7,17 +7,23 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).[enums](../namespaces/whatsapp.enums.md).ACK_STRING
 
-**`whatsapp`** 35470
+**`Whatsapp`**
 
-**`whatsapp`** 69618 >= 2.2204.13
+35470
 
-**`whatsapp`** 535470 >= 2.2222.8
+**`Whatsapp`**
+
+69618 >= 2.2204.13
+
+**`Whatsapp`**
+
+535470 >= 2.2222.8
 
 ## Enumeration Members
 
 ### DELIVERY
 
-• **DELIVERY**
+• **DELIVERY** = ``"delivery"``
 
 #### Defined in
 
@@ -27,7 +33,7 @@ ___
 
 ### INACTIVE
 
-• **INACTIVE**
+• **INACTIVE** = ``"inactive"``
 
 #### Defined in
 
@@ -37,7 +43,7 @@ ___
 
 ### PLAYED
 
-• **PLAYED**
+• **PLAYED** = ``"played"``
 
 #### Defined in
 
@@ -47,7 +53,7 @@ ___
 
 ### PLAYED\_SELF
 
-• **PLAYED\_SELF**
+• **PLAYED\_SELF** = ``"played-self"``
 
 #### Defined in
 
@@ -57,7 +63,7 @@ ___
 
 ### READ
 
-• **READ**
+• **READ** = ``"read"``
 
 #### Defined in
 
@@ -67,7 +73,7 @@ ___
 
 ### READ\_SELF
 
-• **READ\_SELF**
+• **READ\_SELF** = ``"read-self"``
 
 #### Defined in
 
@@ -77,7 +83,7 @@ ___
 
 ### SENDER
 
-• **SENDER**
+• **SENDER** = ``"sender"``
 
 #### Defined in
 

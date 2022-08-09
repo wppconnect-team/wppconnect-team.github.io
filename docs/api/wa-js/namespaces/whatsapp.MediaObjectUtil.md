@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).MediaObjectUtil
 
-**`whatsapp`** 88297
+**`Whatsapp`**
 
-**`whatsapp`** 988297 >= 2.2222.8
+88297
+
+**`Whatsapp`**
+
+988297 >= 2.2222.8
 
 ## Functions
 

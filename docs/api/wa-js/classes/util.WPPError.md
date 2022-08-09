@@ -40,3 +40,7 @@ Error.constructor
 ### code
 
 • `Readonly` **code**: `string`
+
+#### Defined in
+
+[packages/wa-js/src/util/errors.ts:19](https://github.com/wppconnect-team/wa-js/blob/main/src/util/errors.ts#L19)

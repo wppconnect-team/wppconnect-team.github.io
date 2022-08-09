@@ -7,17 +7,23 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).[enums](../namespaces/whatsapp.enums.md).MSG_TYPE
 
-**`whatsapp`** 15461
+**`Whatsapp`**
 
-**`whatsapp`** 69618 >= 2.2204.13
+15461
 
-**`whatsapp`** 115461 >= 2.2222.8
+**`Whatsapp`**
+
+69618 >= 2.2204.13
+
+**`Whatsapp`**
+
+115461 >= 2.2222.8
 
 ## Enumeration Members
 
 ### AUDIO
 
-• **AUDIO**
+• **AUDIO** = ``"audio"``
 
 #### Defined in
 
@@ -27,7 +33,7 @@ ___
 
 ### BROADCAST\_NOTIFICATION
 
-• **BROADCAST\_NOTIFICATION**
+• **BROADCAST\_NOTIFICATION** = ``"broadcast_notification"``
 
 #### Defined in
 
@@ -37,7 +43,7 @@ ___
 
 ### BUTTONS\_RESPONSE
 
-• **BUTTONS\_RESPONSE**
+• **BUTTONS\_RESPONSE** = ``"buttons_response"``
 
 #### Defined in
 
@@ -47,7 +53,7 @@ ___
 
 ### CALL\_LOG
 
-• **CALL\_LOG**
+• **CALL\_LOG** = ``"call_log"``
 
 #### Defined in
 
@@ -57,7 +63,7 @@ ___
 
 ### CHAT
 
-• **CHAT**
+• **CHAT** = ``"chat"``
 
 #### Defined in
 
@@ -67,7 +73,7 @@ ___
 
 ### CIPHERTEXT
 
-• **CIPHERTEXT**
+• **CIPHERTEXT** = ``"ciphertext"``
 
 #### Defined in
 
@@ -77,7 +83,7 @@ ___
 
 ### DOCUMENT
 
-• **DOCUMENT**
+• **DOCUMENT** = ``"document"``
 
 #### Defined in
 
@@ -87,7 +93,7 @@ ___
 
 ### E2E\_NOTIFICATION
 
-• **E2E\_NOTIFICATION**
+• **E2E\_NOTIFICATION** = ``"e2e_notification"``
 
 #### Defined in
 
@@ -97,7 +103,7 @@ ___
 
 ### GP2
 
-• **GP2**
+• **GP2** = ``"gp2"``
 
 #### Defined in
 
@@ -107,7 +113,7 @@ ___
 
 ### GROUPS\_V4\_INVITE
 
-• **GROUPS\_V4\_INVITE**
+• **GROUPS\_V4\_INVITE** = ``"groups_v4_invite"``
 
 #### Defined in
 
@@ -117,7 +123,7 @@ ___
 
 ### GROUP\_NOTIFICATION
 
-• **GROUP\_NOTIFICATION**
+• **GROUP\_NOTIFICATION** = ``"group_notification"``
 
 #### Defined in
 
@@ -127,7 +133,7 @@ ___
 
 ### HSM
 
-• **HSM**
+• **HSM** = ``"hsm"``
 
 #### Defined in
 
@@ -137,7 +143,7 @@ ___
 
 ### IMAGE
 
-• **IMAGE**
+• **IMAGE** = ``"image"``
 
 #### Defined in
 
@@ -147,7 +153,7 @@ ___
 
 ### INTERACTIVE
 
-• **INTERACTIVE**
+• **INTERACTIVE** = ``"interactive"``
 
 #### Defined in
 
@@ -157,7 +163,7 @@ ___
 
 ### LIST
 
-• **LIST**
+• **LIST** = ``"list"``
 
 #### Defined in
 
@@ -167,7 +173,7 @@ ___
 
 ### LIST\_RESPONSE
 
-• **LIST\_RESPONSE**
+• **LIST\_RESPONSE** = ``"list_response"``
 
 #### Defined in
 
@@ -177,7 +183,7 @@ ___
 
 ### LOCATION
 
-• **LOCATION**
+• **LOCATION** = ``"location"``
 
 #### Defined in
 
@@ -187,7 +193,7 @@ ___
 
 ### MULTI\_VCARD
 
-• **MULTI\_VCARD**
+• **MULTI\_VCARD** = ``"multi_vcard"``
 
 #### Defined in
 
@@ -197,7 +203,7 @@ ___
 
 ### NATIVE\_FLOW
 
-• **NATIVE\_FLOW**
+• **NATIVE\_FLOW** = ``"native_flow"``
 
 #### Defined in
 
@@ -207,7 +213,7 @@ ___
 
 ### NOTIFICATION
 
-• **NOTIFICATION**
+• **NOTIFICATION** = ``"notification"``
 
 #### Defined in
 
@@ -217,7 +223,7 @@ ___
 
 ### NOTIFICATION\_TEMPLATE
 
-• **NOTIFICATION\_TEMPLATE**
+• **NOTIFICATION\_TEMPLATE** = ``"notification_template"``
 
 #### Defined in
 
@@ -227,7 +233,7 @@ ___
 
 ### ORDER
 
-• **ORDER**
+• **ORDER** = ``"order"``
 
 #### Defined in
 
@@ -237,7 +243,7 @@ ___
 
 ### OVERSIZED
 
-• **OVERSIZED**
+• **OVERSIZED** = ``"oversized"``
 
 #### Defined in
 
@@ -247,7 +253,7 @@ ___
 
 ### PAYMENT
 
-• **PAYMENT**
+• **PAYMENT** = ``"payment"``
 
 #### Defined in
 
@@ -257,7 +263,7 @@ ___
 
 ### PRODUCT
 
-• **PRODUCT**
+• **PRODUCT** = ``"product"``
 
 #### Defined in
 
@@ -267,7 +273,7 @@ ___
 
 ### PROTOCOL
 
-• **PROTOCOL**
+• **PROTOCOL** = ``"protocol"``
 
 #### Defined in
 
@@ -277,7 +283,7 @@ ___
 
 ### PTT
 
-• **PTT**
+• **PTT** = ``"ptt"``
 
 #### Defined in
 
@@ -287,7 +293,7 @@ ___
 
 ### REACTION
 
-• **REACTION**
+• **REACTION** = ``"reaction"``
 
 #### Defined in
 
@@ -297,7 +303,7 @@ ___
 
 ### REVOKED
 
-• **REVOKED**
+• **REVOKED** = ``"revoked"``
 
 #### Defined in
 
@@ -307,7 +313,7 @@ ___
 
 ### STICKER
 
-• **STICKER**
+• **STICKER** = ``"sticker"``
 
 #### Defined in
 
@@ -317,7 +323,7 @@ ___
 
 ### TEMPLATE\_BUTTON\_REPLY
 
-• **TEMPLATE\_BUTTON\_REPLY**
+• **TEMPLATE\_BUTTON\_REPLY** = ``"template_button_reply"``
 
 #### Defined in
 
@@ -327,7 +333,7 @@ ___
 
 ### UNKNOWN
 
-• **UNKNOWN**
+• **UNKNOWN** = ``"unknown"``
 
 #### Defined in
 
@@ -337,7 +343,7 @@ ___
 
 ### VCARD
 
-• **VCARD**
+• **VCARD** = ``"vcard"``
 
 #### Defined in
 
@@ -347,7 +353,7 @@ ___
 
 ### VIDEO
 
-• **VIDEO**
+• **VIDEO** = ``"video"``
 
 #### Defined in
 

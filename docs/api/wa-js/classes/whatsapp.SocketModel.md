@@ -7,7 +7,9 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).SocketModel
 
-**`whatsapp`** 65044
+**`Whatsapp`**
+
+65044
 
 ## Hierarchy
 
@@ -697,7 +699,9 @@ ___
 
 Alias of `on`
 
-**`alias`** on
+**`Alias`**
+
+on
 
 #### Parameters
 
@@ -891,7 +895,9 @@ ___
 
 Alias of `trigger`
 
-**`alias`** trigger
+**`Alias`**
+
+trigger
 
 #### Parameters
 
@@ -1672,7 +1678,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 
@@ -2147,7 +2155,9 @@ ___
 
 Alias of `off`
 
-**`alias`** off
+**`Alias`**
+
+off
 
 #### Parameters
 

@@ -29,7 +29,7 @@ List of buttons, with at least 1 option and a maximum of 3
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L50)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L52)
 
 ___
 
@@ -53,9 +53,12 @@ ___
 
 Create a new chat to a new contact
 
-**`default`** false
+**`Default`**
 
-**`example`**
+false
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello new contact', {
   createChat: true
@@ -78,9 +81,12 @@ ___
 
 Automatic detect and add the mentioned contacts with @[number]
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello @123 and @456', {
   detectMentioned: true
@@ -133,9 +139,12 @@ ___
 
 Automatically mark chat is read after send a message
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Replying your message', {
   markIsRead: true
@@ -159,7 +168,8 @@ ___
 Define a mentioned list for a message
 This option work better with a message with mension
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Hello @123 and @456', {
   mentionedList: ['123@c.us', '456@c.us']
@@ -210,7 +220,8 @@ ___
 
 Quote a message, like a reply message
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'This is a reply', {
   quotedMsg: 'true_[number]@c.us_3EB0F435D95D32C4C638'
@@ -239,7 +250,7 @@ Title for buttons, only for text message
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L54)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L56)
 
 ___
 
@@ -259,11 +270,10 @@ ___
 
 ### useTemplateButtons
 
-• `Optional` **useTemplateButtons**: `boolean`
+• `Optional` **useTemplateButtons**: ``null`` \| `boolean`
 
 Set to use template buttons instead of reply buttons.
-
-**`default:`** undefined - auto detect
+@default: undefined - auto detect
 
 #### Inherited from
 
@@ -271,7 +281,7 @@ Set to use template buttons instead of reply buttons.
 
 #### Defined in
 
-[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L59)
+[packages/wa-js/src/chat/functions/prepareMessageButtons.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/chat/functions/prepareMessageButtons.ts#L61)
 
 ___
 
@@ -281,9 +291,12 @@ ___
 
 Wait for send while the ACK of message is SENT(1)
 
-**`default`** true
+**`Default`**
 
-**`example`**
+true
+
+**`Example`**
+
 ```javascript
 WPP.chat.sendTextMessage('[number]@c.us', 'Wait for sent', {
   waitForAck: true

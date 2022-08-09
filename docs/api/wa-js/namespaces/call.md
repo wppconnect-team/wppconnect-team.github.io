@@ -14,7 +14,8 @@ custom_edit_url: null
 
 Reject a incoming call
 
-**`example`**
+**`Example`**
+
 ```javascript
 // Reject any incoming call
 WPP.call.rejectCall();

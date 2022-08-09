@@ -25,11 +25,17 @@ custom_edit_url: null
 
 • `Const` **SYSTEM\_MESSAGE\_TYPES**: `string`[]
 
-**`whatsapp`** 15461
+**`Whatsapp`**
 
-**`whatsapp`** 69618 >= 2.2204.13
+15461
 
-**`whatsapp`** 115461 >= 2.2222.8
+**`Whatsapp`**
+
+69618 >= 2.2204.13
+
+**`Whatsapp`**
+
+115461 >= 2.2222.8
 
 #### Defined in
 

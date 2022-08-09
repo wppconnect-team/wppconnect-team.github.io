@@ -301,9 +301,10 @@ ___
 
 Get the video file duration
 
-**`see`** https://gist.github.com/Elements-/cf063254730cd754599e#gistcomment-3241210
+**`See`**
 
-**`see`** https://gist.github.com/OllieJones/5ffb011fa3a11964154975582360391c
+ - https://gist.github.com/Elements-/cf063254730cd754599e#gistcomment-3241210
+ - https://gist.github.com/OllieJones/5ffb011fa3a11964154975582360391c
 
 #### Parameters
 
@@ -347,6 +348,27 @@ ___
 
 ___
 
+### resizeImage
+
+▸ **resizeImage**(`blob`, `options?`): [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`Blob` \| `File`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `blob` | `Blob` |
+| `options` | `Options` |
+
+#### Returns
+
+[`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`Blob` \| `File`\>
+
+#### Defined in
+
+[packages/wa-js/src/util/resizeImage.ts:19](https://github.com/wppconnect-team/wa-js/blob/main/src/util/resizeImage.ts#L19)
+
+___
+
 ### wrapFunction
 
 ▸ **wrapFunction**<`TFunc`\>(`func`, `callback`): (...`args`: [`InferArgs`](util.md#inferargs)<`TFunc`\>) => [`InferReturn`](util.md#inferreturn)<`TFunc`\>
@@ -371,8 +393,6 @@ Wrap a function with the callback
 `fn`
 
 ▸ (...`args`): [`InferReturn`](util.md#inferreturn)<`TFunc`\>
-
-Wrap a function with the callback
 
 ##### Parameters
 

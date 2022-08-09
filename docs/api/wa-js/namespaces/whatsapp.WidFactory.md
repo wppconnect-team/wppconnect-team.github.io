@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).WidFactory
 
-**`whatsapp`** 45454
+**`Whatsapp`**
 
-**`whatsapp`** 58021 >= 2.2204.13
+45454
 
-**`whatsapp`** 745454 >= 2.2222.8
+**`Whatsapp`**
+
+58021 >= 2.2204.13
+
+**`Whatsapp`**
+
+745454 >= 2.2222.8
 
 ## Functions
 

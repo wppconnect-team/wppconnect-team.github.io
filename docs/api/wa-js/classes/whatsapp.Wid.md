@@ -7,11 +7,17 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).Wid
 
-**`whatsapp`** 89867
+**`Whatsapp`**
 
-**`whatsapp`** 39546 >= 2.2204.13
+89867
 
-**`whatsapp`** 389867 >= 2.2222.8
+**`Whatsapp`**
+
+39546 >= 2.2204.13
+
+**`Whatsapp`**
+
+389867 >= 2.2222.8
 
 ## Constructors
 

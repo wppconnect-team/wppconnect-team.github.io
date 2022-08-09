@@ -33,6 +33,8 @@ Return the current auth code
 
 [`Promise`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[`AuthCode`](conn.md#authcode) \| ``null``\>
 
+[return description]
+
 #### Defined in
 
 [packages/wa-js/src/conn/functions/getAuthCode.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/getAuthCode.ts#L28)
@@ -45,7 +47,8 @@ ___
 
 Return the current logged user ID with device id
 
-**`example`**
+**`Example`**
+
 ```javascript
 const wid = WPP.conn.getMyDeviceId();
 console.log(wid.toString()); // Output: 123:4@c.us
@@ -67,7 +70,8 @@ ___
 
 Return the current logged user ID without device id
 
-**`example`**
+**`Example`**
+
 ```javascript
 const wid = WPP.conn.getMyUserId();
 console.log(wid.toString()); // Output: 123@c.us
@@ -80,6 +84,30 @@ console.log(wid.toString()); // Output: 123@c.us
 #### Defined in
 
 [packages/wa-js/src/conn/functions/getMyUserId.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/getMyUserId.ts#L28)
+
+___
+
+### getPlatform
+
+▸ **getPlatform**(): `any`
+
+Check what's device platform is connected
+
+**`Example`**
+
+```javascript
+const getPlatform = WPP.conn.getPlatform();
+```
+
+#### Returns
+
+`any`
+
+android | iphone | wp
+
+#### Defined in
+
+[packages/wa-js/src/conn/functions/getPlatform.ts:28](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/getPlatform.ts#L28)
 
 ___
 
@@ -117,7 +145,8 @@ ___
 
 Check is main interface is authenticated and loaded, bot not synced
 
-**`example`**
+**`Example`**
+
 ```javascript
 const isMainLoaded = WPP.conn.isMainLoaded();
 ```
@@ -129,6 +158,28 @@ const isMainLoaded = WPP.conn.isMainLoaded();
 #### Defined in
 
 [packages/wa-js/src/conn/functions/isMainLoaded.ts:27](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/isMainLoaded.ts#L27)
+
+___
+
+### isMainReady
+
+▸ **isMainReady**(): `boolean`
+
+Check is main interface is authenticated, loaded and synced
+
+**`Example`**
+
+```javascript
+const isMainReady = WPP.conn.isMainReady();
+```
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[packages/wa-js/src/conn/functions/isMainReady.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/conn/functions/isMainReady.ts#L33)
 
 ___
 
@@ -169,7 +220,8 @@ Refresh the current QRCode when is waiting for scan and return the current code
 For legacy: It will wait for next code
 For multidevice: It will generate a new one
 
-**`example`**
+**`Example`**
+
 ```javascript
 await WPP.conn.refreshQR();
 ```
@@ -190,7 +242,8 @@ ___
 
 Set keep alive state, that will force the focused and online state
 
-**`example`**
+**`Example`**
+
 ```javascript
 // To enable
 await WPP.conn.setKeepAlive();
@@ -219,7 +272,8 @@ ___
 
 ▸ **setMultiDevice**(`md?`): `boolean`
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.conn.setMultiDevice(true)
 ```

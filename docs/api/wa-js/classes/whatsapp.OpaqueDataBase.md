@@ -7,9 +7,13 @@ custom_edit_url: null
 
 [whatsapp](../namespaces/whatsapp.md).OpaqueDataBase
 
-**`whatsapp`** 34949
+**`Whatsapp`**
 
-**`whatsapp`** 534949 >= 2.2222.8
+34949
+
+**`Whatsapp`**
+
+534949 >= 2.2222.8
 
 ## Hierarchy
 

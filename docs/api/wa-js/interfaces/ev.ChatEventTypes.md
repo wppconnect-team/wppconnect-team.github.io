@@ -121,7 +121,8 @@ ___
 
 Triggered when new message is received
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.on('chat.new_message', (msg) => {
   // Your code
@@ -140,7 +141,8 @@ ___
 
 Triggered when a new reaction is received
 
-**`example`**
+**`Example`**
+
 ```javascript
 WPP.on('chat.new_reaction', (msg) => {
   // Your code

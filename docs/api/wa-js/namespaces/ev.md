@@ -16,6 +16,7 @@ custom_edit_url: null
 - [CallEventTypes](../interfaces/ev.CallEventTypes.md)
 - [ChatEventTypes](../interfaces/ev.ChatEventTypes.md)
 - [ConnEventTypes](../interfaces/ev.ConnEventTypes.md)
+- [GroupEventTypes](../interfaces/ev.GroupEventTypes.md)
 - [StatusEventTypes](../interfaces/ev.StatusEventTypes.md)
 - [WebpackEvents](../interfaces/ev.WebpackEvents.md)
 
@@ -23,17 +24,17 @@ custom_edit_url: null
 
 ### EventTypes
 
-Ƭ **EventTypes**: [`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md)
+Ƭ **EventTypes**: [`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md)
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/eventTypes.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventTypes.ts#L31)
+[packages/wa-js/src/eventEmitter/eventTypes.ts:33](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventTypes.ts#L33)
 
 ## Variables
 
 ### ev
 
-• `Const` **ev**: [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+• `Const` **ev**: [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
@@ -53,28 +54,30 @@ ___
 
 ### addListener
 
-▸ **addListener**<`Name`\>(`event`, `listener`): `Listener` \| [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **addListener**<`Name`\>(`event`, `listener`): `Listener` \| [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a listener to the end of the listeners array for the specified event.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 
 #### Returns
 
-`Listener` \| [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+`Listener` \| [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:45](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L45)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:77](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L77)
 
 ___
 
@@ -86,14 +89,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `...args` | `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\> |
+| `...args` | `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\> |
 
 #### Returns
 
@@ -101,7 +104,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:46](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L46)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L64)
 
 ___
 
@@ -113,14 +116,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `...args` | `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\> |
+| `...args` | `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\> |
 
 #### Returns
 
@@ -128,7 +131,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:47](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L47)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L69)
 
 ___
 
@@ -136,11 +139,15 @@ ___
 
 ▸ **eventNames**<`Name`\>(`nsAsArray?`): `Name`[]
 
+Returns an array listing the events for which the emitter has registered listeners.
+
+Note: Listeners order not guaranteed
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -154,7 +161,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:48](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L48)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:245](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L245)
 
 ___
 
@@ -162,13 +169,15 @@ ___
 
 ▸ **getMaxListeners**(): `number`
 
+Returns the current max listener value for the EventEmitter which is either set by emitter.setMaxListeners(n) or defaults to EventEmitter2.defaultMaxListeners
+
 #### Returns
 
 `number`
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:49](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L49)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:238](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L238)
 
 ___
 
@@ -176,11 +185,13 @@ ___
 
 ▸ **hasListeners**<`Name`\>(`event?`): `boolean`
 
+Checks whether emitter has any listeners.
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -194,13 +205,13 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:50](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L50)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:309](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L309)
 
 ___
 
 ### listenTo
 
-▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Parameters
 
@@ -212,13 +223,13 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L51)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:283](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L283)
 
-▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Parameters
 
@@ -230,13 +241,13 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L51)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:289](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L289)
 
-▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **listenTo**(`target`, `events`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Parameters
 
@@ -248,11 +259,11 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:51](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L51)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:295](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L295)
 
 ___
 
@@ -264,7 +275,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -278,7 +289,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:52](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L52)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:247](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L247)
 
 ___
 
@@ -286,11 +297,13 @@ ___
 
 ▸ **listeners**<`Name`\>(`event?`): `ListenerFn`[]
 
+Returns an array of listeners for the specified event. This array can be manipulated, e.g. to remove listeners.
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -304,7 +317,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:53](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L53)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:252](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L252)
 
 ___
 
@@ -312,13 +325,15 @@ ___
 
 ▸ **listenersAny**(): `ListenerFn`[]
 
+Returns an array of listeners that are listening for any event that is specified. This array can be manipulated, e.g. to remove listeners.
+
 #### Returns
 
 `ListenerFn`[]
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:54](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L54)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:257](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L257)
 
 ___
 
@@ -326,11 +341,13 @@ ___
 
 ▸ **many**<`Name`\>(`event`, `timesToListen`, `listener`, `options`): `Listener`
 
+Adds a listener that will execute n times for the event before being removed. The listener is invoked only the first n times the event is fired, after which it is removed.
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -338,7 +355,7 @@ ___
 | :------ | :------ |
 | `event` | `Name` |
 | `timesToListen` | `number` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options` | `OnOptions` & { `objectify`: ``true``  } |
 
 #### Returns
@@ -347,15 +364,17 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L55)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:157](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L157)
 
-▸ **many**<`Name`\>(`event`, `timesToListen`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **many**<`Name`\>(`event`, `timesToListen`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a listener that will execute n times for the event before being removed. The listener is invoked only the first n times the event is fired, after which it is removed.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -363,49 +382,53 @@ ___
 | :------ | :------ |
 | `event` | `Name` |
 | `timesToListen` | `number` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options?` | `boolean` \| `OnOptions` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:55](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L55)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:167](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L167)
 
 ___
 
 ### off
 
-▸ **off**<`Name`\>(`event`, `listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **off**<`Name`\>(`event`, `listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Remove a listener from the listener array for the specified event. Caution: Calling this method changes the array indices in the listener array behind the listener.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:56](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L56)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:220](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L220)
 
 ___
 
 ### offAny
 
-▸ **offAny**(`listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **offAny**(`listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Removes the listener that will be fired when any event is emitted.'
 
 #### Parameters
 
@@ -415,11 +438,11 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:57](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L57)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:207](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L207)
 
 ___
 
@@ -427,18 +450,20 @@ ___
 
 ▸ **on**<`Name`\>(`event`, `listener`, `options`): `Listener`
 
+Adds a listener to the end of the listeners array for the specified event.
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options` | `OnOptions` & { `objectify`: ``true``  } |
 
 #### Returns
@@ -447,37 +472,41 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L58)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:85](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L85)
 
-▸ **on**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **on**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a listener to the end of the listeners array for the specified event.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options?` | `boolean` \| `OnOptions` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:58](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L58)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:94](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L94)
 
 ___
 
 ### onAny
 
-▸ **onAny**(`listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **onAny**(`listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a listener that will be fired when any event is emitted. The event name is passed as the first argument to the callback.
 
 #### Parameters
 
@@ -487,11 +516,11 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:59](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L59)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:197](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L197)
 
 ___
 
@@ -499,18 +528,20 @@ ___
 
 ▸ **once**<`Name`\>(`event`, `listener`, `options`): `Listener`
 
+Adds a one time listener for the event. The listener is invoked only the first time the event is fired, after which it is removed.
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options` | `OnOptions` & { `objectify`: ``true``  } |
 
 #### Returns
@@ -519,37 +550,41 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L60)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:121](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L121)
 
-▸ **once**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **once**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a one time listener for the event. The listener is invoked only the first time the event is fired, after which it is removed.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options?` | ``true`` \| `OnOptions` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:60](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L60)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:130](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L130)
 
 ___
 
 ### prependAny
 
-▸ **prependAny**(`listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **prependAny**(`listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a listener that will be fired when any event is emitted. The event name is passed as the first argument to the callback. The listener is added to the beginning of the listeners array
 
 #### Parameters
 
@@ -559,11 +594,11 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:61](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L61)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:202](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L202)
 
 ___
 
@@ -571,18 +606,20 @@ ___
 
 ▸ **prependListener**<`Name`\>(`event`, `listener`, `options`): `Listener`
 
+Adds a listener to the beginning of the listeners array for the specified event.
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options` | `OnOptions` & { `objectify`: ``true``  } |
 
 #### Returns
@@ -591,31 +628,33 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L62)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:103](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L103)
 
-▸ **prependListener**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **prependListener**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a listener to the beginning of the listeners array for the specified event.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options?` | `boolean` \| `OnOptions` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:62](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L62)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:112](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L112)
 
 ___
 
@@ -623,11 +662,13 @@ ___
 
 ▸ **prependMany**<`Name`\>(`event`, `timesToListen`, `listener`, `options`): `Listener`
 
+Adds a listener that will execute n times for the event before being removed. The listener is invoked only the first n times the event is fired, after which it is removed. The listener is added to the beginning of the listeners array.
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -635,7 +676,7 @@ ___
 | :------ | :------ |
 | `event` | `Name` |
 | `timesToListen` | `number` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options` | `OnOptions` & { `objectify`: ``true``  } |
 
 #### Returns
@@ -644,15 +685,17 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L63)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:177](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L177)
 
-▸ **prependMany**<`Name`\>(`event`, `timesToListen`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **prependMany**<`Name`\>(`event`, `timesToListen`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a listener that will execute n times for the event before being removed. The listener is invoked only the first n times the event is fired, after which it is removed. The listener is added to the beginning of the listeners array.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -660,16 +703,16 @@ ___
 | :------ | :------ |
 | `event` | `Name` |
 | `timesToListen` | `number` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options?` | `boolean` \| `OnOptions` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:63](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L63)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:187](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L187)
 
 ___
 
@@ -677,18 +720,20 @@ ___
 
 ▸ **prependOnceListener**<`Name`\>(`event`, `listener`, `options`): `Listener`
 
+Adds a one time listener for the event. The listener is invoked only the first time the event is fired, after which it is removed. The listener is added to the beginning of the listeners array
+
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options` | `OnOptions` & { `objectify`: ``true``  } |
 
 #### Returns
@@ -697,43 +742,47 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L64)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:139](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L139)
 
-▸ **prependOnceListener**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **prependOnceListener**<`Name`\>(`event`, `listener`, `options?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Adds a one time listener for the event. The listener is invoked only the first time the event is fired, after which it is removed. The listener is added to the beginning of the listeners array
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 | `options?` | `boolean` \| `OnOptions` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:64](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L64)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:148](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L148)
 
 ___
 
 ### removeAllListeners
 
-▸ **removeAllListeners**<`Name`\>(`event?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **removeAllListeners**<`Name`\>(`event?`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Removes all listeners, or those of the specified event.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -743,44 +792,48 @@ ___
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:65](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L65)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:228](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L228)
 
 ___
 
 ### removeListener
 
-▸ **removeListener**<`Name`\>(`event`, `listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+▸ **removeListener**<`Name`\>(`event`, `listener`): [`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+
+Remove a listener from the listener array for the specified event. Caution: Calling this method changes the array indices in the listener array behind the listener.
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | `Name` |
-| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
+| `listener` | (...`args`: `ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>) => `void` |
 
 #### Returns
 
-[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
+[`EventEmitter`](../classes/ev.EventEmitter.md)<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:66](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L66)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:212](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L212)
 
 ___
 
 ### setMaxListeners
 
 ▸ **setMaxListeners**(`n`): `void`
+
+By default EventEmitters will print a warning if more than 10 listeners are added to it. This is a useful default which helps finding memory leaks. Obviously not all Emitters should be limited to 10. This function allows that to be increased. Set to zero for unlimited.
 
 #### Parameters
 
@@ -794,7 +847,7 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:67](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L67)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:233](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L233)
 
 ___
 
@@ -815,19 +868,21 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:68](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L68)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:301](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L301)
 
 ___
 
 ### waitFor
 
-▸ **waitFor**<`Name`\>(`event`, `timeout?`): `CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+▸ **waitFor**<`Name`\>(`event`, `timeout?`): `CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+
+Returns a thenable object (promise interface) that resolves when a specific event occurs
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -838,19 +893,21 @@ ___
 
 #### Returns
 
-`CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+`CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L69)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:262](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L262)
 
-▸ **waitFor**<`Name`\>(`event`, `filter?`): `CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+▸ **waitFor**<`Name`\>(`event`, `filter?`): `CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+
+Returns a thenable object (promise interface) that resolves when a specific event occurs
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -861,19 +918,21 @@ ___
 
 #### Returns
 
-`CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+`CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L69)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:270](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L270)
 
-▸ **waitFor**<`Name`\>(`event`, `options?`): `CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+▸ **waitFor**<`Name`\>(`event`, `options?`): `CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+
+Returns a thenable object (promise interface) that resolves when a specific event occurs
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
+| `Name` | extends ``"blocklist.sync"`` \| ``"call.incoming_call"`` \| keyof [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) \| keyof [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) \| ``"group.participant_changed"`` \| ``"status.sync"`` \| keyof [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) \| ``"alfa"`` \| ``"beta"`` |
 
 #### Parameters
 
@@ -884,8 +943,8 @@ ___
 
 #### Returns
 
-`CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
+`CancelablePromise`<`ListenerType`<[`BlocklistEventTypes`](../interfaces/ev.BlocklistEventTypes.md) & [`CallEventTypes`](../interfaces/ev.CallEventTypes.md) & [`ChatEventTypes`](../interfaces/ev.ChatEventTypes.md) & [`ConnEventTypes`](../interfaces/ev.ConnEventTypes.md) & [`GroupEventTypes`](../interfaces/ev.GroupEventTypes.md) & [`StatusEventTypes`](../interfaces/ev.StatusEventTypes.md) & [`WebpackEvents`](../interfaces/ev.WebpackEvents.md) & { `alfa`: `string` ; `beta`: (`from`: `number`, `to`: `string`) => `void`  }[`Name`]\>\>
 
 #### Defined in
 
-[packages/wa-js/src/eventEmitter/index.ts:69](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/index.ts#L69)
+[packages/wa-js/src/eventEmitter/eventEmitter.ts:278](https://github.com/wppconnect-team/wa-js/blob/main/src/eventEmitter/eventEmitter.ts#L278)

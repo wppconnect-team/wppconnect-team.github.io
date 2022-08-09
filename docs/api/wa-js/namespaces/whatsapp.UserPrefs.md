@@ -7,13 +7,21 @@ custom_edit_url: null
 
 [whatsapp](whatsapp.md).UserPrefs
 
-**`whatsapp`** 99234
+**`Whatsapp`**
 
-**`whatsapp`** 11362 >= 2.2212.5
+99234
 
-**`whatsapp`** 78820 >= 2.2218.4
+**`Whatsapp`**
 
-**`whatsapp`** 978820 >= 2.2222.8
+11362 >= 2.2212.5
+
+**`Whatsapp`**
+
+78820 >= 2.2218.4
+
+**`Whatsapp`**
+
+978820 >= 2.2222.8
 
 ## Variables
 

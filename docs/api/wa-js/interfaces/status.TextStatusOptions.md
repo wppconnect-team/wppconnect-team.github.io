@@ -35,6 +35,20 @@ ___
 
 ___
 
+### messageId
+
+• `Optional` **messageId**: `string` \| [`MsgKey`](../classes/whatsapp.MsgKey.md)
+
+#### Inherited from
+
+[SendStatusOptions](status.SendStatusOptions.md).[messageId](status.SendStatusOptions.md#messageid)
+
+#### Defined in
+
+[packages/wa-js/src/status/functions/sendRawStatus.ts:41](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L41)
+
+___
+
 ### textColor
 
 • `Optional` **textColor**: `string` \| `number`
@@ -55,4 +69,4 @@ ___
 
 #### Defined in
 
-[packages/wa-js/src/status/functions/sendRawStatus.ts:31](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L31)
+[packages/wa-js/src/status/functions/sendRawStatus.ts:40](https://github.com/wppconnect-team/wa-js/blob/main/src/status/functions/sendRawStatus.ts#L40)
