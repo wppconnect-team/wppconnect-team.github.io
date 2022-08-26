@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 13 Aug 2022 22:51:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Aug 2022 13:16:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.11.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.11.1</link>
+            <guid>/wa-js/v2.11.1</guid>
+            <pubDate>Fri, 26 Aug 2022 13:16:31 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.11.1 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.11.1 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed Google Analytics user properties (<a href="https://github.com/wppconnect-team/wa-js/commit/73ab7cd21d091748612310ce3987a1a1867e5c16" target="_blank" rel="noopener noreferrer">73ab7cd</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Improved config (<a href="https://github.com/wppconnect-team/wa-js/commit/51548d94815eda656b520ff94aa01f8b8cc15230" target="_blank" rel="noopener noreferrer">51548d9</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.11.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v2.11.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.11.0</link>
