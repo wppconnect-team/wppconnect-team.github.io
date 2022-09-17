@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 26 Aug 2022 13:16:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Sep 2022 20:50:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.12.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.12.0</link>
+            <guid>/wa-js/v2.12.0</guid>
+            <pubDate>Sat, 17 Sep 2022 20:50:23 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.12.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.12.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed buttons rendering on WhatsApp WEB &gt;= 2.2234.6 (<a href="https://github.com/wppconnect-team/wa-js/commit/49e8311e57ff4c9dc7d37416a6e1914ceb70ab81" target="_blank" rel="noopener noreferrer">49e8311</a>)</li><li>Fixed group metadata from chat list (<a href="https://github.com/wppconnect-team/wa-js/commit/8b1dea17cf6aa134a9cb807a2127548522d165db" target="_blank" rel="noopener noreferrer">8b1dea1</a>)</li><li>Fixed group.participant_changed event for WhatsApp &gt;= 2.2234.6 (wppconnect-team/wppconnect<a href="https://github.com/wppconnect-team/wa-js/issues/1330" target="_blank" rel="noopener noreferrer">#1330</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b60a9b6eb0cb13a7ad8a7faf7ee77a5a75cd561c" target="_blank" rel="noopener noreferrer">b60a9b6</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added WPP.conn.markAvailable and WPP.conn.markUnavailable functions (<a href="https://github.com/wppconnect-team/wa-js/commit/019bd36d618a5e6bef6ba640573cafb4bcc1c185" target="_blank" rel="noopener noreferrer">019bd36</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.12.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.11.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.11.1</link>
