@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 10 Oct 2022 17:52:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Oct 2022 23:42:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.13.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.13.2</link>
+            <guid>/wa-js/v2.13.2</guid>
+            <pubDate>Thu, 13 Oct 2022 23:42:04 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.13.2 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.13.2 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed WPP.chat.sendCreatePollMessage function (<a href="https://github.com/wppconnect-team/wa-js/commit/b688d957a13d0a56311649d55ffd042fc6f3bea3" target="_blank" rel="noopener noreferrer">b688d95</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added selectableCount option to WPP.chat.sendCreatePollMessage (<a href="https://github.com/wppconnect-team/wa-js/commit/f6f3c9f17f61bf2794b90e11ecab44c6dcd9119d" target="_blank" rel="noopener noreferrer">f6f3c9f</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.13.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v1.6.3]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.6.3</link>
