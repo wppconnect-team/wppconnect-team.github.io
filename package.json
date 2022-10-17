@@ -19,7 +19,7 @@
     "@docusaurus/plugin-google-gtag": "^2.1.0",
     "@docusaurus/plugin-pwa": "^2.1.0",
     "@docusaurus/preset-classic": "^2.1.0",
-    "@easyops-cn/docusaurus-search-local": "^0.33.0",
+    "@easyops-cn/docusaurus-search-local": "^0.33.2",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "prism-react-renderer": "^1.3.5",
