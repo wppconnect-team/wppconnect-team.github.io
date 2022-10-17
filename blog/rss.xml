@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 13 Oct 2022 23:42:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Oct 2022 21:46:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.13.3]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.13.3</link>
+            <guid>/wa-js/v2.13.3</guid>
+            <pubDate>Mon, 17 Oct 2022 21:46:10 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.13.3 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.13.3 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed fetchLinkPreview function for WhatsApp &gt;= 2.2240.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/968135733c17ff1ffb4adfd05d0ab73522a90a2b" target="_blank" rel="noopener noreferrer">9681357</a>)</li><li>Fixed generated message ID for groups (<a href="https://github.com/wppconnect-team/wa-js/commit/aceeb896886565708095f307f2ed621148b58571" target="_blank" rel="noopener noreferrer">aceeb89</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.13.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.13.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.13.2</link>
