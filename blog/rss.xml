@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 17 Oct 2022 21:46:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Oct 2022 22:07:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPPConnect minor release: v1.18.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.18.0</link>
+            <guid>/wppconnect/v1.18.0</guid>
+            <pubDate>Tue, 18 Oct 2022 22:07:36 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v1.18.0 for WPPConnect with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v1.18.0 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Avoid localStorage override for multidevice (<a href="https://github.com/wppconnect-team/wppconnect/commit/7d10159f80485df81adf29627c5f0b34a90f4ea0" target="_blank" rel="noopener noreferrer">7d10159</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.13.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/20328c79873babc7bdc6db11d9b09819990ac874" target="_blank" rel="noopener noreferrer">20328c7</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.175 (<a href="https://github.com/wppconnect-team/wppconnect/commit/eb885c6de2daa34dc3f9528d3aad8da2c4d10181" target="_blank" rel="noopener noreferrer">eb885c6</a>)</li><li>Fixed paired session detection (fix <a href="https://github.com/wppconnect-team/wppconnect/issues/1339" target="_blank" rel="noopener noreferrer">#1339</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/bdfd9d9a8b4f8202f5405d62ea34b2d78ccb164e" target="_blank" rel="noopener noreferrer">bdfd9d9</a>)</li><li>Improved script inject to fix <a href="https://github.com/wppconnect-team/wppconnect/issues/1366" target="_blank" rel="noopener noreferrer">#1366</a> (<a href="https://github.com/wppconnect-team/wppconnect/commit/4f7bd6ebb322f18f0c8f5c245d6289f5871a6e99" target="_blank" rel="noopener noreferrer">4f7bd6e</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Improved QRCode re-scan (fix <a href="https://github.com/wppconnect-team/wppconnect/issues/1189" target="_blank" rel="noopener noreferrer">#1189</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/8ec5264e55e01c15efd3e3c273c54e34cad166c9" target="_blank" rel="noopener noreferrer">8ec5264</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.18.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.13.3]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.13.3</link>
