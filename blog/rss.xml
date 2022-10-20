@@ -4,10 +4,34 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 18 Oct 2022 22:07:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Oct 2022 11:06:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v1.6.4]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.6.4</link>
+            <guid>/wppconnect-server/v1.6.4</guid>
+            <pubDate>Thu, 20 Oct 2022 11:06:07 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.6.4 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.6.4 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.18.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/947" target="_blank" rel="noopener noreferrer">#947</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/459b97d2a19396792917749895ee7fa9503252de" target="_blank" rel="noopener noreferrer">459b97d</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.18.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/950" target="_blank" rel="noopener noreferrer">#950</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/6026a4e78dce07deccc85f106e000cfb96acc383" target="_blank" rel="noopener noreferrer">6026a4e</a>)</li><li>Fixed error on numberExists (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/2bbff1341b6df49eab368a9580bd7f6137077650" target="_blank" rel="noopener noreferrer">2bbff13</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.6.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.18.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.18.1</link>
+            <guid>/wppconnect/v1.18.1</guid>
+            <pubDate>Thu, 20 Oct 2022 01:37:31 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.18.1 for WPPConnect with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.18.1 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed "Checking phone is connected" without autoClose (<a href="https://github.com/wppconnect-team/wppconnect/commit/ad63fb56a2255a67bcb16227fa6a61210f8633d1" target="_blank" rel="noopener noreferrer">ad63fb5</a>)</li><li>Fixed session re-initialization (<a href="https://github.com/wppconnect-team/wppconnect/commit/b523416fe45cbe389ba6bffbc9aa715293fb3e73" target="_blank" rel="noopener noreferrer">b523416</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added more log for WhatsApp page loading (<a href="https://github.com/wppconnect-team/wppconnect/commit/62c9bf10c085edf0fb0c42222e0bd9a58030763c" target="_blank" rel="noopener noreferrer">62c9bf1</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.18.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release: v1.18.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.18.0</link>
