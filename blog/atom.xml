@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-10-25T01:54:10.000Z</updated>
+    <updated>2022-10-30T17:42:35.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v2.14.0]]></title>
+        <id>/wa-js/v2.14.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.14.0"/>
+        <updated>2022-10-30T17:42:35.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.14.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.14.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed send message with quotedMsg (fix <a href="https://github.com/wppconnect-team/wa-js/issues/721" target="_blank" rel="noopener noreferrer">#721</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/0931800cdad655c5248369185a91586e721ee0ed" target="_blank" rel="noopener noreferrer">0931800</a>)</li><li>Removed offline server for link preview (<a href="https://github.com/wppconnect-team/wa-js/commit/c8e8f2e818a44c92ee93c546da3b71f19439c545" target="_blank" rel="noopener noreferrer">c8e8f2e</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added fallback for webpack modules (<a href="https://github.com/wppconnect-team/wa-js/commit/b54a03bfbaef4565ca0cde93a0b2e1130f38612b" target="_blank" rel="noopener noreferrer">b54a03b</a>)</li><li>Added WPP.chat.canReply function (<a href="https://github.com/wppconnect-team/wa-js/commit/b10c6483f88b115cbe1f5863b9dbb99a83acddc8" target="_blank" rel="noopener noreferrer">b10c648</a>)</li><li>Added WPP.conn.isRegistered function (<a href="https://github.com/wppconnect-team/wa-js/commit/44c46649047464c230565ca143418e72417bea99" target="_blank" rel="noopener noreferrer">44c4664</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.14.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v2.13.4]]></title>
         <id>/wa-js/v2.13.4</id>
