@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 30 Oct 2022 17:42:35 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Nov 2022 18:16:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.14.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.14.1</link>
+            <guid>/wa-js/v2.14.1</guid>
+            <pubDate>Tue, 01 Nov 2022 18:16:45 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.14.1 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.14.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed WPP.chat.getMessageById (fix <a href="https://github.com/wppconnect-team/wa-js/issues/728" target="_blank" rel="noopener noreferrer">#728</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/1a806b9f5bdff17667f67a13ba0d37c66fc06244" target="_blank" rel="noopener noreferrer">1a806b9</a>)</li><li>Fixed WPP.chat.starMessage function (fix <a href="https://github.com/wppconnect-team/wa-js/issues/729" target="_blank" rel="noopener noreferrer">#729</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/bfa69697e8adbc8e2da82b4a9984d46daf01d79f" target="_blank" rel="noopener noreferrer">bfa6969</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.14.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v2.14.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.14.0</link>
