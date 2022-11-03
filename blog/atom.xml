@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-11-02T15:57:15.000Z</updated>
+    <updated>2022-11-03T17:38:23.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Server CLI patch release: v1.3.4]]></title>
+        <id>/server-cli/v1.3.4</id>
+        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.4"/>
+        <updated>2022-11-03T17:38:23.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.4 for Server CLI with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.4 for Server CLI with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.6.3 (<a href="https://github.com/wppconnect-team/server-cli/commit/647cd17688a34f0df6973eb1e0ff52b30e6b1a83" target="_blank" rel="noopener noreferrer">647cd17</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.6.4 (<a href="https://github.com/wppconnect-team/server-cli/commit/70de54b29ad04e6550c01e36a7e032e6d7be32e9" target="_blank" rel="noopener noreferrer">70de54b</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^1.7.1 (<a href="https://github.com/wppconnect-team/server-cli/issues/337" target="_blank" rel="noopener noreferrer">#337</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/f510ae82cc4abca8b952752a1d647bf138b33a6f" target="_blank" rel="noopener noreferrer">f510ae8</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+        <category label="cli" term="cli"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v1.7.1]]></title>
         <id>/wppconnect-server/v1.7.1</id>
