@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 03 Nov 2022 17:38:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Nov 2022 00:15:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.15.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.15.0</link>
+            <guid>/wa-js/v2.15.0</guid>
+            <pubDate>Mon, 07 Nov 2022 00:15:21 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.15.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.15.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed export of ParticipantCollection (<a href="https://github.com/wppconnect-team/wa-js/commit/95787bce726f3c4a5375b951773c53914a47baa0" target="_blank" rel="noopener noreferrer">95787bc</a>)</li><li>Fixed msg id on change:ack event for groups (<a href="https://github.com/wppconnect-team/wa-js/commit/11708486ff3e321a479c86c8fdceacce8108d6f2" target="_blank" rel="noopener noreferrer">1170848</a>)</li><li>Fixed WPP.chat.sendFileMessage for animated stickers (fix <a href="https://github.com/wppconnect-team/wa-js/issues/432" target="_blank" rel="noopener noreferrer">#432</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/6c69da782723c05da21108dfa1db3e63910d92b5" target="_blank" rel="noopener noreferrer">6c69da7</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added WPP.chat.forwardMessage function (<a href="https://github.com/wppconnect-team/wa-js/issues/603" target="_blank" rel="noopener noreferrer">#603</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/afe5ac3aeae67a0d5fbb9c5f5e48672e36592175" target="_blank" rel="noopener noreferrer">afe5ac3</a>)</li><li>Added WPP.chat.getMessageACK function (close <a href="https://github.com/wppconnect-team/wa-js/issues/697" target="_blank" rel="noopener noreferrer">#697</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/ffc378f9ea5b8a2be31e7fa1846381dff6ef9cd6" target="_blank" rel="noopener noreferrer">ffc378f</a>)</li><li>Exported MsgInfoParticipantCollection and MsgInfoParticipantModel (<a href="https://github.com/wppconnect-team/wa-js/commit/35011b44e417120bec63eb058aa133f084f78d32" target="_blank" rel="noopener noreferrer">35011b4</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.15.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[Server CLI patch release: v1.3.4]]></title>
             <link>https://wppconnect-team.github.io/blog/server-cli/v1.3.4</link>
