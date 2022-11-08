@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-11-07T00:15:21.000Z</updated>
+    <updated>2022-11-08T01:06:49.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.15.1]]></title>
+        <id>/wa-js/v2.15.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.15.1"/>
+        <updated>2022-11-08T01:06:49.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.15.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.15.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed compatibility with WhatsApp &gt;= 2.2243.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/018ab61161ae6265d85b5f4a29afcad58571423f" target="_blank" rel="noopener noreferrer">018ab61</a>)</li><li>Fixed exportModule loop (<a href="https://github.com/wppconnect-team/wa-js/commit/e617fe5088a65916501882a8e587bd84d096370c" target="_blank" rel="noopener noreferrer">e617fe5</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.15.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.15.0]]></title>
         <id>/wa-js/v2.15.0</id>
