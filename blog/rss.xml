@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 18 Nov 2022 11:48:04 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Nov 2022 23:39:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.16.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.16.0</link>
+            <guid>/wa-js/v2.16.0</guid>
+            <pubDate>Sat, 19 Nov 2022 23:39:37 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.16.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.16.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed WPP.contact.queryExists for WhatsApp &gt;= 2.2244.5 (fix <a href="https://github.com/wppconnect-team/wa-js/issues/758" target="_blank" rel="noopener noreferrer">#758</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b5e8b3cbaeb15f64953fb55ddb33deecce5a98f8" target="_blank" rel="noopener noreferrer">b5e8b3c</a>)</li><li>Update the minimal version of WhatsApp WEB to 2.2230.9-beta (<a href="https://github.com/wppconnect-team/wa-js/commit/968fca2d5c8bb4a34a150c886c8e82d114e71798" target="_blank" rel="noopener noreferrer">968fca2</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added needsUpdate function/event (<a href="https://github.com/wppconnect-team/wa-js/issues/763" target="_blank" rel="noopener noreferrer">#763</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/f4e8ee07ace65aa1b4a931d6cef19bc901ae41ad" target="_blank" rel="noopener noreferrer">f4e8ee0</a>)</li><li>Added WPP.chat.editMessage (<a href="https://github.com/wppconnect-team/wa-js/commit/c63dcd4e438e1c8ef12da02bcb50009e42062aca" target="_blank" rel="noopener noreferrer">c63dcd4</a>)</li><li>Added WPP.chat.requestPhoneNumber function (<a href="https://github.com/wppconnect-team/wa-js/commit/4723eac3c7035a914cff8343a30af82554eef1ee" target="_blank" rel="noopener noreferrer">4723eac</a>)</li><li>Exported getHistorySyncProgress function (<a href="https://github.com/wppconnect-team/wa-js/commit/02ee36d6a108f68d9fa505b41e3bb33b96a1ef20" target="_blank" rel="noopener noreferrer">02ee36d</a>)</li><li>Exported WPP.whatsapp.canEditMessage (<a href="https://github.com/wppconnect-team/wa-js/commit/746d3497ffc1348b2e103013756435eee6690c93" target="_blank" rel="noopener noreferrer">746d349</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.16.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[Server CLI patch release: v1.3.5]]></title>
             <link>https://wppconnect-team.github.io/blog/server-cli/v1.3.5</link>
