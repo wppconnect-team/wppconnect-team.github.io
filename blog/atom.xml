@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-11-19T23:39:37.000Z</updated>
+    <updated>2022-11-21T00:07:26.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.16.1]]></title>
+        <id>/wa-js/v2.16.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.16.1"/>
+        <updated>2022-11-21T00:07:26.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.16.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.16.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed DataCloneError error after WPP.contact.queryExists call (<a href="https://github.com/wppconnect-team/wa-js/commit/fabe916ed8c52e4dfc3d3fb13afc7d9c54422251" target="_blank" rel="noopener noreferrer">fabe916</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.16.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.16.0]]></title>
         <id>/wa-js/v2.16.0</id>

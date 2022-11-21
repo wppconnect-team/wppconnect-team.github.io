@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 19 Nov 2022 23:39:37 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Nov 2022 00:07:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.16.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.16.1</link>
+            <guid>/wa-js/v2.16.1</guid>
+            <pubDate>Mon, 21 Nov 2022 00:07:26 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.16.1 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.16.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed DataCloneError error after WPP.contact.queryExists call (<a href="https://github.com/wppconnect-team/wa-js/commit/fabe916ed8c52e4dfc3d3fb13afc7d9c54422251" target="_blank" rel="noopener noreferrer">fabe916</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.16.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v2.16.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.16.0</link>
