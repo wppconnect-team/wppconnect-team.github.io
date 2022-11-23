@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-11-21T00:07:26.000Z</updated>
+    <updated>2022-11-23T00:54:06.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.16.2]]></title>
+        <id>/wa-js/v2.16.2</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.16.2"/>
+        <updated>2022-11-23T00:54:06.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.16.2 for WA-JS with Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.16.2 for WA-JS with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Exported getQuotedMsgObj function (<a href="https://github.com/wppconnect-team/wa-js/commit/9ea80a27a8d4d2357f44da09e54ac1f18e1b95c1" target="_blank" rel="noopener noreferrer">9ea80a2</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.16.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v2.16.1]]></title>
         <id>/wa-js/v2.16.1</id>
