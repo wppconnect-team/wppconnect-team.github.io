@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 23 Nov 2022 00:54:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Dec 2022 02:28:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.16.3]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.16.3</link>
+            <guid>/wa-js/v2.16.3</guid>
+            <pubDate>Thu, 01 Dec 2022 02:28:41 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.16.3 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.16.3 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed buttons/list reply is not flagging chat as unread (fix <a href="https://github.com/wppconnect-team/wa-js/issues/768" target="_blank" rel="noopener noreferrer">#768</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/3c3cd94f5ff92bf1668d3c92a8c3ca0de024c309" target="_blank" rel="noopener noreferrer">3c3cd94</a>)</li><li>Fixed error in WPP.labels.getAllLabels (fix <a href="https://github.com/wppconnect-team/wa-js/issues/780" target="_blank" rel="noopener noreferrer">#780</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/63ec7bc538799735bd9ecc2de49de598719a0bc9" target="_blank" rel="noopener noreferrer">63ec7bc</a>)</li><li>Fixed exported function getQuotedMsgObj (<a href="https://github.com/wppconnect-team/wa-js/commit/db719209fc181c1f082b26703399a0bd94b269f1" target="_blank" rel="noopener noreferrer">db71920</a>)</li><li>Re-added server for link-preview (<a href="https://github.com/wppconnect-team/wa-js/commit/645efc7bfd11846895db02ab281438d5f6c56b05" target="_blank" rel="noopener noreferrer">645efc7</a>)</li><li>Removed offline server for link-preview (<a href="https://github.com/wppconnect-team/wa-js/commit/ba9560fa87ec36f2e4a08ea32f3fed6da6725310" target="_blank" rel="noopener noreferrer">ba9560f</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Exported isUnreadTypeMsg function (<a href="https://github.com/wppconnect-team/wa-js/commit/864d060f6dcdff8eaaa485691fb7e90fe6f518ae" target="_blank" rel="noopener noreferrer">864d060</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.16.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.16.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.16.2</link>
