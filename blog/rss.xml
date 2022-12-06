@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 03 Dec 2022 21:20:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Dec 2022 02:09:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.17.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.17.0</link>
+            <guid>/wa-js/v2.17.0</guid>
+            <pubDate>Tue, 06 Dec 2022 02:09:01 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.17.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.17.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed compatibility with WhatsApp &gt;= 2.2246.8 (<a href="https://github.com/wppconnect-team/wa-js/commit/b69c09e3037a8697bd7e0a1bcc2a7034ceca777a" target="_blank" rel="noopener noreferrer">b69c09e</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added conn.main_init event (<a href="https://github.com/wppconnect-team/wa-js/commit/1b1adf55e92593197bc15b8446a21ce0c4ef4836" target="_blank" rel="noopener noreferrer">1b1adf5</a>)</li><li>Added WPP.conn.getHistorySyncProgress function (<a href="https://github.com/wppconnect-team/wa-js/commit/9a47ef6c986ccebe5b5b6b5ddace6dfc5c713506" target="_blank" rel="noopener noreferrer">9a47ef6</a>)</li><li>Added WPP.conn.isMainInit function (<a href="https://github.com/wppconnect-team/wa-js/commit/6840878645ab40ed0dd1b3c7a96decc661644b06" target="_blank" rel="noopener noreferrer">6840878</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.17.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v1.7.3]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.7.3</link>
