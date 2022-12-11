@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-12-06T02:09:01.000Z</updated>
+    <updated>2022-12-11T19:12:08.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.19.2]]></title>
+        <id>/wppconnect/v1.19.2</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.19.2"/>
+        <updated>2022-12-11T19:12:08.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.19.2 for WPPConnect with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.19.2 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.17.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/965e28442163f445ccdc27b618614a02c8f54ced" target="_blank" rel="noopener noreferrer">965e284</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.200 (<a href="https://github.com/wppconnect-team/wppconnect/commit/e71c429a95a8312f4620609b50cde32876f47035" target="_blank" rel="noopener noreferrer">e71c429</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.202 (<a href="https://github.com/wppconnect-team/wppconnect/commit/b811474a390cd1b95f3f502bbc47515fbcb11d7b" target="_blank" rel="noopener noreferrer">b811474</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.203 (<a href="https://github.com/wppconnect-team/wppconnect/commit/41aeb1961bb7023bed7853037774dfb9d4065326" target="_blank" rel="noopener noreferrer">41aeb19</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.204 (<a href="https://github.com/wppconnect-team/wppconnect/commit/5df9fdd617be0afc9ae67bca49f24f39dc22eddd" target="_blank" rel="noopener noreferrer">5df9fdd</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.208 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1459" target="_blank" rel="noopener noreferrer">#1459</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/291cc96ba89d2e951c90a5403740d361bf870542" target="_blank" rel="noopener noreferrer">291cc96</a>)</li><li>Fixed Puppeteer error and undefined sendList (<a href="https://github.com/wppconnect-team/wppconnect/issues/1453" target="_blank" rel="noopener noreferrer">#1453</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/d0891feaaadba83e84baa67bbd976d1d460a698d" target="_blank" rel="noopener noreferrer">d0891fe</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.19.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.17.0]]></title>
         <id>/wa-js/v2.17.0</id>
