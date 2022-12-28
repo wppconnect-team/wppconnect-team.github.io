@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 15 Dec 2022 12:14:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Dec 2022 21:01:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v1.8.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.8.1</link>
+            <guid>/wppconnect-server/v1.8.1</guid>
+            <pubDate>Wed, 28 Dec 2022 21:01:04 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.8.1 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.8.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed phone number validate (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1031" target="_blank" rel="noopener noreferrer">#1031</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/5405cdc3b5c87d12cc5c91f56615d4bf3329744f" target="_blank" rel="noopener noreferrer">5405cdc</a>)</li><li>Fixed return on create groups (close <a href="https://github.com/wppconnect-team/wppconnect-server/issues/1029" target="_blank" rel="noopener noreferrer">#1029</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/e60c9344bc7c77bb380fd01b42cbd9f22a0259c4" target="_blank" rel="noopener noreferrer">e60c934</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.8.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server minor release: v1.8.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.8.0</link>
