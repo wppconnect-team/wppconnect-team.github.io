@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2022-12-28T21:01:04.000Z</updated>
+    <updated>2023-01-12T01:03:26.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.18.1]]></title>
+        <id>/wa-js/v2.18.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.18.1"/>
+        <updated>2023-01-12T01:03:26.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.18.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.18.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Disabled WPP.call.rejectCall function for WhatsApp &gt;= 2.2301.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/3398baad0a0d090cf45edc5bf6fab3285639cd5f" target="_blank" rel="noopener noreferrer">3398baa</a>)</li><li>Dropped support for live location events for WhatsApp &gt;= 2.2301.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/d87367ba472fede015b9f65c9bf259b77ca14033" target="_blank" rel="noopener noreferrer">d87367b</a>)</li><li>Fixed group functions for WhatsApp &gt;= 2.2301.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/69e5db58a4396a45a097d1b34310344f9c10de41" target="_blank" rel="noopener noreferrer">69e5db5</a>)</li><li>Fixed WPP.chat.getMessages function for WhatsApp &gt;= 2.2301.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/dee775a95553a4618026b5ab92cfcfd09e7fb21f" target="_blank" rel="noopener noreferrer">dee775a</a>)</li><li>Fixed WPP.group.create function for WhatsApp &gt;= 2.2301.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/aad5d3b6b726b3c6fa5d044b6e26627a76da44c2" target="_blank" rel="noopener noreferrer">aad5d3b</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.18.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v1.8.1]]></title>
         <id>/wppconnect-server/v1.8.1</id>
