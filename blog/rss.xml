@@ -4,10 +4,34 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 12 Jan 2023 01:03:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Jan 2023 14:55:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.18.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.18.2</link>
+            <guid>/wa-js/v2.18.2</guid>
+            <pubDate>Fri, 13 Jan 2023 14:55:18 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.18.2 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.18.2 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed hsm/template message is not flagging chat as unread (<a href="https://github.com/wppconnect-team/wa-js/commit/3b9a84b33334567b1911e217db6120dd4ad710c9" target="_blank" rel="noopener noreferrer">3b9a84b</a>)</li><li>Fixed server for link-preview (<a href="https://github.com/wppconnect-team/wa-js/issues/861" target="_blank" rel="noopener noreferrer">#861</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/7294dcbc4494c3d11ce523742cdc240bec3c578e" target="_blank" rel="noopener noreferrer">7294dcb</a>)</li><li>Fixed WPP.chat.mute function (close <a href="https://github.com/wppconnect-team/wa-js/issues/849" target="_blank" rel="noopener noreferrer">#849</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/860" target="_blank" rel="noopener noreferrer">#860</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/55db3c38ab907e318ec661f9e1264029dd6b9a6f" target="_blank" rel="noopener noreferrer">55db3c3</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added WPP.group.getAllGroups function (<a href="https://github.com/wppconnect-team/wa-js/issues/859" target="_blank" rel="noopener noreferrer">#859</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/75fb318d44cfc60f0818a54b8567c1d64e6cad8a" target="_blank" rel="noopener noreferrer">75fb318</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.18.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
+        <item>
+            <title><![CDATA[WPP Server patch release: v1.8.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.8.2</link>
+            <guid>/wppconnect-server/v1.8.2</guid>
+            <pubDate>Fri, 13 Jan 2023 02:05:37 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.8.2 for WPP Server with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.8.2 for WPP Server with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed send message to groups (close <a href="https://github.com/wppconnect-team/wppconnect-server/issues/1049" target="_blank" rel="noopener noreferrer">#1049</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/f8bc6e4ee14b36e266b86bcf9998acf96629019f" target="_blank" rel="noopener noreferrer">f8bc6e4</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added onRevokedMessage event webhook (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/3ec60c214087aa25bad0af01364938efbf15c062" target="_blank" rel="noopener noreferrer">3ec60c2</a>)</li><li>Improovments on return request (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/f35664a3ab8489bbb06820b819a17d778e67907f" target="_blank" rel="noopener noreferrer">f35664a</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.8.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.18.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.18.1</link>
