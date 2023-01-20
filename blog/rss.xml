@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 13 Jan 2023 14:55:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Jan 2023 02:03:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.18.3]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.18.3</link>
+            <guid>/wa-js/v2.18.3</guid>
+            <pubDate>Fri, 20 Jan 2023 02:03:58 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.18.3 for WA-JS with Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.18.3 for WA-JS with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" href="#features" title="Direct link to heading">​</a></h3><ul><li>Added support to reject call for WhatsApp &gt;= 2.2301.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/2aaf02c2e5122b499d61139452c054bd13d558f0" target="_blank" rel="noopener noreferrer">2aaf02c</a>)</li><li>Extracted WapNode and wap functions (<a href="https://github.com/wppconnect-team/wa-js/commit/3b5a323086e4ebc523776df3afa05bf69b31ed6c" target="_blank" rel="noopener noreferrer">3b5a323</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.18.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.18.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.18.2</link>
