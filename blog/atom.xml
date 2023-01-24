@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-01-20T02:03:58.000Z</updated>
+    <updated>2023-01-23T23:16:32.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.18.4]]></title>
+        <id>/wa-js/v2.18.4</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.18.4"/>
+        <updated>2023-01-23T23:16:32.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.18.4 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.18.4 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a class="hash-link" href="#bug-fixes" title="Direct link to heading">​</a></h3><ul><li>Fixed WPP.conn.getAuthCode function for WhatsApp &gt;= 2.2301.5 (<a href="https://github.com/wppconnect-team/wa-js/commit/357b62bb9a06a868cc416e203b655088c469a6c4" target="_blank" rel="noopener noreferrer">357b62b</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.18.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v2.18.3]]></title>
         <id>/wa-js/v2.18.3</id>
