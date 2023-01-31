@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 23 Jan 2023 23:16:32 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Jan 2023 17:42:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.19.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.19.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v2.19.0</guid>
+            <pubDate>Tue, 31 Jan 2023 17:42:40 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.19.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.19.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Bugs fix (<a href="https://github.com/wppconnect-team/wa-js/commit/855926deaaaba2ed33460a57bd1bf816a3d440aa" target="_blank" rel="noopener noreferrer">855926d</a>)</li><li>Typos fix for community (<a href="https://github.com/wppconnect-team/wa-js/commit/1486b107fb2b706dcabf4f04c21cf0f915520b05" target="_blank" rel="noopener noreferrer">1486b10</a>)</li><li>Updated the minimal version of WhatsApp WEB to &gt;=2.2245.8-beta (<a href="https://github.com/wppconnect-team/wa-js/commit/2ea71a2c9af06f5ddd999aa31e4936dfb5d72736" target="_blank" rel="noopener noreferrer">2ea71a2</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added chat.active_chat event (close <a href="https://github.com/wppconnect-team/wa-js/issues/868" target="_blank" rel="noopener noreferrer">#868</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/4ca7a3915604f12c65dd70b94513fe9446847f0d" target="_blank" rel="noopener noreferrer">4ca7a39</a>)</li><li>Added WPP.chat.getActiveChat function (close <a href="https://github.com/wppconnect-team/wa-js/issues/868" target="_blank" rel="noopener noreferrer">#868</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/bc0b7be65964156d7aa458e9a018a2b92165af0f" target="_blank" rel="noopener noreferrer">bc0b7be</a>)</li><li>Added WPP.community.demoteParticipants (<a href="https://github.com/wppconnect-team/wa-js/commit/d9a84ace3e1f7645a4b9c3076a5f2342e451bd17" target="_blank" rel="noopener noreferrer">d9a84ac</a>)</li><li>Added WPP.community.promoteParticipants (<a href="https://github.com/wppconnect-team/wa-js/commit/943a67c22d268fb57f248cea976917ab7cb7a5b1" target="_blank" rel="noopener noreferrer">943a67c</a>)</li><li>Added WPP.group.getGroupSizeLimit function (close <a href="https://github.com/wppconnect-team/wa-js/issues/691" target="_blank" rel="noopener noreferrer">#691</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/77a91fe1f03e20196655a9889dff18c157b8496a" target="_blank" rel="noopener noreferrer">77a91fe</a>)</li><li>Created community functions (<a href="https://github.com/wppconnect-team/wa-js/commit/d52137b920c4b422bb22d5da368840deb6fccf62" target="_blank" rel="noopener noreferrer">d52137b</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.19.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.18.4]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.18.4</link>
