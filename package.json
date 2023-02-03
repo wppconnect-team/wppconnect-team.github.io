@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.3.1",
-    "@octokit/action": "^4.0.10",
+    "@octokit/action": "^5.0.2",
     "@tsconfig/docusaurus": "^1.0.6",
     "babel-plugin-styled-components": "^2.0.7",
     "docusaurus-plugin-typedoc": "^0.18.0",
