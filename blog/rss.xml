@@ -4,10 +4,34 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 07 Feb 2023 00:55:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Feb 2023 21:36:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v1.8.4]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.8.4</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect-server/v1.8.4</guid>
+            <pubDate>Sun, 19 Feb 2023 21:36:25 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.8.4 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.8.4 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.21.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1090" target="_blank" rel="noopener noreferrer">#1090</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/6e820bfdb5e7a77c3a3de19d82b0766b448b9879" target="_blank" rel="noopener noreferrer">6e820bf</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.22.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1104" target="_blank" rel="noopener noreferrer">#1104</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/b444adbe9b5e135ba327e4f7cce6b8b623deedde" target="_blank" rel="noopener noreferrer">b444adb</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v1.8.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPPConnect minor release: v1.22.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.22.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect/v1.22.0</guid>
+            <pubDate>Sun, 19 Feb 2023 21:30:44 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v1.22.0 for WPPConnect with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v1.22.0 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Changed the default log level to silly (<a href="https://github.com/wppconnect-team/wppconnect/commit/caf727532835a6a5b3783ba0c6ea1187f83f0a28" target="_blank" rel="noopener noreferrer">caf7275</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.19.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/4cf84d56808c1fa079d0f23a2044964bfd3e60d4" target="_blank" rel="noopener noreferrer">4cf84d5</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.248 (<a href="https://github.com/wppconnect-team/wppconnect/commit/a20dad163baabeb7e64010d25dda365cd83c422a" target="_blank" rel="noopener noreferrer">a20dad1</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.250 (<a href="https://github.com/wppconnect-team/wppconnect/commit/01f7530abf6aba70b6f391fb41d134440582dc32" target="_blank" rel="noopener noreferrer">01f7530</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.1.257 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1554" target="_blank" rel="noopener noreferrer">#1554</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/3560b2f4e93f679d50f26d28f7afa465d5c594ef" target="_blank" rel="noopener noreferrer">3560b2f</a>)</li><li>Updated the minimal version of WhatsApp WEB to &gt;= 2.2307.x (<a href="https://github.com/wppconnect-team/wppconnect/commit/911a141eb38fd7ebd7563c7a5976a6ce93afc722" target="_blank" rel="noopener noreferrer">911a141</a>)</li><li>Use latest version of WhatsApp web as fallback (fix <a href="https://github.com/wppconnect-team/wppconnect/issues/1553" target="_blank" rel="noopener noreferrer">#1553</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/39c5efb691f3d53436fe1dbc621d2bc2c2b48c77" target="_blank" rel="noopener noreferrer">39c5efb</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added deviceSyncTimeout option (close <a href="https://github.com/wppconnect-team/wppconnect/issues/1551" target="_blank" rel="noopener noreferrer">#1551</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/d4458e5c3727b4d96e1595a6f5fa2d798a2bd69a" target="_blank" rel="noopener noreferrer">d4458e5</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.22.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.19.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.19.1</link>
