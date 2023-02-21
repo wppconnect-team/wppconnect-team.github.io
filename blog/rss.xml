@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 19 Feb 2023 21:36:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Feb 2023 23:00:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.20.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.20.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v2.20.0</guid>
+            <pubDate>Tue, 21 Feb 2023 23:00:19 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.20.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.20.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed isUnreadTypeMsg function for WhatsApp &gt;= 2.2308.6 (<a href="https://github.com/wppconnect-team/wa-js/commit/759bd64d5a23f97880e49dd2fd38cd27f23a8966" target="_blank" rel="noopener noreferrer">759bd64</a>)</li><li>Removed fallback for WhatsApp WEB &lt; 2.2307.10 (<a href="https://github.com/wppconnect-team/wa-js/commit/57f901a8c167bd8c046b96346d6548d7dc35e877" target="_blank" rel="noopener noreferrer">57f901a</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added sendStatusToDevice option to avoid app crashing (<a href="https://github.com/wppconnect-team/wa-js/commit/d762d3a84bfc5ca8a164e7e2614453ab5114d301" target="_blank" rel="noopener noreferrer">d762d3a</a>)</li><li>Added WPP.status.updateParticipants function (<a href="https://github.com/wppconnect-team/wa-js/commit/1cc99a3bebf2678d0883963a38a97e7573ba979a" target="_blank" rel="noopener noreferrer">1cc99a3</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.20.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v1.8.4]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v1.8.4</link>
