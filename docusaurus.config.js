@@ -4,52 +4,7 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const fs = require("fs");
-
-const typeDocOptions = {
-  excludeExternals: true,
-  excludePrivate: true,
-  excludeProtected: true,
-  excludeInternal: true,
-  gitRevision: "main",
-  plugin: ["typedoc-plugin-mdn-links"],
-};
-
-const packageFolders = fs
-  .readdirSync("./packages", {
-    encoding: "utf8",
-    withFileTypes: true,
-  })
-  .filter((d) => d.isDirectory());
-
-const typeDocPlugins = packageFolders.map((d) => {
-  const folder = d.name;
-  const fullFolder = `./packages/${folder}`;
-
-  const package = require(`${fullFolder}/package.json`);
-
-  /** @type {import('@docusaurus/types').PluginConfig} */
-  const config = [
-    "docusaurus-plugin-typedoc",
-
-    // Plugin / TypeDoc options
-    /** @type {Partial<import('docusaurus-plugin-typedoc/dist/types').PluginOptions>} */
-    ({
-      ...typeDocOptions,
-      id: `api-${folder}`,
-      out: `api/${folder}`,
-      entryPoints: [`${fullFolder}/src`],
-      tsconfig: `${fullFolder}/tsconfig.json`,
-      sidebar: {
-        indexLabel: `Exports (v${package.version})`,
-        categoryLabel: package.name,
-        position: null,
-      },
-      // gitRevision: `v${package.version}`,
-    }),
-  ];
-
-  return config;
-});
+const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -150,7 +105,6 @@ const config = {
         ],
       },
     ],
-    ...typeDocPlugins,
   ],
 
   themeConfig:
@@ -177,10 +131,19 @@ const config = {
             label: "Tutorial",
           },
           {
-            type: "doc",
-            docId: "api/index",
-            position: "left",
+            to: "api",
             label: "API",
+            position: "left",
+            items: [
+              {
+                label: "WA-JS",
+                href: "https://wppconnect.io/wa-js",
+              },
+              {
+                label: "WPPConnect",
+                href: "https://wppconnect.io/wppconnect",
+              },
+            ],
           },
           {
             label: "Swagger",
