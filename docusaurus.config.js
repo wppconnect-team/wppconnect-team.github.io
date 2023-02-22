@@ -131,7 +131,6 @@ const config = {
             label: "Tutorial",
           },
           {
-            to: "api",
             label: "API",
             position: "left",
             items: [
