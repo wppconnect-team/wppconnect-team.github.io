@@ -18,6 +18,11 @@ const config = {
   organizationName: "wppconnect-team", // Usually your GitHub org/user name.
   projectName: "wppconnect", // Usually your repo name.
 
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "pt-BR"],
+  },
+
   presets: [
     [
       "classic",
@@ -150,6 +155,10 @@ const config = {
             to: "/swagger/wppconnect-server",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
           {
             href: "https://discord.gg/JU5JGGKGNG",
             label: "Discord",

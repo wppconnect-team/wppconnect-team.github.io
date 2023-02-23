@@ -51,6 +51,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
+      - name: Crowdin Sync
+        run: npm run crowdin:sync
+        env:
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
       - name: Build Page
         run: npm run build
 
