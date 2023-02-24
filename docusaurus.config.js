@@ -158,6 +158,16 @@ const config = {
           {
             type: "localeDropdown",
             position: "right",
+            dropdownItemsAfter: [
+              {
+                type: "html",
+                value: '<hr style="margin: 0.3rem 0;">',
+              },
+              {
+                href: "https://crowdin.com/project/wppconnect-site",
+                label: "Help Us Translate",
+              },
+            ],
           },
           {
             href: "https://discord.gg/JU5JGGKGNG",
