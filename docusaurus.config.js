@@ -42,7 +42,7 @@ const config = {
           trackingID: "G-X2JJJ2ZZG8",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/custom.scss"),
         },
       }),
     ],
@@ -69,14 +69,8 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
+        language: ["en", "pt"],
       },
     ],
   ],
@@ -110,6 +104,7 @@ const config = {
         ],
       },
     ],
+    "docusaurus-plugin-sass",
   ],
 
   themeConfig:
@@ -171,14 +166,17 @@ const config = {
           },
           {
             href: "https://discord.gg/JU5JGGKGNG",
-            label: "Discord",
             position: "right",
+            className: "header-discord-link",
+            "aria-label": "Discord channel",
+            title: "Discord channel",
           },
           {
             href: "https://github.com/wppconnect-team",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
+            title: "GitHub repository",
           },
         ],
       },
