@@ -13,16 +13,6 @@ import DockerContainer from "../components/Home/Docker";
 import FrontendContainer from "../components/Home/Frontend";
 import HeroContainer from "../components/Home/Hero";
 import ServidorContainer from "../components/Home/Servidor";
-import ServerStyle from "./ServerStyle";
-
-function Root({ children }) {
-  return (
-    <>
-      <ServerStyle from={children} />
-      {children}
-    </>
-  );
-}
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -54,16 +44,14 @@ export default function Home(): JSX.Element {
       {/* <HomepageHeader /> */}
       <main>
         {/* <HomepageFeatures /> */}
-        <Root>
-          <Container>
-            <HeroContainer />
-            <AboutContainer />
-            <ServidorContainer />
-            <FrontendContainer />
-            <DockerContainer />
-            <ApoiarContainer />
-          </Container>
-        </Root>
+        <Container>
+          <HeroContainer />
+          <AboutContainer />
+          <ServidorContainer />
+          <FrontendContainer />
+          <DockerContainer />
+          <ApoiarContainer />
+        </Container>
       </main>
     </Layout>
   );
