@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-02-21T23:00:19.000Z</updated>
+    <updated>2023-02-28T01:25:03.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.20.2]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v2.20.2</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.20.2"/>
+        <updated>2023-02-28T01:25:03.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.20.2 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.20.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed link-preview function (<a href="https://github.com/wppconnect-team/wa-js/commit/2fc38b1d10f7723cce07201473446b32cb7d32d0" target="_blank" rel="noopener noreferrer">2fc38b1</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.20.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.20.1]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v2.20.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.20.1"/>
+        <updated>2023-02-28T00:48:32.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.20.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.20.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed isUnreadTypeMsg function for WhatsApp &gt;= 2.2310.4 (<a href="https://github.com/wppconnect-team/wa-js/commit/0d1340d66a8024e7d8089cd4d6131a831cf3d8f1" target="_blank" rel="noopener noreferrer">0d1340d</a>)</li><li>Removed offline link-preview server (<a href="https://github.com/wppconnect-team/wa-js/commit/475bc4b7e0cced66184bf139a8fbc6887da14d87" target="_blank" rel="noopener noreferrer">475bc4b</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.20.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.20.0]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v2.20.0</id>
