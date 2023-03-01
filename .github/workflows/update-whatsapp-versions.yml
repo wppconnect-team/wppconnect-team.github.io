@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update_blog:
+  update_whatsapp_versions:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3.6.0
         with:
-          node-version: 16.x
+          node-version: 18.x
 
       - name: Get npm cache directory
         id: npm-cache
@@ -39,8 +39,9 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ".docusaurus"
-          key: ${{ runner.os }}-docusaurus-${{ hashFiles('**/docusaurus.config.js') }}
+          key: ${{ runner.os }}-docusaurus-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           restore-keys: |
+            ${{ runner.os }}-docusaurus-${{ hashFiles('**/package-lock.json') }}-
             ${{ runner.os }}-docusaurus-
 
       - name: Setup node_modules cache
