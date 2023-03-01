@@ -149,6 +149,11 @@ const config = {
             position: "left",
             to: "/swagger/wppconnect-server",
           },
+          {
+            to: "/whatsapp-versions",
+            label: "WhatsApp Versions",
+            position: "left",
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
