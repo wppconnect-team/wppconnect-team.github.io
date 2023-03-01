@@ -1,0 +1,67 @@
+name: Update WhatsApp Versions
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update_blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Setup GIT
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup Node
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: 16.x
+
+      - name: Get npm cache directory
+        id: npm-cache
+        run: |
+          echo "::set-output name=dir::$(npm config get cache)"
+
+      - name: Setup npm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.npm-cache.outputs.dir }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Setup docusaurus cache
+        uses: actions/cache@v3
+        with:
+          path: ".docusaurus"
+          key: ${{ runner.os }}-docusaurus-${{ hashFiles('**/docusaurus.config.js') }}
+          restore-keys: |
+            ${{ runner.os }}-docusaurus-
+
+      - name: Setup node_modules cache
+        uses: actions/cache@v3
+        with:
+          path: "node_modules/.cache"
+          key: ${{ runner.os }}-node_modules-cache-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node_modules-cache-
+
+      - name: Install Dependencies
+        run: npm ci || npm install
+
+      - name: Update WhatsApp Versions
+        run: npm run wa-version:download
+
+      - name: Build Page
+        run: npm run build
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: Update Whatsapp Versions"
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
