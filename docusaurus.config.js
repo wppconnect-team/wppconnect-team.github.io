@@ -44,23 +44,23 @@ const config = {
         },
       }),
     ],
-    // [
-    //   "redocusaurus",
-    //   {
-    //     // Plugin Options for loading OpenAPI files
-    //     specs: [
-    //       {
-    //         spec: "https://raw.githubusercontent.com/wppconnect-team/wppconnect-server/main/src/swagger.json",
-    //         route: "/swagger/wppconnect-server",
-    //       },
-    //     ],
-    //     // Theme Options for modifying how redoc renders them
-    //     theme: {
-    //       // Change with your site colors
-    //       primaryColor: "#2e8555",
-    //     },
-    //   },
-    // ],
+    [
+      "redocusaurus",
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          {
+            spec: "https://raw.githubusercontent.com/wppconnect-team/wppconnect-server/main/src/swagger.json",
+            route: "/swagger/wppconnect-server",
+          },
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: "#2e8555",
+        },
+      },
+    ],
   ],
 
   themes: [
