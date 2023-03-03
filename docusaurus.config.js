@@ -3,8 +3,6 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-const fs = require("fs");
-const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -46,23 +44,23 @@ const config = {
         },
       }),
     ],
-    [
-      "redocusaurus",
-      {
-        // Plugin Options for loading OpenAPI files
-        specs: [
-          {
-            spec: "https://raw.githubusercontent.com/wppconnect-team/wppconnect-server/main/src/swagger.json",
-            route: "/swagger/wppconnect-server",
-          },
-        ],
-        // Theme Options for modifying how redoc renders them
-        theme: {
-          // Change with your site colors
-          primaryColor: "#2e8555",
-        },
-      },
-    ],
+    // [
+    //   "redocusaurus",
+    //   {
+    //     // Plugin Options for loading OpenAPI files
+    //     specs: [
+    //       {
+    //         spec: "https://raw.githubusercontent.com/wppconnect-team/wppconnect-server/main/src/swagger.json",
+    //         route: "/swagger/wppconnect-server",
+    //       },
+    //     ],
+    //     // Theme Options for modifying how redoc renders them
+    //     theme: {
+    //       // Change with your site colors
+    //       primaryColor: "#2e8555",
+    //     },
+    //   },
+    // ],
   ],
 
   themes: [
@@ -125,10 +123,21 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "tutorial/intro",
+            to: "/docs/",
+            position: "left",
+            label: "Docs",
+            activeBaseRegex: "docs/?$"
+          },
+          {
+            to: "/docs/tutorial/intro",
             position: "left",
             label: "Tutorial",
+            activeBaseRegex: "docs/?$"
+          },
+          {
+            to: "/docs/projects",
+            position: "left",
+            label: "Projects",
           },
           {
             label: "API",
