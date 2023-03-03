@@ -54,6 +54,7 @@ jobs:
 
       - name: Crowdin Sync
         run: npm run crowdin:sync
+        continue-on-error: true
         env:
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
