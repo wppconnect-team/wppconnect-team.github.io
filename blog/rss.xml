@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 28 Feb 2023 01:25:03 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Mar 2023 22:39:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.21.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v2.21.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v2.21.0</guid>
+            <pubDate>Sat, 04 Mar 2023 22:39:34 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.21.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.21.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Update UserPrefs namespace (<a href="https://github.com/wppconnect-team/wa-js/commit/68db5fab3deac14316b58a06d501c24efc81f842" target="_blank" rel="noopener noreferrer">68db5fa</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added WPP.group.removeIcon function (close <a href="https://github.com/wppconnect-team/wa-js/issues/923" target="_blank" rel="noopener noreferrer">#923</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/1abd12ef5e5d6d841fd23c603f9da818ac0aaa68" target="_blank" rel="noopener noreferrer">1abd12e</a>)</li><li>Added WPP.profile.removeMyProfilePicture function (<a href="https://github.com/wppconnect-team/wa-js/issues/923" target="_blank" rel="noopener noreferrer">#923</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/307e56772f320bec0a517804ee8a8ceeea9f8bf0" target="_blank" rel="noopener noreferrer">307e567</a>)</li><li>Added WPP.profile.setMyProfileName function (close <a href="https://github.com/wppconnect-team/wa-js/issues/941" target="_blank" rel="noopener noreferrer">#941</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/e8916e37770a7934064ed159195fb2a248aaba2e" target="_blank" rel="noopener noreferrer">e8916e3</a>)</li><li>Exported requestDeletePicture function (<a href="https://github.com/wppconnect-team/wa-js/commit/1f265002cd0bfc4c2ecec2a6fa2ee17713d5aa74" target="_blank" rel="noopener noreferrer">1f26500</a>)</li><li>Exported setPushname function (<a href="https://github.com/wppconnect-team/wa-js/commit/40eb9bfd0cc2e27550c4fd152e5fc0d182b192ea" target="_blank" rel="noopener noreferrer">40eb9bf</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.21.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.20.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.20.2</link>
