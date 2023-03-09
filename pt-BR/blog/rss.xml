@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 04 Mar 2023 22:39:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Mar 2023 01:50:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.22.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.22.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.22.0</guid>
+            <pubDate>Thu, 09 Mar 2023 01:50:12 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.22.0 for WA-JS with Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.22.0 for WA-JS with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added support to string, blob and file formats to WPP.chat.sendFileMessage (<a href="https://github.com/wppconnect-team/wa-js/commit/8a6626aeae85f76a53627221f81e73cbe6958de0" target="_blank" rel="noopener noreferrer">8a6626a</a>)</li><li>Added support to waveform for ptt audio messages (<a href="https://github.com/wppconnect-team/wa-js/commit/290ebfefe6021b3d17f7fdfdda5545bb0473b26f" target="_blank" rel="noopener noreferrer">290ebfe</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.22.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v2.21.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.21.0</link>
