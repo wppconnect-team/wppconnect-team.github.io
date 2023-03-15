@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-03-13T23:05:49.000Z</updated>
+    <updated>2023-03-15T00:34:51.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.22.2]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.22.2</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.22.2"/>
+        <updated>2023-03-15T00:34:51.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.22.2 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.22.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed WPP.chat.getVotes function (<a href="https://github.com/wppconnect-team/wa-js/issues/969" target="_blank" rel="noopener noreferrer">#969</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/f303f33f79b89510a23ada11e875f1267e858db1" target="_blank" rel="noopener noreferrer">f303f33</a>)</li><li>Fixed WPP.chat.sendFileMessage function for WhatsApp &gt;= 2.2312.5 (fix <a href="https://github.com/wppconnect-team/wa-js/issues/976" target="_blank" rel="noopener noreferrer">#976</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/261be97b98dac5673987606e3a795a8a7a200af3" target="_blank" rel="noopener noreferrer">261be97</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.22.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v2.22.1]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.22.1</id>
