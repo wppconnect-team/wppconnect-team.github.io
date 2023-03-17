@@ -4,10 +4,23 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 15 Mar 2023 00:34:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Mar 2023 02:20:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[Server CLI patch release: v1.3.7]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.7</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.7</guid>
+            <pubDate>Fri, 17 Mar 2023 02:20:48 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.7 for Server CLI with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.7 for Server CLI with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed config file argument (fix <a href="https://github.com/wppconnect-team/server-cli/issues/105" target="_blank" rel="noopener noreferrer">#105</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/64b2ffdbc52bb193a3ded633c273c8bcc2d9efc0" target="_blank" rel="noopener noreferrer">64b2ffd</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.7" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+            <category>cli</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.22.2]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.22.2</link>

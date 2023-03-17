@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[6454],{48379:e=>{e.exports=JSON.parse('{"label":"cli","permalink":"/blog/tags/cli","allTagsPath":"/blog/tags","count":11}')}}]);
