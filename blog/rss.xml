@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 17 Mar 2023 02:20:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Mar 2023 01:25:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.23.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.23.1</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect/v1.23.1</guid>
+            <pubDate>Sat, 25 Mar 2023 01:25:13 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.23.1 for WPPConnect with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.23.1 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.22.2 (<a href="https://github.com/wppconnect-team/wppconnect/commit/09e5cfadf59e1353c7e1f34a744bdb6cfaf04314" target="_blank" rel="noopener noreferrer">09e5cfa</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.10 (<a href="https://github.com/wppconnect-team/wppconnect/commit/187301947859ad782323b11de3a262ab4c02402c" target="_blank" rel="noopener noreferrer">1873019</a>)</li><li>Fixed multiple inChat emit events (<a href="https://github.com/wppconnect-team/wppconnect/issues/1598" target="_blank" rel="noopener noreferrer">#1598</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/4900765f20a7c879e597ce01ebcce05bf244006b" target="_blank" rel="noopener noreferrer">4900765</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.23.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[Server CLI patch release: v1.3.7]]></title>
             <link>https://wppconnect-team.github.io/blog/server-cli/v1.3.7</link>
