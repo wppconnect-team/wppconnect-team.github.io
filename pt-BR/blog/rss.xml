@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 03 Apr 2023 12:08:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Apr 2023 19:40:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.23.2]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.23.2</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.23.2</guid>
+            <pubDate>Mon, 03 Apr 2023 19:40:00 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.23.2 for WPPConnect with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.23.2 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.23.1 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1622" target="_blank" rel="noopener noreferrer">#1622</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/7b65a47f169a31a0da999f99dee542f1a07d1149" target="_blank" rel="noopener noreferrer">7b65a47</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.12 (<a href="https://github.com/wppconnect-team/wppconnect/commit/b06ab75199952c2d3dd064ec26f9cd9c650b3de4" target="_blank" rel="noopener noreferrer">b06ab75</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.13 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1617" target="_blank" rel="noopener noreferrer">#1617</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/6df700d16e43b7200e0c9ccafd47fddd78de0454" target="_blank" rel="noopener noreferrer">6df700d</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.23.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.23.1]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.23.1</link>
