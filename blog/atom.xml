@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-04-03T19:40:00.000Z</updated>
+    <updated>2023-04-13T02:47:27.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.23.2]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v2.23.2</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.23.2"/>
+        <updated>2023-04-13T02:47:27.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.23.2 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.23.2 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed attributes MsgModel (<a href="https://github.com/wppconnect-team/wa-js/commit/4ac516f42479a82b38423f3b25ce0f6e7bb46661" target="_blank" rel="noopener noreferrer">4ac516f</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>more options to chat listing (<a href="https://github.com/wppconnect-team/wa-js/issues/1037" target="_blank" rel="noopener noreferrer">#1037</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/48663da01778631469014fe1e9f898d9a623a687" target="_blank" rel="noopener noreferrer">48663da</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.23.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v1.23.2]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect/v1.23.2</id>
