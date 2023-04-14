@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 13 Apr 2023 02:47:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Apr 2023 00:46:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.0.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.0.1</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect-server/v2.0.1</guid>
+            <pubDate>Fri, 14 Apr 2023 00:46:35 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.0.1 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.0.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.23.2 (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/78e255958205cf9b2c972a4a12c32969891fac86" target="_blank" rel="noopener noreferrer">78e2559</a>)</li><li>Fixed error on cors Socket.IO (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/8277c1417079b22cc14538740e0ae2b3402ba7ee" target="_blank" rel="noopener noreferrer">8277c14</a>)</li><li>Fixed error on get-qr-code when client is null (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/a744ea22635cdc122bb1fc4b85eef8aa59757c89" target="_blank" rel="noopener noreferrer">a744ea2</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.0.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.23.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v2.23.2</link>
