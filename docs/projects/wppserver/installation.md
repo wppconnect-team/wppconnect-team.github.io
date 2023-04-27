@@ -1,3 +1,8 @@
+---
+title: Installation
+sidebar_position: 2
+---
+
 Wppconnect Server is a ready-to-use API, just download, install, and start using, simple as that.
 
 
@@ -168,7 +173,7 @@ curl -X POST --location "http://localhost:21465/api/mySession/send-message" \
         }"
 ```
 
-See the `routes file` for all the routes. [here](/src/routes/index.js) and HTTP [file](/requests.http).
+See the `routes file` for all the routes. [here](https://github.com/wppconnect-team/wppconnect-server/blob/main/src/routes/index.ts) and HTTP [file](https://github.com/wppconnect-team/wppconnect-server/blob/main/requests.http).
 
 ## Documentations
 Access our documentation on [postman](https://documenter.getpostman.com/view/9139457/TzshF4jQ) 
