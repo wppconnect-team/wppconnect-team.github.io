@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-04-29T18:05:35.000Z</updated>
+    <updated>2023-04-29T18:38:24.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.24.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.24.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.24.0"/>
+        <updated>2023-04-29T18:38:24.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.24.0 for WPPConnect with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.24.0 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.23.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/eeeb0cf4d137152405a6d84c59529198aeea7062" target="_blank" rel="noopener noreferrer">eeeb0cf</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^2.23.5 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1664" target="_blank" rel="noopener noreferrer">#1664</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/be1b9aa6a85d7133768a682afb305db2bde82a8f" target="_blank" rel="noopener noreferrer">be1b9aa</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.15 (<a href="https://github.com/wppconnect-team/wppconnect/commit/3c4b2ed0542dae3afdc0fa7b61a835194234a972" target="_blank" rel="noopener noreferrer">3c4b2ed</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.16 (<a href="https://github.com/wppconnect-team/wppconnect/commit/27863c2e7726d105d85c5ec68d61af4e5fb172c5" target="_blank" rel="noopener noreferrer">27863c2</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.21 (<a href="https://github.com/wppconnect-team/wppconnect/commit/b868f0a4be31e19fcad72a8521d3883a66b48b2d" target="_blank" rel="noopener noreferrer">b868f0a</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.27 (<a href="https://github.com/wppconnect-team/wppconnect/commit/2e98bbf587ff97aff694371aa9896cc83803ac85" target="_blank" rel="noopener noreferrer">2e98bbf</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added client.getActiveChat (<a href="https://github.com/wppconnect-team/wppconnect/commit/9d1c9595a331aaf510df23ee2c94098f6663fed7" target="_blank" rel="noopener noreferrer">9d1c959</a>)</li><li>Added client.removeMyProfilePicture (<a href="https://github.com/wppconnect-team/wppconnect/commit/9d0f239819430ba30811fa69606663f4110752b5" target="_blank" rel="noopener noreferrer">9d0f239</a>)</li><li>Added new functions to check conn (<a href="https://github.com/wppconnect-team/wppconnect/commit/0b5e28b98275afbf6a164480b5d68cba9b0a8572" target="_blank" rel="noopener noreferrer">0b5e28b</a>)</li><li>Added new functions to groups (<a href="https://github.com/wppconnect-team/wppconnect/commit/01cb1694d2fd904342fdb4f39f7c99df1799546d" target="_blank" rel="noopener noreferrer">01cb169</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.24.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v2.23.5]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.23.5</id>
