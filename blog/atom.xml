@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-04-29T18:38:24.000Z</updated>
+    <updated>2023-05-03T01:41:24.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v2.24.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v2.24.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.24.0"/>
+        <updated>2023-05-03T01:41:24.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.24.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.24.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed ephemeral setting for sending messages (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1014" target="_blank" rel="noopener noreferrer">#1014</a>); (<a href="https://github.com/wppconnect-team/wa-js/commit/a7d840d9c655cac21ef1704f7d916eb9c250b688" target="_blank" rel="noopener noreferrer">a7d840d</a>)</li><li>Fixed sending status with image/video (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1035" target="_blank" rel="noopener noreferrer">#1035</a>); (<a href="https://github.com/wppconnect-team/wa-js/commit/cb7a32d026c3a591c30650d7788cbe02a4f98454" target="_blank" rel="noopener noreferrer">cb7a32d</a>)</li><li>Fixed sent status that was not show up after refresh (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1017" target="_blank" rel="noopener noreferrer">#1017</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/dadb00d0010f61411d3287200a34cad160d9ca71" target="_blank" rel="noopener noreferrer">dadb00d</a>)</li><li>Improved chat.new_message event (<a href="https://github.com/wppconnect-team/wa-js/commit/5355a0ecceece0c39b893d32319cb31fb97ce91f" target="_blank" rel="noopener noreferrer">5355a0e</a>)</li><li>Improved files loading from WA-JS (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1061" target="_blank" rel="noopener noreferrer">#1061</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/f94f6958834066b46048c65bbb2baa9bd5eb86fd" target="_blank" rel="noopener noreferrer">f94f695</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added chat.update_label event (<a href="https://github.com/wppconnect-team/wa-js/issues/1015" target="_blank" rel="noopener noreferrer">#1015</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b65a518deea9f31f5a2c52ed24d92cc5a277c92f" target="_blank" rel="noopener noreferrer">b65a518</a>)</li><li>Added conn.online event (<a href="https://github.com/wppconnect-team/wa-js/issues/1085" target="_blank" rel="noopener noreferrer">#1085</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/36415a01286ba60756d59d95e4499277f4622e3a" target="_blank" rel="noopener noreferrer">36415a0</a>)</li><li>Added WPP.conn.isOnline function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1085" target="_blank" rel="noopener noreferrer">#1085</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b2d48c116d0d03614dc66fbcf857c72e5fb7fc4f" target="_blank" rel="noopener noreferrer">b2d48c1</a>)</li><li>Added WPP.conn.joinWebBeta (<a href="https://github.com/wppconnect-team/wa-js/commit/e9c0483af0da5ecea02f164c2bb86eee2168d2b5" target="_blank" rel="noopener noreferrer">e9c0483</a>)</li><li>Added WPP.group.approve function (<a href="https://github.com/wppconnect-team/wa-js/commit/0661f0290e547d0104b6c062da8d87a41cde4dfa" target="_blank" rel="noopener noreferrer">0661f02</a>)</li><li>Added WPP.group.getMembershipRequests (<a href="https://github.com/wppconnect-team/wa-js/commit/5ef08364c13b656bc50a01d5629d5ebf548e71b1" target="_blank" rel="noopener noreferrer">5ef0836</a>)</li><li>Added WPP.group.reject function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1058" target="_blank" rel="noopener noreferrer">#1058</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/687627dfbd28249819fd4d401fee024901f26ae6" target="_blank" rel="noopener noreferrer">687627d</a>)</li><li>Exported NetworkStatus (<a href="https://github.com/wppconnect-team/wa-js/commit/5ce90e88e663872107be3f067bbb2d988c078da4" target="_blank" rel="noopener noreferrer">5ce90e8</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.24.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect minor release: v1.24.0]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect/v1.24.0</id>
