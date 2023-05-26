@@ -86,6 +86,16 @@ function CardTitle({ version, beta }: { version: string; beta: boolean }) {
   return <>{list}</>;
 }
 
+const dateTimeOptions = {
+  day: 'numeric',
+  month: 'numeric',
+  year: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric',
+  hour12: true
+};
+
 function VersionProgress({
   released,
   expire,
@@ -138,8 +148,8 @@ function VersionCard({ version, beta, released, expire }: VersionProps) {
                 message: "Released on {released}, expires on {expire}",
               },
               {
-                released: new Date(released).toLocaleString(i18n.currentLocale),
-                expire: new Date(expire).toLocaleString(i18n.currentLocale),
+                released: new Date(released).toLocaleString(i18n.currentLocale, dateTimeOptions),
+                expire: new Date(expire).toLocaleString(i18n.currentLocale, dateTimeOptions),
               }
             )}
           </p>
