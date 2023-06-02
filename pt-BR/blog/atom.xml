@@ -2,11 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-06-01T19:02:36.000Z</updated>
+    <updated>2023-06-02T10:43:28.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.2.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.2.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.2.1"/>
+        <updated>2023-06-02T10:43:28.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.2.1 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.2.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed logout sesseion (close <a href="https://github.com/wppconnect-team/wppconnect-server/issues/1274" target="_blank" rel="noopener noreferrer">#1274</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/bc5970740683f8cd4f05d083cf67e0ec645ba1ce" target="_blank" rel="noopener noreferrer">bc59707</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.2.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPP Server minor release: v2.2.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.2.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.2.0"/>
+        <updated>2023-06-02T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.2.0 for WPP Server with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.2.0 for WPP Server with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Deprecated all-groups router (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/4f66b99d7f70c5e4e635e49d9fa56f44d8e93253" target="_blank" rel="noopener noreferrer">4f66b99</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.27.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1273" target="_blank" rel="noopener noreferrer">#1273</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/1047dffab930686b5cc1f1adf9f854033f48e080" target="_blank" rel="noopener noreferrer">1047dff</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added community routes (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/681fb79171710241838467d25df3f4913c1ad4bd" target="_blank" rel="noopener noreferrer">681fb79</a>)</li><li>Added route list-chats (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/456070242ff78609d1187e80c7b2c6e173faebfe" target="_blank" rel="noopener noreferrer">4560702</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.2.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.27.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.27.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.27.0"/>
+        <updated>2023-06-02T02:19:26.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.27.0 for WPPConnect with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.27.0 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>DEPRECATED getAllChatsWithMessages getAllChats &amp; getAllGroups (<a href="https://github.com/wppconnect-team/wppconnect/commit/1ad6445b2078c4e3d1a8f11940c6adc3471e30e6" target="_blank" rel="noopener noreferrer">1ad6445</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.2.44 (<a href="https://github.com/wppconnect-team/wppconnect/issues/1716" target="_blank" rel="noopener noreferrer">#1716</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/a62cb188f1ee0f0dba8c49ab9638c943486835e7" target="_blank" rel="noopener noreferrer">a62cb18</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added community functions (<a href="https://github.com/wppconnect-team/wppconnect/commit/3d3debfb06ef93d6eec52feee9c5a5c0eb02c93f" target="_blank" rel="noopener noreferrer">3d3debf</a>)</li><li>Added getGroupSizeLimit function (close <a href="https://github.com/wppconnect-team/wppconnect/issues/1365" target="_blank" rel="noopener noreferrer">#1365</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/8329e704c01fc30c331e74dabf9509022440f0df" target="_blank" rel="noopener noreferrer">8329e70</a>)</li><li>Added listChats function (<a href="https://github.com/wppconnect-team/wppconnect/commit/e1456880ac83d8292ee9cb2d199b7ea1c39b7caa" target="_blank" rel="noopener noreferrer">e145688</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.27.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.1.2]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.1.2</id>
