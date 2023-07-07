@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 02 Jul 2023 01:31:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Jul 2023 01:32:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.24.6]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.6</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.6</guid>
+            <pubDate>Fri, 07 Jul 2023 01:32:08 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.24.6 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.24.6 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed chat.new_message event for status reply (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1211" target="_blank" rel="noopener noreferrer">#1211</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/a8981518b353b0dda7addefdaae77f8dcf267188" target="_blank" rel="noopener noreferrer">a898151</a>)</li><li>Fixed WPP.blocklist.blockContact function for WhatsApp &gt;= 2.2323.4 (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1210" target="_blank" rel="noopener noreferrer">#1210</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/5e8c31e4140843b8604dfcf0a3bc3fc8d29741f8" target="_blank" rel="noopener noreferrer">5e8c31e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.24.6" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.24.5]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.5</link>
