@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 07 Jul 2023 01:32:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jul 2023 01:14:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.24.7]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.7</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.7</guid>
+            <pubDate>Tue, 11 Jul 2023 01:14:42 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.24.7 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.24.7 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed compatibility for WhatsApp &gt;= 2.2329.7 (<a href="https://github.com/wppconnect-team/wa-js/commit/bf34304a1910d041a5e030c6de46ff47406e72e0" target="_blank" rel="noopener noreferrer">bf34304</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added option onlyCommunities for WPP.chat.list function (<a href="https://github.com/wppconnect-team/wa-js/commit/590c9cebf92dc50ea70e548183874ca069605905" target="_blank" rel="noopener noreferrer">590c9ce</a>)</li><li>Added option to create a subgroup for community (<a href="https://github.com/wppconnect-team/wa-js/commit/445bc7972250ea155678c7eb743c5149a1c8ba7b" target="_blank" rel="noopener noreferrer">445bc79</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.24.7" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v2.24.6]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.6</link>
