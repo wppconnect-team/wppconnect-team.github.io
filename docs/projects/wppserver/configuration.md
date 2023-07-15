@@ -23,7 +23,7 @@ sudo rm /etc/nginx/sites-enabled/default
 Create a new nginx site to wppconnect-server:
 
 ```bash
-sudo nano /etc/nginx/sites-available/wppconnet-server
+sudo nano /etc/nginx/sites-available/wppconnect-server
 ```
 
 Edit and fill it with this information, changing `server_name` to yours equivalent to `myapp.mydomain.com`:
