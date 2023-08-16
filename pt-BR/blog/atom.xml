@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-07-11T01:14:42.000Z</updated>
+    <updated>2023-08-16T00:28:46.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.24.8]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.8</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.8"/>
+        <updated>2023-08-16T00:28:46.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.24.8 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.24.8 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed call compatibility with WhatsApp &gt;= 2.2333.11 (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1269" target="_blank" rel="noopener noreferrer">#1269</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/57b1a1e4abebe19cc3e82c17e253d3475c3995b6" target="_blank" rel="noopener noreferrer">57b1a1e</a>)</li><li>Fixed WhatsApp WEB loading error (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1249" target="_blank" rel="noopener noreferrer">#1249</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/433f93932297e12f6a6305e70b80171ed49a8b90" target="_blank" rel="noopener noreferrer">433f939</a>)</li><li>Fixed WPP.blocklist.isBlocked (fix <a href="https://github.com/wppconnect-team/wa-js/issues/1231" target="_blank" rel="noopener noreferrer">#1231</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/353a3c26973f859e5f21741bc93cfbc7cfbcf963" target="_blank" rel="noopener noreferrer">353a3c2</a>)</li><li>Fixed WPP.chat.list for communities (<a href="https://github.com/wppconnect-team/wa-js/commit/74ea9856245eb093c6c41a5b3e040aa20b313cd6" target="_blank" rel="noopener noreferrer">74ea985</a>)</li><li>server link-preview (<a href="https://github.com/wppconnect-team/wa-js/commit/2763a4f3e6a2b589ef1acdce448dd96ed118b755" target="_blank" rel="noopener noreferrer">2763a4f</a>)</li><li>webpack loading improvement attempt (<a href="https://github.com/wppconnect-team/wa-js/commit/ac4a818aa150532b8841db33aa9e741ed35ec4a8" target="_blank" rel="noopener noreferrer">ac4a818</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.24.8" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v2.24.7]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.24.7</id>
