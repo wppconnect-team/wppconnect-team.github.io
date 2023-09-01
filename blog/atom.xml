@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-08-28T01:00:48.000Z</updated>
+    <updated>2023-09-01T22:21:27.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v2.26.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v2.26.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v2.26.0"/>
+        <updated>2023-09-01T22:21:27.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.26.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.26.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed edit message function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1321" target="_blank" rel="noopener noreferrer">#1321</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/1335" target="_blank" rel="noopener noreferrer">#1335</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/209c994978458337ce34dec0f836274cabed086c" target="_blank" rel="noopener noreferrer">209c994</a>)</li><li>Fixed group.participant_changed event for join action (<a href="https://github.com/wppconnect-team/wa-js/commit/d23c557f298925d7dd27b27608f166eaf532a315" target="_blank" rel="noopener noreferrer">d23c557</a>)</li><li>Typos fix (<a href="https://github.com/wppconnect-team/wa-js/commit/3114b319033aecade47fba2429dd146a24541477" target="_blank" rel="noopener noreferrer">3114b31</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added order.payment_status event (<a href="https://github.com/wppconnect-team/wa-js/commit/8165a2a877c1c28bd549b68376f3dce17bdb3ae6" target="_blank" rel="noopener noreferrer">8165a2a</a>)</li><li>Added support for send PTV message (<a href="https://github.com/wppconnect-team/wa-js/commit/f973d9d267ce1a2f7ad4962da98b1261a5b67fb6" target="_blank" rel="noopener noreferrer">f973d9d</a>)</li><li>Added util.generateOrderUniqueId function (<a href="https://github.com/wppconnect-team/wa-js/commit/53aa92525ed9f07c50d98fc7287130b0dbc4d1ee" target="_blank" rel="noopener noreferrer">53aa925</a>)</li><li>Added WPP.chat.sendOrderMessage function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1328" target="_blank" rel="noopener noreferrer">#1328</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/75047b1db14d6c8219215ad01c86db7cacf7ad1c" target="_blank" rel="noopener noreferrer">75047b1</a>)</li><li>Added WPP.order.get function (<a href="https://github.com/wppconnect-team/wa-js/commit/7a0dce907dd640779326dd18f2b26ab6502d0b0f" target="_blank" rel="noopener noreferrer">7a0dce9</a>)</li><li>Exported function currencyForCountryShortcode (<a href="https://github.com/wppconnect-team/wa-js/commit/d3caf974ea89bda960096cfc2ecae1640114c3bd" target="_blank" rel="noopener noreferrer">d3caf97</a>)</li><li>Exported function getCountryShortcodeByPhone (<a href="https://github.com/wppconnect-team/wa-js/commit/17671d7b279c58975e6acc8bcb5a657177a3a768" target="_blank" rel="noopener noreferrer">17671d7</a>)</li><li>Exported function getOrderInfo (<a href="https://github.com/wppconnect-team/wa-js/commit/20e88c4abfa6e66b7b9019834289d98edfe13720" target="_blank" rel="noopener noreferrer">20e88c4</a>)</li><li>Exported processRawAudioVideo function (<a href="https://github.com/wppconnect-team/wa-js/commit/e1b1db6fb94789d82886ed5310b6731912e5633d" target="_blank" rel="noopener noreferrer">e1b1db6</a>)</li><li>Exported processRawMedia function (<a href="https://github.com/wppconnect-team/wa-js/commit/45a353e578b36d0a66dfd1cba31a24d6a3d7140e" target="_blank" rel="noopener noreferrer">45a353e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.26.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.25.0]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v2.25.0</id>
