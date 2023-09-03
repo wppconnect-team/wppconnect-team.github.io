@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-09-01T22:21:27.000Z</updated>
+    <updated>2023-09-03T22:52:22.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Server CLI patch release: v1.3.8]]></title>
+        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.8</id>
+        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.8"/>
+        <updated>2023-09-03T22:52:22.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.8 for Server CLI with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.8 for Server CLI with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/server to ^2.2.1 (<a href="https://github.com/wppconnect-team/server-cli/commit/183d540cd52d1a2c0d11095be09f741cde9d088e" target="_blank" rel="noopener noreferrer">183d540</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^2.2.4 (<a href="https://github.com/wppconnect-team/server-cli/issues/432" target="_blank" rel="noopener noreferrer">#432</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/7f18f7bf707bf7f8abd9ebed164f05388d5ea12a" target="_blank" rel="noopener noreferrer">7f18f7b</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to ^2.2.5 (<a href="https://github.com/wppconnect-team/server-cli/commit/e0b0c42cc2473f25182831d901c43f110535c278" target="_blank" rel="noopener noreferrer">e0b0c42</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/server to v2 (<a href="https://github.com/wppconnect-team/server-cli/issues/408" target="_blank" rel="noopener noreferrer">#408</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/aa69e167edfd5277656d5ced39d1354a782bc3fe" target="_blank" rel="noopener noreferrer">aa69e16</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.8" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+        <category label="cli" term="cli"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v2.26.0]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v2.26.0</id>
