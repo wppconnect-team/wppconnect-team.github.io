@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2023-09-03T22:52:22.000Z</updated>
+    <updated>2023-09-13T00:36:10.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v2.26.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.26.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.26.1"/>
+        <updated>2023-09-13T00:36:10.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.26.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.26.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed exported getDisplayNameOrPnForLid function for WhatsApp &gt;= 2.2337.7 (<a href="https://github.com/wppconnect-team/wa-js/commit/f6b463dd5d06e56bf3f1ace40dd7dcdf54d62bca" target="_blank" rel="noopener noreferrer">f6b463d</a>)</li><li>Fixed return value for the isNewMsg attribute (close <a href="https://github.com/wppconnect-team/wa-js/issues/1333" target="_blank" rel="noopener noreferrer">#1333</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/37b835491863a3ae4e67ce9340649330322c6577" target="_blank" rel="noopener noreferrer">37b8354</a>)</li><li>Fixed script injection (close <a href="https://github.com/wppconnect-team/wa-js/issues/1322" target="_blank" rel="noopener noreferrer">#1322</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/c412158c3086471a67f0912b697b1c5d55d7b7d1" target="_blank" rel="noopener noreferrer">c412158</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.26.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.8]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.8</id>
