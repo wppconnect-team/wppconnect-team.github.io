@@ -58,7 +58,7 @@
     "typescript-plugin-css-modules": "^5.0.2"
   },
   "overrides": {
-    "got": "11.8.6",
+    "got": "13.0.0",
     "trim": "1.0.1"
   }
 }
