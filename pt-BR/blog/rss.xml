@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 08 Oct 2023 19:58:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Oct 2023 14:06:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v2.28.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.28.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.28.0</guid>
+            <pubDate>Sun, 29 Oct 2023 14:06:43 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.28.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.28.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Added trick to send list message (WPP.chat.sendListMessage) (<a href="https://github.com/wppconnect-team/wa-js/commit/752329b7d9d75e342c1de6253107cb7c606fce42" target="_blank" rel="noopener noreferrer">752329b</a>)</li><li>Avoid emit events for 'chat.new_reaction' while is syncing (<a href="https://github.com/wppconnect-team/wa-js/commit/61bdffcaa1b6e0b91a35441f8455a166188780d9" target="_blank" rel="noopener noreferrer">61bdffc</a>)</li><li>Avoid emit events for 'chat.poll_response' while is syncing (<a href="https://github.com/wppconnect-team/wa-js/commit/f5b4cb9efc0c9316ac27d8e31483c9e8ec39063b" target="_blank" rel="noopener noreferrer">f5b4cb9</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added WPP.conn.genLinkDeviceCodeForPhoneNumber function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1400" target="_blank" rel="noopener noreferrer">#1400</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/7e5d3633275e662ae4b8a2127f65446cce03a64f" target="_blank" rel="noopener noreferrer">7e5d363</a>)</li><li>Added WPP.contact.getCommonGroups function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1273" target="_blank" rel="noopener noreferrer">#1273</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/a7766fb7c1ef972cba34a90b8c9e4c10c38d2daa" target="_blank" rel="noopener noreferrer">a7766fb</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.28.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v2.27.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.27.0</link>
