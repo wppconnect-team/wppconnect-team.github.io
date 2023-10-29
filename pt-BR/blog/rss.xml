@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 29 Oct 2023 14:06:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Oct 2023 16:03:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect minor release:]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.29.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.29.0</guid>
+            <pubDate>Sun, 29 Oct 2023 16:03:30 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version  for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version  for WPPConnect.</p><ul><li>update dependency @wppconnect/wa-js to ^2.28.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/0750b7d" target="_blank" rel="noopener noreferrer">0750b7d</a>)</li><li>Fix/forward message (<a href="https://github.com/wppconnect-team/wppconnect/pull/1875" target="_blank" rel="noopener noreferrer">https://github.com/wppconnect-team/wppconnect/pull/1875</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/02a3111" target="_blank" rel="noopener noreferrer">02a3111</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/1875" target="_blank" rel="noopener noreferrer">https://github.com/wppconnect-team/wppconnect/issues/1875</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.29.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v2.28.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.28.0</link>
