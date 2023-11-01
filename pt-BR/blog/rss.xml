@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 29 Oct 2023 16:03:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Nov 2023 22:53:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.28.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.28.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.28.1</guid>
+            <pubDate>Wed, 01 Nov 2023 22:53:15 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.28.1 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.28.1 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1281-2023-11-01"><small>1.28.1 (2023-11-01)</small><a href="#1281-2023-11-01" class="hash-link" aria-label="Ligação direta para 1281-2023-11-01" title="Ligação direta para 1281-2023-11-01">​</a></h2><ul><li>chore(release): v1.28.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/fa8408e" target="_blank" rel="noopener noreferrer">fa8408e</a>)</li><li>fix : update version whatsappVersion 2.2347.x (<a href="https://github.com/wppconnect-team/wppconnect/commit/6fe090a" target="_blank" rel="noopener noreferrer">6fe090a</a>)</li><li>build(deps-dev): update dependency typedoc to ^0.25.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/64b5817" target="_blank" rel="noopener noreferrer">64b5817</a>)</li><li>build(deps): update dependency axios to ^1.6.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/cc39428" target="_blank" rel="noopener noreferrer">cc39428</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.28.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release:]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.29.0</link>
