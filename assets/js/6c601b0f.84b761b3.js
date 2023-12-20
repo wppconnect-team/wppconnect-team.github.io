@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[33374],{96622:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/cli","page":1,"postsPerPage":10,"totalPages":2,"totalCount":12,"nextPage":"/blog/tags/cli/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

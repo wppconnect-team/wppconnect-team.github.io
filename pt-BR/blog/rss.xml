@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 15 Nov 2023 15:22:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Dec 2023 00:20:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v2.28.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.28.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v2.28.1</guid>
+            <pubDate>Wed, 20 Dec 2023 00:20:29 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.28.1 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.28.1 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Exported the missing options (<a href="https://github.com/wppconnect-team/wa-js/commit/2133e7edbf5f57be4696950020473cb2e6f02a55" target="_blank" rel="noopener noreferrer">2133e7e</a>)</li><li>Fixed catalog.editProduct function(close <a href="https://github.com/wppconnect-team/wa-js/issues/1553" target="_blank" rel="noopener noreferrer">#1553</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/01c4a18740bcae83acad5372b7851512962f5d3c" target="_blank" rel="noopener noreferrer">01c4a18</a>)</li><li>Fixed send status error (<a href="https://github.com/wppconnect-team/wa-js/issues/1540" target="_blank" rel="noopener noreferrer">#1540</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/fe696803cf6a72d30569f3167c79bbb75173bce0" target="_blank" rel="noopener noreferrer">fe69680</a>)</li><li>forwardMessagesToChats is missing from ChatStore (<a href="https://github.com/wppconnect-team/wa-js/issues/1535" target="_blank" rel="noopener noreferrer">#1535</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/788a37fcf24be483ab06763037d118586b0b36d9" target="_blank" rel="noopener noreferrer">788a37f</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added WPP.chat.keepMessage function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1142" target="_blank" rel="noopener noreferrer">#1142</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/1517" target="_blank" rel="noopener noreferrer">#1517</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/77298e14d34e96c92d5257507b260419ca047c21" target="_blank" rel="noopener noreferrer">77298e1</a>)</li><li>Added WPP.contact.get function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1012" target="_blank" rel="noopener noreferrer">#1012</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/1516" target="_blank" rel="noopener noreferrer">#1516</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/0c31d379dfda2a96fafacc1049b72899ff74cc25" target="_blank" rel="noopener noreferrer">0c31d37</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v2.28.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server minor release: v2.3.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.3.0</link>
