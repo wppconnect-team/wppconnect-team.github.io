@@ -4,10 +4,48 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 25 Jan 2024 16:53:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jan 2024 01:08:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[Server CLI patch release: v1.3.10]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.10</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.10</guid>
+            <pubDate>Fri, 26 Jan 2024 01:08:57 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.10 for Server CLI with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.10 for Server CLI with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/server to ^2.4.0 (<a href="https://github.com/wppconnect-team/server-cli/issues/572" target="_blank" rel="noopener noreferrer">#572</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/584e0846c2fb13782647afa057a196f3752de366" target="_blank" rel="noopener noreferrer">584e084</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.10" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+            <category>cli</category>
+        </item>
+        <item>
+            <title><![CDATA[WPP Server minor release: v2.4.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.4.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.4.0</guid>
+            <pubDate>Fri, 26 Jan 2024 00:53:35 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v2.4.0 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v2.4.0 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Added more params to deleteMessage (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/62e3576f76bff3a6688c84850267df1ba29151b2" target="_blank" rel="noopener noreferrer">62e3576</a>)</li><li>Added support for send newsletter messages (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/9176f6bd5c81245ce4add4e333618fb96d91fad1" target="_blank" rel="noopener noreferrer">9176f6b</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.28.4 (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/5b06bce0b7322786e5433ade96697543c6da30ca" target="_blank" rel="noopener noreferrer">5b06bce</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.29.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1701" target="_blank" rel="noopener noreferrer">#1701</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/6d47daebc15bb010021086176dee96fa942feacf" target="_blank" rel="noopener noreferrer">6d47dae</a>)</li><li>Fixed autoDownload function (close <a href="https://github.com/wppconnect-team/wppconnect-server/issues/1667" target="_blank" rel="noopener noreferrer">#1667</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/8791f4ff6b8829dbf9e4d6b03c7ba1450a9716fd" target="_blank" rel="noopener noreferrer">8791f4f</a>)</li><li>Fixed forward-messages router (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/ce7bd1f2a1f4ce2b837d02939159b6ef85bd6775" target="_blank" rel="noopener noreferrer">ce7bd1f</a>)</li><li>Fixed get bussiness products (close <a href="https://github.com/wppconnect-team/wppconnect-server/issues/1665" target="_blank" rel="noopener noreferrer">#1665</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/590e29c0ea8f9f976093845b80539617710a9f55" target="_blank" rel="noopener noreferrer">590e29c</a>)</li><li>Fixed payload get-group-members in docs (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/13ac4cd30260eb4d3b3eafb1a90ef1947a0dd85a" target="_blank" rel="noopener noreferrer">13ac4cd</a>)</li><li>Replaced ts-node with tsx (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/66ae213adab5cc6aeeab77e6ee422e2ad9ee0c22" target="_blank" rel="noopener noreferrer">66ae213</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.4.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[Server CLI patch release: v1.3.9]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.9</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.9</guid>
+            <pubDate>Fri, 26 Jan 2024 00:30:32 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.9 for Server CLI with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.9 for Server CLI with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/server to ^2.3.0 (<a href="https://github.com/wppconnect-team/server-cli/commit/c72435c0fd519112514bbe1c839a09d5b0effd25" target="_blank" rel="noopener noreferrer">c72435c</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Add prom-client to regular dependencies (currently essential for system functionality) (<a href="https://github.com/wppconnect-team/server-cli/issues/466" target="_blank" rel="noopener noreferrer">#466</a>) (<a href="https://github.com/wppconnect-team/server-cli/commit/795c2f14bb2663ccf859d9e671d66453af017385" target="_blank" rel="noopener noreferrer">795c2f1</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.9" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+            <category>cli</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release: v1.29.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.29.0</link>
