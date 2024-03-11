@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 10 Mar 2024 14:02:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Mar 2024 17:44:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.30.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.30.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.30.1</guid>
+            <pubDate>Mon, 11 Mar 2024 17:44:17 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.30.1 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.30.1 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1301-2024-03-11"><small>1.30.1 (2024-03-11)</small><a href="#1301-2024-03-11" class="hash-link" aria-label="Ligação direta para 1301-2024-03-11" title="Ligação direta para 1301-2024-03-11">​</a></h2><ul><li>chore(release): v1.30.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/e47dd06" target="_blank" rel="noopener noreferrer">e47dd06</a>)</li><li>fix: Fixed login by qr code (<a href="https://github.com/wppconnect-team/wppconnect/commit/5ebd5f5" target="_blank" rel="noopener noreferrer">5ebd5f5</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.30.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release: v1.30.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.30.0</link>
