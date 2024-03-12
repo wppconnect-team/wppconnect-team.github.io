@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 11 Mar 2024 17:44:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Mar 2024 10:01:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.4.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.1</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.1</guid>
+            <pubDate>Tue, 12 Mar 2024 10:01:47 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.4.1 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.4.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.30.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1757" target="_blank" rel="noopener noreferrer">#1757</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/b02462c90572a6a016c31898ec0f31f5b068e8bb" target="_blank" rel="noopener noreferrer">b02462c</a>)</li><li>Fixed return for group controller (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1759" target="_blank" rel="noopener noreferrer">#1759</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/29d29b059471cac5e168dde738b23b68bf2964a7" target="_blank" rel="noopener noreferrer">29d29b0</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.4.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.30.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.30.1</link>

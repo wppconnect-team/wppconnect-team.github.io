@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[74834],{89584:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/server/page/6","page":6,"postsPerPage":10,"totalPages":6,"totalCount":52,"previousPage":"/blog/tags/server/page/5","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

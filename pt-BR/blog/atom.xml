@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-03-11T17:44:17.000Z</updated>
+    <updated>2024-03-12T10:01:47.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.4.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.4.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.4.1"/>
+        <updated>2024-03-12T10:01:47.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.4.1 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.4.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.30.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1757" target="_blank" rel="noopener noreferrer">#1757</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/b02462c90572a6a016c31898ec0f31f5b068e8bb" target="_blank" rel="noopener noreferrer">b02462c</a>)</li><li>Fixed return for group controller (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1759" target="_blank" rel="noopener noreferrer">#1759</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/29d29b059471cac5e168dde738b23b68bf2964a7" target="_blank" rel="noopener noreferrer">29d29b0</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.4.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v1.30.1]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.30.1</id>
