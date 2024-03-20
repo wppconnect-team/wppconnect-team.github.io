@@ -210,10 +210,6 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Apoia.se",
-                href: "https://apoia.se/wppconnect",
-              },
-              {
                 label: "Discord",
                 href: "https://discord.gg/JU5JGGKGNG",
               },

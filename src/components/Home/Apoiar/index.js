@@ -29,10 +29,6 @@ const ApoiarContainer = () => {
                             Nós utilizamos a plataforma <b>Apoia-se</b> para gerar uma receita para incentivas os
                             desenvolvedores do WPPConnect
                         </p>
-
-                        <a href={"https://apoia.se/wppconnect"} target={"_blank"} rel={"noreferrer"}>
-                            Quero Apoiar
-                        </a>
                     </li>
                     <li>
                         <CircleComponent className={"circle"} bgColor={"#993939"}>
