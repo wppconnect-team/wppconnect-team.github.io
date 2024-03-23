@@ -4,10 +4,23 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 12 Mar 2024 10:01:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 Mar 2024 16:55:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Server CLI patch release: v1.3.11]]></title>
+            <link>https://wppconnect-team.github.io/blog/server-cli/v1.3.11</link>
+            <guid>https://wppconnect-team.github.io/blog/server-cli/v1.3.11</guid>
+            <pubDate>Sat, 23 Mar 2024 16:55:48 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.11 for Server CLI with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.11 for Server CLI with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/server to ^2.4.1 (<a href="https://github.com/wppconnect-team/server-cli/commit/7bf5b00211c271fa66c944d850e90eec04fe89c1" target="_blank" rel="noopener noreferrer">7bf5b00</a>)</li><li>Fixed DockerFile (<a href="https://github.com/wppconnect-team/server-cli/commit/4b86e5ad4cdbc775560386568f28173c313fdf04" target="_blank" rel="noopener noreferrer">4b86e5a</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.11" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+            <category>cli</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v2.4.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.1</link>
