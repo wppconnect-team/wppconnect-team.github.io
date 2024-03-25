@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-03-23T16:55:48.000Z</updated>
+    <updated>2024-03-25T16:49:22.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.0.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.0.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.0.1"/>
+        <updated>2024-03-25T16:49:22.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.0.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.0.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed 'call.incoming_call' event (close <a href="https://github.com/wppconnect-team/wa-js/issues/1766" target="_blank" rel="noopener noreferrer">#1766</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/486df991640276ff65b069847e21e0a2d29bb641" target="_blank" rel="noopener noreferrer">486df99</a>)</li><li>Fixed caption in send file message (close <a href="https://github.com/wppconnect-team/wa-js/issues/1736" target="_blank" rel="noopener noreferrer">#1736</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/1738" target="_blank" rel="noopener noreferrer">#1738</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/42f4689b3264c3013d3cb94954cae5de3725ae07" target="_blank" rel="noopener noreferrer">42f4689</a>)</li><li>Fixed isOfficialClient check (<a href="https://github.com/wppconnect-team/wa-js/issues/1769" target="_blank" rel="noopener noreferrer">#1769</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/88f1f0e6daf18b0492ceffb6274adef02323dc35" target="_blank" rel="noopener noreferrer">88f1f0e</a>)</li><li>Fixed send list message (close <a href="https://github.com/wppconnect-team/wa-js/issues/1728" target="_blank" rel="noopener noreferrer">#1728</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/5b4827ff585df5b15791bd15d76128704a116f76" target="_blank" rel="noopener noreferrer">5b4827f</a>)</li><li>Fixed WPP.chat.archive function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1743" target="_blank" rel="noopener noreferrer">#1743</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/1760" target="_blank" rel="noopener noreferrer">#1760</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/d58e6d734783b9d9660698d6c5745a28775ed2bd" target="_blank" rel="noopener noreferrer">d58e6d7</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.0.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.11]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.11</id>
