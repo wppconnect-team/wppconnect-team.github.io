@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 25 Mar 2024 16:49:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Mar 2024 01:12:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.1.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.1.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.1.0</guid>
+            <pubDate>Thu, 28 Mar 2024 01:12:36 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.1.0 for WA-JS with Bug Fixes, Features and Reverts.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.1.0 for WA-JS with Bug Fixes, Features and Reverts.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed func is not a exported function (<a href="https://github.com/wppconnect-team/wa-js/commit/59db1a5bc4f053fdf61f393a4af0d2c55cbb66f5" target="_blank" rel="noopener noreferrer">59db1a5</a>)</li><li>Fixed injecting webpack (<a href="https://github.com/wppconnect-team/wa-js/issues/1783" target="_blank" rel="noopener noreferrer">#1783</a>) (close <a href="https://github.com/wppconnect-team/wa-js/issues/1778" target="_blank" rel="noopener noreferrer">#1778</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/79f1f2e5e4a7c574fde8d9c45ac0da271be5422f" target="_blank" rel="noopener noreferrer">79f1f2e</a>)</li><li>Fixed WPP.chat.mute function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1772" target="_blank" rel="noopener noreferrer">#1772</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/1780" target="_blank" rel="noopener noreferrer">#1780</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/e5e293debd4a99a537919a7285c86ad674e19f47" target="_blank" rel="noopener noreferrer">e5e293d</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added WPP.chat.pinMsg function (<a href="https://github.com/wppconnect-team/wa-js/commit/a7078f855e0525d259a3c2020f3966e0ce01f5ef" target="_blank" rel="noopener noreferrer">a7078f8</a>)</li><li>Added WPP.whatsapp.PinInChatStore (<a href="https://github.com/wppconnect-team/wa-js/commit/e81a36273e52b2dae8261a6b4b0c65216fb6b026" target="_blank" rel="noopener noreferrer">e81a362</a>)</li><li>Exported WPP.whatsapp.sendPinInChatMsg function (<a href="https://github.com/wppconnect-team/wa-js/commit/c7a56065a50fe51f2d55850740491bf06cb667af" target="_blank" rel="noopener noreferrer">c7a5606</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="reverts">Reverts<a href="#reverts" class="hash-link" aria-label="Direct link to Reverts" title="Direct link to Reverts">​</a></h3><ul><li>Added template to changelog (<a href="https://github.com/wppconnect-team/wa-js/commit/9ebf70b6defd370eba39cc5786bcc49df6cb5b2a" target="_blank" rel="noopener noreferrer">9ebf70b</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.1.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.0.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.0.1</link>
