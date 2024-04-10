@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-03-28T02:51:22.000Z</updated>
+    <updated>2024-04-10T01:29:21.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.1.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.1.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.1.1"/>
+        <updated>2024-04-10T01:29:21.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.1.1 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.1.1 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed fromMe is undefined (<a href="https://github.com/wppconnect-team/wa-js/commit/d80bc2e2956d4192c4d21495c34a1e2b3329b9d0" target="_blank" rel="noopener noreferrer">d80bc2e</a>)</li><li>Fixed Property is not defined &gt; 2.3000.101264x (<a href="https://github.com/wppconnect-team/wa-js/issues/1818" target="_blank" rel="noopener noreferrer">#1818</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/76cb90cc226645c0988e65c336e2258c84a25e8d" target="_blank" rel="noopener noreferrer">76cb90c</a>)</li><li>Fixed Unknown File path "9550" error (<a href="https://github.com/wppconnect-team/wa-js/commit/84e34667d0e1f19dc548aec252364fa024d20a3a" target="_blank" rel="noopener noreferrer">84e3466</a>)</li><li>Fixed WPP.chat.getVotes function (<a href="https://github.com/wppconnect-team/wa-js/issues/1821" target="_blank" rel="noopener noreferrer">#1821</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/9f717e9a7901860a333d04037887fe5e8d77c0f3" target="_blank" rel="noopener noreferrer">9f717e9</a>)</li><li>Update GTAG for analytics (<a href="https://github.com/wppconnect-team/wa-js/issues/1800" target="_blank" rel="noopener noreferrer">#1800</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/46518b6a1b9201a35fc38060ff7dc937e02b6f71" target="_blank" rel="noopener noreferrer">46518b6</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Improovment WPP.chat.list for list Newsletters (<a href="https://github.com/wppconnect-team/wa-js/commit/6d3efed2d2009556c59411936998704f9bdaf906" target="_blank" rel="noopener noreferrer">6d3efed</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.1.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.4.2]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.4.2</id>
