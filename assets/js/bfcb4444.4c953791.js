@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[51937],{8332:e=>{e.exports=JSON.parse('{"title":"Projects","slug":"projects","permalink":"/docs/projects","navigation":{"previous":{"title":"Introduction","permalink":"/docs/"},"next":{"title":"WPP4Delphi","permalink":"/docs/wpp4delphi"}}}')}}]);
