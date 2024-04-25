@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 10 Apr 2024 01:29:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Apr 2024 00:29:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.2.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.0</guid>
+            <pubDate>Thu, 25 Apr 2024 00:29:14 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.2.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.2.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed functions in whatsapp &gt;=2.3000.1013010908 (<a href="https://github.com/wppconnect-team/wa-js/commit/0481ce8faa72a1bf262573e3fc8ec48dce507475" target="_blank" rel="noopener noreferrer">0481ce8</a>)</li><li>Fixed injecting, error undefined VERSION (close <a href="https://github.com/wppconnect-team/wa-js/issues/1851" target="_blank" rel="noopener noreferrer">#1851</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/8ccbf0692ff884f7b9d3148aff6fa0cfda622dd7" target="_blank" rel="noopener noreferrer">8ccbf06</a>)</li><li>Fixed send newsletter text message (close <a href="https://github.com/wppconnect-team/wa-js/issues/1808" target="_blank" rel="noopener noreferrer">#1808</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/a04147447ca71edb8e69ad78907c707e6bf16df2" target="_blank" rel="noopener noreferrer">a041474</a>)</li><li>Fixed week days in spanish (close <a href="https://github.com/wppconnect-team/wa-js/issues/1829" target="_blank" rel="noopener noreferrer">#1829</a>)  (<a href="https://github.com/wppconnect-team/wa-js/commit/a75cc327bf54214db64b4bdc9a06a5ce537b81e7" target="_blank" rel="noopener noreferrer">a75cc32</a>)</li><li>Improovment newsletter to send poll (<a href="https://github.com/wppconnect-team/wa-js/commit/ca4382fb9abecf8c9d2332cf6d679e98b66c9bb6" target="_blank" rel="noopener noreferrer">ca4382f</a>)</li><li>Improovment on remove participant group (close <a href="https://github.com/wppconnect-team/wa-js/issues/1814" target="_blank" rel="noopener noreferrer">#1814</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/7fc192ed151c6f11494683bc3b09c82f9a551a8b" target="_blank" rel="noopener noreferrer">7fc192e</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added WPP.newsletter.getSubscribers function (<a href="https://github.com/wppconnect-team/wa-js/issues/1861" target="_blank" rel="noopener noreferrer">#1861</a>) (close <a href="https://github.com/wppconnect-team/wa-js/issues/1746" target="_blank" rel="noopener noreferrer">#1746</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/31bdbb5ea4aa94183b03ab0f636700d0f677aa08" target="_blank" rel="noopener noreferrer">31bdbb5</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.2.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.1.1]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.1.1</link>

@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-04-10T01:29:21.000Z</updated>
+    <updated>2024-04-25T00:29:14.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v3.2.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.0"/>
+        <updated>2024-04-25T00:29:14.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v3.2.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v3.2.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed functions in whatsapp &gt;=2.3000.1013010908 (<a href="https://github.com/wppconnect-team/wa-js/commit/0481ce8faa72a1bf262573e3fc8ec48dce507475" target="_blank" rel="noopener noreferrer">0481ce8</a>)</li><li>Fixed injecting, error undefined VERSION (close <a href="https://github.com/wppconnect-team/wa-js/issues/1851" target="_blank" rel="noopener noreferrer">#1851</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/8ccbf0692ff884f7b9d3148aff6fa0cfda622dd7" target="_blank" rel="noopener noreferrer">8ccbf06</a>)</li><li>Fixed send newsletter text message (close <a href="https://github.com/wppconnect-team/wa-js/issues/1808" target="_blank" rel="noopener noreferrer">#1808</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/a04147447ca71edb8e69ad78907c707e6bf16df2" target="_blank" rel="noopener noreferrer">a041474</a>)</li><li>Fixed week days in spanish (close <a href="https://github.com/wppconnect-team/wa-js/issues/1829" target="_blank" rel="noopener noreferrer">#1829</a>)  (<a href="https://github.com/wppconnect-team/wa-js/commit/a75cc327bf54214db64b4bdc9a06a5ce537b81e7" target="_blank" rel="noopener noreferrer">a75cc32</a>)</li><li>Improovment newsletter to send poll (<a href="https://github.com/wppconnect-team/wa-js/commit/ca4382fb9abecf8c9d2332cf6d679e98b66c9bb6" target="_blank" rel="noopener noreferrer">ca4382f</a>)</li><li>Improovment on remove participant group (close <a href="https://github.com/wppconnect-team/wa-js/issues/1814" target="_blank" rel="noopener noreferrer">#1814</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/7fc192ed151c6f11494683bc3b09c82f9a551a8b" target="_blank" rel="noopener noreferrer">7fc192e</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added WPP.newsletter.getSubscribers function (<a href="https://github.com/wppconnect-team/wa-js/issues/1861" target="_blank" rel="noopener noreferrer">#1861</a>) (close <a href="https://github.com/wppconnect-team/wa-js/issues/1746" target="_blank" rel="noopener noreferrer">#1746</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/31bdbb5ea4aa94183b03ab0f636700d0f677aa08" target="_blank" rel="noopener noreferrer">31bdbb5</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.2.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.1.1]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.1.1</id>
