@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 27 Apr 2024 12:51:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Apr 2024 22:50:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.2.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.2.2</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.2.2</guid>
+            <pubDate>Mon, 29 Apr 2024 22:50:35 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.2.2 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.2.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed setPin function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1871" target="_blank" rel="noopener noreferrer">#1871</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/247fc044bd049a731b08b8a4e479de273214812b" target="_blank" rel="noopener noreferrer">247fc04</a>)</li><li>Fixed waiting for queryExist synchronization (close <a href="https://github.com/wppconnect-team/wa-js/issues/1784" target="_blank" rel="noopener noreferrer">#1784</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/e89a3744afe84011e1c9461e2eee04ceaaf66c28" target="_blank" rel="noopener noreferrer">e89a374</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.2.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.2.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.2.1</link>
