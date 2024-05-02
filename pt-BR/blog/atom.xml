@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-04-29T22:50:35.000Z</updated>
+    <updated>2024-05-02T16:41:28.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.2.3]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.3</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.3"/>
+        <updated>2024-05-02T16:41:28.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.2.3 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.2.3 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed check nine digit in Brazil in queryExists (close <a href="https://github.com/wppconnect-team/wa-js/issues/1888" target="_blank" rel="noopener noreferrer">#1888</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/8bc5f9e06f39e5eb180a0f8fdf579a24161cdaf3" target="_blank" rel="noopener noreferrer">8bc5f9e</a>)</li><li>Fixed getNumChatsPinned function (<a href="https://github.com/wppconnect-team/wa-js/commit/b91ec1572656e145da5330e3e4a4efde2f101009" target="_blank" rel="noopener noreferrer">b91ec15</a>)</li><li>Fixed queryGroupInviteCode function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1890" target="_blank" rel="noopener noreferrer">#1890</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b4ec6a835f31c7a509660a081fcce5489b64ec74" target="_blank" rel="noopener noreferrer">b4ec6a8</a>)</li><li>Fixed sendExitGroup function (<a href="https://github.com/wppconnect-team/wa-js/commit/b4b046c5ac6611b5b12c18162f8eb3318fd6044d" target="_blank" rel="noopener noreferrer">b4b046c</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.2.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.2.2]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.2</id>
