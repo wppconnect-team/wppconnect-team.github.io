@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 10 May 2024 02:36:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Jun 2024 22:57:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.3.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.3.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.3.0</guid>
+            <pubDate>Thu, 06 Jun 2024 22:57:34 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.3.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.3.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Added version in compiled files (close <a href="https://github.com/wppconnect-team/wa-js/issues/1928" target="_blank" rel="noopener noreferrer">#1928</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/7c50f80772c653bd41bb2e4d13d7a00e790b19fc" target="_blank" rel="noopener noreferrer">7c50f80</a>)</li><li>Fixed deleteMessage function (<a href="https://github.com/wppconnect-team/wa-js/issues/1954" target="_blank" rel="noopener noreferrer">#1954</a>) (close <a href="https://github.com/wppconnect-team/wa-js/issues/1939" target="_blank" rel="noopener noreferrer">#1939</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/6e71b0d2669170155c2362ee051529abf833be9c" target="_blank" rel="noopener noreferrer">6e71b0d</a>)</li><li>Fixed launch protocol-log function (close <a href="https://github.com/wppconnect-team/wa-js/issues/1950" target="_blank" rel="noopener noreferrer">#1950</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/73808850e691a58d787312820c4518c29c722ed3" target="_blank" rel="noopener noreferrer">7380885</a>)</li><li>Fixed send group invite link (<a href="https://github.com/wppconnect-team/wa-js/issues/1991" target="_blank" rel="noopener noreferrer">#1991</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/1978c5c7f3d69f8b857ad9e52c317989c81e7d78" target="_blank" rel="noopener noreferrer">1978c5c</a>)</li><li><strong>group:</strong> Fixed Add Member if not an administrator (<a href="https://github.com/wppconnect-team/wa-js/issues/1964" target="_blank" rel="noopener noreferrer">#1964</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/4afb4d4f80f9349cd5dc0544d0fbc8deeef05125" target="_blank" rel="noopener noreferrer">4afb4d4</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added  editMessage id response (<a href="https://github.com/wppconnect-team/wa-js/issues/1955" target="_blank" rel="noopener noreferrer">#1955</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b6b96b821bc7ab7bf96df8c7b8be4cae101137b7" target="_blank" rel="noopener noreferrer">b6b96b8</a>)</li><li><strong>group:</strong> add getPastParticipants function (<a href="https://github.com/wppconnect-team/wa-js/issues/1936" target="_blank" rel="noopener noreferrer">#1936</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/cdd2c6a6bc00e22e8d73d408744211a1206a724e" target="_blank" rel="noopener noreferrer">cdd2c6a</a>)</li><li>Improovment on edit message captions (<a href="https://github.com/wppconnect-team/wa-js/issues/1946" target="_blank" rel="noopener noreferrer">#1946</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b609a9f4b8cc4eef5b0de6d4ad9a51665bb97ad7" target="_blank" rel="noopener noreferrer">b609a9f</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.3.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.2.6]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.2.6</link>
