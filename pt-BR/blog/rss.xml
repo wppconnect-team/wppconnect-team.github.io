@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 06 Jun 2024 22:57:34 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Jun 2024 22:48:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.3.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.3.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.3.1</guid>
+            <pubDate>Sun, 09 Jun 2024 22:48:40 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.3.1 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.3.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed delete messages for me (<a href="https://github.com/wppconnect-team/wa-js/commit/5cdf157ae1c7ad02ff099979cf6a0a949c436ee0" target="_blank" rel="noopener noreferrer">5cdf157</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.3.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v3.3.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.3.0</link>
