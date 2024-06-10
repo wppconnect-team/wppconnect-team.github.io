@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-06-09T22:48:40.000Z</updated>
+    <updated>2024-06-10T01:39:24.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.31.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect/v1.31.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.31.0"/>
+        <updated>2024-06-10T01:39:24.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.31.0 for WPPConnect with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.31.0 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^3.2.6 (<a href="https://github.com/wppconnect-team/wppconnect/commit/0ab956636bb6a7cde59e9573e4760a09547a85e1" target="_blank" rel="noopener noreferrer">0ab9566</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^3.3.1 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2205" target="_blank" rel="noopener noreferrer">#2205</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/89c3298209aed64e68fa28a9bd2102f1ae366d31" target="_blank" rel="noopener noreferrer">89c3298</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.4.162 (<a href="https://github.com/wppconnect-team/wppconnect/commit/1954f4c8d759b9a5ebd8ffb2a60f519082366a24" target="_blank" rel="noopener noreferrer">1954f4c</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.4.196 (<a href="https://github.com/wppconnect-team/wppconnect/commit/5fd34c2b7f15a78ed4fe9a09ab2e2fa3e4b9cc85" target="_blank" rel="noopener noreferrer">5fd34c2</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.4.213 (<a href="https://github.com/wppconnect-team/wppconnect/commit/18aedd8d91e36b77382157d365599861e640ab45" target="_blank" rel="noopener noreferrer">18aedd8</a>)</li><li>Fixed checkNumberStatus function (<a href="https://github.com/wppconnect-team/wppconnect/commit/9f6c5957e3a630eb82907ef72f7605077fc2f434" target="_blank" rel="noopener noreferrer">9f6c595</a>)</li><li>Fixed error when accessing message body during notifications (<a href="https://github.com/wppconnect-team/wppconnect/issues/2196" target="_blank" rel="noopener noreferrer">#2196</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/ca44bbab7b3151847974ddab2ee0ae5403d1f97c" target="_blank" rel="noopener noreferrer">ca44bba</a>)</li><li>Fixed funding.yml (<a href="https://github.com/wppconnect-team/wppconnect/commit/268be6ec3c12dcef332aa0b6f1fb12d36e04d250" target="_blank" rel="noopener noreferrer">268be6e</a>)</li><li>Fixed Perfil not defined in WAPI (<a href="https://github.com/wppconnect-team/wppconnect/commit/2e2da93902721b3461254e9484f34b2619de0e29" target="_blank" rel="noopener noreferrer">2e2da93</a>)</li><li>Fixed start project without session name (close <a href="https://github.com/wppconnect-team/wppconnect/issues/2194" target="_blank" rel="noopener noreferrer">#2194</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/0da3d602e3145a22e7d890e67023007dcb72e36e" target="_blank" rel="noopener noreferrer">0da3d60</a>)</li><li>Upgrade whatsappVersion for 2.3000.1013232587-alpha (<a href="https://github.com/wppconnect-team/wppconnect/commit/6a78b11acd8ab2c1fed97616681cc29939aa57ea" target="_blank" rel="noopener noreferrer">6a78b11</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added support to send mentionedList in images (<a href="https://github.com/wppconnect-team/wppconnect/issues/2172" target="_blank" rel="noopener noreferrer">#2172</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/8fa8f9d4e2222a4d5d320a48ae976f541a89ad2f" target="_blank" rel="noopener noreferrer">8fa8f9d</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.31.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.3.1]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.3.1</id>
