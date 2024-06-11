@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 10 Jun 2024 01:39:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jun 2024 12:20:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.4.5]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.5</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.5</guid>
+            <pubDate>Tue, 11 Jun 2024 12:20:32 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.4.5 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.4.5 for WPP Server.</p><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.4.5" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release: v1.31.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.31.0</link>
