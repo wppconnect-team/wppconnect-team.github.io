@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-06-11T12:20:32.000Z</updated>
+    <updated>2024-06-12T17:04:56.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.4.6]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.6</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.6"/>
+        <updated>2024-06-12T17:04:56.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.4.6 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.4.6 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.31.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1891" target="_blank" rel="noopener noreferrer">#1891</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/cf08169c4ef44a8457e4f75547490352b44dd613" target="_blank" rel="noopener noreferrer">cf08169</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.31.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1896" target="_blank" rel="noopener noreferrer">#1896</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/972576802c6b20cf742b8cb27be85d10c37827bb" target="_blank" rel="noopener noreferrer">9725768</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.4.6" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.31.1]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect/v1.31.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.31.1"/>
+        <updated>2024-06-12T02:14:55.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.31.1 for WPPConnect with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.31.1 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Downgrade whatsappVersion to 2.2413.x (<a href="https://github.com/wppconnect-team/wppconnect/commit/22ca707c17a66441a4c19098d238899992a7c4bc" target="_blank" rel="noopener noreferrer">22ca707</a>)</li><li>Fixed get profile pic for groups (close wppconnect-server<a href="https://github.com/wppconnect-team/wppconnect/issues/1644" target="_blank" rel="noopener noreferrer">#1644</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/04fe04ae0e0c4675c38a87f0dd26c5400198baf5" target="_blank" rel="noopener noreferrer">04fe04a</a>)</li><li>Fixed options in send video-image status (close <a href="https://github.com/wppconnect-team/wppconnect/issues/1787" target="_blank" rel="noopener noreferrer">#1787</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/e8ddd5a7c8e9998c31ad57184c9f5df0e825a0b7" target="_blank" rel="noopener noreferrer">e8ddd5a</a>)</li><li>Upgrade whatsappVersion to 2.3000.1014014368-alpha (<a href="https://github.com/wppconnect-team/wppconnect/commit/e0b10dd4f71ae702c38ebfeefcd9919e222f36f2" target="_blank" rel="noopener noreferrer">e0b10dd</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.31.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.4.5]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.5</id>
