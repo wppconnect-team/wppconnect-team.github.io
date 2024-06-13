@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-06-12T17:04:56.000Z</updated>
+    <updated>2024-06-13T00:09:06.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server minor release: v2.5.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.5.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.5.0"/>
+        <updated>2024-06-13T00:09:06.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.5.0 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.5.0 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.32.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/1901" target="_blank" rel="noopener noreferrer">#1901</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/765810dde565d79c1b1c1aa7571010a79b054edd" target="_blank" rel="noopener noreferrer">765810d</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.5.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.32.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect/v1.32.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.32.0"/>
+        <updated>2024-06-12T23:52:35.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.32.0 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.32.0 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1320-2024-06-12">1.32.0 (2024-06-12)<a href="#1320-2024-06-12" class="hash-link" aria-label="Direct link to 1.32.0 (2024-06-12)" title="Direct link to 1.32.0 (2024-06-12)">​</a></h2><ul><li>chore(release): v1.32.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/aa5b07d" target="_blank" rel="noopener noreferrer">aa5b07d</a>)</li><li>fix: Fixed WAPI is not defined (#2215) (close #2206 (<a href="https://github.com/wppconnect-team/wppconnect/commit/2962aac" target="_blank" rel="noopener noreferrer">2962aac</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2215" target="_blank" rel="noopener noreferrer">#2215</a> <a href="https://github.com/wppconnect-team/wppconnect/issues/2206" target="_blank" rel="noopener noreferrer">#2206</a></li><li>fix: Improovment whatsappVersion to 2.3000.10139x (<a href="https://github.com/wppconnect-team/wppconnect/commit/d246c58" target="_blank" rel="noopener noreferrer">d246c58</a>)</li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.0 (#2219) (<a href="https://github.com/wppconnect-team/wppconnect/commit/b83f1dd" target="_blank" rel="noopener noreferrer">b83f1dd</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2219" target="_blank" rel="noopener noreferrer">#2219</a></li><li>build(deps-dev): update dependency conventional-changelog-cli to v5 (#2170) (<a href="https://github.com/wppconnect-team/wppconnect/commit/463107c" target="_blank" rel="noopener noreferrer">463107c</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2170" target="_blank" rel="noopener noreferrer">#2170</a></li><li>build(deps-dev): update dependency webpack to ^5.92.0 (#2217) (<a href="https://github.com/wppconnect-team/wppconnect/commit/a8ae6e8" target="_blank" rel="noopener noreferrer">a8ae6e8</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2217" target="_blank" rel="noopener noreferrer">#2217</a></li><li>build(deps): update dependency puppeteer to ^22.11.0 (#2216) (<a href="https://github.com/wppconnect-team/wppconnect/commit/c32fe52" target="_blank" rel="noopener noreferrer">c32fe52</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2216" target="_blank" rel="noopener noreferrer">#2216</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.32.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.4.6]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.4.6</id>
