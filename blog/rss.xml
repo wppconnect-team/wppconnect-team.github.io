@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 13 Jun 2024 00:09:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Jun 2024 16:23:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.32.1]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.32.1</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect/v1.32.1</guid>
+            <pubDate>Mon, 17 Jun 2024 16:23:14 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.32.1 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.32.1 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1321-2024-06-17"><small>1.32.1 (2024-06-17)</small><a href="#1321-2024-06-17" class="hash-link" aria-label="Direct link to 1321-2024-06-17" title="Direct link to 1321-2024-06-17">​</a></h2><ul><li>chore(release): v1.32.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/9d84ecb" target="_blank" rel="noopener noreferrer">9d84ecb</a>)</li><li>fix: Fixed emitting events (<a href="https://github.com/wppconnect-team/wppconnect/commit/95e934d" target="_blank" rel="noopener noreferrer">95e934d</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.32.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server minor release: v2.5.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.5.0</link>
