@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 17 Jun 2024 16:23:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Jun 2024 22:44:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.3.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.3.2</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.3.2</guid>
+            <pubDate>Tue, 18 Jun 2024 22:44:54 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.3.2 for WA-JS with Bug Fixes, Features and Reverts.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.3.2 for WA-JS with Bug Fixes, Features and Reverts.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed chat.new_reaction event in 2.3000.x (<a href="https://github.com/wppconnect-team/wa-js/issues/2021" target="_blank" rel="noopener noreferrer">#2021</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/65b35e531c6e954c7a62935a63dafaeb772aaa9e" target="_blank" rel="noopener noreferrer">65b35e5</a>)</li><li>Fixed join group via invite (close <a href="https://github.com/wppconnect-team/wa-js/issues/1986" target="_blank" rel="noopener noreferrer">#1986</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/e3d26fad60682a73e3b9d439f80a06156c9b38b8" target="_blank" rel="noopener noreferrer">e3d26fa</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added call.outgoing_call event (<a href="https://github.com/wppconnect-team/wa-js/issues/2018" target="_blank" rel="noopener noreferrer">#2018</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/cda7e7af48ffb1395985a75ba3eade2ed8c6b879" target="_blank" rel="noopener noreferrer">cda7e7a</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="reverts">Reverts<a href="#reverts" class="hash-link" aria-label="Direct link to Reverts" title="Direct link to Reverts">​</a></h3><ul><li>feat: Added call.outgoing_call event (<a href="https://github.com/wppconnect-team/wa-js/commit/c2f470a755c84d9c77b040ccd9c5e6c078a37eaa" target="_blank" rel="noopener noreferrer">c2f470a</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.3.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.32.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.32.1</link>
