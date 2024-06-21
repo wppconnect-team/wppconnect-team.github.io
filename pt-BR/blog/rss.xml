@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 18 Jun 2024 23:38:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Jun 2024 23:34:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.4.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.4.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.4.0</guid>
+            <pubDate>Fri, 21 Jun 2024 23:34:10 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.4.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.4.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed functions for Whatsaspp &gt;=2.3000.1014314644 (<a href="https://github.com/wppconnect-team/wa-js/commit/e22a7f53f1d1e90469449743a1e7a5c8f969b440" target="_blank" rel="noopener noreferrer">e22a7f5</a>)</li><li>Fixed join group via invite (close <a href="https://github.com/wppconnect-team/wa-js/issues/2029" target="_blank" rel="noopener noreferrer">#2029</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/610884d64b3cf576f2e6cdc91fed93a1374adc97" target="_blank" rel="noopener noreferrer">610884d</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added WPP.chat.sendPixKeyMessage (<a href="https://github.com/wppconnect-team/wa-js/commit/b3526f2d250f1bf26b8e0d0100e43a9695b14785" target="_blank" rel="noopener noreferrer">b3526f2</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.4.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v2.5.1]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.5.1</link>
