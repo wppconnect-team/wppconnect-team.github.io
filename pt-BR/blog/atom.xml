@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-06-24T23:46:46.000Z</updated>
+    <updated>2024-07-08T12:21:34.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.4.2]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.4.2</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.4.2"/>
+        <updated>2024-07-08T12:21:34.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.4.2 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.4.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed isStatusV3 error (close <a href="https://github.com/wppconnect-team/wa-js/issues/2054" target="_blank" rel="noopener noreferrer">#2054</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/dfae74de3751d091b5626da90d0df75381873eab" target="_blank" rel="noopener noreferrer">dfae74d</a>)</li><li>Fixed WPP.group.create function (close <a href="https://github.com/wppconnect-team/wa-js/issues/2050" target="_blank" rel="noopener noreferrer">#2050</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/2056" target="_blank" rel="noopener noreferrer">#2056</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/deb8160c6b3a38d1095089e9c354cdaa8e01fc16" target="_blank" rel="noopener noreferrer">deb8160</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.4.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.5.2]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.5.2</id>

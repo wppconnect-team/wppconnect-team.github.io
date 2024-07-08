@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 24 Jun 2024 23:46:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jul 2024 12:21:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.4.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.4.2</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.4.2</guid>
+            <pubDate>Mon, 08 Jul 2024 12:21:34 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.4.2 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.4.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed isStatusV3 error (close <a href="https://github.com/wppconnect-team/wa-js/issues/2054" target="_blank" rel="noopener noreferrer">#2054</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/dfae74de3751d091b5626da90d0df75381873eab" target="_blank" rel="noopener noreferrer">dfae74d</a>)</li><li>Fixed WPP.group.create function (close <a href="https://github.com/wppconnect-team/wa-js/issues/2050" target="_blank" rel="noopener noreferrer">#2050</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/2056" target="_blank" rel="noopener noreferrer">#2056</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/deb8160c6b3a38d1095089e9c354cdaa8e01fc16" target="_blank" rel="noopener noreferrer">deb8160</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.4.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v2.5.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.5.2</link>
