@@ -25,11 +25,13 @@ function HomepageHeader() {
             <div className={clsx(styles.buttons, "margin-bottom--lg")}>
               <Link
                 className="button button--secondary button--lg"
-                href={`https://web.whatsapp.com/?v=${whatsappVersion.currentVersion}`}
+                href={`https://web.whatsapp.com/?v=${whatsappVersion.currentAlpha}`}
               >
-                {whatsappVersion.currentVersion}
+                {whatsappVersion.currentAlpha}
               </Link>
             </div>
+            
+            <p>Alpha versions are the new standard for WhatsApp Web</p>
           </div>
           {whatsappVersion.currentBeta && (
             <div className={`col col--${colSize}`}>
