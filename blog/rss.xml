@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 12 Jul 2024 09:20:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jul 2024 01:51:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.6.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.6.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.6.0</guid>
+            <pubDate>Tue, 16 Jul 2024 01:51:20 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.6.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.6.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed get text status function (close <a href="https://github.com/wppconnect-team/wa-js/issues/2115" target="_blank" rel="noopener noreferrer">#2115</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b165a1c9ea94b5361f808564697663803ca0093a" target="_blank" rel="noopener noreferrer">b165a1c</a>)</li><li>Improovment check versions for &gt;= 2.3000.x (<a href="https://github.com/wppconnect-team/wa-js/commit/4119ef2c23b4d58087675070fb6296de1fb012c7" target="_blank" rel="noopener noreferrer">4119ef2</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added WPP.chat.closeChat function ( <a href="https://github.com/wppconnect-team/wa-js/issues/2113" target="_blank" rel="noopener noreferrer">#2113</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/192e4162d468e188ab55d9d7894fcbbcbaf70c75" target="_blank" rel="noopener noreferrer">192e416</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v3.5.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.5.0</link>
