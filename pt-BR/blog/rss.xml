@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 16 Jul 2024 20:33:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jul 2024 22:07:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.7.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.7.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.7.0</guid>
+            <pubDate>Thu, 18 Jul 2024 22:07:42 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.7.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.7.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>BREAKING-CHANGE: Change function sendOrderMessage to sendChargeMessage (<a href="https://github.com/wppconnect-team/wa-js/commit/cf3dca0d94f57943d7112bac6320fa30ca6fb5fb" target="_blank" rel="noopener noreferrer">cf3dca0</a>)</li><li>downgrade husky@^9.0.11 (<a href="https://github.com/wppconnect-team/wa-js/commit/e2bedb90ff11f5cc2edcf065f23ef2870b6b35ad" target="_blank" rel="noopener noreferrer">e2bedb9</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added WPP.cart.add function (<a href="https://github.com/wppconnect-team/wa-js/commit/f2087d773c836a731d8a013c510796f1958ce471" target="_blank" rel="noopener noreferrer">f2087d7</a>)</li><li>Added WPP.cart.clear function (<a href="https://github.com/wppconnect-team/wa-js/commit/670474dfe20d5d34098fa31b12a3e7c5532b41d2" target="_blank" rel="noopener noreferrer">670474d</a>)</li><li>Added WPP.cart.get function (<a href="https://github.com/wppconnect-team/wa-js/commit/5f205d03e109752fe2c7d5936e253cb056242f45" target="_blank" rel="noopener noreferrer">5f205d0</a>)</li><li>Added WPP.cart.remove function (<a href="https://github.com/wppconnect-team/wa-js/commit/ec01aac88f9c9da4faecf15f539c411b3663b796" target="_blank" rel="noopener noreferrer">ec01aac</a>)</li><li>Added WPP.cart.submit function (<a href="https://github.com/wppconnect-team/wa-js/commit/08ac28378ac58184790fa4799959d4354a206d74" target="_blank" rel="noopener noreferrer">08ac283</a>)</li><li>Added WPP.cart.update function (<a href="https://github.com/wppconnect-team/wa-js/commit/011fcdc410074450f10d83ac8d033d658ddcf149" target="_blank" rel="noopener noreferrer">011fcdc</a>)</li><li>Exported function addProductToCart (<a href="https://github.com/wppconnect-team/wa-js/commit/83983afbfd0a9a23c748bc447ede0aee7638fd10" target="_blank" rel="noopener noreferrer">83983af</a>)</li><li>Exported function createOrder (<a href="https://github.com/wppconnect-team/wa-js/commit/ba553d035800c4bd0d131ebb74078e9ff3660736" target="_blank" rel="noopener noreferrer">ba553d0</a>)</li><li>Exported function updateCart (<a href="https://github.com/wppconnect-team/wa-js/commit/245e7d9321cf12e0c3177a34f5628a412a6998da" target="_blank" rel="noopener noreferrer">245e7d9</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.7.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.32.4]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.32.4</link>
