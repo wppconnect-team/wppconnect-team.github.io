@@ -18,6 +18,26 @@ wppconnect
   .catch((error) => console.log(error));
 ```
 
+
+# Login with code
+
+For login by code, insert the phone number in create method
+That method returns an `Promise` of {@link Whatsapp}.
+
+```javascript
+// Supports ES6
+// import { create, Whatsapp } from '@wppconnect-team/wppconnect';
+const wppconnect = require('@wppconnect-team/wppconnect');
+
+wppconnect
+  .create({
+    phoneNumber: '5521985232927',
+    catchLinkCode: (str) => console.log('Code: ' + str),
+  })
+  .then((client) => start(client))
+  .catch((error) => console.log(error));
+```
+
 ## Multi sessions
 
 If you want to start more than one session, for example,
@@ -165,24 +185,3 @@ wppconnect
 ### Saving Session Token
 
 Read the {@link TokenStore}
-
-### Multidevice (BETA)
-
-To use multidevice account, you have to setup a fixed user data dir for browser to keep it logged,
-because WhatsApp changed the way of autentication.
-
-To setup this, you can use the example bellow:
-
-```javascript
-wppconnect
-  .create({
-    // ...
-    session: 'mySessionName',
-    puppeteerOptions: {
-      userDataDir: './tokens/mySessionName', // or your custom directory
-    },
-    // ...
-  })
-  .then((client) => start(client))
-  .catch((error) => console.log(error));
-```
