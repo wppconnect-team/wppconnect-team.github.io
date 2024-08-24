@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 16 Aug 2024 00:05:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Aug 2024 13:03:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.8.4]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.8.4</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.8.4</guid>
+            <pubDate>Sat, 24 Aug 2024 13:03:55 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.8.4 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.8.4 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed conn.main_ready event (<a href="https://github.com/wppconnect-team/wa-js/issues/2260" target="_blank" rel="noopener noreferrer">#2260</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/af5b3981a30f5e9dd53cf0c1bcf84c18d94219d2" target="_blank" rel="noopener noreferrer">af5b398</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added event to notify discord in fails functions (<a href="https://github.com/wppconnect-team/wa-js/issues/2230" target="_blank" rel="noopener noreferrer">#2230</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/adfe2898ae86b86a89e09b42da180a65f822f0c9" target="_blank" rel="noopener noreferrer">adfe289</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.8.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.8.3]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.8.3</link>
