@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 30 Aug 2024 00:01:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Sep 2024 16:16:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.9.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.9.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.9.1</guid>
+            <pubDate>Thu, 05 Sep 2024 16:16:51 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.9.1 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.9.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed functions for whatsapp &gt;= 2.3000.1016233710 (<a href="https://github.com/wppconnect-team/wa-js/commit/6a766196b8b52d2bfdba26c1e43d798b3885bb1c" target="_blank" rel="noopener noreferrer">6a76619</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.9.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.33.1]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.33.1</link>
