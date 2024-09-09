@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, HeroButton, Layout, LeftContainer, RightContainer, SmallTitle, Subtitle, Title} from "./styles";
 import {ArrowRight} from "react-feather";
+import Translate from '@docusaurus/Translate';
 
 const ServidorContainer = () => {
     return (

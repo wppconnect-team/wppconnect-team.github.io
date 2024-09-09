@@ -1,6 +1,7 @@
 import React from 'react';
 import {CircleComponent, Container, Layout, RepeaterWeDo, SmallTitle, Title} from "./styles";
 import {Home, Settings, Users} from "react-feather";
+import Translate from '@docusaurus/Translate';
 
 const AboutContainer = () => {
     return (
