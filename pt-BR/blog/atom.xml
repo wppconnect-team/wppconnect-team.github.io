@@ -2,11 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-09-09T00:21:15.000Z</updated>
+    <updated>2024-09-09T22:10:57.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.34.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.34.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.34.1"/>
+        <updated>2024-09-09T22:10:57.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.34.1 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.34.1 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1341-2024-09-09"><small>1.34.1 (2024-09-09)</small><a href="#1341-2024-09-09" class="hash-link" aria-label="Ligação direta para 1341-2024-09-09" title="Ligação direta para 1341-2024-09-09">​</a></h2><ul><li>chore: rollback typedoc (<a href="https://github.com/wppconnect-team/wppconnect/commit/077ff9b" target="_blank" rel="noopener noreferrer">077ff9b</a>)</li><li>chore(release): v1.34.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/cee0263" target="_blank" rel="noopener noreferrer">cee0263</a>)</li><li>build(deps): update dependency puppeteer to v23 (#2334) (<a href="https://github.com/wppconnect-team/wppconnect/commit/7153637" target="_blank" rel="noopener noreferrer">7153637</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2334" target="_blank" rel="noopener noreferrer">#2334</a></li><li>docs: Fixed docs load gaId error (<a href="https://github.com/wppconnect-team/wppconnect/commit/71e11c4" target="_blank" rel="noopener noreferrer">71e11c4</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.34.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPP Server minor release: v2.7.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.7.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.7.0"/>
+        <updated>2024-09-09T11:53:21.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.7.0 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.7.0 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Compatibily for buttons (v3) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/19c9072a239b864178550b8f0d7f8cfd0969e836" target="_blank" rel="noopener noreferrer">19c9072</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.33.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/81d23dc1ccf19cf7e4a521938f968ef93537bafd" target="_blank" rel="noopener noreferrer">81d23dc</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.34.0 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2015" target="_blank" rel="noopener noreferrer">#2015</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/7bedd09bd1a1575964311c989e3377bc6e737704" target="_blank" rel="noopener noreferrer">7bedd09</a>)</li><li>Fixed docs Improovment docs for delete-message (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/56f4ed1f4ea47993bb28da78d611faee806de77e" target="_blank" rel="noopener noreferrer">56f4ed1</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.7.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.34.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.34.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.34.0"/>
+        <updated>2024-09-09T00:50:08.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.34.0 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.34.0 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1340-2024-09-09">1.34.0 (2024-09-09)<a href="#1340-2024-09-09" class="hash-link" aria-label="Ligação direta para 1.34.0 (2024-09-09)" title="Ligação direta para 1.34.0 (2024-09-09)">​</a></h2><ul><li>chore(release): v1.34.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/d617281" target="_blank" rel="noopener noreferrer">d617281</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.10.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/30018c6" target="_blank" rel="noopener noreferrer">30018c6</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.10.1 (#2336) (<a href="https://github.com/wppconnect-team/wppconnect/commit/cc29475" target="_blank" rel="noopener noreferrer">cc29475</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2336" target="_blank" rel="noopener noreferrer">#2336</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.321 (#2328) (<a href="https://github.com/wppconnect-team/wppconnect/commit/0bbde51" target="_blank" rel="noopener noreferrer">0bbde51</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2328" target="_blank" rel="noopener noreferrer">#2328</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.323 (#2333) (<a href="https://github.com/wppconnect-team/wppconnect/commit/8273cee" target="_blank" rel="noopener noreferrer">8273cee</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2333" target="_blank" rel="noopener noreferrer">#2333</a></li><li>build(deps-dev): update commitlint monorepo (<a href="https://github.com/wppconnect-team/wppconnect/commit/a51c208" target="_blank" rel="noopener noreferrer">a51c208</a>)</li><li>build(deps-dev): update dependency @babel/preset-env to ^7.25.4 (<a href="https://github.com/wppconnect-team/wppconnect/commit/aa30045" target="_blank" rel="noopener noreferrer">aa30045</a>)</li><li>build(deps-dev): update dependency @types/node to ^18.19.48 (<a href="https://github.com/wppconnect-team/wppconnect/commit/e05f4ee" target="_blank" rel="noopener noreferrer">e05f4ee</a>)</li><li>build(deps-dev): update dependency @types/node to ^18.19.50 (<a href="https://github.com/wppconnect-team/wppconnect/commit/dbff5bc" target="_blank" rel="noopener noreferrer">dbff5bc</a>)</li><li>build(deps-dev): update dependency husky to ^9.1.5 (<a href="https://github.com/wppconnect-team/wppconnect/commit/c3a5ee5" target="_blank" rel="noopener noreferrer">c3a5ee5</a>)</li><li>build(deps-dev): update dependency mocha to ^10.7.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/50b5cde" target="_blank" rel="noopener noreferrer">50b5cde</a>)</li><li>build(deps-dev): update dependency typedoc to ^0.26.6 (<a href="https://github.com/wppconnect-team/wppconnect/commit/0f0b132" target="_blank" rel="noopener noreferrer">0f0b132</a>)</li><li>build(deps-dev): update dependency webpack to ^5.94.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/547d82b" target="_blank" rel="noopener noreferrer">547d82b</a>)</li><li>build(deps): update dependency @img/sharp-win32-x64 to ^0.33.5 (<a href="https://github.com/wppconnect-team/wppconnect/commit/96b582d" target="_blank" rel="noopener noreferrer">96b582d</a>)</li><li>build(deps): update dependency axios to ^1.7.7 (<a href="https://github.com/wppconnect-team/wppconnect/commit/3bd7feb" target="_blank" rel="noopener noreferrer">3bd7feb</a>)</li><li>build(deps): update dependency sharp to v0.33.5 (<a href="https://github.com/wppconnect-team/wppconnect/commit/af9ec04" target="_blank" rel="noopener noreferrer">af9ec04</a>)</li><li>build(deps): update dependency winston to ^3.14.2 (<a href="https://github.com/wppconnect-team/wppconnect/commit/f3727e6" target="_blank" rel="noopener noreferrer">f3727e6</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.34.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.10.1]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.10.1</id>
