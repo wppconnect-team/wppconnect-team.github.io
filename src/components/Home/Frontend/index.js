@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, HeroButton, Layout, LeftContainer, RightContainer, SmallTitle, Subtitle, Title} from "./styles";
 import {ArrowRight} from "react-feather";
 import BoyImage from "../../../assets/boy-image.png"
+import Translate from '@docusaurus/Translate';
 
 const FrontendContainer = () => {
     return (
@@ -10,19 +11,18 @@ const FrontendContainer = () => {
                 <LeftContainer>
                     <div className={"text"}>
                         <SmallTitle>
-                            Cliente
+                            <Translate id="extension">Extension Maker</Translate>
                         </SmallTitle>
                         <Title>
-                            FrontEnd Completo
+                            <Translate id="extension.whatsapp.func">WhatsApp functions</Translate>
                         </Title>
                         <Subtitle>
-                            Nosso FrontEnd foi feito em ReactJS. Com ele você consegue utilizar múltiplas contas
-                            e enviar mensagens/arquivos/aúdio.
+                            <Translate id="extension.desc">WAJS is an open-source library designed for easy integration and automation of WhatsApp Web, allowing developers to create extensions and use it directly in the browser console.</Translate> 
                         </Subtitle>
 
-                        <HeroButton href={"https://github.com/wppconnect-team/wppconnect-frontend"} target={"_blank"}
+                        <HeroButton href={"https://github.com/wppconnect-team/wa-js"} target={"_blank"}
                                     rel={"noreferrer"}>
-                            Visualizar <ArrowRight/>
+                            <Translate id="extension.whatsapp.func">View</Translate> <ArrowRight/>
                         </HeroButton>
                     </div>
                 </LeftContainer>

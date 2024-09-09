@@ -9,17 +9,17 @@ const ServidorContainer = () => {
                 <LeftContainer>
                     <div className={"text"}>
                         <SmallTitle>
-                            Servidor
+                            <Translate id="server">Server</Translate>
                         </SmallTitle>
                         <Title>
-                            Servidor Robusto
+                        <Translate id="server.robust">Robust Server</Translate>
                         </Title>
                         <Subtitle>
-                            Um servidor simples e robusto feito em NodeJS, com todas as funções que o WPPConnect oferece.
+                        <Translate id="server.robust.desc">A simple and robust server made in NodeJS, with all the functions that WPPConnect offers.</Translate>
                         </Subtitle>
 
                         <HeroButton href={"https://github.com/wppconnect-team/wppconnect-server"} target={"_blank"} rel={"noreferrer"}>
-                            Visualizar <ArrowRight/>
+                            <Translate id="view">View</Translate> <ArrowRight/>
                         </HeroButton>
                     </div>
                 </LeftContainer>

@@ -2,6 +2,7 @@ import React from 'react';
 import {CircleComponent, Container, Layout, RepeaterWeDo, SmallTitle, Subtitle, Title} from "./styles";
 import {GitHub, Home, Settings, User, Users, Youtube} from "react-feather";
 import SmileEmoji from "../../../assets/smile-emoji.png";
+import Translate from '@docusaurus/Translate';
 
 const ApoiarContainer = () => {
     return (
@@ -11,10 +12,10 @@ const ApoiarContainer = () => {
                     <img src={SmileEmoji}/>
                 </SmallTitle>
                 <Title>
-                    Apoie-nos
+                    <Translate id="sponsor">Sponsor-us</Translate>
                 </Title>
                 <Subtitle>
-                    Você sabia que pode nos apoiar de diversas formas? Veja abaixo como!
+                   <Translate id="sponsor.desc">Did you know that you can support us in several ways? See below how!</Translate> 
                 </Subtitle>
 
                 <RepeaterWeDo>
@@ -23,11 +24,10 @@ const ApoiarContainer = () => {
                             <Home/>
                         </CircleComponent>
                         <h1>
-                            Apoia-se
+                            OpenCollective
                         </h1>
                         <p>
-                            Nós utilizamos a plataforma <b>Apoia-se</b> para gerar uma receita para incentivas os
-                            desenvolvedores do WPPConnect
+                            <Translate id="sponsor.weplatform">We use the platform </Translate><b>OpenCollective</b> <Translate id="sponsor.receipt">to generate revenue to incentivize WPPConnect developers</Translate>
                         </p>
                     </li>
                     <li>
@@ -38,12 +38,12 @@ const ApoiarContainer = () => {
                             Youtube
                         </h1>
                         <p>
-                            Nós temos um canal no Youtube onde fazemos alguns tutoriais de como usar nossa
-                            biblioteca/servidor/frontend e muito mais...
+                            <Translate id="sponsor.youtube">We have a YouTube channel where we make some tutorials on how to use our
+                            library/server/frontend and much more...</Translate> 
                         </p>
 
                         <a href={"https://www.youtube.com/channel/UCD7J9LG08PmGQrF5IS7Yv9A"} target={"_blank"} rel={"noreferrer"}>
-                            Seguir Canal
+                            <Translate id="followChannel">Follow Channel</Translate>
                         </a>
                     </li>
                     <li>
@@ -54,12 +54,11 @@ const ApoiarContainer = () => {
                             Github
                         </h1>
                         <p>
-                            Você também pode dar uma estrela em nosso repositório. <br/><br/>Isso nos ajuda a crescer dentro da
-                            rede!
+                            <Translate id="sponsor.giveastar">You can also give a star in our repository.</Translate><br/><br/><Translate id="sponsor.stardesc">This helps us a lot in bringing new developers to the project.</Translate>
                         </p>
 
                         <a href={"https://github.com/wppconnect-team/wppconnect"} target={"_blank"} rel={"noreferrer"}>
-                            Ir até o Github
+                            <Translate id="sponsor.gogithub">Go to the Github</Translate>
                         </a>
                     </li>
                 </RepeaterWeDo>

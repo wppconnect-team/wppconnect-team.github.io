@@ -7,10 +7,10 @@ const AboutContainer = () => {
         <Layout>
             <Container>
                 <SmallTitle>
-                    Sobre Nós
+                    <Translate id="aboutus">About us</Translate>
                 </SmallTitle>
                 <Title>
-                    Nós somos muito mais do que <b>apenas</b> uma biblioteca
+                    <Translate id="about.desc">We are much more than just a library</Translate> 
                 </Title>
 
                 <RepeaterWeDo>
@@ -19,10 +19,10 @@ const AboutContainer = () => {
                             <Home/>
                         </CircleComponent>
                         <h1>
-                            Quem somos
+                            <Translate id="whoweare">Who we are</Translate>
                         </h1>
                         <p>
-                            Somos uma equipe que iniciou um projeto OpenSource que realiza automação no WhatsApp
+                        <Translate id="about.weareateam">We are a team that started an OpenSource project that performs automation on WhatsApp</Translate>
                         </p>
                     </li>
                     <li>
@@ -30,10 +30,10 @@ const AboutContainer = () => {
                             <Settings/>
                         </CircleComponent>
                         <h1>
-                            O que fazemos
+                            <Translate id="about.wedo">What we do?</Translate>
                         </h1>
                         <p>
-                            Automatizamos o WhatsApp Web para você conseguir atender o seu cliente de diversas formas
+                            <Translate id="about.wedo.desc">The WPPConnect Team creates open-source tools for automating and integrating with WhatsApp Web, enabling efficient communication and bot development</Translate> 
                         </p>
                     </li>
                     <li>
@@ -41,11 +41,11 @@ const AboutContainer = () => {
                             <Users/>
                         </CircleComponent>
                         <h1>
-                            Nosso time
+                            <Translate id="about.ourteam">Our Team</Translate>
                         </h1>
                         <p>
-                            Uma equipe de profissionais que realizam manutenção e disponibilizam melhorias para todos as
-                            soluções que oferecemos
+                            <Translate id="about.ourteam.desc">A team of professionals who perform maintenance and provide improvements for all the
+                        solutions we offer</Translate>
                         </p>
                     </li>
                 </RepeaterWeDo>

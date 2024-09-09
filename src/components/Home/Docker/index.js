@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, HeroButton, Layout, LeftContainer, RightContainer, SmallTitle, Subtitle, Title} from "./styles";
 import {ArrowRight} from "react-feather";
+import Translate from '@docusaurus/Translate';
 
 const DockerContainer = () => {
     return (
@@ -15,11 +16,11 @@ const DockerContainer = () => {
                             Docker
                         </Title>
                         <Subtitle>
-                            Sério, até Docker nós estamos disponibilizando. Dá uma olhada clicando no botão abaixo
+                            <Translate id="docker.description">Seriously, we're even making Docker available. Check it out by clicking the button below</Translate>
                         </Subtitle>
 
                         <HeroButton href={"https://github.com/wppconnect-team/wpp-docker"} target={"_blank"} rel={"noreferrer"}>
-                            Visualizar <ArrowRight/>
+                            <Translate id="view">Visualizar</Translate> <ArrowRight/>
                         </HeroButton>
                     </div>
                 </LeftContainer>

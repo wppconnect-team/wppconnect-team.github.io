@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, GrayTop, HeroButton, ImageHero, Layout, Subtitle, Title} from "./styles";
 import {ArrowRight} from "react-feather";
 import NotebookImage from "../../../assets/image-notebook-hero.png";
+import Translate from '@docusaurus/Translate';
 
 const HeroContainer = () => {
     return (
@@ -9,15 +10,20 @@ const HeroContainer = () => {
             <Container>
                 <GrayTop>
                     <Title>
-                        Se você pode imaginar<br/>
-                        nós podemos fazer
+                    <Translate id="ifyoucanimagine.title" description="If you can imagine">
+                        If you can imagine
+                    </Translate><br/>
+                    <Translate id="wecando.title" description="We can do">
+                        we can do
+                    </Translate><br/>
                     </Title>
                     <Subtitle>
-                        Nós somos a <b>melhor</b> solução para automação WhatsApp que você estava procurando.
+                        
+                    <Translate id="bestsolucion.title" description="Nós somos a melhor solução para whatsapp">We are the </Translate><b><Translate id="home.best">best</Translate></b> <Translate id="home.sulutionautomation">sulution automation you were looking for Whatsapp.</Translate>
                     </Subtitle>
                     <HeroButton href={"https://github.com/wppconnect-team/wppconnect"} target={"_blank"}
                                 rel={"noreferrer"}>
-                        Ver biblioteca <ArrowRight/>
+                        <Translate id="home.seelib">See lib</Translate> <ArrowRight/>
                     </HeroButton>
 
                     <ImageHero>
