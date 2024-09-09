@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 07 Sep 2024 16:38:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Sep 2024 00:21:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.10.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.10.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.10.1</guid>
+            <pubDate>Mon, 09 Sep 2024 00:21:15 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.10.1 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.10.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed buttons for non beta user (<a href="https://github.com/wppconnect-team/wa-js/commit/fbbf0948c93cb9ec19ac8a1c85f24c44d94824a5" target="_blank" rel="noopener noreferrer">fbbf094</a>)</li><li>Fixed eval error on whatsapp-web (<a href="https://github.com/wppconnect-team/wa-js/commit/04e91fbe159d2ea2307d15e5b0f998cafd017590" target="_blank" rel="noopener noreferrer">04e91fb</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.10.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v3.10.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.10.0</link>
