@@ -22,7 +22,7 @@ const FrontendContainer = () => {
 
                         <HeroButton href={"https://github.com/wppconnect-team/wa-js"} target={"_blank"}
                                     rel={"noreferrer"}>
-                            <Translate id="extension.whatsapp.func">View</Translate> <ArrowRight/>
+                            <Translate id="view">View</Translate> <ArrowRight/>
                         </HeroButton>
                     </div>
                 </LeftContainer>

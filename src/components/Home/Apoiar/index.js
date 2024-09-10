@@ -27,7 +27,7 @@ const ApoiarContainer = () => {
                             OpenCollective
                         </h1>
                         <p>
-                            <Translate id="sponsor.weplatform">We use the platform </Translate><b>OpenCollective</b> <Translate id="sponsor.receipt">to generate revenue to incentivize WPPConnect developers</Translate>
+                            <Translate id="sponsor.weplatform">We use the platform </Translate> <b>OpenCollective</b> <Translate id="sponsor.receipt">to generate revenue to incentivize WPPConnect developers</Translate>
                         </p>
                     </li>
                     <li>

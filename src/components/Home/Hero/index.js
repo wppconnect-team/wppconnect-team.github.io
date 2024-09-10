@@ -19,7 +19,7 @@ const HeroContainer = () => {
                     </Title>
                     <Subtitle>
                         
-                    <Translate id="bestsolucion.title" description="Nós somos a melhor solução para whatsapp">We are the </Translate><b><Translate id="home.best">best</Translate></b> <Translate id="home.sulutionautomation">sulution automation you were looking for Whatsapp.</Translate>
+                    <Translate id="bestsolucion.title" description="Nós somos a melhor solução para whatsapp">We are the </Translate> <b><Translate id="home.best">best</Translate></b> <Translate id="home.sulutionautomation">sulution automation you were looking for Whatsapp.</Translate>
                     </Subtitle>
                     <HeroButton href={"https://github.com/wppconnect-team/wppconnect"} target={"_blank"}
                                 rel={"noreferrer"}>
