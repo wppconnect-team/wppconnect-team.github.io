@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 09 Sep 2024 22:10:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Sep 2024 10:06:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.34.2]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.34.2</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.34.2</guid>
+            <pubDate>Fri, 27 Sep 2024 10:06:09 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.34.2 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.34.2 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1342-2024-09-27"><small>1.34.2 (2024-09-27)</small><a href="#1342-2024-09-27" class="hash-link" aria-label="Ligação direta para 1342-2024-09-27" title="Ligação direta para 1342-2024-09-27">​</a></h2><ul><li>chore(release): v1.34.2 (<a href="https://github.com/wppconnect-team/wppconnect/commit/1e49848" target="_blank" rel="noopener noreferrer">1e49848</a>)</li><li>build(deps-dev): update dependency @types/mocha to ^10.0.8 (<a href="https://github.com/wppconnect-team/wppconnect/commit/c30a62e" target="_blank" rel="noopener noreferrer">c30a62e</a>)</li><li>build(deps-dev): update dependency typedoc to ^0.26.7 (<a href="https://github.com/wppconnect-team/wppconnect/commit/d33ff08" target="_blank" rel="noopener noreferrer">d33ff08</a>)</li><li>build(deps): update dependency puppeteer to ^23.4.1 (#2349) (<a href="https://github.com/wppconnect-team/wppconnect/commit/fe16137" target="_blank" rel="noopener noreferrer">fe16137</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2349" target="_blank" rel="noopener noreferrer">#2349</a></li><li>fix: Upgrade whatsappVersion to 2.3000.10162x (<a href="https://github.com/wppconnect-team/wppconnect/commit/a51ff3d" target="_blank" rel="noopener noreferrer">a51ff3d</a>)</li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.355 (<a href="https://github.com/wppconnect-team/wppconnect/commit/09369c6" target="_blank" rel="noopener noreferrer">09369c6</a>)</li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.416 (#2348) (<a href="https://github.com/wppconnect-team/wppconnect/commit/a4b8462" target="_blank" rel="noopener noreferrer">a4b8462</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2348" target="_blank" rel="noopener noreferrer">#2348</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.34.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.34.1]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.34.1</link>
