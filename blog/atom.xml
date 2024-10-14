@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-09-27T10:06:09.000Z</updated>
+    <updated>2024-10-14T16:00:15.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.10.2]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.10.2</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.10.2"/>
+        <updated>2024-10-14T16:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.10.2 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.10.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed error for delete messages in groups (<a href="https://github.com/wppconnect-team/wa-js/issues/2368" target="_blank" rel="noopener noreferrer">#2368</a>) (closes <a href="https://github.com/wppconnect-team/wa-js/issues/2300" target="_blank" rel="noopener noreferrer">#2300</a> <a href="https://github.com/wppconnect-team/wa-js/issues/2319" target="_blank" rel="noopener noreferrer">#2319</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/f490574e5782ee10b8e8cca7361f0612f1cc01ba" target="_blank" rel="noopener noreferrer">f490574</a>)</li><li>Fixed error on inject (<a href="https://github.com/wppconnect-team/wa-js/commit/00a7a0108814d92123239be3bff072c1613f4dd2" target="_blank" rel="noopener noreferrer">00a7a01</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.10.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v1.34.2]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect/v1.34.2</id>
