@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-10-14T16:00:15.000Z</updated>
+    <updated>2024-10-18T23:47:46.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v3.11.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.11.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.11.0"/>
+        <updated>2024-10-18T23:47:46.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v3.11.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v3.11.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed error in revokeStatus function (<a href="https://github.com/wppconnect-team/wa-js/commit/137415d7811bef6533df27c74bf33344d7c45ddd" target="_blank" rel="noopener noreferrer">137415d</a>)</li><li>Fixed sendScheduledCallMessage function (close <a href="https://github.com/wppconnect-team/wa-js/issues/2374" target="_blank" rel="noopener noreferrer">#2374</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/77853b4a757a2e68ca01250a29f7e4eb8826c582" target="_blank" rel="noopener noreferrer">77853b4</a>)</li><li>Fixed type definition for sendFileMessage (<a href="https://github.com/wppconnect-team/wa-js/issues/2391" target="_blank" rel="noopener noreferrer">#2391</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/e9c4a640bb309630534d555b6b7f54d199e0a53c" target="_blank" rel="noopener noreferrer">e9c4a64</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added WPP.chat.sendEventMessage (<a href="https://github.com/wppconnect-team/wa-js/commit/c9e3a0003106cb613753b4d7534fd8c63dc79184" target="_blank" rel="noopener noreferrer">c9e3a00</a>)</li><li>Added WPP.profile.getMyProfilePicture (close <a href="https://github.com/wppconnect-team/wa-js/issues/2327" target="_blank" rel="noopener noreferrer">#2327</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b863dcfe1badacdeaf8bc39ab9a877a42f7ca9bb" target="_blank" rel="noopener noreferrer">b863dcf</a>)</li><li>Exported function createEventCallLink (<a href="https://github.com/wppconnect-team/wa-js/commit/1d136c17a6b2041411bf069f9689524d44ccf6a0" target="_blank" rel="noopener noreferrer">1d136c1</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.11.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.10.2]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.10.2</id>
