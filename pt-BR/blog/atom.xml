@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-10-29T01:06:28.000Z</updated>
+    <updated>2024-10-29T16:03:25.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server minor release: v2.8.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.0"/>
+        <updated>2024-10-29T16:03:25.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v2.8.0 for WPP Server with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v2.8.0 for WPP Server with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.34.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/53b70ea08237dee104e04c588efc2379415c5742" target="_blank" rel="noopener noreferrer">53b70ea</a>)</li><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.34.2 (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/1f2e5a7fbf687a7ab714100a50c0fb75cba82fb4" target="_blank" rel="noopener noreferrer">1f2e5a7</a>)</li><li>Fixed not read QRCode when starting a session (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2045" target="_blank" rel="noopener noreferrer">#2045</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/a474b51608291e6fe9e2166a7a7fbad275ab13b4" target="_blank" rel="noopener noreferrer">a474b51</a>)</li><li>Improovments on set close session when is timeout error (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/f52d3b66e0b458d40d41216cadd3db5910857c2a" target="_blank" rel="noopener noreferrer">f52d3b6</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added support for send message to <a href="https://github.com/lid" target="_blank" rel="noopener noreferrer">@lid</a> (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/7dde87ea7e885dd977bb244a8b0c92248f12815f" target="_blank" rel="noopener noreferrer">7dde87e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.8.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v3.13.0]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.13.0</id>
