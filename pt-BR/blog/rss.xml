@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 24 Oct 2024 22:33:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2024 01:06:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.13.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.13.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.13.0</guid>
+            <pubDate>Tue, 29 Oct 2024 01:06:28 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.13.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.13.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed send message to community groups when is no announce group (<a href="https://github.com/wppconnect-team/wa-js/commit/10f29eed5aaa95489b3ef29da4e268eaeb30e259" target="_blank" rel="noopener noreferrer">10f29ee</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added support for send message to Meta AI (<a href="https://github.com/wppconnect-team/wa-js/commit/e15802b30a9a98dfa90ccb00753bbc170e3678ee" target="_blank" rel="noopener noreferrer">e15802b</a>)</li><li>Added WPP.community.getAnnouncementGroup function (<a href="https://github.com/wppconnect-team/wa-js/commit/46459943f2ffb16d3a6ce6bc9393a370c8872140" target="_blank" rel="noopener noreferrer">4645994</a>)</li><li>Added WPP.community.getSubgroups function (<a href="https://github.com/wppconnect-team/wa-js/commit/7f6bf8923fd7bb9f3e4bbc68b6f1e65279a8d2e6" target="_blank" rel="noopener noreferrer">7f6bf89</a>)</li><li>Added WPP.whatsapp.BotProfileCollection (<a href="https://github.com/wppconnect-team/wa-js/commit/655473688c08c6bb05fdf403afc28757a6f91487" target="_blank" rel="noopener noreferrer">6554736</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.13.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release: v1.35.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.35.0</link>
