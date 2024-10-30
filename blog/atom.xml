@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-10-30T00:52:51.000Z</updated>
+    <updated>2024-10-30T18:16:38.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v3.14.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.14.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.14.0"/>
+        <updated>2024-10-30T18:16:38.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v3.14.0 for WA-JS with Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v3.14.0 for WA-JS with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added WPP.chat.getNotes function (<a href="https://github.com/wppconnect-team/wa-js/commit/9aaec4b47263c91f2c1583095cff13883d29a68e" target="_blank" rel="noopener noreferrer">9aaec4b</a>)</li><li>Added WPP.chat.setNotes function (<a href="https://github.com/wppconnect-team/wa-js/commit/4f64e4ed554e83857994a18868bd7c6b1a138682" target="_blank" rel="noopener noreferrer">4f64e4e</a>)</li><li>Exported Collection and Model for Notes (<a href="https://github.com/wppconnect-team/wa-js/commit/009d9a878603ee2f1803597e0c8998e951e28415" target="_blank" rel="noopener noreferrer">009d9a8</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.14.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.13.1]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.13.1</id>
