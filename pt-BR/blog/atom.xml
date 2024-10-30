@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-10-30T18:16:38.000Z</updated>
+    <updated>2024-10-30T23:05:31.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.8.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.1"/>
+        <updated>2024-10-30T23:05:31.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.8.1 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.8.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.35.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2063" target="_blank" rel="noopener noreferrer">#2063</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/34d88d6bf41efda995de33c59c0039ef8223590b" target="_blank" rel="noopener noreferrer">34d88d6</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.8.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.35.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.35.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.35.1"/>
+        <updated>2024-10-30T20:47:48.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.35.1 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.35.1 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1351-2024-10-30"><small>1.35.1 (2024-10-30)</small><a href="#1351-2024-10-30" class="hash-link" aria-label="Ligação direta para 1351-2024-10-30" title="Ligação direta para 1351-2024-10-30">​</a></h2><ul><li>chore(release): v1.35.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/1ea86b8" target="_blank" rel="noopener noreferrer">1ea86b8</a>)</li><li>fix: Upgrade whatsappVersion to 2.3000.10173x (<a href="https://github.com/wppconnect-team/wppconnect/commit/2b609f5" target="_blank" rel="noopener noreferrer">2b609f5</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.35.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v3.14.0]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.14.0</id>

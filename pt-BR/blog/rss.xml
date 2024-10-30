@@ -4,10 +4,34 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 30 Oct 2024 18:16:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Oct 2024 23:05:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.8.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.1</guid>
+            <pubDate>Wed, 30 Oct 2024 23:05:31 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.8.1 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.8.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.35.1 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2063" target="_blank" rel="noopener noreferrer">#2063</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/34d88d6bf41efda995de33c59c0039ef8223590b" target="_blank" rel="noopener noreferrer">34d88d6</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.8.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.35.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.35.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.35.1</guid>
+            <pubDate>Wed, 30 Oct 2024 20:47:48 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.35.1 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.35.1 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1351-2024-10-30"><small>1.35.1 (2024-10-30)</small><a href="#1351-2024-10-30" class="hash-link" aria-label="Ligação direta para 1351-2024-10-30" title="Ligação direta para 1351-2024-10-30">​</a></h2><ul><li>chore(release): v1.35.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/1ea86b8" target="_blank" rel="noopener noreferrer">1ea86b8</a>)</li><li>fix: Upgrade whatsappVersion to 2.3000.10173x (<a href="https://github.com/wppconnect-team/wppconnect/commit/2b609f5" target="_blank" rel="noopener noreferrer">2b609f5</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.35.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v3.14.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.14.0</link>
