@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 11 Nov 2024 18:42:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2024 23:22:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.14.2]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.14.2</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.14.2</guid>
+            <pubDate>Thu, 14 Nov 2024 23:22:07 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.14.2 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.14.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed error when send msg to some lids (close <a href="https://github.com/wppconnect-team/wa-js/issues/2472" target="_blank" rel="noopener noreferrer">#2472</a>, close <a href="https://github.com/wppconnect-team/wa-js/issues/2480" target="_blank" rel="noopener noreferrer">#2480</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/febaf0c122c054b5238dd42347d023defdb7df83" target="_blank" rel="noopener noreferrer">febaf0c</a>)</li><li>Fixed some attributes in ChatModel (close <a href="https://github.com/wppconnect-team/wa-js/issues/2491" target="_blank" rel="noopener noreferrer">#2491</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/d87ea3d302b8b3da780dc8ba607de4ba655e3c7a" target="_blank" rel="noopener noreferrer">d87ea3d</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.14.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.14.1]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.14.1</link>
