@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 14 Nov 2024 23:22:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Nov 2024 16:48:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.15.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.15.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.15.0</guid>
+            <pubDate>Mon, 18 Nov 2024 16:48:31 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.15.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.15.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed chat.list with onlyUnreadMessages is true (<a href="https://github.com/wppconnect-team/wa-js/commit/3d3aff295adeea46d6657fbc805f655d622bebc8" target="_blank" rel="noopener noreferrer">3d3aff2</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added WPP.chat.setChatList function (<a href="https://github.com/wppconnect-team/wa-js/issues/2498" target="_blank" rel="noopener noreferrer">#2498</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/4969c6629b3d791296b03b01b126df30802e4a5f" target="_blank" rel="noopener noreferrer">4969c66</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.15.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.14.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.14.2</link>
