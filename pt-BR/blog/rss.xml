@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 18 Nov 2024 16:48:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Nov 2024 16:49:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.15.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.15.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.15.1</guid>
+            <pubDate>Tue, 19 Nov 2024 16:49:47 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.15.1 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.15.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Added isGroup for chat model (<a href="https://github.com/wppconnect-team/wa-js/issues/2516" target="_blank" rel="noopener noreferrer">#2516</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/4ae02f75ad509324385b1ed6b699f8a203b89625" target="_blank" rel="noopener noreferrer">4ae02f7</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.15.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v3.15.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.15.0</link>

@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2024-11-18T16:48:31.000Z</updated>
+    <updated>2024-11-19T16:49:47.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.15.1]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.15.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.15.1"/>
+        <updated>2024-11-19T16:49:47.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.15.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.15.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Added isGroup for chat model (<a href="https://github.com/wppconnect-team/wa-js/issues/2516" target="_blank" rel="noopener noreferrer">#2516</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/4ae02f75ad509324385b1ed6b699f8a203b89625" target="_blank" rel="noopener noreferrer">4ae02f7</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.15.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v3.15.0]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.15.0</id>
