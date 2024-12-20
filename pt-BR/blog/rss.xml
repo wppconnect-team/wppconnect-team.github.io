@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 20 Dec 2024 20:18:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Dec 2024 20:40:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.35.2]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.35.2</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.35.2</guid>
+            <pubDate>Fri, 20 Dec 2024 20:40:18 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.35.2 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.35.2 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1352-2024-12-20"><small>1.35.2 (2024-12-20)</small><a href="#1352-2024-12-20" class="hash-link" aria-label="Ligação direta para 1352-2024-12-20" title="Ligação direta para 1352-2024-12-20">​</a></h2><ul><li>chore(release): v1.35.2 (<a href="https://github.com/wppconnect-team/wppconnect/commit/11bd50e" target="_blank" rel="noopener noreferrer">11bd50e</a>)</li><li>fix: Added new notification subtype (group creation) (#2406) (<a href="https://github.com/wppconnect-team/wppconnect/commit/6693eb7" target="_blank" rel="noopener noreferrer">6693eb7</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2406" target="_blank" rel="noopener noreferrer">#2406</a></li><li>fix: Fixed notSpam attribute of Chat is optional (#2416) (<a href="https://github.com/wppconnect-team/wppconnect/commit/6f7f328" target="_blank" rel="noopener noreferrer">6f7f328</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2416" target="_blank" rel="noopener noreferrer">#2416</a></li><li>fix: Upgrade whatsappVersion to 2.3000.10177x (<a href="https://github.com/wppconnect-team/wppconnect/commit/39df0d3" target="_blank" rel="noopener noreferrer">39df0d3</a>)</li><li>fix: Upgrade whatsappVersion to 2.3000.10187x (<a href="https://github.com/wppconnect-team/wppconnect/commit/0b8c9ae" target="_blank" rel="noopener noreferrer">0b8c9ae</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.16.0 (#2425) (<a href="https://github.com/wppconnect-team/wppconnect/commit/28384fd" target="_blank" rel="noopener noreferrer">28384fd</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2425" target="_blank" rel="noopener noreferrer">#2425</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.828 (#2423) (<a href="https://github.com/wppconnect-team/wppconnect/commit/fa16a02" target="_blank" rel="noopener noreferrer">fa16a02</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2423" target="_blank" rel="noopener noreferrer">#2423</a></li><li>build(deps): update dependency axios to ^1.7.9 (#2422) (<a href="https://github.com/wppconnect-team/wppconnect/commit/aa8fb29" target="_blank" rel="noopener noreferrer">aa8fb29</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2422" target="_blank" rel="noopener noreferrer">#2422</a></li><li>build(deps): update dependency puppeteer to ^23.11.1 (#2424) (<a href="https://github.com/wppconnect-team/wppconnect/commit/e7fbce6" target="_blank" rel="noopener noreferrer">e7fbce6</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2424" target="_blank" rel="noopener noreferrer">#2424</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.35.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v3.16.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.0</link>
