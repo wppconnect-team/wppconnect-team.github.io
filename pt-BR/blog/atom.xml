@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-01-15T08:49:20.000Z</updated>
+    <updated>2025-01-15T10:16:26.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.16.2]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.2</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.2"/>
+        <updated>2025-01-15T10:16:26.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.16.2 for WA-JS.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.16.2 for WA-JS.</p><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.16.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.16.1]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.1</id>
