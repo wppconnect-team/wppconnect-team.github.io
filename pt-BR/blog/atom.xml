@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-01-15T10:16:26.000Z</updated>
+    <updated>2025-01-29T15:48:48.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.16.3]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.3</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.3"/>
+        <updated>2025-01-29T15:48:48.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.16.3 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.16.3 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed error on send message to  lids (close <a href="https://github.com/wppconnect-team/wa-js/issues/2644" target="_blank" rel="noopener noreferrer">#2644</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/2650" target="_blank" rel="noopener noreferrer">#2650</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/936b8decfc31eb7e082cb85b7550ee87875e29e6" target="_blank" rel="noopener noreferrer">936b8de</a>)</li><li>Fixed WPP.chat.openChatAt function (<a href="https://github.com/wppconnect-team/wa-js/issues/2630" target="_blank" rel="noopener noreferrer">#2630</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/f3ae21c716bbd1760e04cf7085bb75a8a5850766" target="_blank" rel="noopener noreferrer">f3ae21c</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.16.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.16.2]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.2</id>
