@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 26 Feb 2025 11:06:27 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Mar 2025 16:52:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.16.6]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.16.6</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.16.6</guid>
+            <pubDate>Sat, 08 Mar 2025 16:52:27 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.16.6 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.16.6 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>disable Google Analytics tracking by default (<a href="https://github.com/wppconnect-team/wa-js/commit/4c63e585303ba6f256a68302c9c238fe1e9f88b9" target="_blank" rel="noopener noreferrer">4c63e58</a>)</li><li>Fixed sendPixKeyMessage function (<a href="https://github.com/wppconnect-team/wa-js/commit/1f57e785827ce11f4fd704dd6219aba814c1dd53" target="_blank" rel="noopener noreferrer">1f57e78</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.16.6" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.16.5]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.16.5</link>
