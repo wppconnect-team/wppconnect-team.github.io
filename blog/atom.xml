@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-03-26T15:49:25.000Z</updated>
+    <updated>2025-03-26T23:17:20.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.16.8]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.16.8</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.16.8"/>
+        <updated>2025-03-26T23:17:20.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.16.8 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.16.8 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed google analytics (<a href="https://github.com/wppconnect-team/wa-js/commit/c103eb9e121cd0e40156327962682e13a57870d6" target="_blank" rel="noopener noreferrer">c103eb9</a>)</li><li>fixed wrapper for findOrCreateLatestChat (<a href="https://github.com/wppconnect-team/wa-js/commit/b11aba9a632b271dc89649a6e656bfc5114664a0" target="_blank" rel="noopener noreferrer">b11aba9</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.16.8" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.16.7]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.16.7</id>
