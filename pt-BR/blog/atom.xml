@@ -2,11 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-03-26T23:17:20.000Z</updated>
+    <updated>2025-03-27T01:51:20.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.16.9]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.9</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.9"/>
+        <updated>2025-03-27T01:51:20.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.16.9 for WA-JS.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.16.9 for WA-JS.</p><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.16.9" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.8.4]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.4</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.4"/>
+        <updated>2025-03-26T23:56:47.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.8.4 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.8.4 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.36.2 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2139" target="_blank" rel="noopener noreferrer">#2139</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/828dcd015ab4b4ac89bd9c0877fae94a5489f8e3" target="_blank" rel="noopener noreferrer">828dcd0</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.8.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.36.2]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.36.2</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.36.2"/>
+        <updated>2025-03-26T23:42:45.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.36.2 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.36.2 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1362-2025-03-26"><small>1.36.2 (2025-03-26)</small><a href="#1362-2025-03-26" class="hash-link" aria-label="Ligação direta para 1362-2025-03-26" title="Ligação direta para 1362-2025-03-26">​</a></h2><ul><li>chore(release): v1.36.2 (<a href="https://github.com/wppconnect-team/wppconnect/commit/3e58367" target="_blank" rel="noopener noreferrer">3e58367</a>)</li><li>fix: ensure 'options' is always defined when sendImage and sendImageFromBase64 (#2464) (<a href="https://github.com/wppconnect-team/wppconnect/commit/5165c80" target="_blank" rel="noopener noreferrer">5165c80</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2464" target="_blank" rel="noopener noreferrer">#2464</a></li><li>fix: Fixed lint errors (<a href="https://github.com/wppconnect-team/wppconnect/commit/73da91f" target="_blank" rel="noopener noreferrer">73da91f</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.16.8 (#2468) (<a href="https://github.com/wppconnect-team/wppconnect/commit/94cdedf" target="_blank" rel="noopener noreferrer">94cdedf</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2468" target="_blank" rel="noopener noreferrer">#2468</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.1243 (#2467) (<a href="https://github.com/wppconnect-team/wppconnect/commit/cc20094" target="_blank" rel="noopener noreferrer">cc20094</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2467" target="_blank" rel="noopener noreferrer">#2467</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.36.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.16.8]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.16.8</id>
