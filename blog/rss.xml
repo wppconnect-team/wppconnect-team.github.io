@@ -4,10 +4,34 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 27 Mar 2025 01:51:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Mar 2025 02:16:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.8.5]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.8.5</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect-server/v2.8.5</guid>
+            <pubDate>Thu, 27 Mar 2025 02:16:30 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.8.5 for WPP Server with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.8.5 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect-team/wppconnect to ^1.36.3 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2141" target="_blank" rel="noopener noreferrer">#2141</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/2a314760f452fdadc0331a7dd62a7304e4f4cb9b" target="_blank" rel="noopener noreferrer">2a31476</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.8.5" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.36.3]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.36.3</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect/v1.36.3</guid>
+            <pubDate>Thu, 27 Mar 2025 02:04:27 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.36.3 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.36.3 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1363-2025-03-27"><small>1.36.3 (2025-03-27)</small><a href="#1363-2025-03-27" class="hash-link" aria-label="Direct link to 1363-2025-03-27" title="Direct link to 1363-2025-03-27">​</a></h2><ul><li>chore(release): v1.36.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/ffd1dfb" target="_blank" rel="noopener noreferrer">ffd1dfb</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.16.9 (#2470) (<a href="https://github.com/wppconnect-team/wppconnect/commit/ed53524" target="_blank" rel="noopener noreferrer">ed53524</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2470" target="_blank" rel="noopener noreferrer">#2470</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.1244 (#2471) (<a href="https://github.com/wppconnect-team/wppconnect/commit/b83713c" target="_blank" rel="noopener noreferrer">b83713c</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2471" target="_blank" rel="noopener noreferrer">#2471</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.36.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.16.9]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.16.9</link>
