@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 27 Mar 2025 02:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Mar 2025 21:32:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.17.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.17.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.17.0</guid>
+            <pubDate>Fri, 28 Mar 2025 21:32:17 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.17.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.17.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed find function (<a href="https://github.com/wppconnect-team/wa-js/commit/e046af3ee0334f60a4022ed7b7b4212c59d39960" target="_blank" rel="noopener noreferrer">e046af3</a>)</li><li>Fixed functions for whatsapp &gt;= 2.3000.10213.x (<a href="https://github.com/wppconnect-team/wa-js/commit/42fb1c8c6d2a95ff0ccf4e9f061052c8758a313f" target="_blank" rel="noopener noreferrer">42fb1c8</a>)</li><li>Fixed getHistorySyncProgress function (close <a href="https://github.com/wppconnect-team/wa-js/issues/2734" target="_blank" rel="noopener noreferrer">#2734</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/ca9717932c809581d0c4ee6f70a7283dba91c21e" target="_blank" rel="noopener noreferrer">ca97179</a>)</li><li>Fixed openChatAt error (close <a href="https://github.com/wppconnect-team/wa-js/issues/2727" target="_blank" rel="noopener noreferrer">#2727</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/d475208e73ca5c4b8c0299e59de0a75f7490031c" target="_blank" rel="noopener noreferrer">d475208</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>Added support for send images with HD (<a href="https://github.com/wppconnect-team/wa-js/commit/bf7f6350b59fecb6dda3ddab5890386945935b59" target="_blank" rel="noopener noreferrer">bf7f635</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.17.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v2.8.5]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.8.5</link>
