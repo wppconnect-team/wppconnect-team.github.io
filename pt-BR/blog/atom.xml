@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-04-02T23:52:35.000Z</updated>
+    <updated>2025-04-15T12:53:24.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.37.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.0"/>
+        <updated>2025-04-15T12:53:24.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.37.0 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.37.0 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1370-2025-04-15">1.37.0 (2025-04-15)<a href="#1370-2025-04-15" class="hash-link" aria-label="Ligação direta para 1.37.0 (2025-04-15)" title="Ligação direta para 1.37.0 (2025-04-15)">​</a></h2><ul><li>chore(release): v1.37.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/324a504" target="_blank" rel="noopener noreferrer">324a504</a>)</li><li>build(deps-dev): update dependency @types/node to ^20.17.30 (#2481) (<a href="https://github.com/wppconnect-team/wppconnect/commit/dcd6088" target="_blank" rel="noopener noreferrer">dcd6088</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2481" target="_blank" rel="noopener noreferrer">#2481</a></li><li>build(deps-dev): update dependency typescript to ^5.8.3 (#2482) (<a href="https://github.com/wppconnect-team/wppconnect/commit/568d105" target="_blank" rel="noopener noreferrer">568d105</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2482" target="_blank" rel="noopener noreferrer">#2482</a></li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.17.1 (#2483) (<a href="https://github.com/wppconnect-team/wppconnect/commit/2973e67" target="_blank" rel="noopener noreferrer">2973e67</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2483" target="_blank" rel="noopener noreferrer">#2483</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.1355 (#2484) (<a href="https://github.com/wppconnect-team/wppconnect/commit/ef267c6" target="_blank" rel="noopener noreferrer">ef267c6</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2484" target="_blank" rel="noopener noreferrer">#2484</a></li><li>feat: Added sendPixKey function  (<a href="https://github.com/wppconnect-team/wppconnect/commit/5562b75" target="_blank" rel="noopener noreferrer">5562b75</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.37.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.17.1]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.17.1</id>
