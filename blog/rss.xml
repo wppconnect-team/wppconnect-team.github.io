@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 15 Apr 2025 12:53:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Apr 2025 13:34:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.17.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.17.2</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.17.2</guid>
+            <pubDate>Wed, 30 Apr 2025 13:34:13 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.17.2 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.17.2 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed  group.getInviteCode function (close <a href="https://github.com/wppconnect-team/wa-js/issues/2748" target="_blank" rel="noopener noreferrer">#2748</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/c9e79c66d36d2a1bddb40e1727d1e23b6095b490" target="_blank" rel="noopener noreferrer">c9e79c6</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.17.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release: v1.37.0]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.37.0</link>
