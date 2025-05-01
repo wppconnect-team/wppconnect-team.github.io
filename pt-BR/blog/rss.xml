@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 30 Apr 2025 13:34:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 May 2025 17:33:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.37.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.1</guid>
+            <pubDate>Thu, 01 May 2025 17:33:49 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.37.1 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.37.1 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1371-2025-05-01"><small>1.37.1 (2025-05-01)</small><a href="#1371-2025-05-01" class="hash-link" aria-label="Ligação direta para 1371-2025-05-01" title="Ligação direta para 1371-2025-05-01">​</a></h2><ul><li>chore(release): v1.37.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/342c35e" target="_blank" rel="noopener noreferrer">342c35e</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.17.2 (#2490) (<a href="https://github.com/wppconnect-team/wppconnect/commit/95a6d9e" target="_blank" rel="noopener noreferrer">95a6d9e</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2490" target="_blank" rel="noopener noreferrer">#2490</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.1433 (#2491) (<a href="https://github.com/wppconnect-team/wppconnect/commit/389c50f" target="_blank" rel="noopener noreferrer">389c50f</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2491" target="_blank" rel="noopener noreferrer">#2491</a></li><li>build(deps): update dependency axios to ^1.9.0 (#2492) (<a href="https://github.com/wppconnect-team/wppconnect/commit/b552d0e" target="_blank" rel="noopener noreferrer">b552d0e</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2492" target="_blank" rel="noopener noreferrer">#2492</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.37.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.17.2]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.17.2</link>
