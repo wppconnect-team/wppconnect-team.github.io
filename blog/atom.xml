@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-05-01T17:33:49.000Z</updated>
+    <updated>2025-05-11T22:06:14.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.17.3]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.17.3</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.17.3"/>
+        <updated>2025-05-11T22:06:14.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.17.3 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.17.3 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed functions for whatsapp &gt;= 2.3000.1022383845 (<a href="https://github.com/wppconnect-team/wa-js/commit/542623f854c0dfb4f15e735816d6916dfcf48a74" target="_blank" rel="noopener noreferrer">542623f</a>)</li><li>Fixed issue in getMessages with media (<a href="https://github.com/wppconnect-team/wa-js/commit/49f678d771571f49f2d76316f06fac2cb4707f32" target="_blank" rel="noopener noreferrer">49f678d</a>)</li><li>Improovments on query exist (close <a href="https://github.com/wppconnect-team/wa-js/issues/2762" target="_blank" rel="noopener noreferrer">#2762</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/5d92210f4754941fe57d2544c6f54bf5a6a79cd3" target="_blank" rel="noopener noreferrer">5d92210</a>)</li><li>patch for send message error (close <a href="https://github.com/wppconnect-team/wa-js/issues/2773" target="_blank" rel="noopener noreferrer">#2773</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/f246844462d2fa51dc0bd4abacb1a4be5198e685" target="_blank" rel="noopener noreferrer">f246844</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Exported ApiContact functions (<a href="https://github.com/wppconnect-team/wa-js/commit/c998355c109e22f0009a3628b2a1f07a524beb95" target="_blank" rel="noopener noreferrer">c998355</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.17.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v1.37.1]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect/v1.37.1</id>
