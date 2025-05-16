@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sun, 11 May 2025 22:06:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2025 02:35:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.17.4]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.17.4</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.17.4</guid>
+            <pubDate>Fri, 16 May 2025 02:35:31 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.17.4 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.17.4 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed functions for whatsapp &gt;= 2.3000.1022850882 (<a href="https://github.com/wppconnect-team/wa-js/commit/37ce274dcb44c839faa44888ce95c8315544c1f3" target="_blank" rel="noopener noreferrer">37ce274</a>)</li><li>Fixed open chat data (<a href="https://github.com/wppconnect-team/wa-js/commit/ea05ca7007437460708d67cc3eaca29542d4bbdc" target="_blank" rel="noopener noreferrer">ea05ca7</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.17.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.17.3]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.17.3</link>
