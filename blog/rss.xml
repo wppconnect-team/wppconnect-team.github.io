@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 22 May 2025 12:20:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 May 2025 00:57:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.17.6]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.17.6</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.17.6</guid>
+            <pubDate>Sat, 24 May 2025 00:57:11 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.17.6 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.17.6 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>fixed send message issue (<a href="https://github.com/wppconnect-team/wa-js/commit/36993f05246ddcd6710929e4ea75f15cc27a18e6" target="_blank" rel="noopener noreferrer">36993f0</a>)</li><li>Fixed whatsapp functions &gt;= 2.3000.1023092535 (<a href="https://github.com/wppconnect-team/wa-js/commit/a7b14bf141165209ffd4e82569055de7c708fcb3" target="_blank" rel="noopener noreferrer">a7b14bf</a>)</li><li>improovment find chat function (<a href="https://github.com/wppconnect-team/wa-js/commit/f3a1863de1a522ad59208378623cd2e9845c40f6" target="_blank" rel="noopener noreferrer">f3a1863</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.17.6" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.17.5]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.17.5</link>
