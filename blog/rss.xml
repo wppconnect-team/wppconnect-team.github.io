@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 27 May 2025 23:46:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2025 12:13:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.37.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.37.2</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect/v1.37.2</guid>
+            <pubDate>Wed, 28 May 2025 12:13:54 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.37.2 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.37.2 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1372-2025-05-28"><small>1.37.2 (2025-05-28)</small><a href="#1372-2025-05-28" class="hash-link" aria-label="Direct link to 1372-2025-05-28" title="Direct link to 1372-2025-05-28">​</a></h2><ul><li>chore(release): v1.37.2 (<a href="https://github.com/wppconnect-team/wppconnect/commit/920c9f1" target="_blank" rel="noopener noreferrer">920c9f1</a>)</li><li>fix: Upgrade whatsappversion (<a href="https://github.com/wppconnect-team/wppconnect/commit/9c06639" target="_blank" rel="noopener noreferrer">9c06639</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.17.7 (#2499) (<a href="https://github.com/wppconnect-team/wppconnect/commit/d9ab069" target="_blank" rel="noopener noreferrer">d9ab069</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2499" target="_blank" rel="noopener noreferrer">#2499</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.1587 (#2500) (<a href="https://github.com/wppconnect-team/wppconnect/commit/794589d" target="_blank" rel="noopener noreferrer">794589d</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2500" target="_blank" rel="noopener noreferrer">#2500</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.37.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.17.7]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.17.7</link>
