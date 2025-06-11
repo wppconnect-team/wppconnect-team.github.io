@@ -91,6 +91,12 @@ object-assign
  */
 
 /**
+ * @license
+ * Copyright 2019 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/**
  * @license React
  * use-sync-external-store-shim.production.min.js
  *
