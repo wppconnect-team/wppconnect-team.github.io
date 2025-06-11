@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@adobe/css-tools@^4.0.1":
-  version "4.3.1"
-  resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.3.1.tgz"
-  integrity sha512-/62yikz7NLScCGAAST5SHdnjaDJQBDq0M2muyRTpf2VQhw6StBg2ALiu73zSJQ4fMVLA+0uBhBHAle7Wg+2kSg==
+"@adobe/css-tools@~4.3.1":
+  version "4.3.3"
+  resolved "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.3.3.tgz"
+  integrity sha512-rE0Pygv0sEZ4vBWHlAgJLGDU7Pm8xoO6p3wsEceb7GYAjScrOHpEo8KK/eVkAcnSM+slAEtXjA2JpdjLp4fJQQ==
 
 "@algolia/autocomplete-core@1.9.3":
   version "1.9.3"
@@ -2588,17 +2588,17 @@
   resolved "https://registry.npmjs.org/@types/parse5/-/parse5-5.0.3.tgz"
   integrity sha512-kUNnecmtkunAoQ3CnjmMkzNU/gtxG8guhi+Fk2U/kOpIKjIMKnXGp4IJCgQJrXSgMsWYimYG4TGjz/UzbGEBTw==
 
-"@types/postcss-modules-local-by-default@^4.0.0":
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/@types/postcss-modules-local-by-default/-/postcss-modules-local-by-default-4.0.1.tgz"
-  integrity sha512-8Vf6MA7x68/XKCgIOFGGDtkfKzcIp0LuQcYGUqG+Ip1kIDIlTekH1u147obRXXSdv44q9HtT2sJQGWQkzLjMuQ==
+"@types/postcss-modules-local-by-default@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/@types/postcss-modules-local-by-default/-/postcss-modules-local-by-default-4.0.2.tgz"
+  integrity sha512-CtYCcD+L+trB3reJPny+bKWKMzPfxEyQpKIwit7kErnOexf5/faaGpkFy4I5AwbV4hp1sk7/aTg0tt0B67VkLQ==
   dependencies:
     postcss "^8.0.0"
 
-"@types/postcss-modules-scope@^3.0.1":
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/@types/postcss-modules-scope/-/postcss-modules-scope-3.0.3.tgz"
-  integrity sha512-VfPns6aDJt/Bp3dvjnkgbsOfJQLMldZjWT+rnOH/QVSgfutgVEH6fUf2SPLN47lhUjp7ejoC9BUdrjx8m94IUg==
+"@types/postcss-modules-scope@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.npmjs.org/@types/postcss-modules-scope/-/postcss-modules-scope-3.0.4.tgz"
+  integrity sha512-//ygSisVq9kVI0sqx3UPLzWIMCmtSVrzdljtuaAEJtGoGnpjBikZ2sXO5MpH9SnWX9HRfXxHifDAXcQjupWnIQ==
   dependencies:
     postcss "^8.0.0"
 
@@ -4303,10 +4303,10 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@^16.0.3:
-  version "16.3.1"
-  resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz"
-  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
+dotenv@^16.4.2:
+  version "16.5.0"
+  resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.5.0.tgz"
+  integrity sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==
 
 duplexer3@^0.1.4:
   version "0.1.5"
@@ -6048,7 +6048,7 @@ launch-editor@^2.6.0:
     picocolors "^1.0.0"
     shell-quote "^1.8.1"
 
-less@^4.1.3:
+less@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/less/-/less-4.2.0.tgz"
   integrity sha512-P3b3HJDBtSzsXUl0im2L7gTO5Ubg8mEN6G8qoTS77iXxXX4Hvu4Qj540PZDvQ8V6DmX6iXo98k7Md0Cm1PrLaA==
@@ -6501,10 +6501,10 @@ multicast-dns@^7.2.5:
     dns-packet "^5.2.2"
     thunky "^1.0.2"
 
-nanoid@^3.3.6:
-  version "3.3.6"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz"
-  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
+nanoid@^3.3.11:
+  version "3.3.11"
+  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz"
+  integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
 
 needle@^3.1.0:
   version "3.2.0"
@@ -6971,10 +6971,10 @@ perfect-scrollbar@^1.5.5:
   resolved "https://registry.npmjs.org/perfect-scrollbar/-/perfect-scrollbar-1.5.5.tgz"
   integrity sha512-dzalfutyP3e/FOpdlhVryN4AJ5XDVauVWxybSkLZmakFE2sS3y3pc4JnSprw8tGmHvkaG5Edr5T7LBTZ+WWU2g==
 
-picocolors@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
-  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+picocolors@^1.0.0, picocolors@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz"
+  integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3, picomatch@^2.3.1:
   version "2.3.1"
@@ -7145,21 +7145,21 @@ postcss-modules-extract-imports@^3.0.0:
   resolved "https://registry.npmjs.org/postcss-modules-extract-imports/-/postcss-modules-extract-imports-3.0.0.tgz"
   integrity sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==
 
-postcss-modules-local-by-default@^4.0.0, postcss-modules-local-by-default@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.npmjs.org/postcss-modules-local-by-default/-/postcss-modules-local-by-default-4.0.3.tgz"
-  integrity sha512-2/u2zraspoACtrbFRnTijMiQtb4GW4BvatjaG/bCjYQo8kLTdevCUlwuBHx2sCnSyrI3x3qj4ZK1j5LQBgzmwA==
+postcss-modules-local-by-default@^4.0.3, postcss-modules-local-by-default@^4.0.4:
+  version "4.2.0"
+  resolved "https://registry.npmjs.org/postcss-modules-local-by-default/-/postcss-modules-local-by-default-4.2.0.tgz"
+  integrity sha512-5kcJm/zk+GJDSfw+V/42fJ5fhjL5YbFDl8nVdXkJPLLW+Vf9mTD5Xe0wqIaDnLuL2U6cDNpTr+UQ+v2HWIBhzw==
   dependencies:
     icss-utils "^5.0.0"
-    postcss-selector-parser "^6.0.2"
+    postcss-selector-parser "^7.0.0"
     postcss-value-parser "^4.1.0"
 
-postcss-modules-scope@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/postcss-modules-scope/-/postcss-modules-scope-3.0.0.tgz"
-  integrity sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg==
+postcss-modules-scope@^3.0.0, postcss-modules-scope@^3.1.1:
+  version "3.2.1"
+  resolved "https://registry.npmjs.org/postcss-modules-scope/-/postcss-modules-scope-3.2.1.tgz"
+  integrity sha512-m9jZstCVaqGjTAuny8MdgE88scJnCiQSlSrOWcTQgM2t32UBe+MUmFSO5t7VMSfAf/FJKImAxBav8ooCHJXCJA==
   dependencies:
-    postcss-selector-parser "^6.0.4"
+    postcss-selector-parser "^7.0.0"
 
 postcss-modules-values@^4.0.0:
   version "4.0.0"
@@ -7261,10 +7261,18 @@ postcss-reduce-transforms@^5.1.0:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.9:
+postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.9:
   version "6.0.13"
   resolved "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz"
   integrity sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==
+  dependencies:
+    cssesc "^3.0.0"
+    util-deprecate "^1.0.2"
+
+postcss-selector-parser@^7.0.0:
+  version "7.1.0"
+  resolved "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-7.1.0.tgz"
+  integrity sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA==
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
@@ -7301,14 +7309,14 @@ postcss-zindex@^5.1.0:
   resolved "https://registry.npmjs.org/postcss-zindex/-/postcss-zindex-5.1.0.tgz"
   integrity sha512-fgFMf0OtVSBR1va1JNHYgMxYk73yhn/qb4uQDq1DLGYolz8gHCyr/sesEuGUaYs58E3ZJRcpoGuPVoB7Meiq9A==
 
-postcss@^8.0.0, postcss@^8.3.11, postcss@^8.4.14, postcss@^8.4.17, postcss@^8.4.21:
-  version "8.4.31"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz"
-  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
+postcss@^8.0.0, postcss@^8.3.11, postcss@^8.4.14, postcss@^8.4.17, postcss@^8.4.21, postcss@^8.4.35:
+  version "8.5.4"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.5.4.tgz"
+  integrity sha512-QSa9EBe+uwlGTFmHsPKokv3B/oEMQZxfqW0QqNCyhpa6mB1afzulwn8hihglqAb2pOw+BJgNlmXQ8la2VeHB7w==
   dependencies:
-    nanoid "^3.3.6"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
+    nanoid "^3.3.11"
+    picocolors "^1.1.1"
+    source-map-js "^1.2.1"
 
 prepend-http@^2.0.0:
   version "2.0.0"
@@ -8058,7 +8066,7 @@ sass-loader@^16.0.2:
   dependencies:
     neo-async "^2.6.2"
 
-sass@^1.58.3, sass@^1.89.2:
+sass@^1.70.0, sass@^1.89.2:
   version "1.89.2"
   resolved "https://registry.npmjs.org/sass/-/sass-1.89.2.tgz"
   integrity sha512-xCmtksBKd/jdJ9Bt9p7nPKiuqrlBMBuuGkQlkhZjjQk3Ty48lv93k5Dq6OPkKt4XwxDJ7tvlfrTa1MPA9bf+QA==
@@ -8069,15 +8077,10 @@ sass@^1.58.3, sass@^1.89.2:
   optionalDependencies:
     "@parcel/watcher" "^2.4.1"
 
-sax@^1.2.4:
+sax@^1.2.4, sax@~1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/sax/-/sax-1.3.0.tgz"
   integrity sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==
-
-sax@~1.2.4:
-  version "1.2.4"
-  resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
-  integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 scheduler@^0.20.2:
   version "0.20.2"
@@ -8421,10 +8424,10 @@ sort-css-media-queries@2.1.0:
   resolved "https://registry.npmjs.org/sort-css-media-queries/-/sort-css-media-queries-2.1.0.tgz"
   integrity sha512-IeWvo8NkNiY2vVYdPa27MCQiR0MN0M80johAYFVxWWXQ44KU84WNxjslwBHmc/7ZL2ccwkM7/e6S5aiKZXm7jA==
 
-"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
-  integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2, source-map-js@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz"
+  integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
 source-map-support@~0.5.20:
   version "0.5.21"
@@ -8692,15 +8695,15 @@ stylehacks@^5.1.1:
     browserslist "^4.21.4"
     postcss-selector-parser "^6.0.4"
 
-stylus@^0.59.0:
-  version "0.59.0"
-  resolved "https://registry.npmjs.org/stylus/-/stylus-0.59.0.tgz"
-  integrity sha512-lQ9w/XIOH5ZHVNuNbWW8D822r+/wBSO/d6XvtyHLF7LW4KaCIDeVbvn5DF8fGCJAUCwVhVi/h6J0NUcnylUEjg==
+stylus@^0.62.0:
+  version "0.62.0"
+  resolved "https://registry.npmjs.org/stylus/-/stylus-0.62.0.tgz"
+  integrity sha512-v3YCf31atbwJQIMtPNX8hcQ+okD4NQaTuKGUWfII8eaqn+3otrbttGL1zSMZAAtiPsBztQnujVBugg/cXFUpyg==
   dependencies:
-    "@adobe/css-tools" "^4.0.1"
+    "@adobe/css-tools" "~4.3.1"
     debug "^4.3.2"
     glob "^7.1.6"
-    sax "~1.2.4"
+    sax "~1.3.0"
     source-map "^0.7.3"
 
 supports-color@^5.3.0, supports-color@^5.5.0:
@@ -8905,7 +8908,7 @@ trough@^1.0.0:
   resolved "https://registry.npmjs.org/trough/-/trough-1.0.5.tgz"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
-tsconfig-paths@^4.1.2:
+tsconfig-paths@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-4.2.0.tgz"
   integrity sha512-NoZ4roiN7LnbKn9QqE1amc9DJfzvZXxF4xDavcOWt1BPkdx+m+0gJuPM+S0vCe7zTJMYUP0R8pO2XMr+Y8oLIg==
@@ -8988,27 +8991,27 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript-plugin-css-modules@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.npmjs.org/typescript-plugin-css-modules/-/typescript-plugin-css-modules-5.0.2.tgz"
-  integrity sha512-ej/Og4Y8mF+43P14P9Ik1MGqNXcXBVgO1TltkESegdnZsaaRXnaJ5CoJmTPRkg25ysQlOV6P94wNhI4VxIzlkw==
+typescript-plugin-css-modules@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/typescript-plugin-css-modules/-/typescript-plugin-css-modules-5.1.0.tgz"
+  integrity sha512-6h+sLBa4l+XYSTn/31vZHd/1c3SvAbLpobY6FxDiUOHJQG1eD9Gh3eCs12+Eqc+TCOAdxcO+zAPvUq0jBfdciw==
   dependencies:
-    "@types/postcss-modules-local-by-default" "^4.0.0"
-    "@types/postcss-modules-scope" "^3.0.1"
-    dotenv "^16.0.3"
+    "@types/postcss-modules-local-by-default" "^4.0.2"
+    "@types/postcss-modules-scope" "^3.0.4"
+    dotenv "^16.4.2"
     icss-utils "^5.1.0"
-    less "^4.1.3"
+    less "^4.2.0"
     lodash.camelcase "^4.3.0"
-    postcss "^8.4.21"
+    postcss "^8.4.35"
     postcss-load-config "^3.1.4"
     postcss-modules-extract-imports "^3.0.0"
-    postcss-modules-local-by-default "^4.0.0"
-    postcss-modules-scope "^3.0.0"
+    postcss-modules-local-by-default "^4.0.4"
+    postcss-modules-scope "^3.1.1"
     reserved-words "^0.1.2"
-    sass "^1.58.3"
+    sass "^1.70.0"
     source-map-js "^1.0.2"
-    stylus "^0.59.0"
-    tsconfig-paths "^4.1.2"
+    stylus "^0.62.0"
+    tsconfig-paths "^4.2.0"
 
 typescript@^5.8.3:
   version "5.8.3"
