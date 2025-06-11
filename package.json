@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "@crowdin/cli": "^3.15.0",
+    "@crowdin/cli": "^3.19.4",
     "@docusaurus/core": "^2.4.3",
     "@docusaurus/plugin-google-gtag": "^2.4.3",
     "@docusaurus/plugin-pwa": "^2.4.3",
