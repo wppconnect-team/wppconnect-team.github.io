@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 08 Jul 2025 01:14:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Jul 2025 17:58:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.18.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.18.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.18.0</guid>
+            <pubDate>Wed, 23 Jul 2025 17:58:49 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.18.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.18.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed getGroupInfoFromInviteCode (close <a href="https://github.com/wppconnect-team/wa-js/issues/2825" target="_blank" rel="noopener noreferrer">#2825</a>, close <a href="https://github.com/wppconnect-team/wa-js/issues/2827" target="_blank" rel="noopener noreferrer">#2827</a>, close <a href="https://github.com/wppconnect-team/wa-js/issues/2828" target="_blank" rel="noopener noreferrer">#2828</a>) (<a href="https://github.com/wppconnect-team/wa-js/issues/2829" target="_blank" rel="noopener noreferrer">#2829</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/495892653c1c8c8eaf891207544649da43fe467d" target="_blank" rel="noopener noreferrer">4958926</a>)</li><li>fixed modules for &gt;= 2.3000.1023675050 (<a href="https://github.com/wppconnect-team/wa-js/commit/51b99b9339c2b5bfc959d273ff60f1e9fccf172c" target="_blank" rel="noopener noreferrer">51b99b9</a>)</li><li>Fixed send PTV video (close <a href="https://github.com/wppconnect-team/wa-js/issues/2824" target="_blank" rel="noopener noreferrer">#2824</a>, close <a href="https://github.com/wppconnect-team/wa-js/issues/2823" target="_blank" rel="noopener noreferrer">#2823</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/6ab58906ce91425ce380d0caa934dfb1995d8203" target="_blank" rel="noopener noreferrer">6ab5890</a>)</li><li>Fixed some functions (getGroupInfoFromInviteCode, sendEventMessage) (<a href="https://github.com/wppconnect-team/wa-js/issues/2836" target="_blank" rel="noopener noreferrer">#2836</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/54fe1115abb766e93dfa13ffabe31d3b2bb5e2e9" target="_blank" rel="noopener noreferrer">54fe111</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added Contact manager functions  (<a href="https://github.com/wppconnect-team/wa-js/issues/2610" target="_blank" rel="noopener noreferrer">#2610</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/6292b01af75f002e5607945bf17ebf0219cf9f81" target="_blank" rel="noopener noreferrer">6292b01</a>)</li><li>Enhance queryExists function to include optional lid property in result (<a href="https://github.com/wppconnect-team/wa-js/issues/2838" target="_blank" rel="noopener noreferrer">#2838</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/38730031cc8478ca359c450885fae6050fb14e5d" target="_blank" rel="noopener noreferrer">3873003</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.18.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.37.3]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.37.3</link>
