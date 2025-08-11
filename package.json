@@ -35,7 +35,7 @@
     "@docusaurus/plugin-google-gtag": "^2.4.3",
     "@docusaurus/plugin-pwa": "^2.4.3",
     "@docusaurus/preset-classic": "^2.4.3",
-    "@easyops-cn/docusaurus-search-local": "^0.50.0",
+    "@easyops-cn/docusaurus-search-local": "^0.52.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "docusaurus-plugin-sass": "^0.2.6",
