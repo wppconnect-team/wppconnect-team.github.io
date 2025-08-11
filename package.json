@@ -55,7 +55,7 @@
     "babel-plugin-styled-components": "^2.1.4",
     "sass": "^1.90.0",
     "typescript": "^5.9.2",
-    "typescript-plugin-css-modules": "^5.1.0"
+    "typescript-plugin-css-modules": "^5.2.0"
   },
   "overrides": {
     "got": "11.8.6",

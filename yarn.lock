@@ -9009,10 +9009,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript-plugin-css-modules@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/typescript-plugin-css-modules/-/typescript-plugin-css-modules-5.1.0.tgz"
-  integrity sha512-6h+sLBa4l+XYSTn/31vZHd/1c3SvAbLpobY6FxDiUOHJQG1eD9Gh3eCs12+Eqc+TCOAdxcO+zAPvUq0jBfdciw==
+typescript-plugin-css-modules@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/typescript-plugin-css-modules/-/typescript-plugin-css-modules-5.2.0.tgz"
+  integrity sha512-c5pAU5d+m3GciDr/WhkFldz1NIEGBafuP/3xhFt9BEXS2gmn/LvjkoZ11vEBIuP8LkXfPNhOt1BUhM5efFuwOw==
   dependencies:
     "@types/postcss-modules-local-by-default" "^4.0.2"
     "@types/postcss-modules-scope" "^3.0.4"
@@ -9028,8 +9028,9 @@ typescript-plugin-css-modules@^5.1.0:
     reserved-words "^0.1.2"
     sass "^1.70.0"
     source-map-js "^1.0.2"
-    stylus "^0.62.0"
     tsconfig-paths "^4.2.0"
+  optionalDependencies:
+    stylus "^0.62.0"
 
 typescript@^5.9.2:
   version "5.9.2"
