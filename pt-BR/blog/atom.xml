@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-07-23T17:58:49.000Z</updated>
+    <updated>2025-08-26T18:58:13.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.18.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.18.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.18.1"/>
+        <updated>2025-08-26T18:58:13.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.18.1 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.18.1 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Added support for getActiveChat return newsletter (<a href="https://github.com/wppconnect-team/wa-js/commit/436cc853f7da99d4e37df0038f495fcf1108248d" target="_blank" rel="noopener noreferrer">436cc85</a>)</li><li>Fixed function WPP.catalog.setProductVisibility (close <a href="https://github.com/wppconnect-team/wa-js/issues/2837" target="_blank" rel="noopener noreferrer">#2837</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/3f3ec09d43ab397d868cc5581bf6c602e275f166" target="_blank" rel="noopener noreferrer">3f3ec09</a>)</li><li>Fixed functions in update profile bussiness (close 2854, close <a href="https://github.com/wppconnect-team/wa-js/issues/2856" target="_blank" rel="noopener noreferrer">#2856</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/0773ec5345a080796f34191292c7a70674fee4f2" target="_blank" rel="noopener noreferrer">0773ec5</a>)</li><li>Fixed send messages to groups &gt;= 2.3000.1026330385 (<a href="https://github.com/wppconnect-team/wa-js/commit/c7792791ba7ec6eed45fb707bde2ae48542db230" target="_blank" rel="noopener noreferrer">c779279</a>)</li><li>Fixed WPP.chat.clear function (close <a href="https://github.com/wppconnect-team/wa-js/issues/2798" target="_blank" rel="noopener noreferrer">#2798</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/061cad96c56279e0a55295313522d2903ee31dd1" target="_blank" rel="noopener noreferrer">061cad9</a>)</li><li>Improovment update profile picture for newsletter (close <a href="https://github.com/wppconnect-team/wa-js/issues/2808" target="_blank" rel="noopener noreferrer">#2808</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/9013edb87340242c236cb64200442be24fb6ba4c" target="_blank" rel="noopener noreferrer">9013edb</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.18.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v3.18.0]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.18.0</id>
