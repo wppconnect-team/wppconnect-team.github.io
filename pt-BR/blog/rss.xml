@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 02 Sep 2025 12:52:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Sep 2025 18:31:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.18.4]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.18.4</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.18.4</guid>
+            <pubDate>Tue, 09 Sep 2025 18:31:03 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.18.4 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.18.4 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>Fixed WidFactory.toUserWid (<a href="https://github.com/wppconnect-team/wa-js/issues/2882" target="_blank" rel="noopener noreferrer">#2882</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/e1bd67ea5eadb573bcaecd0efcd22bb09878107f" target="_blank" rel="noopener noreferrer">e1bd67e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.18.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.18.3]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.18.3</link>
