@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-09-16T11:41:38.000Z</updated>
+    <updated>2025-09-16T11:53:52.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.37.5]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect/v1.37.5</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.37.5"/>
+        <updated>2025-09-16T11:53:52.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.37.5 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.37.5 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1375-2025-09-16"><small>1.37.5 (2025-09-16)</small><a href="#1375-2025-09-16" class="hash-link" aria-label="Direct link to 1375-2025-09-16" title="Direct link to 1375-2025-09-16">​</a></h2><ul><li>chore: update wajs (<a href="https://github.com/wppconnect-team/wppconnect/commit/9b3f4d5" target="_blank" rel="noopener noreferrer">9b3f4d5</a>)</li><li>chore(release): v1.37.5 (<a href="https://github.com/wppconnect-team/wppconnect/commit/969b92a" target="_blank" rel="noopener noreferrer">969b92a</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.18.4 (#2567) (<a href="https://github.com/wppconnect-team/wppconnect/commit/6a1f193" target="_blank" rel="noopener noreferrer">6a1f193</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2567" target="_blank" rel="noopener noreferrer">#2567</a></li><li>build(deps-dev): update babel monorepo to ^7.28.3 (#2556) (<a href="https://github.com/wppconnect-team/wppconnect/commit/324bc7c" target="_blank" rel="noopener noreferrer">324bc7c</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2556" target="_blank" rel="noopener noreferrer">#2556</a></li><li>build(deps-dev): update babel monorepo to ^7.28.4 (#2563) (<a href="https://github.com/wppconnect-team/wppconnect/commit/8c2814b" target="_blank" rel="noopener noreferrer">8c2814b</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2563" target="_blank" rel="noopener noreferrer">#2563</a></li><li>build(deps-dev): update dependency concurrently to ^9.2.1 (#2559) (<a href="https://github.com/wppconnect-team/wppconnect/commit/767bef5" target="_blank" rel="noopener noreferrer">767bef5</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2559" target="_blank" rel="noopener noreferrer">#2559</a></li><li>build(deps-dev): update dependency mocha to ^11.7.2 (#2564) (<a href="https://github.com/wppconnect-team/wppconnect/commit/c6cbbeb" target="_blank" rel="noopener noreferrer">c6cbbeb</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2564" target="_blank" rel="noopener noreferrer">#2564</a></li><li>build(deps-dev): update dependency typedoc to ^0.28.12 (#2562) (<a href="https://github.com/wppconnect-team/wppconnect/commit/a486a9a" target="_blank" rel="noopener noreferrer">a486a9a</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2562" target="_blank" rel="noopener noreferrer">#2562</a></li><li>build(deps-dev): update dependency webpack to ^5.101.3 (#2565) (<a href="https://github.com/wppconnect-team/wppconnect/commit/595a4e6" target="_blank" rel="noopener noreferrer">595a4e6</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2565" target="_blank" rel="noopener noreferrer">#2565</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.37.5" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.18.5]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.18.5</id>
