@@ -54,7 +54,7 @@
     "@tsconfig/docusaurus": "^1.0.7",
     "babel-plugin-styled-components": "^2.1.4",
     "sass": "^1.92.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "typescript-plugin-css-modules": "^5.2.0"
   },
   "overrides": {
