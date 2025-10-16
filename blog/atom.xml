@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2025-09-26T16:04:13.000Z</updated>
+    <updated>2025-10-16T13:04:28.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.18.7]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.18.7</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.18.7"/>
+        <updated>2025-10-16T13:04:28.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.18.7 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.18.7 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>Fixed WidFactory.createUserWid (<a href="https://github.com/wppconnect-team/wa-js/issues/2948" target="_blank" rel="noopener noreferrer">#2948</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/043b38a623ce295e8acabfd054ac6b72292455ba" target="_blank" rel="noopener noreferrer">043b38a</a>)</li><li>improve isLidMigrated function to handle errors gracefully (<a href="https://github.com/wppconnect-team/wa-js/issues/2926" target="_blank" rel="noopener noreferrer">#2926</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/00a60d44fb8c77a2f00ed2b97390a5a5600f42a9" target="_blank" rel="noopener noreferrer">00a60d4</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Added support URLs to send media messages (<a href="https://github.com/wppconnect-team/wa-js/issues/2927" target="_blank" rel="noopener noreferrer">#2927</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/1aaeb44ae71a32c2cb8374a0bb0ecd041e1fe907" target="_blank" rel="noopener noreferrer">1aaeb44</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.18.7" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.18.6]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.18.6</id>
