@@ -28,7 +28,7 @@ jobs:
           echo "::set-output name=dir::$(npm config get cache)"
 
       - name: Setup npm cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ steps.npm-cache.outputs.dir }}
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -36,7 +36,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Setup docusaurus cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ".docusaurus"
           key: ${{ runner.os }}-docusaurus-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
@@ -45,7 +45,7 @@ jobs:
             ${{ runner.os }}-docusaurus-
 
       - name: Setup node_modules cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: "node_modules/.cache"
           key: ${{ runner.os }}-node_modules-cache-${{ hashFiles('**/package-lock.json') }}
