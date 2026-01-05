@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 26 Nov 2025 21:43:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2026 14:36:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.19.4]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.19.4</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.19.4</guid>
+            <pubDate>Mon, 05 Jan 2026 14:36:17 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.19.4 for WA-JS with Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.19.4 for WA-JS with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>ability to reply meta template buttons (<a href="https://github.com/wppconnect-team/wa-js/issues/3128" target="_blank" rel="noopener noreferrer">#3128</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/7dedbcf51ee637e0790da888ac74cbe9bdbf320e" target="_blank" rel="noopener noreferrer">7dedbcf</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.19.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.37.8]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.37.8</link>

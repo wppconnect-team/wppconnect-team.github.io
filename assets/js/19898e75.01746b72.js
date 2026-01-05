@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[3390],{25855:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/wa-js/page/7","page":7,"postsPerPage":10,"totalPages":14,"totalCount":137,"previousPage":"/blog/tags/wa-js/page/6","nextPage":"/blog/tags/wa-js/page/8","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
