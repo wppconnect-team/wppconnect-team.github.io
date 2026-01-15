@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-01-12T19:41:16.000Z</updated>
+    <updated>2026-01-15T14:26:04.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.19.6]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.6</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.6"/>
+        <updated>2026-01-15T14:26:04.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.19.6 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.19.6 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>alternate null wid (<a href="https://github.com/wppconnect-team/wa-js/issues/3190" target="_blank" rel="noopener noreferrer">#3190</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b221736f4e33608302e0039ad94ee287a32e3216" target="_blank" rel="noopener noreferrer">b221736</a>)</li><li>update toUserLid export to include toUserLidOrThrow for backward compatibility (<a href="https://github.com/wppconnect-team/wa-js/issues/3196" target="_blank" rel="noopener noreferrer">#3196</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/67fbbd2cb99611c13f222383b95616f5c6e36e3b" target="_blank" rel="noopener noreferrer">67fbbd2</a>)</li><li>Fix: sendSeen / markUnread (#3198) (<a href="https://github.com/wppconnect-team/wa-js/commit/424ac2626b03952ea56fb4b5eaaf59099813abdb" target="_blank" rel="noopener noreferrer">424ac2626</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>ab props exposure to be able to debug between connections (<a href="https://github.com/wppconnect-team/wa-js/issues/3193" target="_blank" rel="noopener noreferrer">#3193</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/6e4c52c4e925456f1acf2fbb70772b00e4bc1bfb" target="_blank" rel="noopener noreferrer">6e4c52c</a>)</li><li>add script to compare WhatsApp Web source between two versions (<a href="https://github.com/wppconnect-team/wa-js/issues/3200" target="_blank" rel="noopener noreferrer">#3200</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/dfd91f87b9cb2a18ba8ec63c50d6f5f76a976d68" target="_blank" rel="noopener noreferrer">dfd91f8</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.19.6" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.19.5]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.5</id>
