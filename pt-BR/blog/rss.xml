@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 15 Jan 2026 14:26:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2026 00:40:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.19.7]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.7</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.7</guid>
+            <pubDate>Sun, 18 Jan 2026 00:40:19 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.19.7 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.19.7 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>update sendSeen call to ensure immediate UI update for markIsRead (<a href="https://github.com/wppconnect-team/wa-js/issues/3211" target="_blank" rel="noopener noreferrer">#3211</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/503c612ae75368da904a32bab5980bbacd5a010a" target="_blank" rel="noopener noreferrer">503c612</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>enhance migration state handling and add lidPnMappings utility (<a href="https://github.com/wppconnect-team/wa-js/issues/3207" target="_blank" rel="noopener noreferrer">#3207</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/789bac05508dfc828381600808b9264e7278d236" target="_blank" rel="noopener noreferrer">789bac0</a>)</li><li>update chat functions to use findOrCreateLatestChat for improved chat initialization (<a href="https://github.com/wppconnect-team/wa-js/issues/3203" target="_blank" rel="noopener noreferrer">#3203</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/764ef1544428b9e7d752a2727f106e07118b7d88" target="_blank" rel="noopener noreferrer">764ef15</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.19.7" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.19.6]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.6</link>
