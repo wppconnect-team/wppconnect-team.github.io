@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-01-18T00:40:19.000Z</updated>
+    <updated>2026-01-19T21:04:19.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v3.19.8]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.8</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.8"/>
+        <updated>2026-01-19T21:04:19.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v3.19.8 for WA-JS with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v3.19.8 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>queryExists createLidPnMappings (<a href="https://github.com/wppconnect-team/wa-js/issues/3216" target="_blank" rel="noopener noreferrer">#3216</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/61a338abda0c3fb4ba7efd02eddab8cb019e0928" target="_blank" rel="noopener noreferrer">61a338a</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.19.8" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v1.37.10]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.10</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.10"/>
+        <updated>2026-01-19T14:40:26.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.37.10 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.37.10 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="13710-2026-01-19"><small>1.37.10 (2026-01-19)</small><a href="#13710-2026-01-19" class="hash-link" aria-label="Ligação direta para 13710-2026-01-19" title="Ligação direta para 13710-2026-01-19">​</a></h2><ul><li>chore(release): v1.37.10 (<a href="https://github.com/wppconnect-team/wppconnect/commit/e1c3c19" target="_blank" rel="noopener noreferrer">e1c3c19</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.19.6 (#2663) (<a href="https://github.com/wppconnect-team/wppconnect/commit/eb85649" target="_blank" rel="noopener noreferrer">eb85649</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2663" target="_blank" rel="noopener noreferrer">#2663</a></li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.19.7 (#2666) (<a href="https://github.com/wppconnect-team/wppconnect/commit/70a833e" target="_blank" rel="noopener noreferrer">70a833e</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2666" target="_blank" rel="noopener noreferrer">#2666</a></li><li>build(deps-dev): update babel monorepo to ^7.28.6 (#2660) (<a href="https://github.com/wppconnect-team/wppconnect/commit/9dfb082" target="_blank" rel="noopener noreferrer">9dfb082</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2660" target="_blank" rel="noopener noreferrer">#2660</a></li><li>build(deps-dev): update commitlint monorepo to ^20.3.1 (#2657) (<a href="https://github.com/wppconnect-team/wppconnect/commit/e118757" target="_blank" rel="noopener noreferrer">e118757</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2657" target="_blank" rel="noopener noreferrer">#2657</a></li><li>build(deps-dev): update dependency @types/node to ^24.10.7 (#2658) (<a href="https://github.com/wppconnect-team/wppconnect/commit/e7d0f31" target="_blank" rel="noopener noreferrer">e7d0f31</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2658" target="_blank" rel="noopener noreferrer">#2658</a></li><li>build(deps-dev): update dependency release-it to ^19.2.3 (#2656) (<a href="https://github.com/wppconnect-team/wppconnect/commit/f62b8ca" target="_blank" rel="noopener noreferrer">f62b8ca</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2656" target="_blank" rel="noopener noreferrer">#2656</a></li><li>build(deps-dev): update dependency typedoc to ^0.28.16 (#2659) (<a href="https://github.com/wppconnect-team/wppconnect/commit/2aa9b12" target="_blank" rel="noopener noreferrer">2aa9b12</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2659" target="_blank" rel="noopener noreferrer">#2659</a></li><li>build(deps): update dependency node to v24.13.0 (#2664) (<a href="https://github.com/wppconnect-team/wppconnect/commit/04b1bab" target="_blank" rel="noopener noreferrer">04b1bab</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2664" target="_blank" rel="noopener noreferrer">#2664</a></li><li>build(deps): update dependency ws to ^8.19.0 (#2655) (<a href="https://github.com/wppconnect-team/wppconnect/commit/371484f" target="_blank" rel="noopener noreferrer">371484f</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2655" target="_blank" rel="noopener noreferrer">#2655</a></li><li>ci(deps): update actions/cache action to v5 (<a href="https://github.com/wppconnect-team/wppconnect/commit/885ae29" target="_blank" rel="noopener noreferrer">885ae29</a>)</li><li>proper-errors (<a href="https://github.com/wppconnect-team/wppconnect/commit/8ae4246" target="_blank" rel="noopener noreferrer">8ae4246</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.37.10" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.19.7]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.7</id>

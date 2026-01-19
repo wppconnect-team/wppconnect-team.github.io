@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[48465],{69167:e=>{e.exports=JSON.parse('{"permalink":"/pt-BR/blog/tags/nodejs","page":1,"postsPerPage":10,"totalPages":15,"totalCount":141,"nextPage":"/pt-BR/blog/tags/nodejs/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
