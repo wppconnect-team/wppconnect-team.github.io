@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Mon, 19 Jan 2026 21:04:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2026 21:34:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.37.11]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.11</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.37.11</guid>
+            <pubDate>Mon, 19 Jan 2026 21:34:16 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.37.11 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.37.11 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="13711-2026-01-19"><small>1.37.11 (2026-01-19)</small><a href="#13711-2026-01-19" class="hash-link" aria-label="Ligação direta para 13711-2026-01-19" title="Ligação direta para 13711-2026-01-19">​</a></h2><ul><li>chore(config): migrate config .github/renovate.json (<a href="https://github.com/wppconnect-team/wppconnect/commit/f4e54c1" target="_blank" rel="noopener noreferrer">f4e54c1</a>)</li><li>chore(deps): update setup-node action to v6.2.0 and bump wa-version and puppeteer dependencies (#267 (<a href="https://github.com/wppconnect-team/wppconnect/commit/6da2727" target="_blank" rel="noopener noreferrer">6da2727</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2670" target="_blank" rel="noopener noreferrer">#2670</a></li><li>chore(release): v1.37.11 (<a href="https://github.com/wppconnect-team/wppconnect/commit/ebb6110" target="_blank" rel="noopener noreferrer">ebb6110</a>)</li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.19.8 (#2668) (<a href="https://github.com/wppconnect-team/wppconnect/commit/3fedb04" target="_blank" rel="noopener noreferrer">3fedb04</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2668" target="_blank" rel="noopener noreferrer">#2668</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.3081 (#2669) (<a href="https://github.com/wppconnect-team/wppconnect/commit/360c7cd" target="_blank" rel="noopener noreferrer">360c7cd</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2669" target="_blank" rel="noopener noreferrer">#2669</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.37.11" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.19.8]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.19.8</link>
