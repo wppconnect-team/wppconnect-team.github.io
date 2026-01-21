@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-01-21T17:03:23.000Z</updated>
+    <updated>2026-01-21T18:47:03.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v3.20.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.20.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.20.0"/>
+        <updated>2026-01-21T18:47:03.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v3.20.0 for WA-JS with Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v3.20.0 for WA-JS with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>Ability to manage whatsapp theme  (<a href="https://github.com/wppconnect-team/wa-js/issues/3233" target="_blank" rel="noopener noreferrer">#3233</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/9530a497db49704215668fa068b5a0c1fe06b9f8" target="_blank" rel="noopener noreferrer">9530a49</a>)</li><li>add auto-download settings functions (<a href="https://github.com/wppconnect-team/wa-js/issues/3231" target="_blank" rel="noopener noreferrer">#3231</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/5ea83cb7741a491ad32e65ef43c2b71153419b7c" target="_blank" rel="noopener noreferrer">5ea83cb</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.20.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.19.9]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.19.9</id>

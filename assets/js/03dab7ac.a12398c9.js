@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwppconnect_team_github_io=self.webpackChunkwppconnect_team_github_io||[]).push([[49195],{30307:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/wppconnect/page/29","page":29,"postsPerPage":10,"totalPages":29,"totalCount":286,"previousPage":"/blog/tags/wppconnect/page/28","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
