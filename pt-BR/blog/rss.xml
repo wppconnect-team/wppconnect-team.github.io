@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 21 Jan 2026 18:47:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 19:50:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect minor release: v1.38.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.38.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.38.0</guid>
+            <pubDate>Wed, 21 Jan 2026 19:50:50 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v1.38.0 for WPPConnect.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v1.38.0 for WPPConnect.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1380-2026-01-21">1.38.0 (2026-01-21)<a href="#1380-2026-01-21" class="hash-link" aria-label="Ligação direta para 1.38.0 (2026-01-21)" title="Ligação direta para 1.38.0 (2026-01-21)">​</a></h2><ul><li>chore(deps): lock file maintenance (#2676) (<a href="https://github.com/wppconnect-team/wppconnect/commit/84dc487" target="_blank" rel="noopener noreferrer">84dc487</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2676" target="_blank" rel="noopener noreferrer">#2676</a></li><li>chore(release): v1.38.0 (<a href="https://github.com/wppconnect-team/wppconnect/commit/802fc26" target="_blank" rel="noopener noreferrer">802fc26</a>)</li><li>feat(ui): add theme and auto download settings management methods (#2677) (<a href="https://github.com/wppconnect-team/wppconnect/commit/b2a63d3" target="_blank" rel="noopener noreferrer">b2a63d3</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2677" target="_blank" rel="noopener noreferrer">#2677</a></li><li>fix(deps): update dependency @wppconnect/wa-js to ^3.20.0 (#2675) (<a href="https://github.com/wppconnect-team/wppconnect/commit/02428ae" target="_blank" rel="noopener noreferrer">02428ae</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2675" target="_blank" rel="noopener noreferrer">#2675</a></li><li>fix(deps): update dependency @wppconnect/wa-version to ^1.5.3099 (#2674) (<a href="https://github.com/wppconnect-team/wppconnect/commit/7614a22" target="_blank" rel="noopener noreferrer">7614a22</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2674" target="_blank" rel="noopener noreferrer">#2674</a></li><li>ci: track package-lock.json to make it as standard and make renovate work faster (#2673) (<a href="https://github.com/wppconnect-team/wppconnect/commit/e5619f8" target="_blank" rel="noopener noreferrer">e5619f8</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2673" target="_blank" rel="noopener noreferrer">#2673</a></li><li>build(deps-dev): update dependency release-it to ^19.2.4 (#2672) (<a href="https://github.com/wppconnect-team/wppconnect/commit/b28d811" target="_blank" rel="noopener noreferrer">b28d811</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2672" target="_blank" rel="noopener noreferrer">#2672</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.38.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS minor release: v3.20.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.20.0</link>
