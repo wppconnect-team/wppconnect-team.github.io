@@ -4860,7 +4860,7 @@ function generateUUID() {
 var lunr = __webpack_require__(31336);
 var lunr_default = /*#__PURE__*/__webpack_require__.n(lunr);
 ;// CONCATENATED MODULE: ./.docusaurus/@easyops-cn/docusaurus-search-local/default/generated-constants.js
-__webpack_require__(30892)((lunr_default()));__webpack_require__(31129)((lunr_default()));__webpack_require__(74182)((lunr_default()));const removeDefaultStopWordFilter=[];const language=["en","pt"];const searchIndexUrl="search-index{dir}.json?_=6462f95a";const searchResultLimits=8;const fuzzyMatchingDistance=1;
+__webpack_require__(30892)((lunr_default()));__webpack_require__(31129)((lunr_default()));__webpack_require__(74182)((lunr_default()));const removeDefaultStopWordFilter=[];const language=["en","pt"];const searchIndexUrl="search-index{dir}.json?_=8ca63462";const searchResultLimits=8;const fuzzyMatchingDistance=1;
 ;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/proxiedGeneratedConstants.js
 // This file is auto generated while building.
 
