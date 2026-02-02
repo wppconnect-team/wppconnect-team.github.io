@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.4.3",
-    "@octokit/action": "^5.0.6",
+    "@octokit/action": "^8.0.4",
     "@tsconfig/docusaurus": "^1.0.7",
     "babel-plugin-styled-components": "^2.1.4",
     "sass": "^1.94.2",
