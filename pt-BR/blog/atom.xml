@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-02-27T03:48:42.000Z</updated>
+    <updated>2026-02-27T21:18:20.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.40.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.40.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.40.0"/>
+        <updated>2026-02-27T21:18:20.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.40.0 for WPPConnect with Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.40.0 for WPPConnect with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>add event listener for new chat and expose onNewChat method (<a href="https://github.com/wppconnect-team/wppconnect/issues/2712" target="_blank" rel="noopener noreferrer">#2712</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/081f35543bac9181bccfc1e815b1c7c5e4123cdd" target="_blank" rel="noopener noreferrer">081f355</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.40.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.39.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.39.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.39.0"/>
+        <updated>2026-02-27T03:57:28.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.39.0 for WPPConnect with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.39.0 for WPPConnect with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^3.20.1 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2680" target="_blank" rel="noopener noreferrer">#2680</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/cdac3692ffa8478ce0556f2d60cb1581daea529a" target="_blank" rel="noopener noreferrer">cdac369</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>add IndexedDB functions for message retrieval by rowId (<a href="https://github.com/wppconnect-team/wppconnect/issues/2709" target="_blank" rel="noopener noreferrer">#2709</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/03fe90ab0c254ef7178bdb131402149ecd4800e1" target="_blank" rel="noopener noreferrer">03fe90a</a>)</li><li>update @wppconnect/wa-js to version 3.22.0 and refactor getMessagesFromRowId method (<a href="https://github.com/wppconnect-team/wppconnect/issues/2710" target="_blank" rel="noopener noreferrer">#2710</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/88c845786e419cd6e3187fe4e78cdfaf32f78cdd" target="_blank" rel="noopener noreferrer">88c8457</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.39.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v3.22.0]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.22.0</id>
