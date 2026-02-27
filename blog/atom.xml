@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-01-23T20:59:04.000Z</updated>
+    <updated>2026-02-27T03:48:42.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v3.22.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v3.22.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v3.22.0"/>
+        <updated>2026-02-27T03:48:42.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v3.22.0 for WA-JS with Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v3.22.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>getMessages (msgFindQuery doesn't exist anymore) (<a href="https://github.com/wppconnect-team/wa-js/issues/3360" target="_blank" rel="noopener noreferrer">#3360</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/568fc3d564c740e22e5dfcff272f5982a85d77e3" target="_blank" rel="noopener noreferrer">568fc3d</a>)</li><li>invalid wid value for object &amp; openChatBottom (<a href="https://github.com/wppconnect-team/wa-js/issues/3357" target="_blank" rel="noopener noreferrer">#3357</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/e5b9aa8e340a950f8b63d67e9c95093b4f70f365" target="_blank" rel="noopener noreferrer">e5b9aa8</a>)</li><li>sendMessage to lids (<a href="https://github.com/wppconnect-team/wa-js/issues/3362" target="_blank" rel="noopener noreferrer">#3362</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/22aaef3edc0e50da06e3fed4e4a9b67bd9c460da" target="_blank" rel="noopener noreferrer">22aaef3</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>add IndexedDB functions for message retrieval by rowId (<a href="https://github.com/wppconnect-team/wa-js/issues/3354" target="_blank" rel="noopener noreferrer">#3354</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/060119c468af6e54c2950223633880cf40710460" target="_blank" rel="noopener noreferrer">060119c</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.22.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.20.1]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.20.1</id>
