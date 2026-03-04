@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 28 Feb 2026 14:03:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Mar 2026 19:38:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v3.23.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v3.23.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v3.23.0</guid>
+            <pubDate>Wed, 04 Mar 2026 19:38:36 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v3.23.0 for WA-JS with Bug Fixes and Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v3.23.0 for WA-JS with Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li>handle case when newAPIAnchor is not provided in getMessages (<a href="https://github.com/wppconnect-team/wa-js/issues/3369" target="_blank" rel="noopener noreferrer">#3369</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/b4452a2cdf98cfd5880ab2d1e2f53541f6021a0e" target="_blank" rel="noopener noreferrer">b4452a2</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>add stream mode and info events with corresponding handlers (<a href="https://github.com/wppconnect-team/wa-js/issues/3368" target="_blank" rel="noopener noreferrer">#3368</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/79e9a9e11116df34e65536745314e9461aaa801e" target="_blank" rel="noopener noreferrer">79e9a9e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.23.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.40.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.40.1</link>
