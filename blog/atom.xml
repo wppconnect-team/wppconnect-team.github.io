@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-03-04T20:25:24.000Z</updated>
+    <updated>2026-03-05T19:39:27.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect minor release: v1.41.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect/v1.41.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v1.41.0"/>
+        <updated>2026-03-05T19:39:27.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v1.41.0 for WPPConnect with Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v1.41.0 for WPPConnect with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>exposing new stream events and bump wa-version lib (<a href="https://github.com/wppconnect-team/wppconnect/issues/2716" target="_blank" rel="noopener noreferrer">#2716</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/7c6355e5f3e6b0cbeb2066dc3441c959be8d80f5" target="_blank" rel="noopener noreferrer">7c6355e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.41.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v3.23.1]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v3.23.1</id>

@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 04 Mar 2026 20:25:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 19:39:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPPConnect minor release: v1.41.0]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.41.0</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect/v1.41.0</guid>
+            <pubDate>Thu, 05 Mar 2026 19:39:27 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v1.41.0 for WPPConnect with Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v1.41.0 for WPPConnect with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>exposing new stream events and bump wa-version lib (<a href="https://github.com/wppconnect-team/wppconnect/issues/2716" target="_blank" rel="noopener noreferrer">#2716</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/7c6355e5f3e6b0cbeb2066dc3441c959be8d80f5" target="_blank" rel="noopener noreferrer">7c6355e</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.41.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.23.1]]></title>
             <link>https://wppconnect-team.github.io/blog/wa-js/v3.23.1</link>
