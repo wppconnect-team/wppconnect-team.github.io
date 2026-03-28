@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-03-18T17:37:28.000Z</updated>
+    <updated>2026-03-28T19:29:37.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS minor release: v4.0.2-alpha.0]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v4.0.2-alpha.0</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v4.0.2-alpha.0"/>
+        <updated>2026-03-28T19:29:37.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing minor version v4.0.2-alpha.0 for WA-JS.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing minor version v4.0.2-alpha.0 for WA-JS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="402-alpha0-2026-03-28"><a href="https://github.com/wppconnect-team/wa-js/compare/v4.0.1-alpha.0...v4.0.2-alpha.0" target="_blank" rel="noopener noreferrer">4.0.2-alpha.0</a> (2026-03-28)<a href="#402-alpha0-2026-03-28" class="hash-link" aria-label="Direct link to 402-alpha0-2026-03-28" title="Direct link to 402-alpha0-2026-03-28">​</a></h2><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.0.2-alpha.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v1.41.1]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect/v1.41.1</id>

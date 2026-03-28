@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 18 Mar 2026 17:37:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Mar 2026 19:29:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS minor release: v4.0.2-alpha.0]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.0.2-alpha.0</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.0.2-alpha.0</guid>
+            <pubDate>Sat, 28 Mar 2026 19:29:37 GMT</pubDate>
+            <description><![CDATA[Today we are releasing minor version v4.0.2-alpha.0 for WA-JS.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing minor version v4.0.2-alpha.0 for WA-JS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="402-alpha0-2026-03-28"><a href="https://github.com/wppconnect-team/wa-js/compare/v4.0.1-alpha.0...v4.0.2-alpha.0" target="_blank" rel="noopener noreferrer">4.0.2-alpha.0</a> (2026-03-28)<a href="#402-alpha0-2026-03-28" class="hash-link" aria-label="Ligação direta para 402-alpha0-2026-03-28" title="Ligação direta para 402-alpha0-2026-03-28">​</a></h2><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.0.2-alpha.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.41.1]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.41.1</link>
