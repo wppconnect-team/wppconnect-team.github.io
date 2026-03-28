@@ -25,7 +25,7 @@ wppconnect.defaultLogger.level = 'silly';
 wppconnect.defaultLogger.transports.forEach((t) => (t.silent = true));
 ```
 
-## Using a custon logger
+## Using a custom logger
 
 ```javascript
 // Supports ES6
