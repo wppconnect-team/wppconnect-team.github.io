@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Thu, 09 Apr 2026 18:20:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 15:56:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v3.23.4]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.23.4</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.23.4</guid>
+            <pubDate>Fri, 17 Apr 2026 15:56:19 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v3.23.4 for WA-JS with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v3.23.4 for WA-JS with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>disconnection after reading qrcode - flushing during sync (<a href="https://github.com/wppconnect-team/wa-js/issues/3409" target="_blank" rel="noopener noreferrer">#3409</a>) (<a href="https://github.com/wppconnect-team/wa-js/commit/428ee012c12dedc663991e8734af67876a9593af" target="_blank" rel="noopener noreferrer">428ee01</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v3.23.4" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WA-JS patch release: v3.23.3]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v3.23.3</link>
