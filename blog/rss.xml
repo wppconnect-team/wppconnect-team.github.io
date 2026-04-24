@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 17 Apr 2026 16:04:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 15:28:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v1.41.3]]></title>
+            <link>https://wppconnect-team.github.io/blog/wppconnect/v1.41.3</link>
+            <guid>https://wppconnect-team.github.io/blog/wppconnect/v1.41.3</guid>
+            <pubDate>Thu, 23 Apr 2026 15:28:12 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.41.3 for WPPConnect with Features.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.41.3 for WPPConnect with Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h3><ul><li>add optional viewMode and associationType property to Message interface (<a href="https://github.com/wppconnect-team/wppconnect/issues/2755" target="_blank" rel="noopener noreferrer">#2755</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/454128a74c0afc2291b5a21beaa940cca35744dd" target="_blank" rel="noopener noreferrer">454128a</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v1.41.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v1.41.2]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v1.41.2</link>
