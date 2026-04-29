@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-04-23T15:28:12.000Z</updated>
+    <updated>2026-04-29T22:28:23.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS major release: v4.0.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.0.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.0.0"/>
+        <updated>2026-04-29T22:28:23.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing major version v4.0.0 for WA-JS with BREAKING CHANGE and Other commits.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing major version v4.0.0 for WA-JS with BREAKING CHANGE and Other commits.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="400-2026-04-29">4.0.0 (2026-04-29)<a href="#400-2026-04-29" class="hash-link" aria-label="Ligação direta para 4.0.0 (2026-04-29)" title="Ligação direta para 4.0.0 (2026-04-29)">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="breaking-change">BREAKING CHANGE<a href="#breaking-change" class="hash-link" aria-label="Ligação direta para BREAKING CHANGE" title="Ligação direta para BREAKING CHANGE">​</a></h3><ul><li>refactor: optimized loader and renamed webpack to loader (<a href="https://github.com/wppconnect-team/wa-js/commit/be31b9f9970bc77a5557a99272516daee3c27afe" target="_blank" rel="noopener noreferrer">be31b9f9970bc77a5557a99272516daee3c27afe</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="other-commits">Other commits<a href="#other-commits" class="hash-link" aria-label="Ligação direta para Other commits" title="Ligação direta para Other commits">​</a></h3><ul><li>chore(release): v4.0.0 (<a href="https://github.com/wppconnect-team/wa-js/commit/76eaffce3fda727f47be49210d98a291c9f74351" target="_blank" rel="noopener noreferrer">76eaffce3fda727f47be49210d98a291c9f74351</a>)</li><li>feat: add BackendEventBus and register backend event handling (#3416) (<a href="https://github.com/wppconnect-team/wa-js/commit/75ca156033d428784e8bff868e1cead3ae18a8c5" target="_blank" rel="noopener noreferrer">75ca156033d428784e8bff868e1cead3ae18a8c5</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3416" target="_blank" rel="noopener noreferrer">#3416</a></li><li>feat: add changelog configuration and update scripts for changelog generation (#3415) (<a href="https://github.com/wppconnect-team/wa-js/commit/cdd7c0a1b3bf48a7c1a8ae65843bf20ec1491b0c" target="_blank" rel="noopener noreferrer">cdd7c0a1b3bf48a7c1a8ae65843bf20ec1491b0c</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3415" target="_blank" rel="noopener noreferrer">#3415</a></li><li>feat: queryUsernameExists support (#3412) (<a href="https://github.com/wppconnect-team/wa-js/commit/3e1c578bfd1ce8dd91690436738f6496b528a8ee" target="_blank" rel="noopener noreferrer">3e1c578bfd1ce8dd91690436738f6496b528a8ee</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3412" target="_blank" rel="noopener noreferrer">#3412</a></li><li>fix: update naming convention for queryUsernameExists function and add new module (#3413) (<a href="https://github.com/wppconnect-team/wa-js/commit/3965cb4267bb389b0c70ecb1a3aebb6ecfbd82e7" target="_blank" rel="noopener noreferrer">3965cb4267bb389b0c70ecb1a3aebb6ecfbd82e7</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3413" target="_blank" rel="noopener noreferrer">#3413</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.0.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v1.41.3]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v1.41.3</id>
