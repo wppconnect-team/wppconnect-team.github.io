@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-04-29T22:28:23.000Z</updated>
+    <updated>2026-04-30T00:24:01.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect major release: v2.0.0]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.0.0</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.0.0"/>
+        <updated>2026-04-30T00:24:01.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing major version v2.0.0 for WPPConnect with Breaking Change, Bug Fixes and Features.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing major version v2.0.0 for WPPConnect with Breaking Change, Bug Fixes and Features.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="breaking-change">Breaking Change<a href="#breaking-change" class="hash-link" aria-label="Ligação direta para Breaking Change" title="Ligação direta para Breaking Change">​</a></h3><p>wa-js v4 renamed all instances of <code>webpack</code> to <code>loader</code>, so <code>webpack.injected</code> is now <code>loader.injected</code>.</p><p>Check <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.0.0" target="_blank" rel="noopener noreferrer">WA-JS v4 RELEASES NOTES</a> for more details</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.5.3803 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2756" target="_blank" rel="noopener noreferrer">#2756</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/5fa02893a0afecd27b51631e20497828cd06e53f" target="_blank" rel="noopener noreferrer">5fa0289</a>)</li><li>guard against undefined media in downloadMedia and improve error messages (<a href="https://github.com/wppconnect-team/wppconnect/issues/2736" target="_blank" rel="noopener noreferrer">#2736</a>) (<a href="https://github.com/wppconnect-team/wppconnect/issues/2737" target="_blank" rel="noopener noreferrer">#2737</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/41acfa53a050f46b88a50203244157e531ee9a33" target="_blank" rel="noopener noreferrer">41acfa5</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="#features" class="hash-link" aria-label="Ligação direta para Features" title="Ligação direta para Features">​</a></h3><ul><li>support to wa-js v4 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2759" target="_blank" rel="noopener noreferrer">#2759</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/16d05cd6b7078a3c0a78acc676a12057b28091cc" target="_blank" rel="noopener noreferrer">16d05cd</a>)</li><li>support to backendEvents added together with v4 (more details about it directly in the PR <a href="https://github.com/wppconnect-team/wa-js/pull/3416/changes" target="_blank" rel="noopener noreferrer">https://github.com/wppconnect-team/wa-js/pull/3416/changes</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.0.0" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS major release: v4.0.0]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.0.0</id>
