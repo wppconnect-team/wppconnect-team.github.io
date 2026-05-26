@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 19 May 2026 16:23:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 May 2026 16:30:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPPConnect patch release: v2.2.1]]></title>
+            <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.1</link>
+            <guid>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.1</guid>
+            <pubDate>Mon, 25 May 2026 16:30:03 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.2.1 for WPPConnect with Bug Fixes.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.2.1 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Ligação direta para Bug Fixes" title="Ligação direta para Bug Fixes">​</a></h3><ul><li>send media returning undefined (<a href="https://github.com/wppconnect-team/wppconnect/issues/2792" target="_blank" rel="noopener noreferrer">#2792</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/607fe8be1897db34f5d1a87797a682897117114f" target="_blank" rel="noopener noreferrer">607fe8b</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.2.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>lib</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect minor release: v2.2.0]]></title>
             <link>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.0</link>
