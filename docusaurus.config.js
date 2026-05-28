@@ -127,40 +127,22 @@ const config = {
         },
         items: [
           {
-            to: "/docs/",
-            position: "left",
             label: "Docs",
-            activeBaseRegex: "docs/?$"
-          },
-          {
-            to: "/docs/tutorial/intro",
             position: "left",
-            label: "Tutorial",
-            activeBaseRegex: "docs/?$"
-          },
-          {
-            to: "/docs/projects",
-            position: "left",
-            label: "Projects",
+            items: [
+              { label: "Overview", to: "/docs/" },
+              { label: "Tutorial", to: "/docs/tutorial/intro" },
+              { label: "Projects", to: "/docs/projects" },
+            ],
           },
           {
             label: "API",
             position: "left",
             items: [
-              {
-                label: "WA-JS",
-                href: "https://wppconnect.io/wa-js",
-              },
-              {
-                label: "WPPConnect",
-                href: "https://wppconnect.io/wppconnect",
-              },
+              { label: "WPPConnect (library)", href: "https://wppconnect.io/wppconnect" },
+              { label: "WA-JS", href: "https://wppconnect.io/wa-js" },
+              { label: "Server (Swagger)", to: "/swagger/wppconnect-server" },
             ],
-          },
-          {
-            label: "Swagger",
-            position: "left",
-            to: "/swagger/wppconnect-server",
           },
           {
             to: "/whatsapp-versions",

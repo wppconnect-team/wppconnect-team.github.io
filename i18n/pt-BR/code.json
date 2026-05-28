@@ -81,10 +81,37 @@
     "message": "O Ecossistema"
   },
   "home.eco.headline": {
-    "message": "Quatro projetos, uma missão:"
+    "message": "Uma constelação de ferramentas,"
   },
   "home.eco.headline.accent": {
-    "message": "entregar mais rápido."
+    "message": "uma missão."
+  },
+  "home.eco.viewall": {
+    "message": "Ver todos os repositórios"
+  },
+  "home.eco.tools.eyebrow": {
+    "message": "Clientes e ferramentas"
+  },
+  "home.eco.delphi.desc": {
+    "message": "Leve a automação do WhatsApp Web para o ecossistema Delphi."
+  },
+  "home.eco.waversion.desc": {
+    "message": "Registro sempre atualizado das versões do WhatsApp Web, atualizado automaticamente."
+  },
+  "home.eco.php.desc": {
+    "message": "Um cliente PHP simples para acessar os endpoints do WPPConnect Server com facilidade."
+  },
+  "home.eco.laravel.desc": {
+    "message": "Wrapper limpo baseado em Guzzle, oferecendo acesso fácil ao WPPConnect Server."
+  },
+  "home.eco.cli.desc": {
+    "message": "Interface de linha de comando para gerenciar o WPPConnect Server rapidamente."
+  },
+  "home.eco.vue.desc": {
+    "message": "Frontend pronto em Vue que conversa com o WPPConnect Server."
+  },
+  "home.eco.mobile.desc": {
+    "message": "Automação rodando o WhatsApp Web direto em navegadores móveis Android e iOS."
   },
   "home.eco.lib.badge": {
     "message": "Biblioteca"

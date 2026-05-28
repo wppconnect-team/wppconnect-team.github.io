@@ -50,7 +50,7 @@ const HeroV2: React.FC = () => {
   return (
     <Section
       style={{
-        paddingTop: "clamp(1.5rem, 3vw, 3rem)",
+        paddingTop: 0,
         paddingBottom: "clamp(3rem, 6vw, 5rem)",
         overflow: "hidden",
       }}
@@ -60,11 +60,12 @@ const HeroV2: React.FC = () => {
           <div
             style={{
               position: "relative",
-              minHeight: "min(80vh, 760px)",
+              minHeight: "clamp(420px, 65vh, 620px)",
+              paddingTop: "clamp(1.5rem, 3vw, 2.5rem)",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              gap: "1.5rem",
+              gap: "1.25rem",
             }}
           >
             <GlowEffect

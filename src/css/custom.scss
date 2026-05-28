@@ -196,23 +196,23 @@ html.lenis-stopped {
 }
 
 .navbar__logo {
-  height: 32px;
-  width: 32px;
+  height: 34px;
+  width: 34px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .navbar__logo img {
-  height: 32px;
-  width: 32px;
-  border-radius: 8px;
+  height: 34px;
+  width: 34px;
   background: transparent;
-  mix-blend-mode: multiply;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(37, 211, 102, 0.25));
 }
 
 [data-theme="dark"] .navbar__logo img {
-  mix-blend-mode: screen;
+  filter: drop-shadow(0 2px 12px rgba(37, 211, 102, 0.45));
 }
 
 .navbar__link {
