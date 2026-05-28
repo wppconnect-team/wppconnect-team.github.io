@@ -1,57 +1,32 @@
 import React from "react";
-import clsx from "clsx";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./index.module.css";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
-import { Container } from "./_style";
-import AboutContainer from "../components/Home/AboutUs";
-import ApoiarContainer from "../components/Home/Apoiar";
-import DockerContainer from "../components/Home/Docker";
-import FrontendContainer from "../components/Home/Frontend";
-import HeroContainer from "../components/Home/Hero";
-import ServidorContainer from "../components/Home/Servidor";
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import HeroV2 from "@site/src/components/Home/v2/Hero";
+import StatsRow from "@site/src/components/Home/v2/Stats";
+import AboutV2 from "@site/src/components/Home/v2/About";
+import EcosystemV2 from "@site/src/components/Home/v2/Ecosystem";
+import StackMarquee from "@site/src/components/Home/v2/StackMarquee";
+import WhyOpenSource from "@site/src/components/Home/v2/WhyOpenSource";
+import SponsorV2 from "@site/src/components/Home/v2/Sponsor";
+import CTAFinal from "@site/src/components/Home/v2/CTAFinal";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - Automatize o seu WhatsApp`}
-      description="WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination..."
+      title={`${siteConfig.title} — open-source WhatsApp automation`}
+      description="WPPConnect is an open-source ecosystem for WhatsApp automation. Library, server and tooling built by the community."
     >
-      {/* <HomepageHeader /> */}
       <main>
-        {/* <HomepageFeatures /> */}
-        <Container>
-          <HeroContainer />
-          <AboutContainer />
-          <ServidorContainer />
-          <FrontendContainer />
-          <DockerContainer />
-          <ApoiarContainer />
-        </Container>
+        <HeroV2 />
+        <StatsRow />
+        <AboutV2 />
+        <EcosystemV2 />
+        <StackMarquee />
+        <WhyOpenSource />
+        <SponsorV2 />
+        <CTAFinal />
       </main>
     </Layout>
   );

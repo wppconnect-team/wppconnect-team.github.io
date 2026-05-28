@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "WPPConnect",
-  tagline: "Automatize o seu WhatsApp",
+  tagline: "Open-source WhatsApp automation, built for developers",
   url: "https://wppconnect-team.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -108,14 +108,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       announcementBar: {
-        id: "support_us", // Increment on change
+        id: "support_us_v2", // Increment on change
         content:
-          '⭐️ If you like WPPConnect, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">GitHub</a>',
-        backgroundColor: "#fafbfc",
-        textColor: "#091E42",
+          '⭐ If you like WPPConnect, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">GitHub</a>',
       },
       navbar: {
+        hideOnScroll: false,
         title: "WPPConnect",
         logo: {
           alt: "WPPconnect Logo",
