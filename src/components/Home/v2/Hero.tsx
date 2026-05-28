@@ -48,7 +48,13 @@ const Chip: React.FC<{
 const HeroV2: React.FC = () => {
   const reduced = useReducedMotion();
   return (
-    <Section style={{ paddingTop: "clamp(4rem, 8vw, 7rem)", overflow: "hidden" }}>
+    <Section
+      style={{
+        paddingTop: "clamp(1.5rem, 3vw, 3rem)",
+        paddingBottom: "clamp(3rem, 6vw, 5rem)",
+        overflow: "hidden",
+      }}
+    >
       <Spotlight color="rgba(37, 211, 102, 0.16)" size={780}>
         <Container>
           <div

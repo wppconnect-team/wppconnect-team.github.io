@@ -15,14 +15,15 @@
   --wpp-pink: #ec4899;
 
   /* Surfaces (light) */
-  --wpp-bg-base: #ffffff;
-  --wpp-bg-elev: #f5f7fa;
+  --wpp-bg-base: #fafbfc;
+  --wpp-bg-elev: #f1f4f8;
   --wpp-surface: #ffffff;
   --wpp-border: rgba(15, 23, 42, 0.08);
-  --wpp-text: #0f172a;
+  --wpp-text: #0a0c12;
   --wpp-muted: #475569;
 
   /* Effects */
+  --wpp-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
   --wpp-glow-green: 0 0 50px rgba(37, 211, 102, 0.28);
   --wpp-glow-cyan: 0 0 40px rgba(34, 211, 238, 0.22);
   --wpp-glow-violet: 0 0 40px rgba(139, 92, 246, 0.22);
@@ -71,6 +72,7 @@
   --wpp-border: rgba(255, 255, 255, 0.08);
   --wpp-text: #e7e7ea;
   --wpp-muted: #9a9aa3;
+  --wpp-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
 
   --ifm-background-color: var(--wpp-bg-base);
   --ifm-background-surface-color: var(--wpp-surface);
@@ -117,6 +119,22 @@ html[data-theme="dark"] body {
   background-attachment: fixed;
 }
 
+html:not([data-theme="dark"]) body {
+  background:
+    radial-gradient(
+      1100px 500px at 10% -10%,
+      rgba(37, 211, 102, 0.10),
+      transparent 60%
+    ),
+    radial-gradient(
+      900px 500px at 90% 0%,
+      rgba(34, 211, 238, 0.07),
+      transparent 60%
+    ),
+    var(--wpp-bg-base);
+  background-attachment: fixed;
+}
+
 body {
   font-family: var(--wpp-font-sans);
   font-feature-settings: "ss01", "ss02", "cv11";
@@ -155,16 +173,120 @@ html.lenis-stopped {
 
 .navbar__brand {
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
+  font-size: 1.05rem;
+  margin-right: 1rem;
+  gap: 0.55rem;
+}
+
+.navbar__title {
+  background: linear-gradient(135deg, var(--wpp-text), var(--ifm-color-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar__inner {
+  gap: 0.5rem;
+}
+
+.navbar__items--right {
+  gap: 0.5rem;
+}
+
+.navbar__logo {
+  height: 32px;
+  width: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__logo img {
+  height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+
+[data-theme="dark"] .navbar__logo img {
+  mix-blend-mode: screen;
 }
 
 .navbar__link {
   font-weight: 500;
   font-size: 0.95rem;
+  color: var(--wpp-muted);
+  transition: color 180ms ease;
 }
 
-.navbar__link--active {
+.navbar__link:hover {
+  color: var(--wpp-text);
+}
+
+[data-theme="dark"] .navbar__link {
+  color: rgba(231, 231, 234, 0.75);
+}
+
+[data-theme="dark"] .navbar__link:hover {
+  color: var(--wpp-text);
+}
+
+.navbar__link--active,
+.navbar__link--active:hover {
   color: var(--ifm-color-primary);
+}
+
+/* Locale dropdown -> pill */
+.navbar__items--right .dropdown > .navbar__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--wpp-border);
+  border-radius: 9999px;
+  font-family: var(--wpp-font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.navbar__items--right .dropdown > .navbar__link:hover {
+  border-color: var(--ifm-color-primary);
+  background: rgba(37, 211, 102, 0.06);
+}
+
+/* Social icons compact */
+.header-discord-link,
+.header-github-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--wpp-border);
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
+  padding: 0 !important;
+}
+
+.header-discord-link:hover,
+.header-github-link:hover {
+  opacity: 1;
+  border-color: var(--ifm-color-primary);
+  background: rgba(37, 211, 102, 0.08);
+  transform: translateY(-1px);
+}
+
+.header-discord-link::before,
+.header-github-link::before {
+  width: 18px;
+  height: 18px;
 }
 
 /* ---------- Footer refinements ---------- */
@@ -265,9 +387,8 @@ div[class^="announcementBar_"] a {
   background-color: rgba(255, 255, 255, 0.06);
 }
 
-[data-theme="dark"] pre,
 [data-theme="dark"] code {
-  background: #0a0b0d !important;
+  background: #0a0b0d;
   border: 1px solid var(--wpp-border);
 }
 

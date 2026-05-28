@@ -118,8 +118,7 @@ const WhyOpenSource: React.FC = () => {
               >
                 <pre
                   style={{
-                    background:
-                      "linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01))",
+                    background: "var(--wpp-card-bg)",
                     border: "1px solid var(--wpp-border)",
                     borderRadius: "16px",
                     padding: "1.25rem",
@@ -158,8 +157,7 @@ client.onMessage((msg) => {
                     padding: "1.5rem",
                     border: "1px solid var(--wpp-border)",
                     borderRadius: "16px",
-                    background:
-                      "linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.005))",
+                    background: "var(--wpp-card-bg)",
                     backdropFilter: "blur(8px)",
                     position: "relative",
                     overflow: "hidden",

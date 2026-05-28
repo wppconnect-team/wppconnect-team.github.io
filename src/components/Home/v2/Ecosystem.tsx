@@ -10,10 +10,8 @@ import Badge from "@site/src/components/ui/Badge";
 import GradientText from "@site/src/components/ui/GradientText";
 
 type Product = {
-  badge: string;
-  badgeId: string;
+  badge: React.ReactNode;
   title: string;
-  titleId: string;
   desc: React.ReactNode;
   href: string;
   icon: React.ReactNode;
@@ -23,10 +21,8 @@ type Product = {
 
 const PRODUCTS: Product[] = [
   {
-    badge: "Library",
-    badgeId: "home.eco.lib.badge",
+    badge: <Translate id="home.eco.lib.badge">Library</Translate>,
     title: "WPPConnect",
-    titleId: "home.eco.lib.title",
     desc: (
       <Translate id="home.eco.lib.desc">
         The core Node.js library. Send messages, build bots and automate any
@@ -39,10 +35,8 @@ const PRODUCTS: Product[] = [
     variant: "green",
   },
   {
-    badge: "Server",
-    badgeId: "home.eco.server.badge",
+    badge: <Translate id="home.eco.server.badge">Server</Translate>,
     title: "WPPConnect Server",
-    titleId: "home.eco.server.title",
     desc: (
       <Translate id="server.robust.desc">
         A simple and robust server made in NodeJS, with all the functions that
@@ -55,10 +49,8 @@ const PRODUCTS: Product[] = [
     variant: "cyan",
   },
   {
-    badge: "Frontend",
-    badgeId: "home.eco.wajs.badge",
+    badge: <Translate id="home.eco.wajs.badge">Frontend</Translate>,
     title: "WA-JS",
-    titleId: "home.eco.wajs.title",
     desc: (
       <Translate id="extension.desc">
         WAJS is an open-source library designed for easy integration and
@@ -72,10 +64,8 @@ const PRODUCTS: Product[] = [
     variant: "violet",
   },
   {
-    badge: "Container",
-    badgeId: "home.eco.docker.badge",
+    badge: <Translate id="home.eco.docker.badge">Container</Translate>,
     title: "WPP Docker",
-    titleId: "home.eco.docker.title",
     desc: (
       <Translate id="docker.description">
         Seriously, we're even making Docker available. Check it out by clicking
@@ -162,9 +152,7 @@ const EcosystemV2: React.FC = () => (
                   >
                     {p.icon}
                   </div>
-                  <Badge variant={p.variant}>
-                    <Translate id={p.badgeId}>{p.badge}</Translate>
-                  </Badge>
+                  <Badge variant={p.variant}>{p.badge}</Badge>
                   <h3
                     style={{
                       fontSize: "1.4rem",

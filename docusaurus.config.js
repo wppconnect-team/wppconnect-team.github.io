@@ -200,40 +200,45 @@ const config = {
       },
       footer: {
         style: "dark",
+        logo: {
+          alt: "WPPConnect Logo",
+          src: "img/logo192.png",
+          width: 40,
+          height: 40,
+        },
         links: [
+          {
+            title: "Product",
+            items: [
+              { label: "Library", href: "https://github.com/wppconnect-team/wppconnect" },
+              { label: "Server", href: "https://github.com/wppconnect-team/wppconnect-server" },
+              { label: "WA-JS", href: "https://github.com/wppconnect-team/wa-js" },
+              { label: "Docker", href: "https://github.com/wppconnect-team/wpp-docker" },
+            ],
+          },
           {
             title: "Docs",
             items: [
-              {
-                label: "Tutorial",
-                to: "/docs/tutorial/intro",
-              },
+              { label: "Tutorial", to: "/docs/tutorial/intro" },
+              { label: "Projects", to: "/docs/projects" },
+              { label: "Swagger", to: "/swagger/wppconnect-server" },
+              { label: "WhatsApp Versions", to: "/whatsapp-versions" },
             ],
           },
           {
             title: "Community",
             items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/JU5JGGKGNG",
-              },
-              {
-                label: "YouTube",
-                href: "https://www.youtube.com/c/wppconnect",
-              },
+              { label: "Discord", href: "https://discord.gg/JU5JGGKGNG" },
+              { label: "YouTube", href: "https://www.youtube.com/c/wppconnect" },
+              { label: "GitHub", href: "https://github.com/wppconnect-team" },
+              { label: "Open Collective", href: "https://opencollective.com/wppconnect" },
             ],
           },
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/wppconnect-team",
-              },
+              { label: "Blog", to: "/blog" },
+              { label: "Translate on Crowdin", href: "https://crowdin.com/project/wppconnect-site" },
             ],
           },
         ],

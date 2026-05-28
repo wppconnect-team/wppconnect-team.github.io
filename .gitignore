@@ -4,7 +4,10 @@
 # Production
 /build
 
+# i18n is managed by Crowdin — only commit the source code.json files
 /i18n/**/*
+!/i18n/pt-BR/
+!/i18n/pt-BR/code.json
 
 # Generated files
 .docusaurus

@@ -8,34 +8,29 @@ import RevealOnScroll from "@site/src/components/ui/RevealOnScroll";
 type Stat = {
   icon: React.ReactNode;
   value: string;
-  labelId: string;
-  fallback: string;
+  label: React.ReactNode;
 };
 
 const STATS: Stat[] = [
   {
     icon: <Star size={18} />,
     value: "4.6k+",
-    labelId: "home.stats.stars",
-    fallback: "GitHub Stars",
+    label: <Translate id="home.stats.stars">GitHub Stars</Translate>,
   },
   {
     icon: <Download size={18} />,
     value: "1M+",
-    labelId: "home.stats.downloads",
-    fallback: "NPM Downloads",
+    label: <Translate id="home.stats.downloads">NPM Downloads</Translate>,
   },
   {
     icon: <Users size={18} />,
     value: "120+",
-    labelId: "home.stats.contributors",
-    fallback: "Contributors",
+    label: <Translate id="home.stats.contributors">Contributors</Translate>,
   },
   {
     icon: <GitCommit size={18} />,
     value: "10k+",
-    labelId: "home.stats.commits",
-    fallback: "Commits",
+    label: <Translate id="home.stats.commits">Commits</Translate>,
   },
 ];
 
@@ -49,8 +44,7 @@ const StatsRow: React.FC = () => (
             gap: "1rem",
             gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
             padding: "1.5rem",
-            background:
-              "linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01))",
+            background: "var(--wpp-card-bg)",
             border: "1px solid var(--wpp-border)",
             borderRadius: "20px",
             backdropFilter: "blur(10px)",
@@ -79,7 +73,7 @@ const StatsRow: React.FC = () => (
                 }}
               >
                 {s.icon}
-                <Translate id={s.labelId}>{s.fallback}</Translate>
+                {s.label}
               </div>
               <div
                 style={{

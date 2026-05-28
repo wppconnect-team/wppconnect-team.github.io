@@ -32,11 +32,9 @@ const Card: React.FC<Props> = ({
     padding: "1.75rem",
     borderRadius: "20px",
     border: "1px solid var(--wpp-border)",
-    background:
-      variant === "glass"
-        ? "linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01))"
-        : "var(--wpp-surface)",
+    background: variant === "glass" ? "var(--wpp-card-bg)" : "var(--wpp-surface)",
     backdropFilter: variant === "glass" ? "blur(12px)" : undefined,
+    boxShadow: "0 1px 0 rgba(255,255,255,0.04) inset, 0 8px 24px rgba(0,0,0,0.04)",
     transition: "border-color 240ms ease, transform 240ms ease",
     ...style,
   };

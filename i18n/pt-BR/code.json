@@ -1,0 +1,206 @@
+{
+  "WhatsApp Versions": {
+    "message": "Versões do WhatsApp"
+  },
+  "Current Version": {
+    "message": "Versão Atual"
+  },
+  "Current Beta Version": {
+    "message": "Versão Beta Atual"
+  },
+  "beta": {
+    "message": "beta"
+  },
+  "stable": {
+    "message": "estável"
+  },
+  "current": {
+    "message": "atual"
+  },
+  "Released on {released}, expires on {expire}": {
+    "message": "Lançada em {released}, expira em {expire}"
+  },
+  "whatsappVersionsPage.all.title": {
+    "message": "Todas as versões do WhatsApp"
+  },
+  "whoweare": {
+    "message": "Quem somos"
+  },
+  "about.weareateam": {
+    "message": "Somos um time que começou um projeto open-source de automação para o WhatsApp."
+  },
+  "about.wedo": {
+    "message": "O que fazemos?"
+  },
+  "about.wedo.desc": {
+    "message": "O time WPPConnect cria ferramentas open-source para automatizar e integrar com o WhatsApp Web, permitindo comunicação eficiente e desenvolvimento de bots."
+  },
+  "about.ourteam": {
+    "message": "Nosso time"
+  },
+  "about.ourteam.desc": {
+    "message": "Um time de profissionais que mantém e evolui todas as soluções que oferecemos."
+  },
+  "aboutus": {
+    "message": "Sobre nós"
+  },
+  "about.headline": {
+    "message": "Mais que uma biblioteca."
+  },
+  "about.headline.accent": {
+    "message": "Um ecossistema."
+  },
+  "home.cta.headline": {
+    "message": "Comece a automatizar em minutos,"
+  },
+  "home.cta.headline.accent": {
+    "message": "escale por anos."
+  },
+  "home.cta.subtitle": {
+    "message": "Open-source, licença MIT, grátis. Sem credenciais para começar a explorar."
+  },
+  "home.cta.button": {
+    "message": "Ler a documentação"
+  },
+  "home.cta.github": {
+    "message": "Star no GitHub"
+  },
+  "home.eco.lib.desc": {
+    "message": "A biblioteca core em Node.js. Envie mensagens, construa bots e automatize qualquer fluxo do WhatsApp Web por uma API limpa."
+  },
+  "server.robust.desc": {
+    "message": "Um servidor simples e robusto em NodeJS, com todas as funções que o WPPConnect oferece."
+  },
+  "extension.desc": {
+    "message": "WA-JS é uma biblioteca open-source feita para integrar e automatizar o WhatsApp Web com facilidade, permitindo criar extensões e usar diretamente no console do navegador."
+  },
+  "docker.description": {
+    "message": "Sim, também disponibilizamos Docker. Veja clicando no botão abaixo."
+  },
+  "home.eco.eyebrow": {
+    "message": "O Ecossistema"
+  },
+  "home.eco.headline": {
+    "message": "Quatro projetos, uma missão:"
+  },
+  "home.eco.headline.accent": {
+    "message": "entregar mais rápido."
+  },
+  "home.eco.lib.badge": {
+    "message": "Biblioteca"
+  },
+  "home.eco.server.badge": {
+    "message": "Servidor"
+  },
+  "home.eco.wajs.badge": {
+    "message": "Frontend"
+  },
+  "home.eco.docker.badge": {
+    "message": "Container"
+  },
+  "view": {
+    "message": "Ver"
+  },
+  "home.badge.opensource": {
+    "message": "Open-source · MIT"
+  },
+  "home.badge.community": {
+    "message": "Feito pela comunidade"
+  },
+  "home.hero.line1": {
+    "message": "Se você consegue imaginar,"
+  },
+  "home.hero.line2": {
+    "message": "a gente automatiza."
+  },
+  "home.hero.subtitle": {
+    "message": "Um ecossistema open-source premium para automação no WhatsApp. Biblioteca, servidor e ferramentas feitos por desenvolvedores, para desenvolvedores."
+  },
+  "home.hero.cta.lib": {
+    "message": "Explorar a biblioteca"
+  },
+  "home.hero.cta.tutorial": {
+    "message": "Ler o tutorial"
+  },
+  "home.stats.stars": {
+    "message": "Stars no GitHub"
+  },
+  "home.stats.downloads": {
+    "message": "Downloads no NPM"
+  },
+  "home.stats.contributors": {
+    "message": "Contribuidores"
+  },
+  "home.stats.commits": {
+    "message": "Commits"
+  },
+  "sponsor.weplatform": {
+    "message": "Usamos a plataforma"
+  },
+  "sponsor.receipt": {
+    "message": "para gerar receita e incentivar os desenvolvedores do WPPConnect."
+  },
+  "sponsor.opencollective.cta": {
+    "message": "Apoie-nos"
+  },
+  "sponsor.youtube": {
+    "message": "Temos um canal no YouTube com tutoriais sobre como usar a biblioteca/servidor/frontend e muito mais..."
+  },
+  "followChannel": {
+    "message": "Seguir o canal"
+  },
+  "sponsor.giveastar": {
+    "message": "Você também pode dar uma estrela no nosso repositório."
+  },
+  "sponsor.stardesc": {
+    "message": "Isso nos ajuda muito a atrair novos desenvolvedores para o projeto."
+  },
+  "sponsor.gogithub": {
+    "message": "Ir para o GitHub"
+  },
+  "sponsor": {
+    "message": "Apoie-nos"
+  },
+  "sponsor.headline": {
+    "message": "Nos ajude a manter isso"
+  },
+  "sponsor.headline.accent": {
+    "message": "livre e aberto."
+  },
+  "sponsor.desc": {
+    "message": "Sabia que dá pra apoiar a gente de várias formas? Veja abaixo!"
+  },
+  "home.stack.eyebrow": {
+    "message": "Feito com as ferramentas que você já ama"
+  },
+  "home.why.s1.title": {
+    "message": "Transparente por design"
+  },
+  "home.why.s1.body": {
+    "message": "Cada linha de código vive no GitHub. Audite, fork, estenda. A plataforma é da comunidade."
+  },
+  "home.why.s2.title": {
+    "message": "Testado em batalha"
+  },
+  "home.why.s2.body": {
+    "message": "Move milhares de bots, fluxos de atendimento e integrações pelo mundo. Releases estáveis, breaking changes cuidadosos."
+  },
+  "home.why.s3.title": {
+    "message": "Feito com cuidado"
+  },
+  "home.why.s3.body": {
+    "message": "Mantido por um time ativo que entrega, escuta e documenta. Construímos as ferramentas que nós mesmos queremos usar."
+  },
+  "home.why.eyebrow": {
+    "message": "Por que open-source"
+  },
+  "home.why.headline": {
+    "message": "Uma plataforma que"
+  },
+  "home.why.headline.accent": {
+    "message": "cresce com você."
+  },
+  "home.why.intro": {
+    "message": "WPPConnect não é um produto. É uma fundação aberta onde desenvolvedores, agências e times constroem a próxima geração de software conversacional sobre o WhatsApp."
+  }
+}
