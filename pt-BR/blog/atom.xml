@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-05-25T16:30:03.000Z</updated>
+    <updated>2026-06-19T17:56:37.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v4.3.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.3.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.3.1"/>
+        <updated>2026-06-19T17:56:37.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v4.3.1 for WA-JS.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v4.3.1 for WA-JS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="431-2026-06-19"><small>4.3.1 (2026-06-19)</small><a href="#431-2026-06-19" class="hash-link" aria-label="Ligação direta para 431-2026-06-19" title="Ligação direta para 431-2026-06-19">​</a></h2><ul><li>chore(release): v4.3.1 (<a href="https://github.com/wppconnect-team/wa-js/commit/07dbe26a87b252feaae56ee35c2d8fefc19431af" target="_blank" rel="noopener noreferrer">07dbe26a87b252feaae56ee35c2d8fefc19431af</a>)</li><li>fix: send as lid when destination is lid (#3474) (<a href="https://github.com/wppconnect-team/wa-js/commit/9cd87e8532aa70515885ad8fe1982dc3fceea300" target="_blank" rel="noopener noreferrer">9cd87e8532aa70515885ad8fe1982dc3fceea300</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3474" target="_blank" rel="noopener noreferrer">#3474</a></li><li>fix(group): pass membershipApprovalMode to joinGroupViaInvite (#3468) (<a href="https://github.com/wppconnect-team/wa-js/commit/3383b0374789dd25564068669bd2caadc25c0f5a" target="_blank" rel="noopener noreferrer">3383b0374789dd25564068669bd2caadc25c0f5a</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3468" target="_blank" rel="noopener noreferrer">#3468</a> <a href="https://github.com/wppconnect-team/wa-js/issues/2221" target="_blank" rel="noopener noreferrer">#2221</a></li><li>build(deps-dev): update dependency @wppconnect/wa-version to ^1.5.3976 (#3462) (<a href="https://github.com/wppconnect-team/wa-js/commit/7c1c5a44b87bb66113c745cb1c1a7dae43aa58c7" target="_blank" rel="noopener noreferrer">7c1c5a44b87bb66113c745cb1c1a7dae43aa58c7</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3462" target="_blank" rel="noopener noreferrer">#3462</a></li><li>build(deps-dev): update dependency webpack to ^5.107.0 (#3464) (<a href="https://github.com/wppconnect-team/wa-js/commit/1cb6e4dfc827d838ff73159b1f998af3f2142e2e" target="_blank" rel="noopener noreferrer">1cb6e4dfc827d838ff73159b1f998af3f2142e2e</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3464" target="_blank" rel="noopener noreferrer">#3464</a></li><li>docs: update FUNDING.yml and enhance README with custom global variable build instructions (#3463) (<a href="https://github.com/wppconnect-team/wa-js/commit/a490e22011f77c04a1f0f42d684af87ef3c5bfc3" target="_blank" rel="noopener noreferrer">a490e22011f77c04a1f0f42d684af87ef3c5bfc3</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3463" target="_blank" rel="noopener noreferrer">#3463</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.3.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>Equipe WPPConnect</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v2.2.1]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.1</id>
