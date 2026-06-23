@@ -221,7 +221,6 @@ const config = {
             title: "More",
             items: [
               { label: "Blog", to: "/blog" },
-              { label: "Translate on Crowdin", href: "https://crowdin.com/project/wppconnect-site" },
             ],
           },
         ],
