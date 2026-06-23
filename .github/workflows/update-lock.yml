@@ -10,20 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
           node-version: 18.20.8
 
       - name: Get npm cache directory
         id: npm-cache
         run: |
-          echo "::set-output name=dir::$(npm config get cache)"
+          echo "dir=$(npm config get cache)" >> "$GITHUB_OUTPUT"
 
       - name: Setup npm cache
-        uses: actions/cache@v3
+        uses: actions/cache@v5
         with:
           path: ${{ steps.npm-cache.outputs.dir }}
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -33,7 +33,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore: Updated package-lock.json'
           file_pattern: package-lock.json
