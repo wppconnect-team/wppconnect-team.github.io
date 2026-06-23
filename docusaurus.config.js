@@ -116,7 +116,7 @@ const config = {
       announcementBar: {
         id: "support_us_v2", // Increment on change
         content:
-          '⭐ If you like WPPConnect, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">GitHub</a>',
+          'Use WPPConnect for free. Help us keep it moving: <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">contribute code</a> or <a target="_blank" rel="noopener noreferrer" href="https://opencollective.com/wppconnect">sponsor the project</a>.',
       },
       navbar: {
         hideOnScroll: false,
@@ -181,7 +181,7 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         logo: {
           alt: "WPPConnect Logo",
           src: "img/logo192.png",
@@ -213,7 +213,8 @@ const config = {
               { label: "Discord", href: "https://discord.gg/JU5JGGKGNG" },
               { label: "YouTube", href: "https://www.youtube.com/c/wppconnect" },
               { label: "GitHub", href: "https://github.com/wppconnect-team" },
-              { label: "Open Collective", href: "https://opencollective.com/wppconnect" },
+              { label: "Contribute code", href: "https://github.com/wppconnect-team/wppconnect" },
+              { label: "Sponsor on Open Collective", href: "https://opencollective.com/wppconnect" },
             ],
           },
           {
@@ -224,7 +225,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
       },
       prism: {
         additionalLanguages: ["javascript", "json"],

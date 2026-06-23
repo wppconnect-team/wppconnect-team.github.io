@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "@docusaurus/Translate";
-import { Heart, Youtube, Github, ArrowRight } from "lucide-react";
+import { ArrowRight, Code2, Heart, Youtube } from "lucide-react";
 import Container from "@site/src/components/ui/Container";
 import Section from "@site/src/components/ui/Section";
 import Card from "@site/src/components/ui/Card";
@@ -27,7 +27,8 @@ const ITEMS: Item[] = [
         <Translate id="sponsor.weplatform">We use the platform </Translate>
         <b>Open Collective</b>{" "}
         <Translate id="sponsor.receipt">
-          to generate revenue to incentivize WPPConnect developers
+          to fund maintenance, infrastructure, documentation, and the
+          developers who keep WPPConnect reliable.
         </Translate>
       </>
     ),
@@ -49,16 +50,17 @@ const ITEMS: Item[] = [
     accent: "rgba(236, 72, 153, 0.35)",
   },
   {
-    icon: <Github size={22} />,
-    title: "GitHub",
+    icon: <Code2 size={22} />,
+    title: "Code contributions",
     body: (
       <>
         <Translate id="sponsor.giveastar">
-          You can also give a star in our repository.
+          Improve the project with issues, pull requests, examples, and docs.
         </Translate>
         <br />
         <Translate id="sponsor.stardesc">
-          This helps us a lot in bringing new developers to the project.
+          Every useful contribution helps more teams adopt WPPConnect with
+          confidence.
         </Translate>
       </>
     ),
@@ -87,13 +89,14 @@ const SponsorV2: React.FC = () => (
           >
             <Translate id="sponsor.headline">Help us keep this</Translate>{" "}
             <GradientText>
-              <Translate id="sponsor.headline.accent">free and open.</Translate>
+              <Translate id="sponsor.headline.accent">free, useful, and evolving.</Translate>
             </GradientText>
           </h2>
           <p style={{ color: "var(--wpp-muted)", margin: 0, lineHeight: 1.7, fontSize: "1.05rem" }}>
             <Translate id="sponsor.desc">
-              Did you know that you can support us in several ways? See below
-              how!
+              Use WPPConnect in your projects, sponsor the maintainers, share
+              tutorials, or send code that makes the ecosystem stronger for the
+              next developer.
             </Translate>
           </p>
         </div>

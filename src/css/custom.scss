@@ -291,9 +291,29 @@ html.lenis-stopped {
 
 /* ---------- Footer refinements ---------- */
 .footer {
-  background: var(--wpp-bg-elev);
+  --ifm-footer-background-color: var(--wpp-bg-elev);
+  --ifm-footer-color: var(--wpp-muted);
+  --ifm-footer-link-color: var(--wpp-muted);
+  --ifm-footer-title-color: var(--wpp-text);
+
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.7), transparent 45%),
+    var(--wpp-bg-elev);
   border-top: 1px solid var(--wpp-border);
+  color: var(--wpp-muted);
   position: relative;
+}
+
+[data-theme="dark"] .footer {
+  --ifm-footer-background-color: var(--wpp-bg-elev);
+  --ifm-footer-color: rgba(231, 231, 234, 0.72);
+  --ifm-footer-link-color: rgba(231, 231, 234, 0.68);
+  --ifm-footer-title-color: var(--wpp-text);
+
+  background:
+    linear-gradient(180deg, rgba(37, 211, 102, 0.05), transparent 45%),
+    var(--wpp-bg-elev);
+  color: rgba(231, 231, 234, 0.72);
 }
 
 .footer::before {
@@ -314,17 +334,40 @@ html.lenis-stopped {
 }
 
 .footer__title {
+  color: var(--wpp-text);
   letter-spacing: -0.01em;
   font-weight: 600;
 }
 
 .footer__link-item {
+  color: var(--ifm-footer-link-color);
   transition: color 180ms ease, transform 180ms ease;
 }
 
 .footer__link-item:hover {
   color: var(--ifm-color-primary);
   transform: translateX(2px);
+}
+
+.footer__copyright {
+  color: var(--wpp-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 1rem auto 0;
+  max-width: 780px;
+}
+
+[data-theme="dark"] .footer__copyright {
+  color: rgba(231, 231, 234, 0.62);
+}
+
+.footer__logo {
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="dark"] .footer__logo {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);
 }
 
 /* ---------- Announcement bar ---------- */
@@ -395,6 +438,28 @@ div[class^="announcementBar_"] a {
 /* Blog cards */
 [data-theme="dark"] article {
   border-color: var(--wpp-border);
+}
+
+@media (max-width: 760px) {
+  .home-why-layout {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 2rem !important;
+  }
+
+  .home-why-card {
+    padding: 1.25rem !important;
+  }
+
+  .home-why-card h3 {
+    font-size: 1.05rem !important;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .home-why-code {
+    max-width: 100%;
+    overflow-x: auto !important;
+  }
 }
 
 /* ---------- Header social icons (existing) ---------- */

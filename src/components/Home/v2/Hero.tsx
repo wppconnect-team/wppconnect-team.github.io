@@ -144,8 +144,9 @@ const HeroV2: React.FC = () => {
               }}
             >
               <Translate id="home.hero.subtitle">
-                A premium open-source ecosystem for WhatsApp automation. Library,
-                server, and tooling built by developers, for developers.
+                A production-ready open-source ecosystem for WhatsApp
+                automation. Use the library, server, and tooling for free, then
+                help the community grow through code or sponsorship.
               </Translate>
             </motion.p>
 

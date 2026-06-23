@@ -72,7 +72,14 @@ const WhyOpenSource: React.FC = () => {
             alignItems: "start",
           }}
         >
-          <div style={{ display: "grid", gap: "3rem", gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)" }}>
+          <div
+            className="home-why-layout"
+            style={{
+              display: "grid",
+              gap: "3rem",
+              gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)",
+            }}
+          >
             <div>
               <Badge variant="violet" style={{ marginBottom: "1rem" }}>
                 <Translate id="home.why.eyebrow">Why open-source</Translate>
@@ -117,6 +124,7 @@ const WhyOpenSource: React.FC = () => {
                 aria-hidden
               >
                 <pre
+                  className="home-why-code"
                   style={{
                     background: "var(--wpp-card-bg)",
                     border: "1px solid var(--wpp-border)",
@@ -162,6 +170,7 @@ client.onMessage((msg) => {
                     position: "relative",
                     overflow: "hidden",
                   }}
+                  className="home-why-card"
                 >
                   <div
                     aria-hidden

@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "@docusaurus/Translate";
-import { ArrowRight, Github } from "lucide-react";
+import { ArrowRight, Code2, Github, Heart } from "lucide-react";
 import Container from "@site/src/components/ui/Container";
 import Section from "@site/src/components/ui/Section";
 import Button from "@site/src/components/ui/Button";
@@ -53,8 +53,8 @@ const CTAFinal: React.FC = () => (
               }}
             >
               <Translate id="home.cta.subtitle">
-                Free, open-source, MIT licensed. No credentials required to
-                start exploring.
+                Free, open-source, MIT licensed. Build with it today, then help
+                the ecosystem grow with code, docs, examples, or sponsorship.
               </Translate>
             </p>
             <div
@@ -73,12 +73,34 @@ const CTAFinal: React.FC = () => (
                 as="a"
                 variant="ghost"
                 size="lg"
+                href="https://opencollective.com/wppconnect"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Heart size={18} />
+                <Translate id="home.cta.sponsor">Sponsor the project</Translate>
+              </Button>
+              <Button
+                as="a"
+                variant="ghost"
+                size="lg"
                 href="https://github.com/wppconnect-team/wppconnect"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Github size={18} />
                 <Translate id="home.cta.github">Star on GitHub</Translate>
+              </Button>
+              <Button
+                as="a"
+                variant="outline"
+                size="lg"
+                href="https://github.com/wppconnect-team/wppconnect"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Code2 size={18} />
+                <Translate id="home.cta.contribute">Contribute code</Translate>
               </Button>
             </div>
           </div>
