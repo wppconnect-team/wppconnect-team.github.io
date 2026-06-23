@@ -35,6 +35,10 @@ npm run build
 ```bash
 pm2 start npm --start --name wppconnect-server
 ```
+or navigate to project directory then
+```bash
+pm2 start node ./dist/server.js --name wppconnect-server
+```
 
 ### Logs 
 
