@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "WPPConnect",
-  tagline: "Automatize o seu WhatsApp",
+  tagline: "Open-source WhatsApp automation, built for developers",
   url: "https://wppconnect-team.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -108,14 +108,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       announcementBar: {
-        id: "support_us", // Increment on change
+        id: "support_us_v2", // Increment on change
         content:
-          '⭐️ If you like WPPConnect, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">GitHub</a>',
-        backgroundColor: "#fafbfc",
-        textColor: "#091E42",
+          '⭐ If you like WPPConnect, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">GitHub</a>',
       },
       navbar: {
+        hideOnScroll: false,
         title: "WPPConnect",
         logo: {
           alt: "WPPconnect Logo",
@@ -123,40 +127,22 @@ const config = {
         },
         items: [
           {
-            to: "/docs/",
-            position: "left",
             label: "Docs",
-            activeBaseRegex: "docs/?$"
-          },
-          {
-            to: "/docs/tutorial/intro",
             position: "left",
-            label: "Tutorial",
-            activeBaseRegex: "docs/?$"
-          },
-          {
-            to: "/docs/projects",
-            position: "left",
-            label: "Projects",
+            items: [
+              { label: "Overview", to: "/docs/" },
+              { label: "Tutorial", to: "/docs/tutorial/intro" },
+              { label: "Projects", to: "/docs/projects" },
+            ],
           },
           {
             label: "API",
             position: "left",
             items: [
-              {
-                label: "WA-JS",
-                href: "https://wppconnect.io/wa-js",
-              },
-              {
-                label: "WPPConnect",
-                href: "https://wppconnect.io/wppconnect",
-              },
+              { label: "WPPConnect (library)", href: "https://wppconnect.io/wppconnect" },
+              { label: "WA-JS", href: "https://wppconnect.io/wa-js" },
+              { label: "Server (Swagger)", to: "/swagger/wppconnect-server" },
             ],
-          },
-          {
-            label: "Swagger",
-            position: "left",
-            to: "/swagger/wppconnect-server",
           },
           {
             to: "/whatsapp-versions",
@@ -196,40 +182,45 @@ const config = {
       },
       footer: {
         style: "dark",
+        logo: {
+          alt: "WPPConnect Logo",
+          src: "img/logo192.png",
+          width: 40,
+          height: 40,
+        },
         links: [
+          {
+            title: "Product",
+            items: [
+              { label: "Library", href: "https://github.com/wppconnect-team/wppconnect" },
+              { label: "Server", href: "https://github.com/wppconnect-team/wppconnect-server" },
+              { label: "WA-JS", href: "https://github.com/wppconnect-team/wa-js" },
+              { label: "Docker", href: "https://github.com/wppconnect-team/wpp-docker" },
+            ],
+          },
           {
             title: "Docs",
             items: [
-              {
-                label: "Tutorial",
-                to: "/docs/tutorial/intro",
-              },
+              { label: "Tutorial", to: "/docs/tutorial/intro" },
+              { label: "Projects", to: "/docs/projects" },
+              { label: "Swagger", to: "/swagger/wppconnect-server" },
+              { label: "WhatsApp Versions", to: "/whatsapp-versions" },
             ],
           },
           {
             title: "Community",
             items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/JU5JGGKGNG",
-              },
-              {
-                label: "YouTube",
-                href: "https://www.youtube.com/c/wppconnect",
-              },
+              { label: "Discord", href: "https://discord.gg/JU5JGGKGNG" },
+              { label: "YouTube", href: "https://www.youtube.com/c/wppconnect" },
+              { label: "GitHub", href: "https://github.com/wppconnect-team" },
+              { label: "Open Collective", href: "https://opencollective.com/wppconnect" },
             ],
           },
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/wppconnect-team",
-              },
+              { label: "Blog", to: "/blog" },
+              { label: "Translate on Crowdin", href: "https://crowdin.com/project/wppconnect-site" },
             ],
           },
         ],
