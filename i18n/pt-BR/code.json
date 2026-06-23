@@ -57,13 +57,19 @@
     "message": "escale por anos."
   },
   "home.cta.subtitle": {
-    "message": "Open-source, licença MIT, grátis. Sem credenciais para começar a explorar."
+    "message": "Open-source, licença MIT, grátis. Use hoje e ajude o ecossistema a crescer com código, docs, exemplos ou patrocínio."
   },
   "home.cta.button": {
     "message": "Ler a documentação"
   },
   "home.cta.github": {
     "message": "Star no GitHub"
+  },
+  "home.cta.sponsor": {
+    "message": "Patrocinar o projeto"
+  },
+  "home.cta.contribute": {
+    "message": "Contribuir com código"
   },
   "home.eco.lib.desc": {
     "message": "A biblioteca core em Node.js. Envie mensagens, construa bots e automatize qualquer fluxo do WhatsApp Web por uma API limpa."
@@ -141,7 +147,7 @@
     "message": "a gente automatiza."
   },
   "home.hero.subtitle": {
-    "message": "Um ecossistema open-source premium para automação no WhatsApp. Biblioteca, servidor e ferramentas feitos por desenvolvedores, para desenvolvedores."
+    "message": "Um ecossistema open-source pronto para produção em automação no WhatsApp. Use biblioteca, servidor e ferramentas de graça, e ajude a comunidade a crescer com código ou patrocínio."
   },
   "home.hero.cta.lib": {
     "message": "Explorar a biblioteca"
@@ -165,7 +171,7 @@
     "message": "Usamos a plataforma"
   },
   "sponsor.receipt": {
-    "message": "para gerar receita e incentivar os desenvolvedores do WPPConnect."
+    "message": "para financiar manutenção, infraestrutura, documentação e os desenvolvedores que mantêm o WPPConnect confiável."
   },
   "sponsor.opencollective.cta": {
     "message": "Apoie-nos"
@@ -177,10 +183,10 @@
     "message": "Seguir o canal"
   },
   "sponsor.giveastar": {
-    "message": "Você também pode dar uma estrela no nosso repositório."
+    "message": "Melhore o projeto com issues, pull requests, exemplos e documentação."
   },
   "sponsor.stardesc": {
-    "message": "Isso nos ajuda muito a atrair novos desenvolvedores para o projeto."
+    "message": "Toda contribuição útil ajuda mais times a adotarem o WPPConnect com confiança."
   },
   "sponsor.gogithub": {
     "message": "Ir para o GitHub"
@@ -192,10 +198,10 @@
     "message": "Nos ajude a manter isso"
   },
   "sponsor.headline.accent": {
-    "message": "livre e aberto."
+    "message": "livre, útil e evoluindo."
   },
   "sponsor.desc": {
-    "message": "Sabia que dá pra apoiar a gente de várias formas? Veja abaixo!"
+    "message": "Use o WPPConnect nos seus projetos, patrocine mantenedores, compartilhe tutoriais ou envie código para fortalecer o ecossistema para o próximo dev."
   },
   "home.stack.eyebrow": {
     "message": "Feito com as ferramentas que você já ama"
