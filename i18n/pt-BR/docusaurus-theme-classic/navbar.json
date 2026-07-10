@@ -1,0 +1,58 @@
+{
+  "title": {
+    "message": "WPPConnect",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "WPPconnect Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Documentos",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Projects": {
+    "message": "Projetos",
+    "description": "Navbar item with label Projects"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.Swagger": {
+    "message": "Swagger",
+    "description": "Navbar item with label Swagger"
+  },
+  "item.label.WhatsApp Versions": {
+    "message": "Versões do WhatsApp",
+    "description": "Navbar item with label WhatsApp Versions"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.WA-JS": {
+    "message": "WA-JS",
+    "description": "Navbar item with label WA-JS"
+  },
+  "item.label.WPPConnect": {
+    "message": "WPPConnect",
+    "description": "Navbar item with label WPPConnect"
+  },
+  "item.label.Overview": {
+    "message": "Visão geral",
+    "description": "Navbar item with label Overview"
+  },
+  "item.label.WPPConnect (library)": {
+    "message": "WPPConnect (biblioteca)",
+    "description": "Navbar item with label WPPConnect (library)"
+  },
+  "item.label.Server (Swagger)": {
+    "message": "Server (Swagger)",
+    "description": "Navbar item with label Server (Swagger)"
+  }
+}

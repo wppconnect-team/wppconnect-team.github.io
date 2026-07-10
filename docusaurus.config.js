@@ -113,11 +113,6 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-      announcementBar: {
-        id: "support_us_v2", // Increment on change
-        content:
-          'Use WPPConnect for free. Help us keep it moving: <a target="_blank" rel="noopener noreferrer" href="https://github.com/wppconnect-team/wppconnect">contribute code</a> or <a target="_blank" rel="noopener noreferrer" href="https://opencollective.com/wppconnect">sponsor the project</a>.',
-      },
       navbar: {
         hideOnScroll: false,
         title: "WPPConnect",
@@ -153,16 +148,6 @@ const config = {
           {
             type: "localeDropdown",
             position: "right",
-            dropdownItemsAfter: [
-              {
-                type: "html",
-                value: '<hr style="margin: 0.3rem 0;">',
-              },
-              {
-                href: "https://crowdin.com/project/wppconnect-site",
-                label: "Help Us Translate",
-              },
-            ],
           },
           {
             href: "https://discord.gg/JU5JGGKGNG",
@@ -195,7 +180,7 @@ const config = {
               { label: "Library", href: "https://github.com/wppconnect-team/wppconnect" },
               { label: "Server", href: "https://github.com/wppconnect-team/wppconnect-server" },
               { label: "WA-JS", href: "https://github.com/wppconnect-team/wa-js" },
-              { label: "Docker", href: "https://github.com/wppconnect-team/wpp-docker" },
+              { label: "WPP4Delphi", href: "https://github.com/wppconnect-team/WPP4Delphi" },
             ],
           },
           {

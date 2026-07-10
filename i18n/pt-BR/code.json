@@ -72,13 +72,13 @@
     "message": "Contribuir com código"
   },
   "home.eco.lib.desc": {
-    "message": "A biblioteca core em Node.js. Envie mensagens, construa bots e automatize qualquer fluxo do WhatsApp Web por uma API limpa."
+    "message": "O projeto mais estrelado do ecossistema: uma biblioteca Node.js para enviar mensagens, construir bots e automatizar fluxos do WhatsApp Web."
   },
   "server.robust.desc": {
-    "message": "Um servidor simples e robusto em NodeJS, com todas as funções que o WPPConnect oferece."
+    "message": "Uma API REST pronta para uso, baseada no WPPConnect, para sessões, mensagens, contatos, grupos e webhooks."
   },
-  "extension.desc": {
-    "message": "WA-JS é uma biblioteca open-source feita para integrar e automatizar o WhatsApp Web com facilidade, permitindo criar extensões e usar diretamente no console do navegador."
+  "home.eco.wajs.desc": {
+    "message": "Automação do WhatsApp Web no navegador para alimentar extensões, integrações e fluxos diretamente pelo console."
   },
   "docker.description": {
     "message": "Sim, também disponibilizamos Docker. Veja clicando no botão abaixo."
@@ -96,13 +96,16 @@
     "message": "Ver todos os repositórios"
   },
   "home.eco.tools.eyebrow": {
-    "message": "Clientes e ferramentas"
+    "message": "Repositórios populares"
   },
   "home.eco.delphi.desc": {
-    "message": "Leve a automação do WhatsApp Web para o ecossistema Delphi."
+    "message": "Leve a automação do WhatsApp Web para o ecossistema Delphi com um projeto da comunidade criado em torno do WPPConnect."
   },
   "home.eco.waversion.desc": {
     "message": "Registro sempre atualizado das versões do WhatsApp Web, atualizado automaticamente."
+  },
+  "home.eco.waproto.desc": {
+    "message": "Arquivos Protobuf do WhatsApp Web com verificações e atualizações automatizadas."
   },
   "home.eco.php.desc": {
     "message": "Um cliente PHP simples para acessar os endpoints do WPPConnect Server com facilidade."
@@ -119,6 +122,12 @@
   "home.eco.mobile.desc": {
     "message": "Automação rodando o WhatsApp Web direto em navegadores móveis Android e iOS."
   },
+  "home.eco.api.desc": {
+    "message": "Um pequeno servidor de API que fornece previews de URL para a biblioteca WA-JS."
+  },
+  "home.eco.extension.desc": {
+    "message": "Projeto de extensão de navegador para fluxos do WhatsApp Web impulsionados pelo ecossistema WPPConnect."
+  },
   "home.eco.lib.badge": {
     "message": "Biblioteca"
   },
@@ -130,6 +139,9 @@
   },
   "home.eco.docker.badge": {
     "message": "Container"
+  },
+  "home.eco.delphi.badge": {
+    "message": "Delphi"
   },
   "view": {
     "message": "Ver"
