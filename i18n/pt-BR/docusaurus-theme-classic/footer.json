@@ -1,0 +1,74 @@
+{
+  "link.title.Docs": {
+    "message": "Documentos",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Comunidade",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "Mais",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/tutorial/intro"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/JU5JGGKGNG"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/c/wppconnect"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/wppconnect-team"
+  },
+  "link.item.label.Contribute code": {
+    "message": "Contribuir com código",
+    "description": "The label of footer link with label=Contribute code linking to https://github.com/wppconnect-team/wppconnect"
+  },
+  "link.item.label.Sponsor on Open Collective": {
+    "message": "Patrocinar no Open Collective",
+    "description": "The label of footer link with label=Sponsor on Open Collective linking to https://opencollective.com/wppconnect"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 WPPConnect Team. Automação open-source para WhatsApp mantida por mantenedores, patrocinadores e contribuidores. Use de graça, melhore no GitHub ou ajude a financiar o próximo release no Open Collective.",
+    "description": "The footer copyright"
+  },
+  "link.title.Product": {
+    "message": "Produto",
+    "description": "The title of the footer links column with title=Product in the footer"
+  },
+  "link.item.label.Library": {
+    "message": "Biblioteca",
+    "description": "The label of footer link with label=Library linking to https://github.com/wppconnect-team/wppconnect"
+  },
+  "link.item.label.Server": {
+    "message": "Servidor",
+    "description": "The label of footer link with label=Server linking to https://github.com/wppconnect-team/wppconnect-server"
+  },
+  "link.item.label.WPP4Delphi": {
+    "message": "WPP4Delphi",
+    "description": "The label of footer link with label=WPP4Delphi linking to https://github.com/wppconnect-team/WPP4Delphi"
+  },
+  "link.item.label.Projects": {
+    "message": "Projetos",
+    "description": "The label of footer link with label=Projects linking to /docs/projects"
+  },
+  "link.item.label.Swagger": {
+    "message": "Swagger",
+    "description": "The label of footer link with label=Swagger linking to /swagger/wppconnect-server"
+  },
+  "link.item.label.WhatsApp Versions": {
+    "message": "Versões do WhatsApp",
+    "description": "The label of footer link with label=WhatsApp Versions linking to /whatsapp-versions"
+  }
+}

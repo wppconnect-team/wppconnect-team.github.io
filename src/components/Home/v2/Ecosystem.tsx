@@ -4,7 +4,6 @@ import {
   ArrowRight,
   Code2,
   Server,
-  Boxes,
   MonitorSmartphone,
   Smartphone,
   Star,
@@ -38,12 +37,12 @@ const PRODUCTS: Product[] = [
     title: "WPPConnect",
     desc: (
       <Translate id="home.eco.lib.desc">
-        The core Node.js library. Send messages, build bots and automate any
-        WhatsApp Web flow through a clean API.
+        The most starred project in the ecosystem: a Node.js library to send
+        messages, build bots, and automate WhatsApp Web flows.
       </Translate>
     ),
     href: "https://github.com/wppconnect-team/wppconnect",
-    stars: "3.3k",
+    stars: "3.4k",
     icon: <Code2 size={22} />,
     accent: "rgba(37, 211, 102, 0.35)",
     variant: "green",
@@ -54,8 +53,8 @@ const PRODUCTS: Product[] = [
     title: "WPPConnect Server",
     desc: (
       <Translate id="server.robust.desc">
-        A simple and robust server made in NodeJS, with all the functions that
-        WPPConnect offers.
+        A ready-to-use REST API built on WPPConnect for sessions, messages,
+        contacts, groups, and webhooks.
       </Translate>
     ),
     href: "https://github.com/wppconnect-team/wppconnect-server",
@@ -69,31 +68,30 @@ const PRODUCTS: Product[] = [
     badge: <Translate id="home.eco.wajs.badge">Frontend</Translate>,
     title: "WA-JS",
     desc: (
-      <Translate id="extension.desc">
-        WA-JS is an open-source library designed for easy integration and
-        automation of WhatsApp Web, allowing developers to create extensions and
-        use it directly in the browser console.
+      <Translate id="home.eco.wajs.desc">
+        Browser-side WhatsApp Web automation used to power extensions,
+        integrations, and direct console workflows.
       </Translate>
     ),
     href: "https://github.com/wppconnect-team/wa-js",
-    stars: "740",
+    stars: "766",
     icon: <MonitorSmartphone size={22} />,
     accent: "rgba(139, 92, 246, 0.35)",
     variant: "violet",
     featured: true,
   },
   {
-    badge: <Translate id="home.eco.docker.badge">Container</Translate>,
-    title: "WPP Docker",
+    badge: <Translate id="home.eco.delphi.badge">Delphi</Translate>,
+    title: "WPP4Delphi",
     desc: (
-      <Translate id="docker.description">
-        Seriously, we're even making Docker available. Check it out by clicking
-        the button below
+      <Translate id="home.eco.delphi.desc">
+        Bring WhatsApp Web automation to the Delphi ecosystem with a community
+        project built around WPPConnect.
       </Translate>
     ),
-    href: "https://github.com/wppconnect-team/wpp-docker",
-    stars: "154",
-    icon: <Boxes size={22} />,
+    href: "https://github.com/wppconnect-team/WPP4Delphi",
+    stars: "243",
+    icon: <Layers size={22} />,
     accent: "rgba(236, 72, 153, 0.35)",
     variant: "default",
     featured: true,
@@ -110,17 +108,6 @@ type Tool = {
 
 const TOOLS: Tool[] = [
   {
-    title: "WPP4Delphi",
-    desc: (
-      <Translate id="home.eco.delphi.desc">
-        Bring WhatsApp Web automation to the Delphi ecosystem.
-      </Translate>
-    ),
-    href: "https://github.com/wppconnect-team/WPP4Delphi",
-    stars: "243",
-    icon: <Layers size={20} />,
-  },
-  {
     title: "wa-version",
     desc: (
       <Translate id="home.eco.waversion.desc">
@@ -132,32 +119,21 @@ const TOOLS: Tool[] = [
     icon: <Package size={20} />,
   },
   {
-    title: "PHP Client",
+    title: "wa-proto",
     desc: (
-      <Translate id="home.eco.php.desc">
-        A simple PHP client to access the WPPConnect Server endpoints with ease.
+      <Translate id="home.eco.waproto.desc">
+        Protobuf files from WhatsApp Web with automated checks and updates.
       </Translate>
     ),
-    href: "https://github.com/wppconnect-team/wppconnect-php-client",
+    href: "https://github.com/wppconnect-team/wa-proto",
     stars: "47",
-    icon: <Code2 size={20} />,
-  },
-  {
-    title: "Laravel Client",
-    desc: (
-      <Translate id="home.eco.laravel.desc">
-        A clean Guzzle-based wrapper providing easy access to WPPConnect Server.
-      </Translate>
-    ),
-    href: "https://github.com/wppconnect-team/wppconnect-laravel-client",
-    stars: "40",
-    icon: <Code2 size={20} />,
+    icon: <Package size={20} />,
   },
   {
     title: "server-cli",
     desc: (
       <Translate id="home.eco.cli.desc">
-        Command-line interface to manage the WPPConnect Server quickly.
+        Command-line interface to manage WPPConnect Server quickly.
       </Translate>
     ),
     href: "https://github.com/wppconnect-team/server-cli",
@@ -165,26 +141,38 @@ const TOOLS: Tool[] = [
     icon: <Terminal size={20} />,
   },
   {
-    title: "Frontend Vue",
-    desc: (
-      <Translate id="home.eco.vue.desc">
-        Ready-to-use Vue frontend that talks to WPPConnect Server.
-      </Translate>
-    ),
-    href: "https://github.com/wppconnect-team/wppconnect-frontend-vue",
-    stars: "28",
-    icon: <MonitorSmartphone size={20} />,
-  },
-  {
-    title: "Mobile",
+    title: "mobile",
     desc: (
       <Translate id="home.eco.mobile.desc">
         Automation that runs WhatsApp Web inside Android and iOS mobile browsers.
       </Translate>
     ),
     href: "https://github.com/wppconnect-team/mobile",
-    stars: "25",
+    stars: "26",
     icon: <Smartphone size={20} />,
+  },
+  {
+    title: "wa-js-api-server",
+    desc: (
+      <Translate id="home.eco.api.desc">
+        A small API server that provides URL previews for the WA-JS library.
+      </Translate>
+    ),
+    href: "https://github.com/wppconnect-team/wa-js-api-server",
+    stars: "22",
+    icon: <Server size={20} />,
+  },
+  {
+    title: "wppconnect-extension",
+    desc: (
+      <Translate id="home.eco.extension.desc">
+        Browser extension project for WhatsApp Web workflows powered by the
+        WPPConnect ecosystem.
+      </Translate>
+    ),
+    href: "https://github.com/wppconnect-team/wppconnect-extension",
+    stars: "15",
+    icon: <MonitorSmartphone size={20} />,
   },
 ];
 
@@ -368,7 +356,9 @@ const EcosystemV2: React.FC = () => (
               textTransform: "uppercase",
             }}
           >
-            <Translate id="home.eco.tools.eyebrow">Clients & tools</Translate>
+            <Translate id="home.eco.tools.eyebrow">
+              Popular repositories
+            </Translate>
           </span>
           <span
             aria-hidden

@@ -4,10 +4,12 @@
 # Production
 /build
 
-# i18n is managed by Crowdin — only commit the source code.json files
+# Keep committed translations for custom UI and theme chrome.
 /i18n/**/*
 !/i18n/pt-BR/
 !/i18n/pt-BR/code.json
+!/i18n/pt-BR/docusaurus-theme-classic/
+!/i18n/pt-BR/docusaurus-theme-classic/*.json
 
 # Generated files
 .docusaurus
@@ -24,5 +26,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+docusaurus-serve-*.log
 
 pnpm-lock.yaml
