@@ -2,11 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-07-15T03:27:34.000Z</updated>
+    <updated>2026-07-15T07:41:57.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v2.2.3]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect/v2.2.3</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v2.2.3"/>
+        <updated>2026-07-15T07:41:57.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.2.3 for WPPConnect.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.2.3 for WPPConnect.</p><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.2.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v4.4.1]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v4.4.1</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v4.4.1"/>
+        <updated>2026-07-15T07:35:23.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v4.4.1 for WA-JS.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v4.4.1 for WA-JS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="441-2026-07-15"><small>4.4.1 (2026-07-15)</small><a href="#441-2026-07-15" class="hash-link" aria-label="Direct link to 441-2026-07-15" title="Direct link to 441-2026-07-15">​</a></h2><ul><li>chore(release): v4.4.1 (<a href="https://github.com/wppconnect-team/wa-js/commit/1f7cc7e12e2cf9246a65bb8de4348055016f374e" target="_blank" rel="noopener noreferrer">1f7cc7e12e2cf9246a65bb8de4348055016f374e</a>)</li><li>fix: restore MsgKey._serialized on keys created before injection (#3488) (<a href="https://github.com/wppconnect-team/wa-js/commit/a0abd24b69b29bb93d6ba49c8a3422dac057a9b7" target="_blank" rel="noopener noreferrer">a0abd24b69b29bb93d6ba49c8a3422dac057a9b7</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3488" target="_blank" rel="noopener noreferrer">#3488</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3484" target="_blank" rel="noopener noreferrer">#3484</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.4.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v2.2.2]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect/v2.2.2</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect/v2.2.2"/>
+        <updated>2026-07-15T04:08:47.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.2.2 for WPPConnect with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.2.2 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^4.3.1 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2810" target="_blank" rel="noopener noreferrer">#2810</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/f8baa0c9898c672ebf2b3c05ff53e05f522302b3" target="_blank" rel="noopener noreferrer">f8baa0c</a>)</li><li><strong>deps:</strong> update dependency @wppconnect/wa-js to ^4.4.0 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2826" target="_blank" rel="noopener noreferrer">#2826</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/2305cd3ca" target="_blank" rel="noopener noreferrer">2305cd3</a>) — restores <code>MsgKey._serialized</code> on WhatsApp Web &gt;= 2.3000.1042401057 (event ids were delivered with a minified <code>$1</code> property instead), see <a href="https://github.com/wppconnect-team/wa-js/pull/3484" target="_blank" rel="noopener noreferrer">wa-js#3484</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.2.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS minor release: v4.4.0]]></title>
         <id>https://wppconnect-team.github.io/blog/wa-js/v4.4.0</id>
