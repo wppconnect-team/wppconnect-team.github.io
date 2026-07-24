@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 15 Jul 2026 07:41:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 17:32:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v4.4.2]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v4.4.2</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v4.4.2</guid>
+            <pubDate>Fri, 24 Jul 2026 17:32:43 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v4.4.2 for WA-JS.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v4.4.2 for WA-JS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="442-2026-07-24"><small>4.4.2 (2026-07-24)</small><a href="#442-2026-07-24" class="hash-link" aria-label="Direct link to 442-2026-07-24" title="Direct link to 442-2026-07-24">​</a></h2><ul><li>chore(release): v4.4.2 (<a href="https://github.com/wppconnect-team/wa-js/commit/8b2b09f4952eb8c0a22b7d7a40f139111ad41d3c" target="_blank" rel="noopener noreferrer">8b2b09f4952eb8c0a22b7d7a40f139111ad41d3c</a>)</li><li>fix: protobuf named params when sending messages (#3498) (<a href="https://github.com/wppconnect-team/wa-js/commit/be60fe152db53df969510d69dcdd253f9dafe354" target="_blank" rel="noopener noreferrer">be60fe152db53df969510d69dcdd253f9dafe354</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3498" target="_blank" rel="noopener noreferrer">#3498</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.4.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v2.2.3]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v2.2.3</link>

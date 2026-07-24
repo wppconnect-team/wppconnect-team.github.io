@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-07-15T07:41:57.000Z</updated>
+    <updated>2026-07-24T17:32:43.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v4.4.2]]></title>
+        <id>https://wppconnect-team.github.io/blog/wa-js/v4.4.2</id>
+        <link href="https://wppconnect-team.github.io/blog/wa-js/v4.4.2"/>
+        <updated>2026-07-24T17:32:43.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v4.4.2 for WA-JS.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v4.4.2 for WA-JS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="442-2026-07-24"><small>4.4.2 (2026-07-24)</small><a href="#442-2026-07-24" class="hash-link" aria-label="Direct link to 442-2026-07-24" title="Direct link to 442-2026-07-24">​</a></h2><ul><li>chore(release): v4.4.2 (<a href="https://github.com/wppconnect-team/wa-js/commit/8b2b09f4952eb8c0a22b7d7a40f139111ad41d3c" target="_blank" rel="noopener noreferrer">8b2b09f4952eb8c0a22b7d7a40f139111ad41d3c</a>)</li><li>fix: protobuf named params when sending messages (#3498) (<a href="https://github.com/wppconnect-team/wa-js/commit/be60fe152db53df969510d69dcdd253f9dafe354" target="_blank" rel="noopener noreferrer">be60fe152db53df969510d69dcdd253f9dafe354</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3498" target="_blank" rel="noopener noreferrer">#3498</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.4.2" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v2.2.3]]></title>
         <id>https://wppconnect-team.github.io/blog/wppconnect/v2.2.3</id>
