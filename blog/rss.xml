@@ -4,10 +4,22 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Fri, 24 Jul 2026 17:39:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 01:27:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v4.4.3]]></title>
+            <link>https://wppconnect-team.github.io/blog/wa-js/v4.4.3</link>
+            <guid>https://wppconnect-team.github.io/blog/wa-js/v4.4.3</guid>
+            <pubDate>Thu, 30 Jul 2026 01:27:33 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v4.4.3 for WA-JS.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v4.4.3 for WA-JS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="443-2026-07-30"><small>4.4.3 (2026-07-30)</small><a href="#443-2026-07-30" class="hash-link" aria-label="Direct link to 443-2026-07-30" title="Direct link to 443-2026-07-30">​</a></h2><ul><li>chore(release): v4.4.3 (<a href="https://github.com/wppconnect-team/wa-js/commit/3a4833224cb7fb5e8e12df39939aacf8e8a258fc" target="_blank" rel="noopener noreferrer">3a4833224cb7fb5e8e12df39939aacf8e8a258fc</a>)</li><li>fix: compatibility with WhatsApp Web &gt;= 2.3000.1044096409 (#3500) (<a href="https://github.com/wppconnect-team/wa-js/commit/1e051247ec13bb05e3bca346cd86f03c8538753d" target="_blank" rel="noopener noreferrer">1e051247ec13bb05e3bca346cd86f03c8538753d</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3500" target="_blank" rel="noopener noreferrer">#3500</a></li><li>fix: support new label deletion signature (#3494) (<a href="https://github.com/wppconnect-team/wa-js/commit/31512a90f4025234d439477f2879014c3544d5c6" target="_blank" rel="noopener noreferrer">31512a90f4025234d439477f2879014c3544d5c6</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3494" target="_blank" rel="noopener noreferrer">#3494</a></li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.4.3" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[WPPConnect patch release: v2.2.4]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect/v2.2.4</link>
