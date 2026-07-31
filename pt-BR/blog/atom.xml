@@ -2,11 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-07-30T01:27:33.000Z</updated>
+    <updated>2026-07-30T18:35:32.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.10.1]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.10.1</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.10.1"/>
+        <updated>2026-07-30T18:35:32.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.1 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.1 for WPP Server with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes">​</a></h3><ul><li>bump wppconnect version to 2.2.5 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2519" target="_blank" rel="noopener noreferrer">#2519</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/80a3158e1dd95096b98804b7008028debc53fb2e" target="_blank" rel="noopener noreferrer">80a3158</a>)</li><li>bump wppconnect version to 2.2.6 (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2520" target="_blank" rel="noopener noreferrer">#2520</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/2755e64f5741320627f65df334eef80d12b4e0a9" target="_blank" rel="noopener noreferrer">2755e64</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.1" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v2.2.6]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.6</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.6"/>
+        <updated>2026-07-30T18:25:12.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.2.6 for WPPConnect with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.2.6 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes">​</a></h3><ul><li><strong>deps:</strong> update dependency @wppconnect/wa-version to ^1.5.4472 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2833" target="_blank" rel="noopener noreferrer">#2833</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/2513821bb63172ac43f4e39ee3ecc98fd03009c3" target="_blank" rel="noopener noreferrer">2513821</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.2.6" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPPConnect patch release: v2.2.5]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.5</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.2.5"/>
+        <updated>2026-07-30T01:46:56.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.2.5 for WPPConnect with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.2.5 for WPPConnect with Bug Fixes.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-fixes">Bug Fixes<a href="#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes">​</a></h3><ul><li>bump wa-js version to 4.4.3 (<a href="https://github.com/wppconnect-team/wppconnect/issues/2832" target="_blank" rel="noopener noreferrer">#2832</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/44ba83020d68a1a994b529f788662dd118abbaf3" target="_blank" rel="noopener noreferrer">44ba830</a>)</li></ul><p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.2.5" target="_blank" rel="noopener noreferrer">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="lib" term="lib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WA-JS patch release: v4.4.3]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.4.3</id>
