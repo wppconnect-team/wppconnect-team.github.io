@@ -5,7 +5,7 @@ sidebar_position: 5
 # Basic Functions (usage)
 
 Not every available function will be listed, for further look, every function
-available can be found in {@link Whatsapp}
+available can be found in `Whatsapp`.
 
 ## Summary
 
@@ -183,7 +183,7 @@ await client
 ### sendImageAsStickerGif
 
 Generates a sticker from the provided animated gif image and sends it (Send an image as animated sticker)\
-Image path imageBase64 A valid gif and webp image will be required. You can also send via http/https (<http://www.website.com/img.gif>)
+Image path imageBase64 A valid gif and webp image will be required. You can also send via [HTTP/HTTPS](http://www.website.com/img.gif).
 
 ```javascript
 await client
@@ -199,7 +199,7 @@ await client
 ### sendImageAsSticker
 
 Generates a sticker from given image and sends it (Send Image As Sticker)\
-image path imageBase64 A valid png, jpg and webp image will be required. You can also send via http/https (<http://www.website.com/img.jpg>)
+image path imageBase64 A valid png, jpg and webp image will be required. You can also send via [HTTP/HTTPS](http://www.website.com/img.jpg).
 
 ```javascript
 await client
