@@ -88,7 +88,7 @@ function CardTitle({ version, beta }: { version: string; beta: boolean }) {
   return <>{list}</>;
 }
 
-const dateTimeOptions = {
+const dateTimeOptions: Intl.DateTimeFormatOptions = {
   day: 'numeric',
   month: 'numeric',
   year: 'numeric',

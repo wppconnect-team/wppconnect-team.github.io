@@ -65,7 +65,7 @@ Or Swagger UI in your server. Acess router: "IP:PORT/api-docs"
 
 ## License
 
-Copyright 2022 WPPConnect Team <https://wppconnect-team.github.io/>
+Copyright 2022 [WPPConnect Team](https://wppconnect-team.github.io/)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

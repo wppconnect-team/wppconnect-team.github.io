@@ -4,8 +4,8 @@ sidebar_position: 2
 
 # Creating a Client
 
-To start using `Wppconnect Bot`, you need to create a file and call the {@link create} method.\
-That method returns an `Promise` of {@link Whatsapp}.
+To start using `Wppconnect Bot`, you need to create a file and call the `create` method.\
+That method returns a `Promise` of `Whatsapp`.
 
 ```javascript
 // Supports ES6
@@ -22,7 +22,7 @@ wppconnect
 # Login with code
 
 For login by code, insert the phone number in create method
-That method returns an `Promise` of {@link Whatsapp}.
+That method returns a `Promise` of `Whatsapp`.
 
 ```javascript
 // Supports ES6
@@ -54,7 +54,7 @@ wppconnect.create({session: 'support'}).then((client) => startSupport(client));
 
 ## Passing options on create
 
-The {@link create} method third parameter can have the following optional parameters (see all parameters in {@link CreateOptions}):
+The `create` method third parameter can have the following optional parameters (see all parameters in `CreateOptions`):
 
 ```javascript
 wppconnect.create({
@@ -98,7 +98,7 @@ wppconnect.create({
 
 ### Callback Status Session
 
-More details in {@link StatusFind}
+More details in `StatusFind`.
 
 | Status               | Condition                                                                                                                                                      |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ wppconnect
 ```
 
 ### Phone connection verification
-To enforce the phone connection verification, you can use the code below or check the documentation {@link Whatsapp.startPhoneWatchdog}.:
+To enforce the phone connection verification, you can use the code below or check `Whatsapp.startPhoneWatchdog` in the documentation:
 ```javascript
 // To start with default interval.
 client.startPhoneWatchdog();
@@ -144,7 +144,7 @@ client.stopPhoneWatchdog();
 ### Exporting QR Code
 
 By default, QR code will appear on the terminal. If you need to pass the QR
-somewhere else heres how (See {@link CatchQRCallback}):
+somewhere else here's how (see `CatchQRCallback`):
 
 ```javascript
 const fs = require('fs');
@@ -184,4 +184,4 @@ wppconnect
 
 ### Saving Session Token
 
-Read the {@link TokenStore}
+Read the `TokenStore` documentation.
