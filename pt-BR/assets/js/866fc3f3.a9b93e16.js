@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwppconnect_team_github_io||=[]).push([[22278],{39723(e){e.exports=JSON.parse('{"metadata":{"permalink":"/pt-BR/blog/page/33","page":33,"postsPerPage":10,"totalPages":34,"totalCount":331,"previousPage":"/pt-BR/blog/page/32","nextPage":"/pt-BR/blog/page/34","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
