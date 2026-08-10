@@ -31,10 +31,10 @@
   },
   "dependencies": {
     "@crowdin/cli": "^4.15.0",
-    "@docusaurus/core": "^2.4.3",
-    "@docusaurus/plugin-google-gtag": "^2.4.3",
-    "@docusaurus/plugin-pwa": "^2.4.3",
-    "@docusaurus/preset-classic": "^2.4.3",
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/plugin-google-gtag": "^3.10.2",
+    "@docusaurus/plugin-pwa": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
     "@easyops-cn/docusaurus-search-local": "^0.52.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
@@ -48,7 +48,7 @@
     "react-dom": "^17.0.2",
     "react-feather": "^2.0.10",
     "react-is": "^17.0.2",
-    "redocusaurus": "^1.6.4",
+    "redocusaurus": "^2.5.2",
     "styled-components": "^5.3.11"
   },
   "devDependencies": {
