@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "@crowdin/cli": "^3.19.4",
+    "@crowdin/cli": "^4.15.0",
     "@docusaurus/core": "^2.4.3",
     "@docusaurus/plugin-google-gtag": "^2.4.3",
     "@docusaurus/plugin-pwa": "^2.4.3",
@@ -62,6 +62,12 @@
   },
   "overrides": {
     "got": "11.8.6",
-    "trim": "1.0.1"
+    "shell-quote": "1.8.4",
+    "trim": "1.0.1",
+    "websocket-driver": "0.7.5"
+  },
+  "resolutions": {
+    "shell-quote": "1.8.4",
+    "websocket-driver": "0.7.5"
   }
 }
