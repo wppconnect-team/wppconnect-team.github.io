@@ -62,7 +62,7 @@
   "overrides": {
     "got": "11.8.6",
     "serialize-javascript": "7.1.0",
-    "shell-quote": "1.9.0",
+    "shell-quote": "1.10.0",
     "trim": "1.0.1",
     "undici": "7.29.0",
     "uuid": "11.1.1",
@@ -70,7 +70,7 @@
   },
   "resolutions": {
     "serialize-javascript": "7.1.0",
-    "shell-quote": "1.9.0",
+    "shell-quote": "1.10.0",
     "undici": "7.29.0",
     "uuid": "11.1.1",
     "websocket-driver": "0.7.5"
