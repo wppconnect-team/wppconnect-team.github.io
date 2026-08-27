@@ -5719,7 +5719,7 @@ fraction.js@^5.3.4:
 
 framer-motion@^13.1.1:
   version "13.1.1"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.1.1.tgz#bdec4ee02164633a285e45083da91dadb30194c0"
+  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-13.1.1.tgz"
   integrity sha512-B/xn2TPS4f61cEBLFjiYlQFnBZUW1YVj/LM+C+N4OP8Rs95VLEI2ot/RlfBg111la/EiyECFaJJi/A3FWA8MUA==
   dependencies:
     motion-dom "^13.1.1"
@@ -8035,15 +8035,23 @@ mobx@^6.12.4:
 
 motion-dom@^13.1.1:
   version "13.1.1"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-13.1.1.tgz#bbcb7c2e7236583f20759330d1275876131dc2eb"
+  resolved "https://registry.npmjs.org/motion-dom/-/motion-dom-13.1.1.tgz"
   integrity sha512-XSf8VYWSB6G/0IY3rWVbyLcxWXtAVHkN1PQE2agTaCv3u8RGvbwu56TyyR/MNzBqqNavEBTZzErcxI1TxBrjcA==
   dependencies:
     motion-utils "^13.0.0"
 
 motion-utils@^13.0.0:
   version "13.0.0"
-  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-13.0.0.tgz#b2e4dbe21e5488032592f0b0d4e0b7b776466dfa"
+  resolved "https://registry.npmjs.org/motion-utils/-/motion-utils-13.0.0.tgz"
   integrity sha512-7DnN7TmbLcYXcG4RVadXIihWlyuM9afoUww8Y5Agg431kGKiuL2/OMyP4mJ5wLz+pvN3t5ySClLOaVXJ+wekRQ==
+
+motion@^13.1.1:
+  version "13.1.1"
+  resolved "https://registry.npmjs.org/motion/-/motion-13.1.1.tgz"
+  integrity sha512-WNZoK6xiF+kkTqkZ5K7FDDh6A8BG4i5Hc7KXtW8gtTxkpJFds+hIOrDaQGKjQj/AE/i4hJqAaUHEqp/Qo02y6Q==
+  dependencies:
+    framer-motion "^13.1.1"
+    tslib "^2.4.0"
 
 mrmime@^2.0.0:
   version "2.0.1"
