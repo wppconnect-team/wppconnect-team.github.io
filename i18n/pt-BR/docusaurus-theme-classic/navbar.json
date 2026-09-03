@@ -31,6 +31,10 @@
     "message": "Versões do WhatsApp",
     "description": "Navbar item with label WhatsApp Versions"
   },
+  "item.label.Business Support": {
+    "message": "Suporte empresarial",
+    "description": "Navbar item with label Business Support"
+  },
   "item.label.Blog": {
     "message": "Blog",
     "description": "Navbar item with label Blog"

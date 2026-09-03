@@ -70,5 +70,9 @@
   "link.item.label.WhatsApp Versions": {
     "message": "Versões do WhatsApp",
     "description": "The label of footer link with label=WhatsApp Versions linking to /whatsapp-versions"
+  },
+  "link.item.label.Business Support": {
+    "message": "Suporte empresarial",
+    "description": "The label of footer link with label=Business Support linking to /business-support"
   }
 }

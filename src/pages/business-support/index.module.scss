@@ -1,0 +1,259 @@
+.page {
+  --support-green: #25d366;
+  background:
+    radial-gradient(circle at 75% 7%, rgba(37, 211, 102, 0.14), transparent 28rem),
+    var(--ifm-background-color);
+  min-height: 100vh;
+}
+
+.hero {
+  padding: clamp(5rem, 10vw, 8rem) 0 4rem;
+  border-bottom: 1px solid var(--wpp-border);
+}
+
+.hero h1 {
+  max-width: 900px;
+  margin: 1.2rem 0;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.eyebrow,
+.availability {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.eyebrow {
+  padding: 0.45rem 0.8rem;
+  color: var(--support-green);
+  border: 1px solid rgba(37, 211, 102, 0.35);
+  border-radius: 999px;
+  background: rgba(37, 211, 102, 0.08);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.lead {
+  max-width: 760px;
+  color: var(--wpp-muted);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.65;
+}
+
+.availability {
+  margin-top: 1rem;
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+.content {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.notice {
+  margin-bottom: 2rem;
+  padding: 1.15rem 1.3rem;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: 14px;
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.notice p {
+  margin: 0.35rem 0 0;
+  color: var(--wpp-muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.tier {
+  position: relative;
+  padding: clamp(1.5rem, 4vw, 2.3rem);
+  border: 1px solid var(--wpp-border);
+  border-radius: 22px;
+  background: var(--wpp-card-bg);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.08);
+}
+
+.featured {
+  border-color: rgba(37, 211, 102, 0.6);
+  box-shadow: 0 18px 60px rgba(37, 211, 102, 0.12);
+}
+
+.pill {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  color: #07130b;
+  background: var(--support-green);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.price {
+  margin: 0.75rem 0 1.5rem;
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.price span {
+  margin-left: 0.3rem;
+  color: var(--wpp-muted);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.targets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0 0 1.5rem;
+}
+
+.targets div {
+  padding: 0.9rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.targets dt {
+  color: var(--wpp-muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.targets dd {
+  margin: 0.35rem 0 0;
+  font-weight: 700;
+}
+
+.tier ul {
+  display: grid;
+  gap: 0.8rem;
+  min-height: 8.5rem;
+  margin: 0 0 1.6rem;
+  padding: 0;
+  list-style: none;
+}
+
+.tier li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.tier li svg {
+  flex: 0 0 auto;
+  margin-top: 0.15rem;
+  color: var(--support-green);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.85rem 1.2rem;
+  border-radius: 11px;
+  color: #07130b;
+  background: var(--support-green);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #07130b;
+  filter: brightness(1.06);
+  text-decoration: none;
+}
+
+.terms {
+  margin-top: 4rem;
+}
+
+.termGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.termGrid > div {
+  padding: 1.25rem;
+  border: 1px solid var(--wpp-border);
+  border-radius: 14px;
+}
+
+.termGrid h3 {
+  margin-top: 0;
+}
+
+.termGrid p,
+.disclaimer,
+.pilotCta p {
+  color: var(--wpp-muted);
+}
+
+.disclaimer {
+  margin-top: 1.2rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--support-green);
+}
+
+.pilotCta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid var(--wpp-border);
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(37, 211, 102, 0.11), rgba(37, 211, 102, 0.02));
+}
+
+.pilotCta h2,
+.pilotCta p {
+  margin: 0;
+}
+
+.pilotCta p {
+  max-width: 720px;
+  margin-top: 0.6rem;
+}
+
+@media (max-width: 820px) {
+  .grid,
+  .termGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pilotCta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 520px) {
+  .targets {
+    grid-template-columns: 1fr;
+  }
+
+  .pill {
+    position: static;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+}
