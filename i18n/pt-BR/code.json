@@ -247,5 +247,101 @@
   },
   "home.why.intro": {
     "message": "WPPConnect não é um produto. É uma fundação aberta onde desenvolvedores, agências e times constroem a próxima geração de software conversacional sobre o WhatsApp."
+  },
+  "sponsor.businessSupport": {
+    "message": "Resposta prioritária a incidentes e metas documentadas de mitigação para empresas que usam WA-JS ou WPPConnect em produção."
+  },
+  "sponsor.businessSupport.cta": {
+    "message": "Conhecer o piloto B2B"
+  },
+  "businessSupport.enterpriseBadge": {
+    "message": "Resposta mais rápida"
+  },
+  "businessSupport.perMonth": {
+    "message": "/mês"
+  },
+  "businessSupport.initialResponse": {
+    "message": "Resposta inicial"
+  },
+  "businessSupport.mitigationTarget": {
+    "message": "Meta de mitigação"
+  },
+  "businessSupport.apply": {
+    "message": "Candidatar-se ao piloto"
+  },
+  "businessSupport.pilot": {
+    "message": "Piloto B2B limitado"
+  },
+  "businessSupport.title": {
+    "message": "Incidentes de produção merecem um caminho direto até os mantenedores."
+  },
+  "businessSupport.subtitle": {
+    "message": "Triagem prioritária e metas documentadas de mitigação para regressões reproduzíveis do WA-JS e WPPConnect que interrompem a produção."
+  },
+  "businessSupport.hours": {
+    "message": "Cobertura: segunda a sexta, 09h–18h BRT, exceto feriados nacionais brasileiros."
+  },
+  "businessSupport.enrollmentTitle": {
+    "message": "Status da adesão"
+  },
+  "businessSupport.enrollmentBody": {
+    "message": "O perfil de patrocínio da organização está sendo preparado. As candidaturas ao piloto são atendidas pelo Discord oficial até a cobrança da organização estar disponível."
+  },
+  "businessSupport.proResponse": {
+    "message": "Até 8 horas úteis"
+  },
+  "businessSupport.proMitigation": {
+    "message": "48 horas após a confirmação"
+  },
+  "businessSupport.enterpriseResponse": {
+    "message": "Até 2 horas úteis"
+  },
+  "businessSupport.enterpriseMitigation": {
+    "message": "24 horas após a confirmação"
+  },
+  "businessSupport.logo": {
+    "message": "Logo da empresa no README do projeto"
+  },
+  "businessSupport.privateIssue": {
+    "message": "Entrada privada de incidentes e triagem prioritária"
+  },
+  "businessSupport.webhookIncluded": {
+    "message": "Webhook de compatibilidade incluído quando disponível"
+  },
+  "businessSupport.channel": {
+    "message": "Canal privado dedicado no Discord"
+  },
+  "businessSupport.howItWorks": {
+    "message": "Como funciona a meta de serviço"
+  },
+  "businessSupport.covered": {
+    "message": "Coberto"
+  },
+  "businessSupport.coveredBody": {
+    "message": "Regressões reproduzíveis em versões suportadas do WA-JS ou WPPConnect que interrompam um fluxo de produção existente."
+  },
+  "businessSupport.mitigation": {
+    "message": "Mitigação"
+  },
+  "businessSupport.mitigationBody": {
+    "message": "Patch, versão compatível, pin de versão, feature flag ou contorno documentado que restaure o fluxo afetado."
+  },
+  "businessSupport.excluded": {
+    "message": "Não coberto"
+  },
+  "businessSupport.excludedBody": {
+    "message": "Banimentos, aplicação de políticas da Meta, infraestrutura do cliente, versões não suportadas, código customizado ou integração incorreta."
+  },
+  "businessSupport.disclaimer": {
+    "message": "As metas começam após reprodução e confirmação do problema. São metas de resposta e mitigação, não garantia de que alterações de plataformas de terceiros sempre possam ser revertidas."
+  },
+  "businessSupport.threeCompanies": {
+    "message": "Três empresas, depois medimos."
+  },
+  "businessSupport.threeCompaniesBody": {
+    "message": "A primeira turma é limitada a duas empresas Pro e uma Enterprise, para o time validar capacidade e publicar resultados reais do nível de serviço."
+  },
+  "businessSupport.talk": {
+    "message": "Falar com o time"
   }
 }

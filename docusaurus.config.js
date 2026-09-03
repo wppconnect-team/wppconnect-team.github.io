@@ -144,6 +144,11 @@ const config = {
             label: "WhatsApp Versions",
             position: "left",
           },
+          {
+            to: "/business-support",
+            label: "Business Support",
+            position: "left",
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
@@ -190,6 +195,7 @@ const config = {
               { label: "Projects", to: "/docs/projects" },
               { label: "Swagger", to: "/swagger/wppconnect-server" },
               { label: "WhatsApp Versions", to: "/whatsapp-versions" },
+              { label: "Business Support", to: "/business-support" },
             ],
           },
           {
