@@ -8045,6 +8045,14 @@ motion-utils@^13.0.0:
   resolved "https://registry.npmjs.org/motion-utils/-/motion-utils-13.0.0.tgz"
   integrity sha512-7DnN7TmbLcYXcG4RVadXIihWlyuM9afoUww8Y5Agg431kGKiuL2/OMyP4mJ5wLz+pvN3t5ySClLOaVXJ+wekRQ==
 
+motion@^13.2.0:
+  version "13.2.0"
+  resolved "https://registry.npmjs.org/motion/-/motion-13.2.0.tgz"
+  integrity sha512-4Hrb5vD6HhjFstLUiCmWvtpsw+WTpP4R+QXfSDYZBz7+uxE/LrRg3aV0ReJxHrTRffHhbIE6svEqnotngXvesQ==
+  dependencies:
+    framer-motion "^13.2.0"
+    tslib "^2.4.0"
+
 mrmime@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz"
