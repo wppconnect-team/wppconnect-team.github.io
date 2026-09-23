@@ -5726,12 +5726,12 @@ fraction.js@^5.3.4:
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz"
   integrity sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==
 
-framer-motion@^13.4.1:
-  version "13.4.1"
-  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-13.4.1.tgz"
-  integrity sha512-6DsbU4hsNsokXkwSp3ezdMWMiv5yWzCcdjFgakkeUC6FVIK01Py8ToSzsXvBw8cYA5hff/oXFvZFU7ltbVyUYA==
+framer-motion@^13.4.2:
+  version "13.4.2"
+  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-13.4.2.tgz"
+  integrity sha512-yrC5GJqlGbuZEz2DFaH+VUCrBwlA6mM5v/Sfazd83/IRpWdOdVqgZmsAZWoS30YTuA3PCbGNL2JIWyGVmeimsA==
   dependencies:
-    motion-dom "^13.4.1"
+    motion-dom "^13.4.2"
     motion-utils "^13.3.0"
     tslib "^2.4.0"
 
@@ -8042,10 +8042,10 @@ mobx@^6.12.4:
   resolved "https://registry.npmjs.org/mobx/-/mobx-6.16.1.tgz"
   integrity sha512-syNcDdX3KT+Jq3je6eGjBhuc24Z68td2VG0zNFqRswaE433D9SNH5VRy/xrGbJsUixfppLLccXhAW9JSf6n+SQ==
 
-motion-dom@^13.4.1:
-  version "13.4.1"
-  resolved "https://registry.npmjs.org/motion-dom/-/motion-dom-13.4.1.tgz"
-  integrity sha512-qw6ILBFHrIPQd3k9Dd1fNlCLHTNzvMXW2zpeTlxn4wZXX02m0Dnsf8ycyvcjtAZtBiBnL4SfbyDIXWg+b1x/Ig==
+motion-dom@^13.4.2:
+  version "13.4.2"
+  resolved "https://registry.npmjs.org/motion-dom/-/motion-dom-13.4.2.tgz"
+  integrity sha512-mY293Iyj4rOQo5sDxUwPYLOKiveLQrJoK1tKfG8V1H3MMGMfan3s2i7NBW18WnD39DD79ogyiL/1fmy22GLG5w==
   dependencies:
     motion-utils "^13.3.0"
 
