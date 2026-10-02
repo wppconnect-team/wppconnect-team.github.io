@@ -5726,13 +5726,13 @@ fraction.js@^5.3.4:
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz"
   integrity sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==
 
-framer-motion@^13.5.1:
-  version "13.5.1"
-  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-13.5.1.tgz"
-  integrity sha512-HeWOaeHD3kyTSIEMT6+nw7fBn4saIfxxabZyAITbycAl4xr1kzGJKIvGt/OWghSlvIA9qTnZ1zTGelHAe6S8DA==
+framer-motion@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-14.0.0.tgz"
+  integrity sha512-QAtHmybrDFSliyW1sexMtSQTQd+1jw2ajibEmzpuI4XdPVzQkn+dAzJMm2sW3pl9MJuSS4xN51djQ7huhlP/VA==
   dependencies:
-    motion-dom "13.5.1"
-    motion-utils "13.5.0"
+    motion-dom "14.0.0"
+    motion-utils "14.0.0"
     tslib "^2.4.0"
 
 fresh@~0.5.2:
@@ -8042,17 +8042,17 @@ mobx@^6.12.4:
   resolved "https://registry.npmjs.org/mobx/-/mobx-6.16.1.tgz"
   integrity sha512-syNcDdX3KT+Jq3je6eGjBhuc24Z68td2VG0zNFqRswaE433D9SNH5VRy/xrGbJsUixfppLLccXhAW9JSf6n+SQ==
 
-motion-dom@13.5.1:
-  version "13.5.1"
-  resolved "https://registry.npmjs.org/motion-dom/-/motion-dom-13.5.1.tgz"
-  integrity sha512-/7CVCD20Mz1KobktorpdgvowV0V41J7UxqE+qWS3GkSJqrRr5ft+2RloOYtEKv+wvBp3JaSFBclhxt4ja8ovHg==
+motion-dom@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.npmjs.org/motion-dom/-/motion-dom-14.0.0.tgz"
+  integrity sha512-aU3ApXo1yTpeUi3JU+jbDk2TELjxPE3MbBMUP7nZHlARb6RweJK+ojmLjpuB0YsY6zhbBl1YWGo8LMsI1/Llqw==
   dependencies:
-    motion-utils "13.5.0"
+    motion-utils "14.0.0"
 
-motion-utils@13.5.0:
-  version "13.5.0"
-  resolved "https://registry.npmjs.org/motion-utils/-/motion-utils-13.5.0.tgz"
-  integrity sha512-Hqe/sqjIKliPZg8sVjWAkdySDPJNIeKH+euVkDOG8ri3DUUU7ZjndmHsGqEPz2iHpiyVaV5I22iguCMHU2he+Q==
+motion-utils@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.npmjs.org/motion-utils/-/motion-utils-14.0.0.tgz"
+  integrity sha512-jBsyjVxTTRZNeuvd/v+btVXr90LQkYl4HhRu9T2ARc+PMnvkmjsjRVeAg4Qm10b6TlTw+kykWI8gu/6LuvpLSQ==
 
 mrmime@^2.0.0:
   version "2.0.1"
