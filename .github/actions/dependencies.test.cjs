@@ -2,6 +2,9 @@ const assert = require('node:assert/strict');
 const { once } = require('node:events');
 const http = require('node:http');
 const { createRequire } = require('node:module');
+const { mkdtempSync, rmSync, writeFileSync } = require('node:fs');
+const { tmpdir } = require('node:os');
+const path = require('node:path');
 const { test } = require('node:test');
 
 async function listen(t, server) {
@@ -73,5 +76,44 @@ test('SockJS opens a session and echoes messages with UUID 14', async (t) => {
     const closed = once(socket, 'close');
     socket.close();
     await closed;
+  }
+});
+
+test('Tinypool ignores an inherited worker filename in run options', async (t) => {
+  const coreRequire = createRequire(require.resolve('@docusaurus/core/package.json'));
+  const { default: Tinypool } = await import(
+    require('node:url').pathToFileURL(coreRequire.resolve('tinypool')).href
+  );
+  const root = mkdtempSync(path.join(tmpdir(), 'tinypool-security-'));
+  const expected = path.join(root, 'expected.mjs');
+  const unexpected = path.join(root, 'unexpected.mjs');
+  writeFileSync(expected, 'export default task => ({ worker: "expected", task });');
+  writeFileSync(unexpected, 'export default task => ({ worker: "unexpected", task });');
+  const pool = new Tinypool({
+    filename: expected,
+    minThreads: 1,
+    maxThreads: 1,
+    concurrentTasksPerWorker: 1,
+    runtime: 'worker_threads',
+    isolateWorkers: false,
+    workerData: { integration: 'Docusaurus' },
+  });
+  t.after(async () => {
+    await pool.destroy();
+    rmSync(root, { recursive: true, force: true });
+  });
+  const previous = Object.getOwnPropertyDescriptor(Object.prototype, 'filename');
+  try {
+    Object.defineProperty(Object.prototype, 'filename', {
+      value: unexpected,
+      writable: true,
+      configurable: true,
+    });
+    const task = { pathnames: ['/', '/pt-BR/'] };
+    const result = await pool.run(task, { signal: new AbortController().signal });
+    assert.deepEqual(result, { worker: 'expected', task });
+  } finally {
+    if (previous) Object.defineProperty(Object.prototype, 'filename', previous);
+    else delete Object.prototype.filename;
   }
 });

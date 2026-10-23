@@ -63,6 +63,9 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
+      - name: Audit dependencies
+        run: npm audit --audit-level=low
+
       - name: Test dependency integrations
         run: npm run test:dependencies
 
