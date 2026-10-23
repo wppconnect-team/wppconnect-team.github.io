@@ -4,9 +4,16 @@ on:
   push:
     branches:
       - 'main'
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-lock-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update-lock:
@@ -33,12 +40,35 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Refresh dependency lockfile
+        run: npm update --package-lock-only
 
-      - uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: 'chore: Updated package-lock.json'
-          file_pattern: package-lock.json
-          commit_user_name: github-actions[bot]
-          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Validate dependency update
+        run: |
+          npm run typecheck
+          npm run test:dependencies
+          npm run test:dev
+          npm run build
+
+      - name: Commit lockfile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package-lock.json
+          if git diff --cached --quiet; then
+            echo "No lockfile changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: Updated package-lock.json"
+          for attempt in 1 2 3; do
+            git pull --rebase
+            if git push; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed"
+          done
+          echo "Failed to push dependency lockfile after 3 attempts" >&2
+          exit 1

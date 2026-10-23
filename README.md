@@ -26,6 +26,10 @@ $ npm run typecheck
 
 CI checks TypeScript before building the site. It also runs `npm run test:dependencies` to check the HTTP and WebSocket consumers, and `npm run test:dev` to start the development server and request its main routes.
 
+### Dependency maintenance
+
+Renovate monitors package and GitHub Actions updates. Its dashboard closes automatically when no package updates remain. Lockfile maintenance is handled by the `update-lock` workflow on pushes to `main`, Mondays at 03:00 UTC, and manual dispatch. It refreshes `package-lock.json` within the declared version ranges, installs with `npm ci`, and runs type checking, dependency integrations, the development smoke test and both production builds before committing the updated lockfile.
+
 ### Build
 
 ```
