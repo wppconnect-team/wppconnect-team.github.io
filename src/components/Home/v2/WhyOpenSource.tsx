@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "@docusaurus/Translate";
-import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
+import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
 import { useRef } from "react";
 import { GitMerge, Heart, Zap } from "lucide-react";
 import Container from "@site/src/components/ui/Container";

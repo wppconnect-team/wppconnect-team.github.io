@@ -54,7 +54,7 @@ function Tier({ name, price, response, mitigation, features, featured }: TierPro
   );
 }
 
-export default function BusinessSupport(): JSX.Element {
+export default function BusinessSupport(): React.JSX.Element {
   return (
     <Layout
       title="Business Support"

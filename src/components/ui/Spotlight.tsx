@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { motion, useMotionValue, useSpring, useReducedMotion } from "framer-motion";
+import { motion, useMotionValue, useSpring, useReducedMotion } from "motion/react";
 
 type Props = {
   className?: string;

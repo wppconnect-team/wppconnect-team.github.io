@@ -1,6 +1,7 @@
 import React from "react";
 import Translate from "@docusaurus/Translate";
-import { ArrowRight, Code2, Github, Heart } from "lucide-react";
+import { ArrowRight, Code2, Heart } from "lucide-react";
+import { GitHub as Github } from "react-feather";
 import Container from "@site/src/components/ui/Container";
 import Section from "@site/src/components/ui/Section";
 import Button from "@site/src/components/ui/Button";
