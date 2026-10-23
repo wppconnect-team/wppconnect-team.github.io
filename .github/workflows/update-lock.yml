@@ -48,6 +48,7 @@ jobs:
 
       - name: Validate dependency update
         run: |
+          npm audit --audit-level=low
           npm run typecheck
           npm run test:dependencies
           npm run test:dev
