@@ -6,7 +6,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { Context as DocusaurusContext } from "@docusaurus/core/lib/client/docusaurusContext";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
-function ServerStyle({ from: children }) {
+function ServerStyle({ from: children }: { from: React.ReactNode }) {
   let style = null;
 
   const location = useLocation();

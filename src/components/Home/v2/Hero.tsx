@@ -1,7 +1,8 @@
 import React from "react";
 import Translate, { translate } from "@docusaurus/Translate";
-import { ArrowRight, Github, BookOpen, Sparkles } from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
+import { ArrowRight, BookOpen, Sparkles } from "lucide-react";
+import { GitHub as Github } from "react-feather";
+import { motion, useReducedMotion } from "motion/react";
 import Container from "@site/src/components/ui/Container";
 import Section from "@site/src/components/ui/Section";
 import GradientText from "@site/src/components/ui/GradientText";

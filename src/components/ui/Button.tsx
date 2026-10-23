@@ -1,6 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion } from "motion/react";
 
 type Variant = "primary" | "ghost" | "outline";
 type Size = "md" | "lg";

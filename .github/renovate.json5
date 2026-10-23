@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
+        "config:recommended",
         ":semanticCommits"
     ],
     "lockFileMaintenance": {
@@ -22,11 +22,11 @@
             "semanticCommitScope": "deps-dev"
         },
         {
-            "description": "USe bump strategy",
-            "matchPackagePatterns": [
+            "description": "Use bump strategy",
+            "rangeStrategy": "bump",
+            "matchPackageNames": [
                 "*"
-            ],
-            "rangeStrategy": "bump"
+            ]
         },
         {
             "description": "Schedule digest updates daily",
@@ -47,13 +47,7 @@
             ],
             "automerge": true,
             "automergeType": "branch"
-        },
-        {
-            "description": "Ignore 2.x version because the docusaurus is imcompatible",
-            "matchPackageNames": [
-                "@mdx-js/react"
-            ],
-            "allowedVersions": "<2"
         }
-    ]
+    ],
+    "dependencyDashboardAutoclose": true
 }

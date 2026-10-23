@@ -11,11 +11,11 @@ import WhyOpenSource from "@site/src/components/Home/v2/WhyOpenSource";
 import SponsorV2 from "@site/src/components/Home/v2/Sponsor";
 import CTAFinal from "@site/src/components/Home/v2/CTAFinal";
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} — open-source WhatsApp automation`}
+      title={`${siteConfig.title} - open-source WhatsApp automation`}
       description="WPPConnect is an open-source ecosystem for WhatsApp automation. Library, server and tooling built by the community."
     >
       <main>

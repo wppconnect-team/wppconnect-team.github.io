@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, useReducedMotion, Variants } from "framer-motion";
+import { motion, useReducedMotion, Variants } from "motion/react";
 
 type Props = React.HTMLAttributes<HTMLDivElement> & {
   delay?: number;

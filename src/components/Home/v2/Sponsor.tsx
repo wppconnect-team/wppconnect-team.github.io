@@ -1,6 +1,7 @@
 import React from "react";
 import Translate from "@docusaurus/Translate";
-import { ArrowRight, BriefcaseBusiness, Code2, Heart, Youtube } from "lucide-react";
+import { ArrowRight, BriefcaseBusiness, Code2, Heart } from "lucide-react";
+import { Youtube } from "react-feather";
 import Container from "@site/src/components/ui/Container";
 import Section from "@site/src/components/ui/Section";
 import Card from "@site/src/components/ui/Card";

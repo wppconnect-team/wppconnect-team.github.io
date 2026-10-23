@@ -55,7 +55,7 @@ function HomepageHeader() {
 }
 
 function CardTitle({ version, beta }: { version: string; beta: boolean }) {
-  const list: JSX.Element[] = [];
+  const list: React.JSX.Element[] = [];
 
   list.push(<>{version.replace("-beta", "")}</>);
 
@@ -164,7 +164,7 @@ function VersionCard({ version, beta, released, expire }: VersionProps) {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const versions = whatsappVersion.versions.slice().reverse();
 
   return (

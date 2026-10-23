@@ -9,6 +9,7 @@ const {
 } = require('node:fs');
 const { tmpdir } = require('node:os');
 const path = require('node:path');
+const { pathToFileURL } = require('node:url');
 const { test } = require('node:test');
 
 const workflow = readFileSync(
@@ -19,7 +20,7 @@ const commitStep = workflow
   .split('      - name: Commit WhatsApp Versions')[1]
   .split('        run: |')[1]
   .trimEnd()
-  .split('\n')
+  .split(/\r?\n/)
   .slice(1)
   .map((line) => line.slice(10))
   .join('\n');
@@ -44,20 +45,21 @@ function fixture(t) {
   const updater = path.join(root, 'updater');
   const writer = path.join(root, 'writer');
   git(root, 'init', '--bare', '--initial-branch=main', remote);
-  git(root, 'clone', remote, updater);
   function configure(repo) {
     git(repo, 'config', 'user.name', 'Workflow Test');
     git(repo, 'config', 'user.email', 'workflow@example.com');
     git(repo, 'config', 'commit.gpgsign', 'false');
     git(repo, 'config', 'core.autocrlf', 'false');
   }
-  configure(updater);
-  writeFileSync(path.join(updater, 'versions.json'), '["1"]\n');
-  git(updater, 'add', '.');
-  git(updater, 'commit', '-m', 'Initial versions');
-  git(updater, 'push', '-u', 'origin', 'main');
   git(root, 'clone', remote, writer);
   configure(writer);
+  writeFileSync(path.join(writer, 'versions.json'), '["1"]\n');
+  git(writer, 'add', '.');
+  git(writer, 'commit', '-m', 'Initial versions');
+  git(writer, 'push', '-u', 'origin', 'main');
+  git(root, 'clone', '--depth=1', pathToFileURL(remote).href, updater);
+  configure(updater);
+  assert.equal(git(updater, 'rev-parse', '--is-shallow-repository'), 'true');
   function advance(filename, content) {
     writeFileSync(path.join(writer, filename), content);
     git(writer, 'add', '.');
