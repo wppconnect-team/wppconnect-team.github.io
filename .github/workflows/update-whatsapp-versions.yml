@@ -6,6 +6,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update_whatsapp_versions:
     runs-on: ubuntu-latest
@@ -13,6 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
+          fetch-depth: 0
           token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Setup GIT
@@ -72,4 +77,12 @@ jobs:
             exit 0
           fi
           git commit -m "chore: Update Whatsapp Versions"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase
+            if git push; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed"
+          done
+          echo "Failed to push WhatsApp versions after 3 attempts" >&2
+          exit 1
