@@ -20,7 +20,7 @@ const commitStep = workflow
   .split('      - name: Commit WhatsApp Versions')[1]
   .split('        run: |')[1]
   .trimEnd()
-  .split('\n')
+  .split(/\r?\n/)
   .slice(1)
   .map((line) => line.slice(10))
   .join('\n');
