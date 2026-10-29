@@ -73,6 +73,6 @@
     "websocket-driver": "0.7.5"
   },
   "engines": {
-    "node": ">=24.22.1"
+    "node": ">=26.13.0"
   }
 }
