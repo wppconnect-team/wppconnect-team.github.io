@@ -37,3 +37,11 @@ test('tutorial markup does not require browser paragraph repair before hydration
   const html = await renderMarkdown(source);
   assert.deepEqual(await implicitlyClosedParagraphs(html), []);
 });
+
+test('the bundled renderer highlights JavaScript and JSON without extra Prism modules', () => {
+  const { Prism } = require('prism-react-renderer');
+  const javascript = Prism.highlight('const answer = 42;', Prism.languages.javascript, 'javascript');
+  const json = Prism.highlight('{"answer":42}', Prism.languages.json, 'json');
+  assert.match(javascript, /class="token keyword">const</);
+  assert.match(json, /class="token property">/);
+});
