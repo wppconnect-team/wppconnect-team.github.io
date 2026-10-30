@@ -79,6 +79,102 @@ test('SockJS opens a session and echoes messages with UUID 14', async (t) => {
   }
 });
 
+function buildMergerOwners() {
+  const classic = createRequire(require.resolve('@docusaurus/preset-classic'));
+  const webpack = createRequire(classic.resolve('@svgr/webpack'));
+  const svg = createRequire(webpack.resolve('@svgr/plugin-svgo'));
+  const pwa = createRequire(require.resolve('@docusaurus/plugin-pwa'));
+  const workbox = createRequire(pwa.resolve('workbox-build'));
+  const rollup = createRequire(workbox.resolve('@rollup/plugin-node-resolve'));
+  return [['SVG optimizer', svg], ['PWA bundler', rollup]];
+}
+
+for (const [label, owner] of buildMergerOwners()) {
+  const merge = owner('deepmerge');
+  const malicious = () => JSON.parse('{"__proto__":{"wppBuildPolluted":true}}');
+  function assertSafe(value) {
+    assert.equal(Object.getPrototypeOf(value), Object.prototype);
+    assert.equal(value.wppBuildPolluted, undefined);
+    assert.equal(Object.hasOwn(value, '__proto__'), false);
+    assert.equal({}.wppBuildPolluted, undefined);
+  }
+
+  test(`${label} rejects prototype keys with a null-prototype target`, () => {
+    const target = Object.assign(Object.create(null), { enabled: true });
+    const result = merge(target, malicious());
+    assertSafe(result);
+    assert.equal(result.enabled, true);
+  });
+
+  test(`${label} rejects prototype keys from defaults and nested placeholders`, () => {
+    assertSafe(merge(malicious(), { enabled: true }));
+    assertSafe(merge({ options: null }, { options: malicious() }).options);
+    assertSafe(merge({ options: 1 }, { options: malicious() }).options);
+    assertSafe(merge({ list: [] }, { list: [malicious()] }).list[0]);
+  });
+
+  test(`${label} preserves ordinary merge options and source objects`, () => {
+    const key = Symbol('setting');
+    const first = { args: ['one'], nested: { a: 1 }, [key]: 1 };
+    const second = { args: ['two'], nested: { b: 2 } };
+    assert.deepEqual(merge.all([first, second]).args, ['one', 'two']);
+    assert.deepEqual(first.args, ['one']);
+    assert.equal(merge(first, second)[key], 1);
+    assert.deepEqual(merge(first, second, { arrayMerge: (_a, b) => b }).args, ['two']);
+    assert.deepEqual(merge(first, second, {
+      customMerge: name => name === 'nested' ? (a, b) => ({ sum: a.a + b.b }) : undefined,
+    }).nested, { sum: 3 });
+  });
+
+  test(`${label} loads the reviewed local merger implementation`, () => {
+    const fs = require('node:fs');
+    assert.equal(owner('deepmerge/package.json').version, '4.3.2+wppconnect.1');
+    const installed = path.dirname(owner.resolve('deepmerge'));
+    for (const file of ['index.cjs', 'is-mergeable-object.cjs']) {
+      const actual = fs.readFileSync(path.join(installed, file), 'utf8').replace(/\r\n/g, '\n');
+      const expected = fs.readFileSync(path.join(__dirname, '../../vendor/deepmerge', file), 'utf8').replace(/\r\n/g, '\n');
+      assert.equal(actual, expected);
+    }
+  });
+}
+
+test('the SVG optimizer transforms a real component with the patched merger', async () => {
+  const classic = createRequire(require.resolve('@docusaurus/preset-classic'));
+  const webpack = createRequire(classic.resolve('@svgr/webpack'));
+  const { transform } = webpack('@svgr/core');
+  const code = await transform(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><rect width="24" height="24" fill="red"/></svg>',
+    { plugins: [webpack('@svgr/plugin-svgo'), webpack('@svgr/plugin-jsx')], icon: true },
+    { componentName: 'SecurityFixtureIcon' },
+  );
+  assert.match(code, /SecurityFixtureIcon/);
+  assert.match(code, /<svg/);
+  assert.match(code, /red/);
+});
+
+test('the PWA bundler generates a real service worker with the patched merger', async (t) => {
+  const fs = require('node:fs');
+  const pwa = createRequire(require.resolve('@docusaurus/plugin-pwa'));
+  const { generateSW } = pwa('workbox-build');
+  const root = mkdtempSync(path.join(tmpdir(), 'workbox-security-'));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  writeFileSync(path.join(root, 'index.html'), '<!doctype html><title>PWA fixture</title>');
+  const swDest = path.join(root, 'sw.js');
+  const result = await generateSW({
+    globDirectory: root,
+    globPatterns: ['*.html'],
+    swDest,
+    inlineWorkboxRuntime: true,
+    skipWaiting: true,
+    clientsClaim: true,
+  });
+  assert.equal(result.count, 1);
+  assert.deepEqual(result.warnings, []);
+  const output = fs.readFileSync(swDest, 'utf8');
+  assert.match(output, /index\.html/);
+  assert.match(output, /precache/);
+});
+
 test('Tinypool ignores an inherited worker filename in run options', async (t) => {
   const coreRequire = createRequire(require.resolve('@docusaurus/core/package.json'));
   const { default: Tinypool } = await import(
