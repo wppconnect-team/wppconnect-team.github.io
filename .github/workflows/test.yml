@@ -69,6 +69,9 @@ jobs:
       - name: Test dependency integrations
         run: npm run test:dependencies
 
+      - name: Test tutorial hydration markup
+        run: node --test .github/actions/tutorial-markup.test.cjs
+
       - name: Test development server
         run: npm run test:dev
 
