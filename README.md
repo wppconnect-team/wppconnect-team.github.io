@@ -4,7 +4,7 @@ This website is built using [Docusaurus 3](https://docusaurus.io/), a modern sta
 
 ### Installation
 
-Use Node.js 24 or newer and npm. `package-lock.json` is the dependency lockfile used by CI and Renovate.
+Use Node.js 26.13.0 or newer and npm. `package-lock.json` is the dependency lockfile used by CI and Renovate.
 
 ```
 $ npm ci
