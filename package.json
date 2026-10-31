@@ -60,6 +60,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "babel-plugin-styled-components": "^2.3.1",
+    "minimatch": "file:vendor/minimatch-11.0.3+wppconnect.2.tgz",
     "sass": "^1.107.0",
     "typescript": "^7.0.2",
     "typescript-plugin-css-modules": "^5.3.0",
@@ -74,7 +75,10 @@
     "undici": "8.12.3",
     "uuid": "14.0.3",
     "websocket-driver": "0.7.5",
-    "deepmerge": "$deepmerge"
+    "deepmerge": "$deepmerge",
+    "glob": "14.0.3",
+    "minimatch": "$minimatch",
+    "stylus": "0.64.0"
   },
   "engines": {
     "node": ">=24.22.2"
