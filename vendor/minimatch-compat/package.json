@@ -1,0 +1,16 @@
+{
+  "name": "minimatch",
+  "version": "11.0.3+wppconnect.2",
+  "private": true,
+  "description": "Legacy CommonJS callable export backed by patched upstream minimatch",
+  "main": "index.cjs",
+  "exports": {
+    ".": { "import": "./index.mjs", "require": "./index.cjs" },
+    "./package.json": "./package.json"
+  },
+  "files": ["index.cjs", "index.mjs", "README.md"],
+  "license": "MIT",
+  "dependencies": {
+    "minimatch-upstream": "npm:minimatch@11.0.3"
+  }
+}
