@@ -17,7 +17,7 @@ const config = {
       onBrokenMarkdownLinks: "warn",
     },
   },
-  favicon: "img/favicon.ico",
+  favicon: "brand/favicon.ico",
   organizationName: "wppconnect-team", // Usually your GitHub org/user name.
   projectName: "wppconnect", // Usually your repo name.
 
@@ -92,7 +92,14 @@ const config = {
           {
             tagName: "link",
             rel: "icon",
-            href: "/img/logo192.png",
+            href: "/brand/icon-32.png",
+            type: "image/png",
+            sizes: "32x32",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "/brand/apple-touch-icon.png",
           },
           {
             tagName: "link",
@@ -102,7 +109,7 @@ const config = {
           {
             tagName: "meta",
             name: "theme-color",
-            content: "#fff",
+            content: "#111827",
           },
         ],
       },
@@ -113,6 +120,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: "brand/wppconnect-social.png",
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
@@ -120,10 +128,13 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: "WPPConnect",
+        title: "",
         logo: {
-          alt: "WPPconnect Logo",
-          src: "img/logo192.png",
+          alt: "WPPConnect",
+          src: "brand/wppconnect-light.png",
+          srcDark: "brand/wppconnect-dark.png",
+          width: 120,
+          height: 66,
         },
         items: [
           {
@@ -178,10 +189,11 @@ const config = {
       footer: {
         style: "light",
         logo: {
-          alt: "WPPConnect Logo",
-          src: "img/logo192.png",
-          width: 40,
-          height: 40,
+          alt: "WPPConnect",
+          src: "brand/wppconnect-light.png",
+          srcDark: "brand/wppconnect-dark.png",
+          width: 156,
+          height: 86,
         },
         links: [
           {
@@ -220,7 +232,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
+        copyright: `Copyright Â© ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
       },
       prism: {
         // JavaScript and JSON are already bundled by prism-react-renderer.

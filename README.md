@@ -1,3 +1,14 @@
+<!-- wppconnect-official-brand -->
+<p align="center">
+  <a href="https://wppconnect-team.github.io/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://wppconnect-team.github.io/brand/wppconnect-dark.png" />
+      <img src="https://wppconnect-team.github.io/brand/wppconnect-light.png" alt="WPPConnect" width="220" height="121" />
+    </picture>
+  </a>
+</p>
+<!-- /wppconnect-official-brand -->
+
 # Website
 
 This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.

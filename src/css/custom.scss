@@ -196,23 +196,15 @@ html.lenis-stopped {
 }
 
 .navbar__logo {
-  height: 34px;
-  width: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  width: 120px;
+  height: 66px;
+  flex-shrink: 0;
 }
 
 .navbar__logo img {
-  height: 34px;
-  width: 34px;
-  background: transparent;
+  width: 120px;
+  height: 66px;
   object-fit: contain;
-  filter: drop-shadow(0 2px 6px rgba(37, 211, 102, 0.25));
-}
-
-[data-theme="dark"] .navbar__logo img {
-  filter: drop-shadow(0 2px 12px rgba(37, 211, 102, 0.45));
 }
 
 .navbar__link {
@@ -362,12 +354,9 @@ html.lenis-stopped {
 }
 
 .footer__logo {
-  border-radius: 14px;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
-}
-
-[data-theme="dark"] .footer__logo {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.32);
+  width: 156px;
+  height: 86px;
+  object-fit: contain;
 }
 
 /* ---------- Announcement bar ---------- */
@@ -522,4 +511,12 @@ div[class^="announcementBar_"] a {
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
   }
+}
+
+/* The full official wordmark keeps its proportions in both themes. */
+:root { --ifm-navbar-height: 84px; }
+@media (max-width: 480px) {
+  :root { --ifm-navbar-height: 76px; }
+  .navbar__brand { margin-right: 0.5rem; }
+  .navbar__logo, .navbar__logo img { width: 100px; height: 55px; }
 }
