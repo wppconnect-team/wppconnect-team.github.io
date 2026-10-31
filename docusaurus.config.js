@@ -133,8 +133,8 @@ const config = {
           alt: "WPPConnect",
           src: "brand/wppconnect-light.png",
           srcDark: "brand/wppconnect-dark.png",
-          width: 120,
-          height: 66,
+          width: 88,
+          height: 49,
         },
         items: [
           {
