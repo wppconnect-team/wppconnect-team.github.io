@@ -223,7 +223,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
       },
       prism: {
-        additionalLanguages: ["javascript", "json"],
+        // JavaScript and JSON are already bundled by prism-react-renderer.
+        // Reloading their Prism modules enables DOM highlighting before hydration.
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },

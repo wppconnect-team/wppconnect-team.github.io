@@ -2,7 +2,7 @@ const assert = require('node:assert/strict');
 const { once } = require('node:events');
 const http = require('node:http');
 const { createRequire } = require('node:module');
-const { mkdtempSync, rmSync, writeFileSync } = require('node:fs');
+const { mkdtempSync, mkdirSync, rmSync, writeFileSync } = require('node:fs');
 const { tmpdir } = require('node:os');
 const path = require('node:path');
 const { test } = require('node:test');
@@ -16,6 +16,109 @@ async function listen(t, server) {
   }));
   return `http://127.0.0.1:${server.address().port}/`;
 }
+
+function workboxOwner() {
+  const pwa = createRequire(require.resolve('@docusaurus/plugin-pwa'));
+  return createRequire(pwa.resolve('workbox-build'));
+}
+
+test('the packed minimatch adapter preserves CommonJS and ES module entry points', async () => {
+  const fs = require('node:fs');
+  const adapter = require('minimatch');
+  assert.equal(adapter, require('minimatch-upstream').minimatch);
+  assert.equal(adapter('docs/guide.html', '**/*.html'), true);
+  const esm = await import('minimatch');
+  const upstream = await import('minimatch-upstream');
+  assert.equal(esm.Minimatch, upstream.Minimatch);
+  assert.equal(esm.minimatch('docs/guide.html', '**/*.html'), true);
+  const installed = path.dirname(require.resolve('minimatch'));
+  for (const file of ['index.cjs', 'index.mjs']) {
+    const actual = fs.readFileSync(path.join(installed, file), 'utf8').replace(/\r\n/g, '\n');
+    const expected = fs.readFileSync(path.join(__dirname, '../../vendor/minimatch-compat', file), 'utf8')
+      .replace(/\r\n/g, '\n');
+    assert.equal(actual, expected);
+  }
+});
+
+test('PWA glob matcher bounds globparts amplification', () => {
+  const workbox = workboxOwner();
+  const glob = createRequire(workbox.resolve('glob'));
+  const { Minimatch } = glob('minimatch');
+  const matcher = new Minimatch(Array(8).fill('**/../a/b').join('/'), {
+    optimizationLevel: 2,
+    braceExpandMax: 16,
+  });
+  assert.equal(matcher.set.length, 16);
+});
+
+test('Docusaurus static server applies glob-based headers', async (t) => {
+  const core = createRequire(require.resolve('@docusaurus/core/package.json'));
+  const handler = core('serve-handler');
+  const root = mkdtempSync(path.join(tmpdir(), 'serve-glob-'));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  writeFileSync(path.join(root, 'guide.html'), '<title>Glob fixture</title>');
+  const url = await listen(t, http.createServer((request, response) => handler(request, response, {
+    public: root,
+    cleanUrls: false,
+    headers: [{ source: '**/*.html', headers: [{ key: 'X-Glob-Test', value: 'matched' }] }],
+  })));
+  const response = await fetch(url + 'guide.html');
+  assert.equal(response.status, 200);
+  assert.equal(response.headers.get('x-glob-test'), 'matched');
+  assert.match(await response.text(), /Glob fixture/);
+});
+
+test('Redocly matches configured headers when fetching remote schemas', async (t) => {
+  const plugin = createRequire(require.resolve('docusaurus-plugin-redoc'));
+  const redocly = createRequire(plugin.resolve('@redocly/openapi-core'));
+  const { readFileFromUrl } = redocly('./utils');
+  let receivedHeader;
+  const url = await listen(t, http.createServer((request, response) => {
+    receivedHeader = request.headers['x-schema-token'];
+    response.setHeader('content-type', 'application/json');
+    response.end('{"openapi":"3.0.0"}');
+  }));
+  const schema = await readFileFromUrl(url + 'openapi.json', {
+    headers: [{ matches: url + '*.json', name: 'X-Schema-Token', value: 'fixture' }],
+  });
+  assert.equal(receivedHeader, 'fixture');
+  assert.equal(JSON.parse(schema.body).openapi, '3.0.0');
+});
+
+test('PWA FileList selects files with its minimatch dependency', (t) => {
+  const workbox = workboxOwner();
+  const plugin = createRequire(workbox.resolve('@trickfilm400/rollup-plugin-off-main-thread'));
+  const ejs = createRequire(plugin.resolve('ejs'));
+  const jake = createRequire(ejs.resolve('jake'));
+  const { FileList } = jake('filelist');
+  const root = mkdtempSync(path.join(tmpdir(), 'filelist-glob-'));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  writeFileSync(path.join(root, 'include.txt'), 'included');
+  writeFileSync(path.join(root, 'exclude.json'), '{}');
+  const previousDirectory = process.cwd();
+  try {
+    process.chdir(root);
+    assert.deepEqual(new FileList('*.txt').toArray(), ['include.txt']);
+  } finally {
+    process.chdir(previousDirectory);
+  }
+});
+
+test('CSS module Stylus resolves wildcard imports through patched Glob', async (t) => {
+  const css = createRequire(require.resolve('typescript-plugin-css-modules'));
+  const stylus = css('stylus');
+  const root = mkdtempSync(path.join(tmpdir(), 'stylus-glob-'));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  mkdirSync(path.join(root, 'parts'));
+  writeFileSync(path.join(root, 'parts', 'fixture.styl'), '.fixture\n  color red\n');
+  const output = await new Promise((resolve, reject) => {
+    stylus('@import "parts/*.styl"')
+      .set('filename', path.join(root, 'main.styl'))
+      .render((error, result) => error ? reject(error) : resolve(result));
+  });
+  assert.match(output, /\.fixture/);
+  assert.match(output, /color: #f00/);
+});
 
 test('Docusaurus package lookup works with its declared Got dependency', async (t) => {
   const coreRequire = createRequire(require.resolve('@docusaurus/core/package.json'));

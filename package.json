@@ -42,8 +42,8 @@
     "clsx": "^2.1.1",
     "docusaurus-plugin-sass": "^0.2.7",
     "lenis": "^1.3.27",
-    "lucide-react": "^1.61.0",
-    "motion": "^14.6.0",
+    "lucide-react": "^1.65.0",
+    "motion": "^14.9.0",
     "prism-react-renderer": "^2.4.1",
     "prismjs": "^1.30.0",
     "react": "^19.3.1",
@@ -56,12 +56,15 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.2",
     "@docusaurus/tsconfig": "^3.10.2",
+    "@octokit/action": "^8.0.4",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "babel-plugin-styled-components": "^2.3.1",
-    "sass": "^1.106.1",
+    "minimatch": "file:vendor/minimatch-11.0.3+wppconnect.2.tgz",
+    "sass": "^1.107.0",
     "typescript": "^7.0.2",
     "typescript-plugin-css-modules": "^5.3.0",
+    "yaml": "^2.9.1",
     "deepmerge": "file:vendor/deepmerge-4.3.2+wppconnect.1.tgz"
   },
   "overrides": {
@@ -72,7 +75,10 @@
     "undici": "8.12.3",
     "uuid": "14.0.3",
     "websocket-driver": "0.7.5",
-    "deepmerge": "$deepmerge"
+    "deepmerge": "$deepmerge",
+    "glob": "14.0.3",
+    "minimatch": "$minimatch",
+    "stylus": "0.64.0"
   },
   "engines": {
     "node": ">=26.13.0"
