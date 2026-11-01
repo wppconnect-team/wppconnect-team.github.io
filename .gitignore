@@ -10,6 +10,14 @@
 !/i18n/pt-BR/code.json
 !/i18n/pt-BR/docusaurus-theme-classic/
 !/i18n/pt-BR/docusaurus-theme-classic/*.json
+!/i18n/pt-BR/docusaurus-plugin-content-docs/
+!/i18n/pt-BR/docusaurus-plugin-content-docs/current/
+!/i18n/pt-BR/docusaurus-plugin-content-docs/current/introduction/
+!/i18n/pt-BR/docusaurus-plugin-content-docs/current/introduction/introduction.mdx
+!/i18n/pt-BR/docusaurus-plugin-content-docs/current/projects/
+!/i18n/pt-BR/docusaurus-plugin-content-docs/current/projects/index.mdx
+!/i18n/pt-BR/docusaurus-plugin-content-docs/current/tutorial/
+!/i18n/pt-BR/docusaurus-plugin-content-docs/current/tutorial/intro.md
 
 # Generated files
 .docusaurus

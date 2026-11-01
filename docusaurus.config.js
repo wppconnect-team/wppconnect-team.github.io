@@ -45,7 +45,10 @@ const config = {
           trackingID: "G-X2JJJ2ZZG8",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.scss"),
+          customCss: [
+            require.resolve("./src/css/custom.scss"),
+            require.resolve("./src/css/content.scss"),
+          ],
         },
       }),
     ],
@@ -62,7 +65,8 @@ const config = {
         // Theme Options for modifying how redoc renders them
         theme: {
           // Change with your site colors
-          primaryColor: "#2e8555",
+          primaryColor: "#02623f",
+          primaryColorDark: "#63dfa1",
         },
       },
     ],
@@ -160,11 +164,6 @@ const config = {
             label: "WhatsApp Versions",
             position: "left",
           },
-          {
-            to: "/business-support",
-            label: "Business Support",
-            position: "left",
-          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
@@ -212,7 +211,6 @@ const config = {
               { label: "Projects", to: "/docs/projects" },
               { label: "Swagger", to: "/swagger/wppconnect-server" },
               { label: "WhatsApp Versions", to: "/whatsapp-versions" },
-              { label: "Business Support", to: "/business-support" },
             ],
           },
           {

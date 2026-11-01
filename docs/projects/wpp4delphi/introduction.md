@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # WPPConnect/WPP4Delphi 📞
 
-![WPPConnect Banner](/img/wppconnect-banner.jpeg)
+![WPPConnect](/brand/v2/wppconnect-light.png)
 
 > WPPConnect/WPP4Delphi is an open-source project with the aim of exporting functions from WhatsApp Web for Delphi/Lazarus, which can be used to support the creation of any interaction.
 

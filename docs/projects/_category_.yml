@@ -4,6 +4,5 @@ label: "Projects"
 collapsible: true
 collapsed: false
 link:
-  type: generated-index
-  title: Projects
-  slug: "projects"
+  type: doc
+  id: projects/index

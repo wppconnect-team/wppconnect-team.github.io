@@ -1,6 +1,6 @@
 import React from "react";
 import Translate from "@docusaurus/Translate";
-import { ArrowRight, BriefcaseBusiness, Code2, Heart } from "lucide-react";
+import { ArrowRight, Code2, Heart } from "lucide-react";
 import { Youtube } from "react-feather";
 import Container from "@site/src/components/ui/Container";
 import Section from "@site/src/components/ui/Section";
@@ -20,18 +20,6 @@ type Item = {
 };
 
 const ITEMS: Item[] = [
-  {
-    icon: <BriefcaseBusiness size={22} />,
-    title: "Business Support",
-    body: (
-      <Translate id="sponsor.businessSupport">
-        Priority incident response and documented mitigation targets for companies running WA-JS or WPPConnect in production.
-      </Translate>
-    ),
-    link: "/business-support",
-    linkLabel: <Translate id="sponsor.businessSupport.cta">See the B2B pilot</Translate>,
-    accent: "rgba(14, 165, 233, 0.35)",
-  },
   {
     icon: <Heart size={22} />,
     title: "Open Collective",

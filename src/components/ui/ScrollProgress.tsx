@@ -1,8 +1,7 @@
 import React from "react";
-import { motion, useScroll, useSpring, useReducedMotion } from "motion/react";
+import { motion, useScroll, useSpring } from "motion/react";
 
 const ScrollProgress: React.FC = () => {
-  const reduced = useReducedMotion();
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 140,
@@ -10,10 +9,9 @@ const ScrollProgress: React.FC = () => {
     restDelta: 0.001,
   });
 
-  if (reduced) return null;
-
   return (
     <motion.div
+      className="wpp-scroll-progress"
       aria-hidden
       style={{
         position: "fixed",
