@@ -17,7 +17,7 @@ const config = {
       onBrokenMarkdownLinks: "warn",
     },
   },
-  favicon: "brand/favicon.ico",
+  favicon: "brand/v2/favicon.ico",
   organizationName: "wppconnect-team", // Usually your GitHub org/user name.
   projectName: "wppconnect", // Usually your repo name.
 
@@ -92,24 +92,24 @@ const config = {
           {
             tagName: "link",
             rel: "icon",
-            href: "/brand/icon-32.png",
+            href: "/brand/v2/icon-32.png",
             type: "image/png",
             sizes: "32x32",
           },
           {
             tagName: "link",
             rel: "apple-touch-icon",
-            href: "/brand/apple-touch-icon.png",
+            href: "/brand/v2/apple-touch-icon.png",
           },
           {
             tagName: "link",
             rel: "manifest",
-            href: "/manifest.json", // your PWA manifest
+            href: "/brand/v2/manifest.webmanifest", // your PWA manifest
           },
           {
             tagName: "meta",
             name: "theme-color",
-            content: "#111827",
+            content: "#02623f",
           },
         ],
       },
@@ -120,7 +120,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "brand/wppconnect-social.png",
+      image: "brand/v2/wppconnect-social.png",
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
@@ -131,8 +131,8 @@ const config = {
         title: "",
         logo: {
           alt: "WPPConnect",
-          src: "brand/wppconnect-light.png",
-          srcDark: "brand/wppconnect-dark.png",
+          src: "brand/v2/wppconnect-light.png",
+          srcDark: "brand/v2/wppconnect-dark.png",
           width: 88,
           height: 49,
         },
@@ -190,8 +190,8 @@ const config = {
         style: "light",
         logo: {
           alt: "WPPConnect",
-          src: "brand/wppconnect-light.png",
-          srcDark: "brand/wppconnect-dark.png",
+          src: "brand/v2/wppconnect-light.png",
+          srcDark: "brand/v2/wppconnect-dark.png",
           width: 156,
           height: 86,
         },
