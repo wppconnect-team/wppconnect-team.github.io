@@ -119,6 +119,7 @@ const config = {
       },
     ],
     "docusaurus-plugin-sass",
+    require.resolve("./plugins/redoc-hydration.cjs"),
   ],
 
   themeConfig:
