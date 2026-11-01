@@ -1,21 +1,26 @@
 # WPPConnect official logo
 
-The official source is `wppconnect-original.png`, supplied by the project owner.
-Its bytes are preserved. SHA-256: `b505481a78eead90a61cab4ac46f80a3cb25e67506a0482991926e1d076b543a`.
+The project owner supplied the solid WPPConnect mark and the green square artwork.
+The original PNG bytes are preserved:
 
-- `wppconnect-light.svg`: dark monochrome presentation on light surfaces.
-- `wppconnect-dark.svg`: original white presentation on dark surfaces.
-- `wppconnect-icon.svg`: the complete mark on a fixed dark tile for browser/app icons.
-- `wppconnect-maskable.svg`: the same mark inside the maskable icon safe area.
-- PNG/ICO files are browser renderings of these SVG assets for legacy browsers and Apple devices.
+- `wppconnect-original.png`: SHA-256 `993f7ac90caa6f809e01425939db1971d18f40657695afe2fa1407a87a027357`.
+- `wppconnect-green-original.png`: SHA-256 `a158545c7456462956e77c2547a7b7dc934a9a228a67dd58950390aa53339622`.
 
-The SVG files embed the unchanged source PNG. Their viewports remove the wide
-transparent canvas margins from the supplied image. The light presentation uses
-an SVG color filter; no logo geometry is redrawn. Preserve proportions and use
-descriptive alternative text. Do not add glows, gradients or shadows to the mark.
+Use `/brand/v2/wppconnect-light.png` on light surfaces and
+`/brand/v2/wppconnect-dark.png` on dark surfaces. The light variant uses green
+`#02623f`, sampled from the supplied green artwork. The dark variant keeps the
+white mark. The self-contained SVG sources embed the unchanged supplied PNG;
+their viewports remove transparent canvas margins without cropping the mark.
+The optimized header PNGs are 640x353 and preserve the logo geometry.
 
-For React/Docusaurus use the current application theme to select the light/dark
-asset. For Markdown use a `<picture>` with `prefers-color-scheme` sources.
-The complete downloadable brand kit is served at `/brand/` by the official site.
+Use the supplied green square for browser, Apple and app icons. The maskable
+variant places the full mark inside the safe area on the same green background.
+PNG and ICO derivatives are browser renderings of these SVG sources.
 
-Use the optimized `wppconnect-light.png` and `wppconnect-dark.png` (640x353) for page headers and Markdown. The SVG files remain the self-contained rendering sources.
+Select artwork from the active application theme. For Markdown, use a `picture`
+with `prefers-color-scheme`. Keep aspect ratio, clear space and descriptive alt
+text. Do not add outlines, shadows or gradients to the mark.
+
+Versioned URLs prevent old cached images from showing the previous outlined
+artwork in GitHub READMEs and browser icons. Root `/brand/` assets remain aliases
+for existing consumers. Both original files are available in the brand kit.
