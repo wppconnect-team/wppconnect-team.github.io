@@ -1,81 +1,54 @@
 ---
-title: Intro
+title: Getting started
 sidebar_position: 1
+description: Connect your first session and send a message with WPPConnect.
 ---
 
-# WPPConnect 📞
+# Your first connection starts here.
 
-![WPPConnect Banner](/img/wppconnect-banner.jpeg)
+Build a WhatsApp integration with the WPPConnect Node.js library. Follow the steps below to install the package, connect a session, and handle your first messages.
 
-[![npm version](https://img.shields.io/npm/v/@wppconnect-team/wppconnect.svg?color=green)](https://www.npmjs.com/package/@wppconnect-team/wppconnect)
-[![Downloads](https://img.shields.io/npm/dm/@wppconnect-team/wppconnect.svg)](https://www.npmjs.com/package/@wppconnect-team/wppconnect)
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wppconnect-team/wppconnect.svg)](https://isitmaintained.com/project/wppconnect-team/wppconnect 'Average time to resolve an issue')
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/wppconnect-team/wppconnect.svg)](https://isitmaintained.com/project/wppconnect-team/wppconnect 'Percentage of issues still open')
-[![Build Status](https://img.shields.io/github/workflow/status/wppconnect-team/wppconnect/build.svg)](https://github.com/wppconnect-team/wppconnect/actions)
-[![Lint Status](https://img.shields.io/github/workflow/status/wppconnect-team/wppconnect/lint.svg?label=lint)](https://github.com/wppconnect-team/wppconnect/actions)
-[![release-it](https://img.shields.io/badge/%F0%9F%93%A6%F0%9F%9A%80-release--it-e10079.svg)](https://github.com/release-it/release-it)
+## 01. Install the library
 
-> WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination... 😀🤔💭
-
-<div style={{textAlign: 'center'}}>
-  <a href="https://wppconnect-team.github.io/wppconnect/pages/getting-started/installation.html">Getting Started</a> •
-  <a href="https://wppconnect-team.github.io/wppconnect/pages/getting-started/basic-functions.html">Basic Function</a> •
-  <a href="https://wppconnect-team.github.io/wppconnect/">Documentation</a>
-</div>
-
-## Our online channels
-
-[![Discord](https://img.shields.io/discord/844351092758413353?color=blueviolet&label=Discord&logo=discord&style=flat)](https://discord.gg/JU5JGGKGNG)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/wppconnect)
-[![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/C1ChjyShl5cA7KvmtecF3L)
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCD7J9LG08PmGQrF5IS7Yv9A?label=YouTube)](https://www.youtube.com/c/wppconnect)
-
-## Functions
-
-|                                                            |     |
-| ---------------------------------------------------------- | --- |
-| Automatic QR Refresh                                       | ✔   |
-| Send **text, image, video, audio and docs**                | ✔   |
-| Get **contacts, chats, groups, group members, Block List** | ✔   |
-| Send contacts                                              | ✔   |
-| Send stickers                                              | ✔   |
-| Send stickers GIF                                          | ✔   |
-| Multiple Sessions                                          | ✔   |
-| Forward Messages                                           | ✔   |
-| Receive message                                            | ✔   |
-| insert user section                                        | ✔   |
-| Send _location_                                            | ✔   |
-| **and much more**                                          | ✔   |
-
-See more at <a href="https://wppconnect-team.github.io/wppconnect/classes/Whatsapp.html">WhatsApp methods</a>
-
-## Installation
-
-The first thing that you had to do is install the `npm package` :
+Add WPPConnect to your Node.js project:
 
 ```bash
-npm i --save @wppconnect-team/wppconnect
+npm install @wppconnect-team/wppconnect
 ```
 
-See more at <a href="https://wppconnect-team.github.io/wppconnect/pages/getting-started/installation.html">Getting Started</a>
+[Check installation requirements and environment setup](./basics/installation.md).
 
-## Development
+## 02. Connect a session
 
-Building WPPConnect is really simple, to build the entire project just run
+Create a client, then scan the QR code shown in your terminal with your WhatsApp account.
 
-```bash
-> npm run build
+```javascript
+const wppconnect = require("@wppconnect-team/wppconnect");
+
+wppconnect.create({ session: "my-session" }).then((client) => {
+  client.onMessage((message) => {
+    if (message.body === "ping") {
+      client.sendText(message.from, "pong");
+    }
+  });
+});
 ```
 
-## Maintainers
+[Learn how to create and configure a client](./basics/creating-client.md).
 
-Maintainers are needed, I cannot keep with all the updates by myself. If you are
-interested please open a Pull Request.
+## 03. Build your workflow
 
-## Contributing
+- [Receive messages](./basics/receiving-messages.md) and respond to incoming events.
+- [Explore basic functions](./basics/basic-functions.md) for messages, contacts, and groups.
+- [Configure logging](./basics/configuring-logger.md) to follow what your integration is doing.
 
-Pull requests are welcome. For major changes, please open an issue first to
-discuss what you would like to change.
+:::tip Prefer an HTTP API?
+Use [WPPConnect Server](../projects/wppserver/introduction.md) to integrate with other languages through REST endpoints and webhooks.
+:::
+
+## Build with the community
+
+Ask questions on [Discord](https://discord.gg/JU5JGGKGNG), follow tutorials on [YouTube](https://www.youtube.com/c/wppconnect), or contribute on [GitHub](https://github.com/wppconnect-team/wppconnect).
 
 ## License
 

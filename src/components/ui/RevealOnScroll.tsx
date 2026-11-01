@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, useReducedMotion, Variants } from "motion/react";
+import { motion, Variants } from "motion/react";
 
 type Props = React.HTMLAttributes<HTMLDivElement> & {
   delay?: number;
@@ -24,19 +24,13 @@ const RevealOnScroll: React.FC<Props> = ({
   amount = 0.2,
   once = true,
   children,
+  className,
   style,
   ...rest
 }) => {
-  const reduced = useReducedMotion();
-  if (reduced) {
-    return (
-      <div style={style} {...(rest as any)}>
-        {children}
-      </div>
-    );
-  }
   return (
     <motion.div
+      className={["wpp-reveal", className].filter(Boolean).join(" ")}
       initial="hidden"
       whileInView="show"
       viewport={{ once, amount }}

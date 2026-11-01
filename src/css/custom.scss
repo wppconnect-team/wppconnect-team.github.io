@@ -65,7 +65,7 @@
 }
 
 /* ---------- Dark theme ---------- */
-[data-theme="dark"] {
+:root[data-theme="dark"] {
   --wpp-bg-base: #07080a;
   --wpp-bg-elev: #0c0d10;
   --wpp-surface: #111114;

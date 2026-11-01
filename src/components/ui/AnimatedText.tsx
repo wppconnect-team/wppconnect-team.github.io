@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
 
 type Props = {
   text: string;
@@ -18,17 +18,12 @@ const AnimatedText: React.FC<Props> = ({
   delay = 0,
   as: Tag = "span",
 }) => {
-  const reduced = useReducedMotion();
-  if (reduced) {
-    return (
-      <Tag className={className} style={style}>
-        {text}
-      </Tag>
-    );
-  }
   const parts = splitBy === "word" ? text.split(/(\s+)/) : Array.from(text);
   return (
-    <Tag className={className} style={{ ...style, display: "inline-block" }}>
+    <Tag
+      className={["wpp-animated-text", className].filter(Boolean).join(" ")}
+      style={{ ...style, display: "inline-block" }}
+    >
       {parts.map((p, i) => (
         <motion.span
           key={i}
