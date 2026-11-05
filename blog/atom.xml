@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-11-02T22:35:45.000Z</updated>
+    <updated>2026-11-04T04:34:42.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/brand/v2/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.10.75]]></title>
+        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.75</id>
+        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.75"/>
+        <updated>2026-11-04T04:34:42.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.75 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.75 for WPP Server with Bug Fixes.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.75#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>chatwoot:</strong> authenticate session webhook requests (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2702" target="_blank" rel="noopener noreferrer" class="">#2702</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/cbc2dfc8583af3ae26a3d37d3b66c8c332ccf1f0" target="_blank" rel="noopener noreferrer" class="">cbc2dfc</a>)</li>
+<li class=""><strong>deps:</strong> patch glob cancellation and minimatch expansion (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2699" target="_blank" rel="noopener noreferrer" class="">#2699</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/7e2e8160c036e7f7b77e899779964134e200c456" target="_blank" rel="noopener noreferrer" class="">7e2e816</a>)</li>
+</ul>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.75" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.62]]></title>
         <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.62</id>
@@ -738,26 +760,5 @@
         <category label="wa-js" term="wa-js"/>
         <category label="javascript" term="javascript"/>
         <category label="browser" term="browser"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WPPConnect patch release: v2.3.3]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect/v2.3.3</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.3"/>
-        <updated>2026-09-07T18:07:10.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing a patch version v2.3.3 for WPPConnect with Bug Fixes.]]></summary>
-        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.3.3 for WPPConnect with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.3#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class="">preserve QR authentication state during navigation (<a href="https://github.com/wppconnect-team/wppconnect/issues/2891" target="_blank" rel="noopener noreferrer" class="">#2891</a>) (<a href="https://github.com/wppconnect-team/wppconnect/commit/4951d60886338de1e19bb4f0bbeacf3e3777c0bc" target="_blank" rel="noopener noreferrer" class="">4951d60</a>)</li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.3.3" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
-        <author>
-            <name>WPPConnect Team</name>
-            <uri>https://github.com/wppconnect-team</uri>
-        </author>
-        <category label="wppconnect" term="wppconnect"/>
-        <category label="javascript" term="javascript"/>
-        <category label="nodejs" term="nodejs"/>
-        <category label="lib" term="lib"/>
     </entry>
 </feed>
