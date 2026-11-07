@@ -2,11 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect-team.github.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-11-05T23:57:17.000Z</updated>
+    <updated>2026-11-07T01:04:55.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect-team.github.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect-team.github.io/pt-BR/brand/v2/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.10.78]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.10.78</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.10.78"/>
+        <updated>2026-11-07T01:04:55.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.78 for WPP Server.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.78 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.78" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.10.77]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.10.77</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.10.77"/>
+        <updated>2026-11-06T23:22:44.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect-server/v2.10.77#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>security:</strong> stop serving the private media cache over HTTP (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2709" target="_blank" rel="noopener noreferrer" class="">#2709</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/bf1faac7a14892207348c3dc5f6e03ed180e09e8" target="_blank" rel="noopener noreferrer" class="">bf1faac</a>)</li>
+</ul>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.77" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Server CLI patch release: v1.3.64]]></title>
+        <id>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.64</id>
+        <link href="https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.64"/>
+        <updated>2026-11-06T05:13:19.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.64 for Server CLI.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.64 for Server CLI.</p>
+<p>Docker image tags:</p>
+<ul>
+<li class=""><code>wppconnect/server-cli:1.3.64</code></li>
+<li class=""><code>wppconnect/server-cli:1.3</code></li>
+<li class=""><code>wppconnect/server-cli:1</code></li>
+<li class=""><code>wppconnect/server-cli:v1.3.64</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+<li class=""><code>wppconnect/server-cli:sha-967286e</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.64#whats-changed" class="hash-link" aria-label="Link direto para What's Changed" title="Link direto para What's Changed" translate="no">​</a></h2>
+<ul>
+<li class="">build(deps): update dependency ws to v8.22.1 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/889" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/889</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.63...v1.3.64" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.63...v1.3.64</a></p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.64" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+        <category label="cli" term="cli"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.63]]></title>
         <id>https://wppconnect-team.github.io/pt-BR/blog/server-cli/v1.3.63</id>
@@ -503,159 +574,6 @@
 <li class=""><strong>ci:</strong> associate schedule with joaosouz4dev (<a href="https://github.com/wppconnect-team/wa-js/commit/17fc1eb" target="_blank" rel="noopener noreferrer" class="">17fc1eb</a>)</li>
 </ul>
 <p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.7.2" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
-        <author>
-            <name>WPPConnect Team</name>
-            <uri>https://github.com/wppconnect-team</uri>
-        </author>
-        <category label="wppconnect" term="wppconnect"/>
-        <category label="wa-js" term="wa-js"/>
-        <category label="javascript" term="javascript"/>
-        <category label="browser" term="browser"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WPPConnect patch release: v2.3.5]]></title>
-        <id>https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.3.5</id>
-        <link href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.3.5"/>
-        <updated>2026-10-15T22:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing a patch version v2.3.5 for WPPConnect with Bug Fixes and Build System.]]></summary>
-        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.3.5 for WPPConnect with Bug Fixes and Build System.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="235-2026-10-15"><small>2.3.5 (2026-10-15)</small><a href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.3.5#235-2026-10-15" class="hash-link" aria-label="Link direto para 235-2026-10-15" title="Link direto para 235-2026-10-15" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.3.5#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>auth:</strong> cancel pending QR attempts on close (#2915) (<a href="https://github.com/wppconnect-team/wppconnect/commit/1ada250" target="_blank" rel="noopener noreferrer" class="">1ada250</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2915" target="_blank" rel="noopener noreferrer" class="">#2915</a></li>
-<li class=""><strong>browser:</strong> tolerate slow WPP.isReady during injection (#2909) (<a href="https://github.com/wppconnect-team/wppconnect/commit/9ab531c" target="_blank" rel="noopener noreferrer" class="">9ab531c</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2909" target="_blank" rel="noopener noreferrer" class="">#2909</a> <a href="https://github.com/wppconnect-team/wppconnect/issues/2873" target="_blank" rel="noopener noreferrer" class="">#2873</a></li>
-<li class="">bump wa-js version to 4.7.1 (#2917) (<a href="https://github.com/wppconnect-team/wppconnect/commit/f988414" target="_blank" rel="noopener noreferrer" class="">f988414</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2917" target="_blank" rel="noopener noreferrer" class="">#2917</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect-team.github.io/pt-BR/blog/wppconnect/v2.3.5#build-system" class="hash-link" aria-label="Link direto para Build System" title="Link direto para Build System" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps-dev:</strong> bump handlebars from 4.7.9 to 4.7.10 (#2911) (<a href="https://github.com/wppconnect-team/wppconnect/commit/22184d9" target="_blank" rel="noopener noreferrer" class="">22184d9</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2911" target="_blank" rel="noopener noreferrer" class="">#2911</a></li>
-<li class=""><strong>deps-dev:</strong> bump markdown-it from 14.3.0 to 14.3.2 (#2901) (<a href="https://github.com/wppconnect-team/wppconnect/commit/820ef4e" target="_blank" rel="noopener noreferrer" class="">820ef4e</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2901" target="_blank" rel="noopener noreferrer" class="">#2901</a></li>
-<li class=""><strong>deps-dev:</strong> update commitlint monorepo to ^21.2.3 (#2903) (<a href="https://github.com/wppconnect-team/wppconnect/commit/6ab0ccc" target="_blank" rel="noopener noreferrer" class="">6ab0ccc</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2903" target="_blank" rel="noopener noreferrer" class="">#2903</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @babel/eslint-parser to ^7.29.9 (#2904) (<a href="https://github.com/wppconnect-team/wppconnect/commit/a1c771b" target="_blank" rel="noopener noreferrer" class="">a1c771b</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2904" target="_blank" rel="noopener noreferrer" class="">#2904</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency concurrently to ^10.0.6 (#2913) (<a href="https://github.com/wppconnect-team/wppconnect/commit/2c44b8e" target="_blank" rel="noopener noreferrer" class="">2c44b8e</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2913" target="_blank" rel="noopener noreferrer" class="">#2913</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency eslint to v10.12.0 (#2908) (<a href="https://github.com/wppconnect-team/wppconnect/commit/f115c57" target="_blank" rel="noopener noreferrer" class="">f115c57</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2908" target="_blank" rel="noopener noreferrer" class="">#2908</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency globals to ^17.13.0 (#2910) (<a href="https://github.com/wppconnect-team/wppconnect/commit/c2b3f7b" target="_blank" rel="noopener noreferrer" class="">c2b3f7b</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2910" target="_blank" rel="noopener noreferrer" class="">#2910</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency mocha to v12 (#2889) (<a href="https://github.com/wppconnect-team/wppconnect/commit/0d922dd" target="_blank" rel="noopener noreferrer" class="">0d922dd</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2889" target="_blank" rel="noopener noreferrer" class="">#2889</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency release-it to ^21.1.1 (#2914) (<a href="https://github.com/wppconnect-team/wppconnect/commit/05b2463" target="_blank" rel="noopener noreferrer" class="">05b2463</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2914" target="_blank" rel="noopener noreferrer" class="">#2914</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency typescript-eslint to ^8.71.2 (#2916) (<a href="https://github.com/wppconnect-team/wppconnect/commit/e1a8767" target="_blank" rel="noopener noreferrer" class="">e1a8767</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2916" target="_blank" rel="noopener noreferrer" class="">#2916</a></li>
-<li class=""><strong>deps:</strong> update dependency @img/sharp-win32-x64 to ^0.35.5 (#2905) (<a href="https://github.com/wppconnect-team/wppconnect/commit/3a313d7" target="_blank" rel="noopener noreferrer" class="">3a313d7</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2905" target="_blank" rel="noopener noreferrer" class="">#2905</a></li>
-<li class=""><strong>deps:</strong> update dependency sharp to v0.35.5 [security] (#2907) (<a href="https://github.com/wppconnect-team/wppconnect/commit/79fa1aa" target="_blank" rel="noopener noreferrer" class="">79fa1aa</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2907" target="_blank" rel="noopener noreferrer" class="">#2907</a></li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.3.5" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
-        <author>
-            <name>WPPConnect Team</name>
-            <uri>https://github.com/wppconnect-team</uri>
-        </author>
-        <category label="wppconnect" term="wppconnect"/>
-        <category label="javascript" term="javascript"/>
-        <category label="nodejs" term="nodejs"/>
-        <category label="lib" term="lib"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WA-JS patch release: v4.7.1]]></title>
-        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.1</id>
-        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.1"/>
-        <updated>2026-10-15T22:34:56.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing a patch version v4.7.1 for WA-JS with Features, Bug Fixes, Build System and Continuous Integration.]]></summary>
-        <content type="html"><![CDATA[<p>Today we are releasing a patch version v4.7.1 for WA-JS with Features, Bug Fixes, Build System and Continuous Integration.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="471-2026-10-15"><small>4.7.1 (2026-10-15)</small><a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.1#471-2026-10-15" class="hash-link" aria-label="Link direto para 471-2026-10-15" title="Link direto para 471-2026-10-15" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="features">Features<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.1#features" class="hash-link" aria-label="Link direto para Features" title="Link direto para Features" translate="no">​</a></h3>
-<ul>
-<li class="">mark messages as read with native unread counters (#3712) (<a href="https://github.com/wppconnect-team/wa-js/commit/abba270" target="_blank" rel="noopener noreferrer" class="">abba270</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3712" target="_blank" rel="noopener noreferrer" class="">#3712</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.1#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class="">split MediaPrep bindings after WhatsApp moved prepRawMedia and uploadProductImage (#3732) (<a href="https://github.com/wppconnect-team/wa-js/commit/0c6d784" target="_blank" rel="noopener noreferrer" class="">0c6d784</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3732" target="_blank" rel="noopener noreferrer" class="">#3732</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.1#build-system" class="hash-link" aria-label="Link direto para Build System" title="Link direto para Build System" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update node.js to v24.22.0 (#3728) (<a href="https://github.com/wppconnect-team/wa-js/commit/2e21a8c" target="_blank" rel="noopener noreferrer" class="">2e21a8c</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3728" target="_blank" rel="noopener noreferrer" class="">#3728</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="continuous-integration">Continuous Integration<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.1#continuous-integration" class="hash-link" aria-label="Link direto para Continuous Integration" title="Link direto para Continuous Integration" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update dependency node to v24.22.0 (#3729) (<a href="https://github.com/wppconnect-team/wa-js/commit/0a3bf38" target="_blank" rel="noopener noreferrer" class="">0a3bf38</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3729" target="_blank" rel="noopener noreferrer" class="">#3729</a></li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.7.1" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
-        <author>
-            <name>WPPConnect Team</name>
-            <uri>https://github.com/wppconnect-team</uri>
-        </author>
-        <category label="wppconnect" term="wppconnect"/>
-        <category label="wa-js" term="wa-js"/>
-        <category label="javascript" term="javascript"/>
-        <category label="browser" term="browser"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WA-JS minor release: v4.7.0]]></title>
-        <id>https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0</id>
-        <link href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0"/>
-        <updated>2026-10-14T14:59:20.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing minor version v4.7.0 for WA-JS with Features, Bug Fixes, Build System, Continuous Integration and Chores.]]></summary>
-        <content type="html"><![CDATA[<p>Today we are releasing minor version v4.7.0 for WA-JS with Features, Bug Fixes, Build System, Continuous Integration and Chores.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="highlights">Highlights<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0#highlights" class="hash-link" aria-label="Link direto para Highlights" title="Link direto para Highlights" translate="no">​</a></h2>
-<ul>
-<li class="">Fix Pix key messages and preserve native payment payloads in <code>WPP.chat.sendPixKeyMessage</code>.</li>
-<li class="">Fix native-flow buttons, group sender-key messages, and files with interactive buttons.</li>
-<li class="">Avoid preloading the native attachment preview UI, resolving the media selection problem reported in #3716.</li>
-<li class="">Return custom lists in synchronized device order with <code>WPP.lists.list()</code>, including <code>orderIndex</code>.</li>
-<li class="">Add <code>WPP.lists.setOrder(listIds)</code> to reorder custom lists through WhatsApp's native persistence action. Pass every custom list ID exactly once; built-in list positions and colors are preserved. WhatsApp must enable list reordering for the account.</li>
-</ul>
-<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">const</span><span class="token plain"> ids </span><span class="token operator">=</span><span class="token plain"> </span><span class="token constant" style="color:rgb(189, 147, 249)">WPP</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token property-access">lists</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token method function property-access" style="color:rgb(80, 250, 123)">list</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token method function property-access" style="color:rgb(80, 250, 123)">map</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token parameter">list</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> list</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token property-access">id</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token keyword control-flow" style="color:rgb(189, 147, 249);font-style:italic">await</span><span class="token plain"> </span><span class="token constant" style="color:rgb(189, 147, 249)">WPP</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token property-access">lists</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token method function property-access" style="color:rgb(80, 250, 123)">setOrder</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token plain">ids</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token method function property-access" style="color:rgb(80, 250, 123)">reverse</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><br></div></code></pre></div></div>
-<p>Validated with 179 unit tests, including 15 ordering cases, and all 59 pull request checks. Authenticated phone synchronization and real message sending were not tested in this release run.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="470-2026-10-14">4.7.0 (2026-10-14)<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0#470-2026-10-14" class="hash-link" aria-label="Link direto para 4.7.0 (2026-10-14)" title="Link direto para 4.7.0 (2026-10-14)" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="features">Features<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0#features" class="hash-link" aria-label="Link direto para Features" title="Link direto para Features" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>chat:</strong> support native flow commerce messages (<a href="https://github.com/wppconnect-team/wa-js/commit/6842e38" target="_blank" rel="noopener noreferrer" class="">6842e38</a>)</li>
-<li class=""><strong>lists:</strong> permite definir e alterar a cor das listas (#3657) (<a href="https://github.com/wppconnect-team/wa-js/commit/879f324" target="_blank" rel="noopener noreferrer" class="">879f324</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3657" target="_blank" rel="noopener noreferrer" class="">#3657</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3661" target="_blank" rel="noopener noreferrer" class="">#3661</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3662" target="_blank" rel="noopener noreferrer" class="">#3662</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3652" target="_blank" rel="noopener noreferrer" class="">#3652</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3663" target="_blank" rel="noopener noreferrer" class="">#3663</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3664" target="_blank" rel="noopener noreferrer" class="">#3664</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3667" target="_blank" rel="noopener noreferrer" class="">#3667</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3666" target="_blank" rel="noopener noreferrer" class="">#3666</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3669" target="_blank" rel="noopener noreferrer" class="">#3669</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3671" target="_blank" rel="noopener noreferrer" class="">#3671</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3670" target="_blank" rel="noopener noreferrer" class="">#3670</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3672" target="_blank" rel="noopener noreferrer" class="">#3672</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3676" target="_blank" rel="noopener noreferrer" class="">#3676</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3675" target="_blank" rel="noopener noreferrer" class="">#3675</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3678" target="_blank" rel="noopener noreferrer" class="">#3678</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3660" target="_blank" rel="noopener noreferrer" class="">#3660</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3679" target="_blank" rel="noopener noreferrer" class="">#3679</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3654" target="_blank" rel="noopener noreferrer" class="">#3654</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3677" target="_blank" rel="noopener noreferrer" class="">#3677</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3681" target="_blank" rel="noopener noreferrer" class="">#3681</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3683" target="_blank" rel="noopener noreferrer" class="">#3683</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3682" target="_blank" rel="noopener noreferrer" class="">#3682</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3680" target="_blank" rel="noopener noreferrer" class="">#3680</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3684" target="_blank" rel="noopener noreferrer" class="">#3684</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3686" target="_blank" rel="noopener noreferrer" class="">#3686</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3688" target="_blank" rel="noopener noreferrer" class="">#3688</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3691" target="_blank" rel="noopener noreferrer" class="">#3691</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3692" target="_blank" rel="noopener noreferrer" class="">#3692</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3693" target="_blank" rel="noopener noreferrer" class="">#3693</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3685" target="_blank" rel="noopener noreferrer" class="">#3685</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3695" target="_blank" rel="noopener noreferrer" class="">#3695</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3694" target="_blank" rel="noopener noreferrer" class="">#3694</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3697" target="_blank" rel="noopener noreferrer" class="">#3697</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3698" target="_blank" rel="noopener noreferrer" class="">#3698</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3699" target="_blank" rel="noopener noreferrer" class="">#3699</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3700" target="_blank" rel="noopener noreferrer" class="">#3700</a> <a href="https://github.com/wppconnect-team/wa-js/issues/3701" target="_blank" rel="noopener noreferrer" class="">#3701</a></li>
-<li class=""><strong>lists:</strong> read and persist synchronized list order (<a href="https://github.com/wppconnect-team/wa-js/commit/6557e97" target="_blank" rel="noopener noreferrer" class="">6557e97</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>call:</strong> expose incoming group call identifier (#3725) (<a href="https://github.com/wppconnect-team/wa-js/commit/60732f6" target="_blank" rel="noopener noreferrer" class="">60732f6</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3725" target="_blank" rel="noopener noreferrer" class="">#3725</a></li>
-<li class=""><strong>catalog:</strong> support options-object product creation (#3723) (<a href="https://github.com/wppconnect-team/wa-js/commit/4e8707f" target="_blank" rel="noopener noreferrer" class="">4e8707f</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3723" target="_blank" rel="noopener noreferrer" class="">#3723</a></li>
-<li class=""><strong>chat:</strong> do not corrupt the group stanza when splitting button encryptions (<a href="https://github.com/wppconnect-team/wa-js/commit/af7bfa4" target="_blank" rel="noopener noreferrer" class="">af7bfa4</a>)</li>
-<li class=""><strong>chat:</strong> isolate native flow sends and preserve payment payloads (<a href="https://github.com/wppconnect-team/wa-js/commit/12c8c2f" target="_blank" rel="noopener noreferrer" class="">12c8c2f</a>)</li>
-<li class=""><strong>chat:</strong> keep interactive header when sending files with buttons (<a href="https://github.com/wppconnect-team/wa-js/commit/8222449" target="_blank" rel="noopener noreferrer" class="">8222449</a>)</li>
-<li class=""><strong>chat:</strong> keep the native_flow_name attribute biz of payment messages (<a href="https://github.com/wppconnect-team/wa-js/commit/61c3e1b" target="_blank" rel="noopener noreferrer" class="">61c3e1b</a>)</li>
-<li class=""><strong>chat:</strong> send carousel messages with the native flow biz node (<a href="https://github.com/wppconnect-team/wa-js/commit/20f27ba" target="_blank" rel="noopener noreferrer" class="">20f27ba</a>)</li>
-<li class=""><strong>chat:</strong> send legacy list messages to groups with the list stanza shape (#3722) (<a href="https://github.com/wppconnect-team/wa-js/commit/cb53dd5" target="_blank" rel="noopener noreferrer" class="">cb53dd5</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3722" target="_blank" rel="noopener noreferrer" class="">#3722</a></li>
-<li class=""><strong>chat:</strong> send native flow biz node as v=9 mixed (<a href="https://github.com/wppconnect-team/wa-js/commit/2d7f36a" target="_blank" rel="noopener noreferrer" class="">2d7f36a</a>)</li>
-<li class=""><strong>chat:</strong> send the native flow biz node on group sender-key messages (<a href="https://github.com/wppconnect-team/wa-js/commit/75e328e" target="_blank" rel="noopener noreferrer" class="">75e328e</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/1235" target="_blank" rel="noopener noreferrer" class="">#1235</a></li>
-<li class=""><strong>lists:</strong> serialize native reorder mutations (<a href="https://github.com/wppconnect-team/wa-js/commit/62a1479" target="_blank" rel="noopener noreferrer" class="">62a1479</a>)</li>
-<li class=""><strong>lists:</strong> use numeric ids in reorder sync payloads (<a href="https://github.com/wppconnect-team/wa-js/commit/87e8290" target="_blank" rel="noopener noreferrer" class="">87e8290</a>)</li>
-<li class=""><strong>loader:</strong> avoid preloading native attachment preview UI (#3718) (<a href="https://github.com/wppconnect-team/wa-js/commit/c457a60" target="_blank" rel="noopener noreferrer" class="">c457a60</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3718" target="_blank" rel="noopener noreferrer" class="">#3718</a></li>
-<li class=""><strong>loader:</strong> skip WAWebMoment locale modules when enumerating modules (#3704) (<a href="https://github.com/wppconnect-team/wa-js/commit/6537820" target="_blank" rel="noopener noreferrer" class="">6537820</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3704" target="_blank" rel="noopener noreferrer" class="">#3704</a></li>
-<li class="">resolve status privacy functions from named exports (#3693) (<a href="https://github.com/wppconnect-team/wa-js/commit/8af2b01" target="_blank" rel="noopener noreferrer" class="">8af2b01</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3693" target="_blank" rel="noopener noreferrer" class="">#3693</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0#build-system" class="hash-link" aria-label="Link direto para Build System" title="Link direto para Build System" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps-dev:</strong> bump handlebars from 4.7.9 to 4.7.10 (#3710) (<a href="https://github.com/wppconnect-team/wa-js/commit/8189927" target="_blank" rel="noopener noreferrer" class="">8189927</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3710" target="_blank" rel="noopener noreferrer" class="">#3710</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.4971 (#3685) (<a href="https://github.com/wppconnect-team/wa-js/commit/ee5bb97" target="_blank" rel="noopener noreferrer" class="">ee5bb97</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3685" target="_blank" rel="noopener noreferrer" class="">#3685</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.4975 (#3694) (<a href="https://github.com/wppconnect-team/wa-js/commit/051c4d3" target="_blank" rel="noopener noreferrer" class="">051c4d3</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3694" target="_blank" rel="noopener noreferrer" class="">#3694</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.4977 (#3697) (<a href="https://github.com/wppconnect-team/wa-js/commit/f65f291" target="_blank" rel="noopener noreferrer" class="">f65f291</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3697" target="_blank" rel="noopener noreferrer" class="">#3697</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.4983 (#3698) (<a href="https://github.com/wppconnect-team/wa-js/commit/ece1a64" target="_blank" rel="noopener noreferrer" class="">ece1a64</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3698" target="_blank" rel="noopener noreferrer" class="">#3698</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.4987 (#3699) (<a href="https://github.com/wppconnect-team/wa-js/commit/2b81c44" target="_blank" rel="noopener noreferrer" class="">2b81c44</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3699" target="_blank" rel="noopener noreferrer" class="">#3699</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.4989 (#3701) (<a href="https://github.com/wppconnect-team/wa-js/commit/d8e7259" target="_blank" rel="noopener noreferrer" class="">d8e7259</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3701" target="_blank" rel="noopener noreferrer" class="">#3701</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.5004 (#3702) (<a href="https://github.com/wppconnect-team/wa-js/commit/36b0d74" target="_blank" rel="noopener noreferrer" class="">36b0d74</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3702" target="_blank" rel="noopener noreferrer" class="">#3702</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.5005 (#3709) (<a href="https://github.com/wppconnect-team/wa-js/commit/b9f8e4e" target="_blank" rel="noopener noreferrer" class="">b9f8e4e</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3709" target="_blank" rel="noopener noreferrer" class="">#3709</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency eslint to ^10.12.0 (#3695) (<a href="https://github.com/wppconnect-team/wa-js/commit/a054087" target="_blank" rel="noopener noreferrer" class="">a054087</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3695" target="_blank" rel="noopener noreferrer" class="">#3695</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency eslint-plugin-prettier to ^5.5.7 (#3721) (<a href="https://github.com/wppconnect-team/wa-js/commit/186eef8" target="_blank" rel="noopener noreferrer" class="">186eef8</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3721" target="_blank" rel="noopener noreferrer" class="">#3721</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency prettier to ^3.9.10 (#3714) (<a href="https://github.com/wppconnect-team/wa-js/commit/3f4be3b" target="_blank" rel="noopener noreferrer" class="">3f4be3b</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3714" target="_blank" rel="noopener noreferrer" class="">#3714</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency release-it to ^21.1.1 (#3705) (<a href="https://github.com/wppconnect-team/wa-js/commit/bb6a739" target="_blank" rel="noopener noreferrer" class="">bb6a739</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3705" target="_blank" rel="noopener noreferrer" class="">#3705</a></li>
-<li class=""><strong>deps-dev:</strong> update playwright monorepo to ^1.64.0 (#3706) (<a href="https://github.com/wppconnect-team/wa-js/commit/ce09fd2" target="_blank" rel="noopener noreferrer" class="">ce09fd2</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3706" target="_blank" rel="noopener noreferrer" class="">#3706</a></li>
-<li class=""><strong>deps-dev:</strong> update playwright monorepo to ^1.64.1 (#3726) (<a href="https://github.com/wppconnect-team/wa-js/commit/4cc9229" target="_blank" rel="noopener noreferrer" class="">4cc9229</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3726" target="_blank" rel="noopener noreferrer" class="">#3726</a></li>
-<li class=""><strong>deps-dev:</strong> update typescript-eslint monorepo to ^8.71.1 (#3703) (<a href="https://github.com/wppconnect-team/wa-js/commit/e52f1b5" target="_blank" rel="noopener noreferrer" class="">e52f1b5</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3703" target="_blank" rel="noopener noreferrer" class="">#3703</a></li>
-<li class=""><strong>deps-dev:</strong> update typescript-eslint monorepo to ^8.71.2 (#3720) (<a href="https://github.com/wppconnect-team/wa-js/commit/7c0fbd7" target="_blank" rel="noopener noreferrer" class="">7c0fbd7</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3720" target="_blank" rel="noopener noreferrer" class="">#3720</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="continuous-integration">Continuous Integration<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0#continuous-integration" class="hash-link" aria-label="Link direto para Continuous Integration" title="Link direto para Continuous Integration" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> update actions/setup-node action to v7.1.0 (#3708) (<a href="https://github.com/wppconnect-team/wa-js/commit/27bcc00" target="_blank" rel="noopener noreferrer" class="">27bcc00</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3708" target="_blank" rel="noopener noreferrer" class="">#3708</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="chores">Chores<a href="https://wppconnect-team.github.io/pt-BR/blog/wa-js/v4.7.0#chores" class="hash-link" aria-label="Link direto para Chores" title="Link direto para Chores" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps:</strong> lock file maintenance (#3700) (<a href="https://github.com/wppconnect-team/wa-js/commit/35a73de" target="_blank" rel="noopener noreferrer" class="">35a73de</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3700" target="_blank" rel="noopener noreferrer" class="">#3700</a></li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.7.0" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
         <author>
             <name>WPPConnect Team</name>
             <uri>https://github.com/wppconnect-team</uri>
