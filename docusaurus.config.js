@@ -9,7 +9,7 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: "WPPConnect",
   tagline: "Open-source WhatsApp automation, built for developers",
-  url: "https://wppconnect-team.github.io/",
+  url: "https://wppconnect.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   markdown: {
@@ -24,6 +24,7 @@ const config = {
   i18n: {
     defaultLocale: "en",
     locales: ["en", "pt-BR"],
+    localeConfigs: { en: { label: "English", htmlLang: "en" }, "pt-BR": { label: "Português", htmlLang: "pt-BR" } },
   },
 
   presets: [
@@ -48,6 +49,7 @@ const config = {
           customCss: [
             require.resolve("./src/css/custom.scss"),
             require.resolve("./src/css/content.scss"),
+            require.resolve("./src/css/website.scss"),
           ],
         },
       }),
@@ -65,8 +67,8 @@ const config = {
         // Theme Options for modifying how redoc renders them
         theme: {
           // Change with your site colors
-          primaryColor: "#02623f",
-          primaryColorDark: "#63dfa1",
+          primaryColor: "#11763a",
+          primaryColorDark: "#34d978",
         },
       },
     ],
@@ -127,9 +129,9 @@ const config = {
     ({
       image: "brand/v2/wppconnect-social.png",
       colorMode: {
-        defaultMode: "dark",
+        defaultMode: "light",
         disableSwitch: false,
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         hideOnScroll: false,
@@ -228,10 +230,12 @@ const config = {
             title: "More",
             items: [
               { label: "Blog", to: "/blog" },
+              { label: "Design system", to: "/design-system" },
+              { label: "WPPConnect Cloud", href: "https://cloud.wppconnect.io/" },
             ],
           },
         ],
-        copyright: `Copyright Â© ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
       },
       prism: {
         // JavaScript and JSON are already bundled by prism-react-renderer.

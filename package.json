@@ -17,7 +17,9 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "write-translations": "docusaurus write-translations",
     "test:dependencies": "node --test --test-timeout=20000 .github/actions/dependencies.test.cjs",
-    "test:dev": "node .github/actions/smoke-dev.cjs"
+    "test:dev": "node .github/actions/smoke-dev.cjs",
+    "design:tokens": "node scripts/design-tokens.mjs",
+    "design:check": "node scripts/design-tokens.mjs --check && node --test scripts/design-system.test.mjs"
   },
   "browserslist": {
     "production": [

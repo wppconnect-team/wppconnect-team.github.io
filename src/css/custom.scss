@@ -1,175 +1,41 @@
-/**
- * Global styles for the WPPConnect site. Mixes Infima overrides with the
- * premium dark design system used across the redesigned home and theme.
- */
-
-@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Geist:wght@300;400;500;600;700;800&family=Press+Start+2P&display=swap");
-
-/* ---------- Design tokens ---------- */
-:root {
-  /* Brand */
-  --wpp-green: #25d366;
-  --wpp-green-soft: rgba(37, 211, 102, 0.18);
-  --wpp-cyan: #22d3ee;
-  --wpp-violet: #8b5cf6;
-  --wpp-pink: #ec4899;
-
-  /* Surfaces (light) */
-  --wpp-bg-base: #fafbfc;
-  --wpp-bg-elev: #f1f4f8;
-  --wpp-surface: #ffffff;
-  --wpp-border: rgba(15, 23, 42, 0.08);
-  --wpp-text: #0a0c12;
-  --wpp-muted: #475569;
-
-  /* Effects */
-  --wpp-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
-  --wpp-glow-green: 0 0 50px rgba(37, 211, 102, 0.28);
-  --wpp-glow-cyan: 0 0 40px rgba(34, 211, 238, 0.22);
-  --wpp-glow-violet: 0 0 40px rgba(139, 92, 246, 0.22);
-  --wpp-grad-text: linear-gradient(135deg, #25d366 0%, #22d3ee 60%, #8b5cf6 100%);
-  --wpp-grad-card: linear-gradient(
-    140deg,
-    rgba(37, 211, 102, 0.08),
-    rgba(34, 211, 238, 0.06) 50%,
-    rgba(139, 92, 246, 0.08)
-  );
-
-  /* Typography */
-  --wpp-font-sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
-  --wpp-font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, SFMono-Regular,
-    Menlo, Monaco, "Liberation Mono", "Courier New", monospace;
-  --wpp-font-pixel: "Press Start 2P", monospace;
-
-  /* Infima overrides */
-  --ifm-color-primary: #1aa850;
-  --ifm-color-primary-dark: #18994a;
-  --ifm-color-primary-darker: #169044;
-  --ifm-color-primary-darkest: #11763a;
-  --ifm-color-primary-light: #25d366;
-  --ifm-color-primary-lighter: #34d978;
-  --ifm-color-primary-lightest: #58dd91;
-  --ifm-code-font-size: 95%;
-  --ifm-font-family-base: var(--wpp-font-sans);
-  --ifm-font-family-monospace: var(--wpp-font-mono);
-  --ifm-heading-font-weight: 700;
-  --ifm-heading-line-height: 1.15;
-  --ifm-h1-font-size: clamp(2.25rem, 4vw, 3.5rem);
-  --ifm-h2-font-size: clamp(1.75rem, 3vw, 2.5rem);
-  --ifm-navbar-shadow: 0 1px 0 var(--wpp-border);
-  --ifm-navbar-height: 72px;
-  --doc-sidebar-width: 310px !important;
-  --site-primary-hue-saturation: 142 71%;
-  --site-primary-hue-saturation-light: 142 56%;
+/* Framework aliases for the shared WPPConnect contract. */
+@import '../../design-system/tokens.css';
+@font-face { font-family: 'Geist'; src: url('/fonts/Geist-Variable.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Geist Mono'; src: url('/fonts/GeistMono-Variable.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+:root, :root[data-theme='dark'] {
+  --font-geist-sans: 'Geist'; --font-geist-mono: 'Geist Mono';
+  --wpp-font-sans: var(--font-body); --wpp-font-mono: var(--font-code);
+  --wpp-bg-base: var(--background); --wpp-bg-elev: var(--secondary);
+  --wpp-surface: var(--card); --wpp-border: var(--border);
+  --wpp-text: var(--foreground); --wpp-muted: var(--muted-foreground);
+  --wpp-card-bg: var(--card);
+  --ifm-color-primary: var(--brand);
+  --ifm-color-primary-dark: var(--brand); --ifm-color-primary-darker: var(--brand); --ifm-color-primary-darkest: var(--brand);
+  --ifm-color-primary-light: var(--brand); --ifm-color-primary-lighter: var(--brand); --ifm-color-primary-lightest: var(--brand);
+  --ifm-background-color: var(--background); --ifm-background-surface-color: var(--card);
+  --ifm-navbar-background-color: var(--card); --ifm-footer-background-color: var(--secondary);
+  --ifm-color-content: var(--foreground); --ifm-color-content-secondary: var(--muted-foreground);
+  --ifm-font-family-base: var(--font-body); --ifm-font-family-monospace: var(--font-code);
+  --ifm-heading-font-weight: 600; --ifm-heading-line-height: 1.2;
+  --ifm-navbar-height: 72px; --ifm-navbar-shadow: none;
+  --ifm-global-radius: var(--radius); --ifm-code-border-radius: var(--radius);
+  --ifm-toc-border-color: var(--border); --ifm-hr-border-color: var(--border);
+  --ifm-menu-link-padding-vertical: .65rem; --doc-sidebar-width: 310px;
 }
-
-/* ---------- Dark theme ---------- */
-:root[data-theme="dark"] {
-  --wpp-bg-base: #07080a;
-  --wpp-bg-elev: #0c0d10;
-  --wpp-surface: #111114;
-  --wpp-border: rgba(255, 255, 255, 0.08);
-  --wpp-text: #e7e7ea;
-  --wpp-muted: #9a9aa3;
-  --wpp-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
-
-  --ifm-background-color: var(--wpp-bg-base);
-  --ifm-background-surface-color: var(--wpp-surface);
-  --ifm-navbar-background-color: rgba(7, 8, 10, 0.7);
-  --ifm-footer-background-color: var(--wpp-bg-elev);
-  --ifm-color-content: var(--wpp-text);
-  --ifm-color-content-secondary: var(--wpp-muted);
-  --ifm-color-primary: #34d978;
-  --ifm-color-primary-dark: #25d366;
-  --ifm-color-primary-darker: #1aa850;
-  --ifm-color-primary-darkest: #16893f;
-  --ifm-color-primary-light: #58dd91;
-  --ifm-color-primary-lighter: #7be3a8;
-  --ifm-color-primary-lightest: #9ae9bc;
-  --ifm-toc-border-color: var(--wpp-border);
-  --ifm-hr-border-color: var(--wpp-border);
-
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
-}
-
-/* ---------- Base ---------- */
-html {
-  scroll-behavior: smooth;
-}
-
-html[data-theme="dark"] body {
-  background:
-    radial-gradient(
-      1200px 600px at 10% -10%,
-      rgba(37, 211, 102, 0.12),
-      transparent 60%
-    ),
-    radial-gradient(
-      900px 500px at 90% 0%,
-      rgba(34, 211, 238, 0.08),
-      transparent 60%
-    ),
-    radial-gradient(
-      900px 500px at 50% 110%,
-      rgba(139, 92, 246, 0.08),
-      transparent 60%
-    ),
-    var(--wpp-bg-base);
-  background-attachment: fixed;
-}
-
-html:not([data-theme="dark"]) body {
-  background:
-    radial-gradient(
-      1100px 500px at 10% -10%,
-      rgba(37, 211, 102, 0.10),
-      transparent 60%
-    ),
-    radial-gradient(
-      900px 500px at 90% 0%,
-      rgba(34, 211, 238, 0.07),
-      transparent 60%
-    ),
-    var(--wpp-bg-base);
-  background-attachment: fixed;
-}
-
-body {
-  font-family: var(--wpp-font-sans);
-  font-feature-settings: "ss01", "ss02", "cv11";
-  letter-spacing: -0.005em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -0.02em;
-}
-
-/* Hide scrollbars when lenis is active but keep functionality */
-html.lenis,
-html.lenis body {
-  height: auto;
-}
-
-html.lenis-smooth {
-  scroll-behavior: auto !important;
-}
-
-html.lenis-stopped {
-  overflow: clip;
-}
+body { font-family: var(--font-body); background: var(--background); color: var(--foreground); font-feature-settings: 'ss01', 'ss02', 'cv11'; }
+h1,h2,h3,h4,h5,h6 { letter-spacing: -.025em; }
+:where(a,button,input,select,summary):focus-visible { outline: var(--focus-width) solid var(--ring); outline-offset: var(--focus-offset); }
 
 /* ---------- Navbar refinements ---------- */
 .navbar {
-  backdrop-filter: saturate(180%) blur(14px);
-  -webkit-backdrop-filter: saturate(180%) blur(14px);
+
   background: var(--ifm-navbar-background-color);
   border-bottom: 1px solid var(--wpp-border);
   padding-inline: 0;
 }
 
 [data-theme="dark"] .navbar {
-  background: rgba(7, 8, 10, 0.65);
+  background: var(--card);
 }
 
 .navbar__brand {
@@ -179,7 +45,7 @@ html.lenis-stopped {
   flex-shrink: 0;
 }
 
-.navbar__title:empty {
+.navbar__title {
   display: none;
 }
 
@@ -243,7 +109,7 @@ html.lenis-stopped {
 }
 
 [data-theme="dark"] .navbar__link {
-  color: rgba(231, 231, 234, 0.75);
+  color: var(--muted-foreground);
 }
 
 [data-theme="dark"] .navbar__link:hover {
@@ -282,8 +148,8 @@ html.lenis-stopped {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border-radius: 10px;
   border: 1px solid var(--wpp-border);
   background: rgba(255, 255, 255, 0.02);
@@ -296,7 +162,6 @@ html.lenis-stopped {
   opacity: 1;
   border-color: var(--ifm-color-primary);
   background: rgba(37, 211, 102, 0.08);
-  transform: translateY(-1px);
 }
 
 .header-discord-link::before,
@@ -305,83 +170,16 @@ html.lenis-stopped {
   height: 18px;
 }
 
-/* ---------- Footer refinements ---------- */
 .footer {
-  --ifm-footer-background-color: var(--wpp-bg-elev);
-  --ifm-footer-color: var(--wpp-muted);
-  --ifm-footer-link-color: var(--wpp-muted);
-  --ifm-footer-title-color: var(--wpp-text);
-
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.7), transparent 45%),
-    var(--wpp-bg-elev);
-  border-top: 1px solid var(--wpp-border);
-  color: var(--wpp-muted);
-  position: relative;
+  --ifm-footer-background-color: var(--secondary);
+  --ifm-footer-color: var(--muted-foreground);
+  --ifm-footer-link-color: var(--muted-foreground);
+  --ifm-footer-title-color: var(--foreground);
+  background: var(--secondary); border-top: 1px solid var(--border);
 }
-
-[data-theme="dark"] .footer {
-  --ifm-footer-background-color: var(--wpp-bg-elev);
-  --ifm-footer-color: rgba(231, 231, 234, 0.72);
-  --ifm-footer-link-color: rgba(231, 231, 234, 0.68);
-  --ifm-footer-title-color: var(--wpp-text);
-
-  background:
-    linear-gradient(180deg, rgba(37, 211, 102, 0.05), transparent 45%),
-    var(--wpp-bg-elev);
-  color: rgba(231, 231, 234, 0.72);
-}
-
-.footer::before {
-  content: "";
-  position: absolute;
-  inset: -1px 0 auto 0;
-  height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--wpp-green) 30%,
-    var(--wpp-cyan) 50%,
-    var(--wpp-violet) 70%,
-    transparent
-  );
-  opacity: 0.4;
-  pointer-events: none;
-}
-
-.footer__title {
-  color: var(--wpp-text);
-  letter-spacing: -0.01em;
-  font-weight: 600;
-}
-
-.footer__link-item {
-  color: var(--ifm-footer-link-color);
-  transition: color 180ms ease, transform 180ms ease;
-}
-
-.footer__link-item:hover {
-  color: var(--ifm-color-primary);
-  transform: translateX(2px);
-}
-
-.footer__copyright {
-  color: var(--wpp-muted);
-  font-size: 0.92rem;
-  line-height: 1.6;
-  margin: 1rem auto 0;
-  max-width: 780px;
-}
-
-[data-theme="dark"] .footer__copyright {
-  color: rgba(231, 231, 234, 0.62);
-}
-
-.footer__logo {
-  width: 156px;
-  height: 86px;
-  object-fit: contain;
-}
+.footer__title { font-weight: 600; }
+.footer__copyright { color: var(--muted-foreground); font-size: .8rem; max-width: 780px; margin: 1.5rem auto 0; line-height: 1.75; }
+.footer__logo { width: 156px; height: 86px; object-fit: contain; }
 
 /* ---------- Announcement bar ---------- */
 div[class^="announcementBar_"] {
@@ -505,25 +303,6 @@ div[class^="announcementBar_"] a {
 
 [data-theme="dark"] .header-github-link::before {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23e7e7ea' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E");
-}
-
-/* ---------- Utility ---------- */
-.wpp-gradient-text {
-  background: var(--wpp-grad-text);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-}
-
-.wpp-noise {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 1;
-  opacity: 0.04;
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 @media (prefers-reduced-motion: reduce) {

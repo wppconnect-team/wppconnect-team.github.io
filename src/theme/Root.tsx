@@ -1,21 +1,5 @@
 import React from "react";
-
 import ServerStyle from "./ServerStyle";
-import LenisProvider from "@site/src/components/ui/LenisProvider";
-import ScrollProgress from "@site/src/components/ui/ScrollProgress";
-import NoiseTexture from "@site/src/components/ui/NoiseTexture";
-
-function Root({ children }: { children: React.ReactNode }): React.JSX.Element {
-  return (
-    <>
-      <ServerStyle from={children} />
-      <LenisProvider>
-        <ScrollProgress />
-        <NoiseTexture />
-        {children}
-      </LenisProvider>
-    </>
-  );
+export default function Root({children}: {children: React.ReactNode}): React.JSX.Element {
+  return <><ServerStyle from={children} />{children}</>;
 }
-
-export default Root;

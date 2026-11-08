@@ -44,15 +44,12 @@
     "description": "Navbar item with label WPPConnect"
   },
   "item.label.Overview": {
-    "message": "Visão geral",
-    "description": "Navbar item with label Overview"
+    "message": "Visão geral"
   },
   "item.label.WPPConnect (library)": {
-    "message": "WPPConnect (biblioteca)",
-    "description": "Navbar item with label WPPConnect (library)"
+    "message": "WPPConnect (biblioteca)"
   },
   "item.label.Server (Swagger)": {
-    "message": "Server (Swagger)",
-    "description": "Navbar item with label Server (Swagger)"
+    "message": "Servidor (Swagger)"
   }
 }

@@ -13,7 +13,7 @@
   background: var(--wpp-surface);
   border: 1px solid var(--wpp-border);
   border-left: 4px solid var(--ifm-color-primary);
-  border-radius: 16px;
+  border-radius: var(--radius);
   h2 {
     font: 600 clamp(1.1rem, 2.4vw, 1.6rem) var(--wpp-font-mono);
     overflow-wrap: anywhere;
@@ -57,7 +57,7 @@
   padding: 0 1rem;
   background: var(--wpp-surface);
   border: 1px solid var(--wpp-border);
-  border-radius: 10px;
+  border-radius: var(--radius);
   color: var(--wpp-muted);
   &:focus-within {
     outline: 2px solid var(--ifm-color-primary);
@@ -84,7 +84,7 @@
     min-height: 48px;
     padding: 0 0.75rem;
     border: 1px solid var(--wpp-border);
-    border-radius: 10px;
+    border-radius: var(--radius);
     background: var(--wpp-surface);
     color: var(--wpp-text);
     font: inherit;
@@ -104,7 +104,7 @@
 .card {
   background: var(--wpp-surface);
   border: 1px solid var(--wpp-border);
-  border-radius: 12px;
+  border-radius: var(--radius);
   padding: 1.4rem;
   min-width: 0;
   h3 {

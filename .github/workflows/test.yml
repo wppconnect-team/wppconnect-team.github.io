@@ -78,5 +78,8 @@ jobs:
       - name: Test development server
         run: npm run test:dev
 
+      - name: Check shared design system and English fallback
+        run: npm run design:check
+
       - name: Build Page
         run: npm run build
