@@ -4,10 +4,39 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect-team.github.io/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Sat, 07 Nov 2026 01:04:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Nov 2026 13:30:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Server CLI patch release: v1.3.65]]></title>
+            <link>https://wppconnect-team.github.io/blog/server-cli/v1.3.65</link>
+            <guid>https://wppconnect-team.github.io/blog/server-cli/v1.3.65</guid>
+            <pubDate>Sat, 07 Nov 2026 13:30:08 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.65 for Server CLI.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.65 for Server CLI.</p>
+<p>Docker image tags:</p>
+<ul>
+<li class=""><code>wppconnect/server-cli:1.3.65</code></li>
+<li class=""><code>wppconnect/server-cli:1.3</code></li>
+<li class=""><code>wppconnect/server-cli:1</code></li>
+<li class=""><code>wppconnect/server-cli:v1.3.65</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+<li class=""><code>wppconnect/server-cli:sha-16e3602</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.65#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<ul>
+<li class="">build(deps): update dependency basic-ftp to v6.2.6 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/890" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/890</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.64...v1.3.65" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.64...v1.3.65</a></p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.65" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+            <category>cli</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v2.10.78]]></title>
             <link>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.78</link>
@@ -462,47 +491,6 @@
             <category>javascript</category>
             <category>nodejs</category>
             <category>lib</category>
-        </item>
-        <item>
-            <title><![CDATA[WA-JS patch release: v4.7.2]]></title>
-            <link>https://wppconnect-team.github.io/blog/wa-js/v4.7.2</link>
-            <guid>https://wppconnect-team.github.io/blog/wa-js/v4.7.2</guid>
-            <pubDate>Fri, 23 Oct 2026 17:58:09 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v4.7.2 for WA-JS with Bug Fixes, Tests, Build System and Chores.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v4.7.2 for WA-JS with Bug Fixes, Tests, Build System and Chores.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="472-2026-10-23"><small>4.7.2 (2026-10-23)</small><a href="https://wppconnect-team.github.io/blog/wa-js/v4.7.2#472-2026-10-23" class="hash-link" aria-label="Direct link to 472-2026-10-23" title="Direct link to 472-2026-10-23" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wa-js/v4.7.2#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>chat:</strong> avoid replaying notifications when reading history (<a href="https://github.com/wppconnect-team/wa-js/commit/550966c" target="_blank" rel="noopener noreferrer" class="">550966c</a>)</li>
-<li class=""><strong>chat:</strong> include LID chats in list onlyUsers filter (<a href="https://github.com/wppconnect-team/wa-js/commit/c3e7729" target="_blank" rel="noopener noreferrer" class="">c3e7729</a>)</li>
-<li class=""><strong>chat:</strong> pass options object to markUnread on WhatsApp &gt;= 2.3000.1051327739 (<a href="https://github.com/wppconnect-team/wa-js/commit/c202eb0" target="_blank" rel="noopener noreferrer" class="">c202eb0</a>)</li>
-<li class=""><strong>contact:</strong> resolve profile picture through thumb getters (<a href="https://github.com/wppconnect-team/wa-js/commit/626311c" target="_blank" rel="noopener noreferrer" class="">626311c</a>)</li>
-<li class=""><strong>group:</strong> ensure invite job module before join fallback call (<a href="https://github.com/wppconnect-team/wa-js/commit/6e7d96a" target="_blank" rel="noopener noreferrer" class="">6e7d96a</a>)</li>
-<li class=""><strong>status:</strong> ensure revoke action module before remove (<a href="https://github.com/wppconnect-team/wa-js/commit/831beec" target="_blank" rel="noopener noreferrer" class="">831beec</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tests">Tests<a href="https://wppconnect-team.github.io/blog/wa-js/v4.7.2#tests" class="hash-link" aria-label="Direct link to Tests" title="Direct link to Tests" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>chat:</strong> cover unread action version compatibility (<a href="https://github.com/wppconnect-team/wa-js/commit/42fe3d5" target="_blank" rel="noopener noreferrer" class="">42fe3d5</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect-team.github.io/blog/wa-js/v4.7.2#build-system" class="hash-link" aria-label="Direct link to Build System" title="Direct link to Build System" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps-dev:</strong> update commitlint monorepo to ^21.2.4 (#3740) (<a href="https://github.com/wppconnect-team/wa-js/commit/b85ed2d" target="_blank" rel="noopener noreferrer" class="">b85ed2d</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3740" target="_blank" rel="noopener noreferrer" class="">#3740</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency eslint to ^10.13.0 (<a href="https://github.com/wppconnect-team/wa-js/commit/7a3cdbe" target="_blank" rel="noopener noreferrer" class="">7a3cdbe</a>)</li>
-<li class=""><strong>deps-dev:</strong> update dependency webpack to ^5.112.0 (#3733) (<a href="https://github.com/wppconnect-team/wa-js/commit/62b507b" target="_blank" rel="noopener noreferrer" class="">62b507b</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3733" target="_blank" rel="noopener noreferrer" class="">#3733</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency webpack to ^5.112.1 (#3747) (<a href="https://github.com/wppconnect-team/wa-js/commit/c25a840" target="_blank" rel="noopener noreferrer" class="">c25a840</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3747" target="_blank" rel="noopener noreferrer" class="">#3747</a></li>
-<li class=""><strong>deps-dev:</strong> update typescript-eslint monorepo to ^8.72.0 (#3742) (<a href="https://github.com/wppconnect-team/wa-js/commit/ecda587" target="_blank" rel="noopener noreferrer" class="">ecda587</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3742" target="_blank" rel="noopener noreferrer" class="">#3742</a></li>
-<li class=""><strong>deps:</strong> bump markdown-it from 14.3.2 to 14.3.3 (<a href="https://github.com/wppconnect-team/wa-js/commit/a85c3f7" target="_blank" rel="noopener noreferrer" class="">a85c3f7</a>)</li>
-<li class=""><strong>deps:</strong> update node.js to v24.22.1 (#3744) (<a href="https://github.com/wppconnect-team/wa-js/commit/d7601f2" target="_blank" rel="noopener noreferrer" class="">d7601f2</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3744" target="_blank" rel="noopener noreferrer" class="">#3744</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="chores">Chores<a href="https://wppconnect-team.github.io/blog/wa-js/v4.7.2#chores" class="hash-link" aria-label="Direct link to Chores" title="Direct link to Chores" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>ci:</strong> associate schedule with joaosouz4dev (<a href="https://github.com/wppconnect-team/wa-js/commit/17fc1eb" target="_blank" rel="noopener noreferrer" class="">17fc1eb</a>)</li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.7.2" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>wa-js</category>
-            <category>javascript</category>
-            <category>browser</category>
         </item>
     </channel>
 </rss>
