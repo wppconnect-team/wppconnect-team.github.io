@@ -4,6 +4,7 @@
 const { themes } = require("prism-react-renderer");
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
+const designTokens = require("./design-system/tokens.json");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -67,8 +68,8 @@ const config = {
         // Theme Options for modifying how redoc renders them
         theme: {
           // Change with your site colors
-          primaryColor: "#11763a",
-          primaryColorDark: "#34d978",
+          primaryColor: designTokens.primitive["green-accessible"].$value,
+          primaryColorDark: designTokens.primitive["green-light"].$value,
         },
       },
     ],
@@ -176,15 +177,15 @@ const config = {
             href: "https://discord.gg/JU5JGGKGNG",
             position: "right",
             className: "header-discord-link",
-            "aria-label": "Discord channel",
-            title: "Discord channel",
+            "aria-label": "Discord",
+            title: "Discord",
           },
           {
             href: "https://github.com/wppconnect-team",
             position: "right",
             className: "header-github-link",
-            "aria-label": "GitHub repository",
-            title: "GitHub repository",
+            "aria-label": "GitHub",
+            title: "GitHub",
           },
         ],
       },
