@@ -114,6 +114,13 @@
   font: 0.7rem var(--font-code);
   color: var(--code-muted);
 }
+.wpp-code-panel code {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+}
 .wpp-code-header {
   border-bottom: 1px solid var(--code-border);
   justify-content: space-between;
