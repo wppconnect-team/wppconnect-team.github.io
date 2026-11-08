@@ -4,12 +4,13 @@
 const { themes } = require("prism-react-renderer");
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
+const designTokens = require("./design-system/tokens.json");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "WPPConnect",
   tagline: "Open-source WhatsApp automation, built for developers",
-  url: "https://wppconnect-team.github.io/",
+  url: "https://wppconnect.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   markdown: {
@@ -24,6 +25,7 @@ const config = {
   i18n: {
     defaultLocale: "en",
     locales: ["en", "pt-BR"],
+    localeConfigs: { en: { label: "English", htmlLang: "en" }, "pt-BR": { label: "Português", htmlLang: "pt-BR" } },
   },
 
   presets: [
@@ -48,6 +50,7 @@ const config = {
           customCss: [
             require.resolve("./src/css/custom.scss"),
             require.resolve("./src/css/content.scss"),
+            require.resolve("./src/css/website.scss"),
           ],
         },
       }),
@@ -65,8 +68,8 @@ const config = {
         // Theme Options for modifying how redoc renders them
         theme: {
           // Change with your site colors
-          primaryColor: "#02623f",
-          primaryColorDark: "#63dfa1",
+          primaryColor: designTokens.primitive["green-accessible"].$value,
+          primaryColorDark: designTokens.primitive["green-light"].$value,
         },
       },
     ],
@@ -127,9 +130,9 @@ const config = {
     ({
       image: "brand/v2/wppconnect-social.png",
       colorMode: {
-        defaultMode: "dark",
+        defaultMode: "light",
         disableSwitch: false,
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         hideOnScroll: false,
@@ -174,15 +177,15 @@ const config = {
             href: "https://discord.gg/JU5JGGKGNG",
             position: "right",
             className: "header-discord-link",
-            "aria-label": "Discord channel",
-            title: "Discord channel",
+            "aria-label": "Discord",
+            title: "Discord",
           },
           {
             href: "https://github.com/wppconnect-team",
             position: "right",
             className: "header-github-link",
-            "aria-label": "GitHub repository",
-            title: "GitHub repository",
+            "aria-label": "GitHub",
+            title: "GitHub",
           },
         ],
       },
@@ -228,10 +231,12 @@ const config = {
             title: "More",
             items: [
               { label: "Blog", to: "/blog" },
+              { label: "Design system", to: "/design-system" },
+              { label: "WPPConnect Cloud", href: "https://cloud.wppconnect.io/" },
             ],
           },
         ],
-        copyright: `Copyright Â© ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WPPConnect Team. Open-source WhatsApp automation powered by maintainers, sponsors, and contributors. Use it for free, improve it on GitHub, or help fund the next release on Open Collective.`,
       },
       prism: {
         // JavaScript and JSON are already bundled by prism-react-renderer.

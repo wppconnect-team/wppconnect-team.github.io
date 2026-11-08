@@ -13,30 +13,7 @@
     display: none;
   }
 }
-:root {
-  --ifm-color-primary: #02623f;
-  --ifm-color-primary-dark: #025837;
-  --ifm-color-primary-darker: #024e31;
-  --ifm-color-primary-darkest: #013e27;
-  --ifm-color-primary-light: #08784e;
-  --ifm-color-primary-lighter: #0d8658;
-  --ifm-color-primary-lightest: #159b68;
-  --ifm-background-color: var(--wpp-bg-base);
-  --ifm-background-surface-color: var(--wpp-surface);
-  --ifm-color-content: var(--wpp-text);
-  --ifm-color-content-secondary: var(--wpp-muted);
-  --ifm-heading-line-height: 1.2;
-  --ifm-link-hover-decoration: underline;
-  --ifm-menu-link-padding-vertical: 0.65rem;
-  --ifm-code-border-radius: 5px;
-  --ifm-global-radius: 10px;
-  --wpp-border: #dce3e3;
-}
-:root[data-theme="dark"] {
-  --ifm-color-primary: #63dfa1;
-  --wpp-border: #293335;
-  --wpp-muted: #a6b4b4;
-}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -49,8 +26,8 @@
   border: 0;
 }
 :where(a, button, input, select, summary):focus-visible {
-  outline: 3px solid var(--ifm-color-primary);
-  outline-offset: 4px;
+  outline: var(--focus-width) solid var(--ring);
+  outline-offset: var(--focus-offset);
 }
 .portal-eyebrow {
   display: block;
@@ -90,7 +67,7 @@
   background: var(--wpp-surface);
   color: var(--wpp-text);
   border: 1px solid var(--wpp-border);
-  border-radius: 14px;
+  border-radius: var(--radius);
   text-decoration: none;
   transition:
     border-color 180ms ease,
@@ -141,7 +118,7 @@
   padding: 1.5rem;
   background: var(--wpp-bg-elev);
   border: 1px solid var(--wpp-border);
-  border-radius: 12px;
+  border-radius: var(--radius);
   strong {
     display: block;
     font-size: 1.1rem;
@@ -170,20 +147,14 @@
   min-height: 46px;
   border: 1px solid var(--ifm-color-primary);
   border-radius: 8px;
-  background: var(--ifm-color-primary);
-  color: var(--wpp-surface);
+  background: var(--primary);
+  color: var(--primary-foreground);
   font: 600 0.9rem var(--wpp-font-sans);
   cursor: pointer;
   &:hover {
-    color: var(--wpp-surface);
+    color: var(--primary-foreground);
     text-decoration: none;
     filter: brightness(0.92);
-  }
-}
-[data-theme="dark"] .portal-button {
-  color: #072719;
-  &:hover {
-    color: #072719;
   }
 }
 /* Reading widths and navigation stay consistent across every document. */
@@ -224,8 +195,9 @@
   margin-block: 1rem;
 }
 [data-theme="dark"] .markdown img[src*="/brand/v2/wppconnect-light.png"] {
-  filter: brightness(0) invert(1);
+  content: url("/brand/v2/wppconnect-dark.png");
 }
+
 .markdown > p,
 .markdown > ul,
 .markdown > ol {
@@ -241,7 +213,7 @@
 .markdown table {
   width: 100%;
   border: 1px solid var(--wpp-border);
-  border-radius: 10px;
+  border-radius: var(--radius);
   th {
     background: var(--wpp-bg-elev);
     text-align: left;
@@ -254,7 +226,7 @@
 }
 .markdown pre {
   border: 1px solid var(--wpp-border);
-  border-radius: 12px;
+  border-radius: var(--radius);
   box-shadow: none;
 }
 .markdown pre code {
@@ -308,7 +280,7 @@
 .blog-wrapper main article {
   padding: 2rem;
   border: 1px solid var(--wpp-border);
-  border-radius: 16px;
+  border-radius: var(--radius);
   background: var(--wpp-surface);
   margin-bottom: 1.75rem !important;
   overflow-wrap: anywhere;
@@ -371,7 +343,7 @@
 .dropdown__menu {
   padding: 0.5rem;
   border: 1px solid var(--wpp-border);
-  border-radius: 12px;
+  border-radius: var(--radius);
   box-shadow: 0 12px 32px #00000014;
 }
 .dropdown__link {

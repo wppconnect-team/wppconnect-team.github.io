@@ -70,5 +70,11 @@
   "link.item.label.WhatsApp Versions": {
     "message": "Versões do WhatsApp",
     "description": "The label of footer link with label=WhatsApp Versions linking to /whatsapp-versions"
+  },
+  "link.item.label.Design system": {
+    "message": "Design system"
+  },
+  "link.item.label.WPPConnect Cloud": {
+    "message": "WPPConnect Cloud"
   }
 }
