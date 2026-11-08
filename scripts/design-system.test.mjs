@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
+import { createRequire } from "node:module";
 import { resolveMessage, normalizeLocale } from "../src/i18n/core.mjs";
 const json = async (path) =>
   JSON.parse(await readFile(new URL("../" + path, import.meta.url), "utf8"));
@@ -90,7 +91,7 @@ test("Framework adapters do not redefine the shared raw or semantic tokens", asy
     ));
   for (const name of Object.keys(tokens.semantic.light))
     assert.ok(!styles.includes("--" + name + ":"), "Override: " + name);
-  assert.ok(!styles.includes("fonts.googleapis.com"));
+  assert.doesNotMatch(styles, /@import\s+url\(/);
   assert.ok(!styles.includes("filter: brightness(0)"));
   const config = await readFile(
     new URL("../docusaurus.config.js", import.meta.url),
@@ -98,5 +99,6 @@ test("Framework adapters do not redefine the shared raw or semantic tokens", asy
   );
   assert.ok(config.includes('defaultLocale: "en"'));
   assert.ok(config.includes('defaultMode: "light"'));
-  assert.ok(config.includes("https://wppconnect.io/"));
+  const settings = createRequire(import.meta.url)("../docusaurus.config.js");
+  assert.equal(new URL(settings.url).hostname, "wppconnect.io");
 });
