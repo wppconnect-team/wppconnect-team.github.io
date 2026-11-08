@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://wppconnect-team.github.io/blog</id>
+    <id>https://wppconnect.io/blog</id>
     <title>WPPConnect Blog</title>
     <updated>2026-11-07T13:30:08.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://wppconnect-team.github.io/blog"/>
+    <link rel="alternate" href="https://wppconnect.io/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
-    <icon>https://wppconnect-team.github.io/brand/v2/favicon.ico</icon>
+    <icon>https://wppconnect.io/brand/v2/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.65]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.65</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.65"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.65</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.65"/>
         <updated>2026-11-07T13:30:08.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.65 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.65 for Server CLI.</p>
@@ -24,7 +24,7 @@
 <li class=""><code>wppconnect/server-cli:sha-16e3602</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.65#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.65#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">build(deps): update dependency basic-ftp to v6.2.6 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/890" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/890</a></li>
 </ul>
@@ -42,8 +42,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.78]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.78</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.78"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.78</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.78"/>
         <updated>2026-11-07T01:04:55.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.78 for WPP Server.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.78 for WPP Server.</p>
@@ -59,12 +59,12 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.77]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.77</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.77"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.77</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.77"/>
         <updated>2026-11-06T23:22:44.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.77#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/blog/wppconnect-server/v2.10.77#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>security:</strong> stop serving the private media cache over HTTP (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2709" target="_blank" rel="noopener noreferrer" class="">#2709</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/bf1faac7a14892207348c3dc5f6e03ed180e09e8" target="_blank" rel="noopener noreferrer" class="">bf1faac</a>)</li>
 </ul>
@@ -80,8 +80,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.64]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.64</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.64"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.64</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.64"/>
         <updated>2026-11-06T05:13:19.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.64 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.64 for Server CLI.</p>
@@ -95,7 +95,7 @@
 <li class=""><code>wppconnect/server-cli:sha-967286e</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.64#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.64#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">build(deps): update dependency ws to v8.22.1 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/889" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/889</a></li>
 </ul>
@@ -113,8 +113,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.63]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.63</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.63"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.63</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.63"/>
         <updated>2026-11-05T23:57:17.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.63 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.63 for Server CLI.</p>
@@ -128,13 +128,13 @@
 <li class=""><code>wppconnect/server-cli:sha-601d846</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.63#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.63#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">build(deps): update dependency minimatch to v11 [security] by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/886" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/886</a></li>
 <li class="">fix(deps): bump @wppconnect/server to 2.10.75 for CVE-2026-121557 by @superbot-helper in <a href="https://github.com/wppconnect-team/server-cli/pull/887" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/887</a></li>
 <li class="">build(deps): update dependency baseline-browser-mapping to v2.11.35 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/888" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/888</a></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-contributors">New Contributors<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.63#new-contributors" class="hash-link" aria-label="Direct link to New Contributors" title="Direct link to New Contributors" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-contributors">New Contributors<a href="https://wppconnect.io/blog/server-cli/v1.3.63#new-contributors" class="hash-link" aria-label="Direct link to New Contributors" title="Direct link to New Contributors" translate="no">​</a></h2>
 <ul>
 <li class="">@superbot-helper made their first contribution in <a href="https://github.com/wppconnect-team/server-cli/pull/887" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/887</a></li>
 </ul>
@@ -152,8 +152,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.76]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.76</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.76"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.76</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.76"/>
         <updated>2026-11-05T10:12:55.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.76 for WPP Server.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.76 for WPP Server.</p>
@@ -169,12 +169,12 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.75]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.75</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.75"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.75</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.75"/>
         <updated>2026-11-04T04:34:42.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.75 for WPP Server with Bug Fixes.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.75 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.75#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/blog/wppconnect-server/v2.10.75#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>chatwoot:</strong> authenticate session webhook requests (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2702" target="_blank" rel="noopener noreferrer" class="">#2702</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/cbc2dfc8583af3ae26a3d37d3b66c8c332ccf1f0" target="_blank" rel="noopener noreferrer" class="">cbc2dfc</a>)</li>
 <li class=""><strong>deps:</strong> patch glob cancellation and minimatch expansion (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2699" target="_blank" rel="noopener noreferrer" class="">#2699</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/7e2e8160c036e7f7b77e899779964134e200c456" target="_blank" rel="noopener noreferrer" class="">7e2e816</a>)</li>
@@ -191,8 +191,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.62]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.62</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.62"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.62</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.62"/>
         <updated>2026-11-02T22:35:45.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.62 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.62 for Server CLI.</p>
@@ -206,7 +206,7 @@
 <li class=""><code>wppconnect/server-cli:sha-cd11042</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.62#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.62#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">chore(deps): bump follow-redirects from 1.16.1 to 1.16.2 by @dependabot[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/885" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/885</a></li>
 <li class="">build(deps-dev): update dependency @aws-sdk/client-s3 to ^3.1161.0 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/884" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/884</a></li>
@@ -225,8 +225,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.61]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.61</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.61"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.61</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.61"/>
         <updated>2026-11-02T12:12:36.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.61 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.61 for Server CLI.</p>
@@ -240,7 +240,7 @@
 <li class=""><code>wppconnect/server-cli:sha-69af0c9</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.61#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.61#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">build(deps-dev): update babel monorepo to ^8.0.10 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/882" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/882</a></li>
 </ul>
@@ -258,8 +258,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.60]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.60</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.60"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.60</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.60"/>
         <updated>2026-11-01T01:19:05.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.60 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.60 for Server CLI.</p>
@@ -273,7 +273,7 @@
 <li class=""><code>wppconnect/server-cli:sha-dfd5ebd</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.60#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.60#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">docs: use the new official WPPConnect logo in both README languages by @joaosouz4dev in <a href="https://github.com/wppconnect-team/server-cli/pull/881" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/881</a></li>
 </ul>
@@ -291,8 +291,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.74]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.74</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.74"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.74</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.74"/>
         <updated>2026-11-01T01:18:22.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.74 for WPP Server.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.74 for WPP Server.</p>
@@ -308,8 +308,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.59]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.59</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.59"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.59</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.59"/>
         <updated>2026-10-31T07:16:25.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.59 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.59 for Server CLI.</p>
@@ -337,8 +337,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.73]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.73</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.73"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.73</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.73"/>
         <updated>2026-10-31T07:12:11.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.73 for WPP Server.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.73 for WPP Server.</p>
@@ -354,8 +354,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.58]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.58</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.58"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.58</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.58"/>
         <updated>2026-10-31T06:18:20.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.58 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.58 for Server CLI.</p>
@@ -369,7 +369,7 @@
 <li class=""><code>wppconnect/server-cli:sha-7cbe703</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.58#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.58#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">build(deps): update dependency basic-ftp to v6.2.4 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/879" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/879</a></li>
 <li class="">docs: adopt official WPPConnect logo by @joaosouz4dev in <a href="https://github.com/wppconnect-team/server-cli/pull/880" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/880</a></li>
@@ -388,8 +388,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.72]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.72</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.72"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.72</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.72"/>
         <updated>2026-10-31T06:15:15.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.72 for WPP Server.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.72 for WPP Server.</p>
@@ -405,12 +405,12 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.71]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.71</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.71"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.71</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.71"/>
         <updated>2026-10-30T05:15:01.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.71 for WPP Server with Bug Fixes.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.71 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.71#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/blog/wppconnect-server/v2.10.71#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
 <ul>
 <li class="">secure browser option merging for server consumers (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2691" target="_blank" rel="noopener noreferrer" class="">#2691</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/f35d4a412a6e4691b00db4bbf2f20b91962eaddf" target="_blank" rel="noopener noreferrer" class="">f35d4a4</a>)</li>
 </ul>
@@ -426,8 +426,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.57]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.57</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.57"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.57</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.57"/>
         <updated>2026-10-30T04:42:47.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.57 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.57 for Server CLI.</p>
@@ -441,7 +441,7 @@
 <li class=""><code>wppconnect/server-cli:sha-27ee912</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.57#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.57#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">build(deps): update dependency basic-ftp to v6 [security] by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/856" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/856</a></li>
 <li class="">build(deps): update dependency minimatch to v9.0.9 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/823" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/823</a></li>
@@ -464,12 +464,12 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPP Server patch release: v2.10.70]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.70</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.70"/>
+        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.70</id>
+        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.70"/>
         <updated>2026-10-28T22:02:45.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.70 for WPP Server with Bug Fixes.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.70 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wppconnect-server/v2.10.70#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/blog/wppconnect-server/v2.10.70#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>security:</strong> constrain session integrations and sensitive operations (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2686" target="_blank" rel="noopener noreferrer" class="">#2686</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/bf0be4144484a2e0de24858695bec630244ac14d" target="_blank" rel="noopener noreferrer" class="">bf0be41</a>)</li>
 <li class=""><strong>security:</strong> validate paths inside deferred session cleanup (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2687" target="_blank" rel="noopener noreferrer" class="">#2687</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/7865cfa981654c160ecf8523433d706bbbb7e909" target="_blank" rel="noopener noreferrer" class="">7865cfa</a>), closes <a href="https://github.com/wppconnect-team/wppconnect-server/issues/2686" target="_blank" rel="noopener noreferrer" class="">#2686</a></li>
@@ -486,8 +486,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.56]]></title>
-        <id>https://wppconnect-team.github.io/blog/server-cli/v1.3.56</id>
-        <link href="https://wppconnect-team.github.io/blog/server-cli/v1.3.56"/>
+        <id>https://wppconnect.io/blog/server-cli/v1.3.56</id>
+        <link href="https://wppconnect.io/blog/server-cli/v1.3.56"/>
         <updated>2026-10-27T06:15:56.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v1.3.56 for Server CLI.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v1.3.56 for Server CLI.</p>
@@ -501,7 +501,7 @@
 <li class=""><code>wppconnect/server-cli:sha-45cf7cb</code></li>
 <li class=""><code>wppconnect/server-cli:latest</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect-team.github.io/blog/server-cli/v1.3.56#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.56#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
 <ul>
 <li class="">chore(deps): bump fast-uri from 3.1.7 to 3.1.9 by @dependabot[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/871" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/871</a></li>
 <li class="">chore(deps): bump ip-address from 10.7.3 to 10.7.4 by @dependabot[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/872" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/872</a></li>
@@ -523,13 +523,13 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[WPPConnect patch release: v2.3.6]]></title>
-        <id>https://wppconnect-team.github.io/blog/wppconnect/v2.3.6</id>
-        <link href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.6"/>
+        <id>https://wppconnect.io/blog/wppconnect/v2.3.6</id>
+        <link href="https://wppconnect.io/blog/wppconnect/v2.3.6"/>
         <updated>2026-10-23T18:25:20.000Z</updated>
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.3.6 for WPPConnect with Bug Fixes, Performance Improvements, Build System and Chores.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.3.6 for WPPConnect with Bug Fixes, Performance Improvements, Build System and Chores.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="236-2026-10-23"><small>2.3.6 (2026-10-23)</small><a href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.6#236-2026-10-23" class="hash-link" aria-label="Direct link to 236-2026-10-23" title="Direct link to 236-2026-10-23" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.6#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="236-2026-10-23"><small>2.3.6 (2026-10-23)</small><a href="https://wppconnect.io/blog/wppconnect/v2.3.6#236-2026-10-23" class="hash-link" aria-label="Direct link to 236-2026-10-23" title="Direct link to 236-2026-10-23" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/blog/wppconnect/v2.3.6#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>auth:</strong> keep unpaired QR sessions out of chat readiness (<a href="https://github.com/wppconnect-team/wppconnect/commit/8f46042" target="_blank" rel="noopener noreferrer" class="">8f46042</a>)</li>
 <li class=""><strong>auth:</strong> mark restored sessions as logged before waiting for chat (<a href="https://github.com/wppconnect-team/wppconnect/commit/366e3c0" target="_blank" rel="noopener noreferrer" class="">366e3c0</a>)</li>
@@ -541,13 +541,13 @@
 <li class=""><strong>host:</strong> guard exposeFunction against reused pages (<a href="https://github.com/wppconnect-team/wppconnect/commit/a778f5a" target="_blank" rel="noopener noreferrer" class="">a778f5a</a>)</li>
 <li class=""><strong>media:</strong> bound resource use in file and download helpers (<a href="https://github.com/wppconnect-team/wppconnect/commit/5f5d9de" target="_blank" rel="noopener noreferrer" class="">5f5d9de</a>)</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-improvements">Performance Improvements<a href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.6#performance-improvements" class="hash-link" aria-label="Direct link to Performance Improvements" title="Direct link to Performance Improvements" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-improvements">Performance Improvements<a href="https://wppconnect.io/blog/wppconnect/v2.3.6#performance-improvements" class="hash-link" aria-label="Direct link to Performance Improvements" title="Direct link to Performance Improvements" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>decrypt:</strong> decode media buffers directly instead of per-byte loops (<a href="https://github.com/wppconnect-team/wppconnect/commit/b03a29d" target="_blank" rel="noopener noreferrer" class="">b03a29d</a>)</li>
 <li class=""><strong>group:</strong> fetch group member contacts in a single page call (<a href="https://github.com/wppconnect-team/wppconnect/commit/a41709e" target="_blank" rel="noopener noreferrer" class="">a41709e</a>)</li>
 <li class=""><strong>polling:</strong> remove idle polling from live sessions (<a href="https://github.com/wppconnect-team/wppconnect/commit/de07dab" target="_blank" rel="noopener noreferrer" class="">de07dab</a>)</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.6#build-system" class="hash-link" aria-label="Direct link to Build System" title="Direct link to Build System" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect.io/blog/wppconnect/v2.3.6#build-system" class="hash-link" aria-label="Direct link to Build System" title="Direct link to Build System" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>deps-dev:</strong> bump markdown-it from 14.3.2 to 14.3.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/7698abf" target="_blank" rel="noopener noreferrer" class="">7698abf</a>)</li>
 <li class=""><strong>deps-dev:</strong> update commitlint monorepo to ^21.2.4 (#2932) (<a href="https://github.com/wppconnect-team/wppconnect/commit/b03defc" target="_blank" rel="noopener noreferrer" class="">b03defc</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2932" target="_blank" rel="noopener noreferrer" class="">#2932</a></li>
@@ -557,7 +557,7 @@
 <li class=""><strong>deps:</strong> bump follow-redirects from 1.16.0 to 1.16.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/385ed97" target="_blank" rel="noopener noreferrer" class="">385ed97</a>)</li>
 <li class=""><strong>deps:</strong> bump ip-address from 10.7.2 to 10.7.4 (<a href="https://github.com/wppconnect-team/wppconnect/commit/8a54f25" target="_blank" rel="noopener noreferrer" class="">8a54f25</a>)</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="chores">Chores<a href="https://wppconnect-team.github.io/blog/wppconnect/v2.3.6#chores" class="hash-link" aria-label="Direct link to Chores" title="Direct link to Chores" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="chores">Chores<a href="https://wppconnect.io/blog/wppconnect/v2.3.6#chores" class="hash-link" aria-label="Direct link to Chores" title="Direct link to Chores" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>ci:</strong> associate schedule with joaosouz4dev (<a href="https://github.com/wppconnect-team/wppconnect/commit/488d952" target="_blank" rel="noopener noreferrer" class="">488d952</a>)</li>
 </ul>
