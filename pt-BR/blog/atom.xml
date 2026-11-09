@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect.io/pt-BR/blog</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-11-07T13:30:08.000Z</updated>
+    <updated>2026-11-09T01:24:59.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect.io/pt-BR/blog"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect.io/pt-BR/brand/v2/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WPP Server patch release: v2.10.79]]></title>
+        <id>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.79</id>
+        <link href="https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.79"/>
+        <updated>2026-11-09T01:24:59.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.79 for WPP Server.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.79 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.79" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="javascript" term="javascript"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="server" term="server"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.65]]></title>
         <id>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.65</id>
@@ -520,55 +537,5 @@
         <category label="nodejs" term="nodejs"/>
         <category label="server" term="server"/>
         <category label="cli" term="cli"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WPPConnect patch release: v2.3.6]]></title>
-        <id>https://wppconnect.io/pt-BR/blog/wppconnect/v2.3.6</id>
-        <link href="https://wppconnect.io/pt-BR/blog/wppconnect/v2.3.6"/>
-        <updated>2026-10-23T18:25:20.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing a patch version v2.3.6 for WPPConnect with Bug Fixes, Performance Improvements, Build System and Chores.]]></summary>
-        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.3.6 for WPPConnect with Bug Fixes, Performance Improvements, Build System and Chores.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="236-2026-10-23"><small>2.3.6 (2026-10-23)</small><a href="https://wppconnect.io/pt-BR/blog/wppconnect/v2.3.6#236-2026-10-23" class="hash-link" aria-label="Link direto para 236-2026-10-23" title="Link direto para 236-2026-10-23" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/pt-BR/blog/wppconnect/v2.3.6#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>auth:</strong> keep unpaired QR sessions out of chat readiness (<a href="https://github.com/wppconnect-team/wppconnect/commit/8f46042" target="_blank" rel="noopener noreferrer" class="">8f46042</a>)</li>
-<li class=""><strong>auth:</strong> mark restored sessions as logged before waiting for chat (<a href="https://github.com/wppconnect-team/wppconnect/commit/366e3c0" target="_blank" rel="noopener noreferrer" class="">366e3c0</a>)</li>
-<li class=""><strong>auth:</strong> only report disconnectedMobile after a real unpair (<a href="https://github.com/wppconnect-team/wppconnect/commit/111633b" target="_blank" rel="noopener noreferrer" class="">111633b</a>)</li>
-<li class=""><strong>browser:</strong> apply default launch args and opt-in protection bypasses (<a href="https://github.com/wppconnect-team/wppconnect/commit/c2e0c06" target="_blank" rel="noopener noreferrer" class="">c2e0c06</a>)</li>
-<li class=""><strong>browser:</strong> auto-close when only blank or closed tabs remain (<a href="https://github.com/wppconnect-team/wppconnect/commit/c165218" target="_blank" rel="noopener noreferrer" class="">c165218</a>)</li>
-<li class=""><strong>browser:</strong> release the browser process tree on close and failed create (<a href="https://github.com/wppconnect-team/wppconnect/commit/b1407bf" target="_blank" rel="noopener noreferrer" class="">b1407bf</a>)</li>
-<li class=""><strong>deps:</strong> require wa-js 4.7.2 for unread actions (<a href="https://github.com/wppconnect-team/wppconnect/commit/6b2a41b" target="_blank" rel="noopener noreferrer" class="">6b2a41b</a>)</li>
-<li class=""><strong>host:</strong> guard exposeFunction against reused pages (<a href="https://github.com/wppconnect-team/wppconnect/commit/a778f5a" target="_blank" rel="noopener noreferrer" class="">a778f5a</a>)</li>
-<li class=""><strong>media:</strong> bound resource use in file and download helpers (<a href="https://github.com/wppconnect-team/wppconnect/commit/5f5d9de" target="_blank" rel="noopener noreferrer" class="">5f5d9de</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-improvements">Performance Improvements<a href="https://wppconnect.io/pt-BR/blog/wppconnect/v2.3.6#performance-improvements" class="hash-link" aria-label="Link direto para Performance Improvements" title="Link direto para Performance Improvements" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>decrypt:</strong> decode media buffers directly instead of per-byte loops (<a href="https://github.com/wppconnect-team/wppconnect/commit/b03a29d" target="_blank" rel="noopener noreferrer" class="">b03a29d</a>)</li>
-<li class=""><strong>group:</strong> fetch group member contacts in a single page call (<a href="https://github.com/wppconnect-team/wppconnect/commit/a41709e" target="_blank" rel="noopener noreferrer" class="">a41709e</a>)</li>
-<li class=""><strong>polling:</strong> remove idle polling from live sessions (<a href="https://github.com/wppconnect-team/wppconnect/commit/de07dab" target="_blank" rel="noopener noreferrer" class="">de07dab</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect.io/pt-BR/blog/wppconnect/v2.3.6#build-system" class="hash-link" aria-label="Link direto para Build System" title="Link direto para Build System" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>deps-dev:</strong> bump markdown-it from 14.3.2 to 14.3.3 (<a href="https://github.com/wppconnect-team/wppconnect/commit/7698abf" target="_blank" rel="noopener noreferrer" class="">7698abf</a>)</li>
-<li class=""><strong>deps-dev:</strong> update commitlint monorepo to ^21.2.4 (#2932) (<a href="https://github.com/wppconnect-team/wppconnect/commit/b03defc" target="_blank" rel="noopener noreferrer" class="">b03defc</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2932" target="_blank" rel="noopener noreferrer" class="">#2932</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency eslint to v10.13.0 (#2928) (<a href="https://github.com/wppconnect-team/wppconnect/commit/fd42ca9" target="_blank" rel="noopener noreferrer" class="">fd42ca9</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2928" target="_blank" rel="noopener noreferrer" class="">#2928</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency eslint-plugin-prettier to ^5.5.7 (#2927) (<a href="https://github.com/wppconnect-team/wppconnect/commit/cdb3572" target="_blank" rel="noopener noreferrer" class="">cdb3572</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2927" target="_blank" rel="noopener noreferrer" class="">#2927</a></li>
-<li class=""><strong>deps-dev:</strong> update dependency typescript-eslint to ^8.72.0 (#2935) (<a href="https://github.com/wppconnect-team/wppconnect/commit/bb16ae6" target="_blank" rel="noopener noreferrer" class="">bb16ae6</a>), closes <a href="https://github.com/wppconnect-team/wppconnect/issues/2935" target="_blank" rel="noopener noreferrer" class="">#2935</a></li>
-<li class=""><strong>deps:</strong> bump follow-redirects from 1.16.0 to 1.16.1 (<a href="https://github.com/wppconnect-team/wppconnect/commit/385ed97" target="_blank" rel="noopener noreferrer" class="">385ed97</a>)</li>
-<li class=""><strong>deps:</strong> bump ip-address from 10.7.2 to 10.7.4 (<a href="https://github.com/wppconnect-team/wppconnect/commit/8a54f25" target="_blank" rel="noopener noreferrer" class="">8a54f25</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="chores">Chores<a href="https://wppconnect.io/pt-BR/blog/wppconnect/v2.3.6#chores" class="hash-link" aria-label="Link direto para Chores" title="Link direto para Chores" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>ci:</strong> associate schedule with joaosouz4dev (<a href="https://github.com/wppconnect-team/wppconnect/commit/488d952" target="_blank" rel="noopener noreferrer" class="">488d952</a>)</li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect/releases/tag/v2.3.6" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
-        <author>
-            <name>WPPConnect Team</name>
-            <uri>https://github.com/wppconnect-team</uri>
-        </author>
-        <category label="wppconnect" term="wppconnect"/>
-        <category label="javascript" term="javascript"/>
-        <category label="nodejs" term="nodejs"/>
-        <category label="lib" term="lib"/>
     </entry>
 </feed>
