@@ -4,10 +4,81 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect.io/pt-BR/blog</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 11 Nov 2026 00:54:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 21:52:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.10.80]]></title>
+            <link>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.80</link>
+            <guid>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.80</guid>
+            <pubDate>Wed, 11 Nov 2026 21:52:18 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.10.80 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.80 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.80" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[Server CLI patch release: v1.3.68]]></title>
+            <link>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.68</link>
+            <guid>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.68</guid>
+            <pubDate>Wed, 11 Nov 2026 14:41:38 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.68 for Server CLI.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.68 for Server CLI.</p>
+<p>Docker image tags:</p>
+<ul>
+<li class=""><code>wppconnect/server-cli:1.3.68</code></li>
+<li class=""><code>wppconnect/server-cli:1.3</code></li>
+<li class=""><code>wppconnect/server-cli:1</code></li>
+<li class=""><code>wppconnect/server-cli:v1.3.68</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+<li class=""><code>wppconnect/server-cli:sha-5aa0e09</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/pt-BR/blog/server-cli/v1.3.68#whats-changed" class="hash-link" aria-label="Link direto para What's Changed" title="Link direto para What's Changed" translate="no">​</a></h2>
+<ul>
+<li class="">build(deps): update dependency mongoose to v9.11.4 [security] by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/899" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/899</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.67...v1.3.68" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.67...v1.3.68</a></p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.68" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+            <category>cli</category>
+        </item>
+        <item>
+            <title><![CDATA[Server CLI patch release: v1.3.67]]></title>
+            <link>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.67</link>
+            <guid>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.67</guid>
+            <pubDate>Wed, 11 Nov 2026 06:00:52 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v1.3.67 for Server CLI.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.67 for Server CLI.</p>
+<p>Docker image tags:</p>
+<ul>
+<li class=""><code>wppconnect/server-cli:1.3.67</code></li>
+<li class=""><code>wppconnect/server-cli:1.3</code></li>
+<li class=""><code>wppconnect/server-cli:1</code></li>
+<li class=""><code>wppconnect/server-cli:v1.3.67</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+<li class=""><code>wppconnect/server-cli:sha-0360ab9</code></li>
+<li class=""><code>wppconnect/server-cli:latest</code></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/pt-BR/blog/server-cli/v1.3.67#whats-changed" class="hash-link" aria-label="Link direto para What's Changed" title="Link direto para What's Changed" translate="no">​</a></h2>
+<ul>
+<li class="">build(deps): update dependency fast-xml-parser to v5.12.0 [security] by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/900" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/900</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.66...v1.3.67" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.66...v1.3.67</a></p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.67" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+            <category>cli</category>
+        </item>
         <item>
             <title><![CDATA[Server CLI patch release: v1.3.66]]></title>
             <link>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.66</link>
@@ -385,75 +456,6 @@
             <description><![CDATA[Today we are releasing a patch version v2.10.72 for WPP Server.]]></description>
             <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.72 for WPP Server.</p>
 <p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.72" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-        </item>
-        <item>
-            <title><![CDATA[WPP Server patch release: v2.10.71]]></title>
-            <link>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.71</link>
-            <guid>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.71</guid>
-            <pubDate>Fri, 30 Oct 2026 05:15:01 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v2.10.71 for WPP Server with Bug Fixes.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.71 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.71#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class="">secure browser option merging for server consumers (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2691" target="_blank" rel="noopener noreferrer" class="">#2691</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/f35d4a412a6e4691b00db4bbf2f20b91962eaddf" target="_blank" rel="noopener noreferrer" class="">f35d4a4</a>)</li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.71" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-        </item>
-        <item>
-            <title><![CDATA[Server CLI patch release: v1.3.57]]></title>
-            <link>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.57</link>
-            <guid>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.57</guid>
-            <pubDate>Fri, 30 Oct 2026 04:42:47 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v1.3.57 for Server CLI.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.57 for Server CLI.</p>
-<p>Docker image tags:</p>
-<ul>
-<li class=""><code>wppconnect/server-cli:1.3.57</code></li>
-<li class=""><code>wppconnect/server-cli:1.3</code></li>
-<li class=""><code>wppconnect/server-cli:1</code></li>
-<li class=""><code>wppconnect/server-cli:v1.3.57</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-<li class=""><code>wppconnect/server-cli:sha-27ee912</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/pt-BR/blog/server-cli/v1.3.57#whats-changed" class="hash-link" aria-label="Link direto para What's Changed" title="Link direto para What's Changed" translate="no">​</a></h2>
-<ul>
-<li class="">build(deps): update dependency basic-ftp to v6 [security] by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/856" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/856</a></li>
-<li class="">build(deps): update dependency minimatch to v9.0.9 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/823" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/823</a></li>
-<li class="">fix(deps): resolve remaining CLI security alerts by @joaosouz4dev in <a href="https://github.com/wppconnect-team/server-cli/pull/876" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/876</a></li>
-<li class="">fix: complete Babel 8 migration and preserve CommonJS CLI by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/844" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/844</a></li>
-<li class="">fix: protect browser option merging in installed CLI packages by @joaosouz4dev in <a href="https://github.com/wppconnect-team/server-cli/pull/877" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/877</a></li>
-<li class="">build(deps): update dependency baseline-browser-mapping to v2.11.34 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/878" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/878</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.56...v1.3.57" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.56...v1.3.57</a></p>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.57" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-            <category>cli</category>
-        </item>
-        <item>
-            <title><![CDATA[WPP Server patch release: v2.10.70]]></title>
-            <link>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.70</link>
-            <guid>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.70</guid>
-            <pubDate>Wed, 28 Oct 2026 22:02:45 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v2.10.70 for WPP Server with Bug Fixes.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.70 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.70#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>security:</strong> constrain session integrations and sensitive operations (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2686" target="_blank" rel="noopener noreferrer" class="">#2686</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/bf0be4144484a2e0de24858695bec630244ac14d" target="_blank" rel="noopener noreferrer" class="">bf0be41</a>)</li>
-<li class=""><strong>security:</strong> validate paths inside deferred session cleanup (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2687" target="_blank" rel="noopener noreferrer" class="">#2687</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/7865cfa981654c160ecf8523433d706bbbb7e909" target="_blank" rel="noopener noreferrer" class="">7865cfa</a>), closes <a href="https://github.com/wppconnect-team/wppconnect-server/issues/2686" target="_blank" rel="noopener noreferrer" class="">#2686</a></li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.70" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
             <category>wppconnect</category>
             <category>javascript</category>
             <category>nodejs</category>
