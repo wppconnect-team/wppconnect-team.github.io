@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "docusaurus build",
+    "postbuild": "node scripts/check-search.mjs",
     "clear": "docusaurus clear",
     "crowdin": "crowdin",
     "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download",

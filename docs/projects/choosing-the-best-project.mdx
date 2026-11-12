@@ -1,23 +1,27 @@
 ---
-description: How to choose the best project of WPPConnect-Team
+description: Compare WA-JS in the browser, WPPConnect for Node.js and the HTTP servers, and find the API reference for each integration.
 slug: /choosing-the-best-project-of-wppconnect-team
 sidebar_position: 1
 ---
 
-# Choosing the best project
+# Which WPPConnect project should I use?
 
-When seeking a solution to integrate WhatsApp into your applications or systems, it's crucial to choose the right project that meets your specific needs. Among the available projects, such as WPPConnect/WA-JS, LIB (WPPConnect), and Server (WPPConnect Server), each offers similar features but with distinct applications.
+Choose by where your integration runs. WA-JS runs inside the WhatsApp Web page, the WPPConnect SDK manages the browser from Node.js, and the servers expose HTTP APIs for applications written in other languages.
 
-### WPPConnect/WA-JS:
+| Integration | Project | Entry point |
+| --- | --- | --- |
+| Browser extension or page script | WA-JS | The page's `WPP` object |
+| Node.js application that owns the session | WPPConnect | Methods on the `Whatsapp` client |
+| Service calling WhatsApp over HTTP | WPPConnect Server or Server Go | The endpoints of the chosen server |
 
-**Description:** WPPConnect/WA-JS is an open-source project aimed at exporting functions from WhatsApp Web. This project extracts key WhatsApp functions using webpack/babel and exposes them for easy use via the WPP variable. It's designed for those who want to create browser extensions or build a browser orchestrator from scratch using puppeteer/playwright. Simply put, you can also use WAJS by pasting it into the browser console and executing its functions.
+## WA-JS in the browser
 
-### LIB (WPPConnect):
+WA-JS exposes WhatsApp Web functions for connection management, chats and contacts. When using it directly, your integration manages the browser and the page lifecycle. See the [WA-JS API reference](https://wppconnect.io/wa-js/).
 
-**Description:** LIB (WPPConnect) is an open-source project developed by the JavaScript community. Its main goal is to export functions from WhatsApp Web to NodeJS. It simplifies browser orchestration, eliminating the need to create all the puppeteer/playwright code. Instead, it handles everything for you and provides functions that you can call via NodeJs.
+## WPPConnect in Node.js
 
-### Server (WPPConnect Server):
+The SDK manages the browser and exposes client methods and events to your process. Start with [SDK installation](../tutorial/basics/installation.md) and the [messaging and media examples](../tutorial/basics/basic-functions.md).
 
-The server streamlines the process of sending and receiving messages, managing contacts, creating groups, and more, using the power of JavaScript ES6, NodeJS, and a RESTful architecture, meaning HTTP calls :)
+## HTTP servers
 
-When choosing between WPPConnect/WA-JS, LIB (WPPConnect), and Server (WPPConnect Server), consider your specific needs, offered functionalities, and ease of integration. Each project has its strengths and may be suitable for different scenarios. Make a careful analysis to select the project that best suits your use case and development goals.
+WPPConnect Server exposes SDK operations over REST. See the [Node.js server endpoints](https://wppconnect.io/swagger/wppconnect-server/). [WPPConnect Server Go](https://github.com/wppconnect-team/wppconnect-server-go) is a separate Go implementation. Check the endpoints and authentication in the documentation for the server you plan to run.
