@@ -1,0 +1,27 @@
+---
+description: Compare WA-JS, o SDK WPPConnect para Node.js e os servidores HTTP para escolher como integrar sua aplicação ao WhatsApp.
+slug: /choosing-the-best-project-of-wppconnect-team
+sidebar_position: 1
+---
+
+# Qual projeto WPPConnect usar?
+
+A escolha depende de onde seu código será executado. Use WA-JS para chamar funções dentro da página do WhatsApp Web, o SDK WPPConnect para controlar o navegador a partir de um processo Node.js ou um servidor HTTP para integrar uma aplicação escrita em outra linguagem.
+
+| Onde a integração roda | Projeto | Como a aplicação chama o WhatsApp |
+| --- | --- | --- |
+| Extensão ou script no navegador | WA-JS | Funções no objeto `WPP` da página |
+| Processo Node.js que gerencia a sessão | WPPConnect | Métodos do cliente `Whatsapp` |
+| Serviço que consome uma API via HTTP | WPPConnect Server ou Server Go | Requisições aos endpoints da implementação escolhida |
+
+## WA-JS no navegador
+
+WA-JS expõe funções do WhatsApp Web, organizadas por módulos como conexão, conversas e contatos. Ao usá-lo diretamente, sua integração gerencia o navegador e o ciclo de vida da página. Consulte a [referência do WA-JS](https://wppconnect.io/wa-js/).
+
+## WPPConnect em Node.js
+
+O SDK gerencia o navegador e oferece métodos para a aplicação enviar mensagens e receber eventos. Comece pela [instalação do SDK](../tutorial/basics/installation.md) e consulte os [exemplos de envio, resposta e mídia](../tutorial/basics/basic-functions.md).
+
+## Servidores HTTP
+
+O WPPConnect Server expõe operações do SDK via REST. Consulte os [endpoints do servidor Node.js](https://wppconnect.io/swagger/wppconnect-server/). O [WPPConnect Server Go](https://github.com/wppconnect-team/wppconnect-server-go) é uma implementação separada em Go. Confira as operações e a autenticação na documentação da implementação que pretende executar.

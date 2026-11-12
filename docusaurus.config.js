@@ -10,7 +10,8 @@ const designTokens = require("./design-system/tokens.json");
 const config = {
   title: "WPPConnect",
   tagline: "Open-source WhatsApp automation, built for developers",
-  url: "https://wppconnect.io/",
+  url: "https://wppconnect.io",
+  trailingSlash: true,
   baseUrl: "/",
   onBrokenLinks: "throw",
   markdown: {
@@ -33,6 +34,17 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        sitemap: {
+          ignorePatterns: ["/search", "/search/", "/pt-BR/search", "/pt-BR/search/"],
+          async createSitemapItems({ routes, siteConfig, defaultCreateSitemapItems }) {
+            const { flattenRoutes } = require("@docusaurus/utils");
+            const canonicalRoutes = flattenRoutes(routes).filter((route) => {
+              const source = route.metadata?.sourceFilePath ?? "";
+              return !(route.path.startsWith("/pt-BR/") && /^(docs|blog)\//.test(source));
+            });
+            return defaultCreateSitemapItems({ routes: canonicalRoutes, siteConfig });
+          },
+        },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:

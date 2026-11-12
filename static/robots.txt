@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wppconnect.io/sitemap.xml
+Sitemap: https://wppconnect.io/pt-BR/sitemap.xml
+Sitemap: https://wppconnect.io/wa-js/sitemap.xml
+Sitemap: https://wppconnect.io/wppconnect/sitemap.xml
