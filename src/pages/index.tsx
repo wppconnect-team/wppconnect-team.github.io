@@ -1,4 +1,6 @@
 import React from "react";
+import Head from "@docusaurus/Head";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import {
@@ -29,6 +31,39 @@ client.onMessage(async (message) => {
 
 export default function Home(): React.JSX.Element {
   const t = useMessages();
+  const { i18n } = useDocusaurusContext();
+  const portuguese = i18n.currentLocale === "pt-BR";
+  const home = "https://wppconnect.io/";
+  const cloudHome =
+    "https://cloud.wppconnect.io/" + (portuguese ? "pt-BR" : "en");
+  const publisher = {
+    "@type": "Organization",
+    "@id": home + "#organization",
+    name: "WPPConnect",
+    url: home,
+    sameAs: ["https://github.com/wppconnect-team"],
+  };
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      publisher,
+      {
+        "@type": "WebSite",
+        "@id": home + "#website",
+        name: "WPPConnect",
+        url: home,
+        publisher: { "@id": publisher["@id"] },
+      },
+      {
+        "@type": "WebPage",
+        url: home + (portuguese ? "pt-BR/" : ""),
+        inLanguage: i18n.currentLocale,
+        name: t("metaTitle"),
+        description: t("metaDescription"),
+        isPartOf: { "@id": home + "#website" },
+      },
+    ],
+  };
   const products = [
     {
       name: "WPPConnect",
@@ -43,6 +78,13 @@ export default function Home(): React.JSX.Element {
       icon: Server,
       description: t("serverDescription"),
       href: "https://github.com/wppconnect-team/wppconnect-server",
+    },
+    {
+      name: "WPPConnect Server Go",
+      tag: "Go",
+      icon: Server,
+      description: t("goDescription"),
+      href: "https://github.com/wppconnect-team/wppconnect-server-go",
     },
     {
       name: "WA-JS",
@@ -61,6 +103,11 @@ export default function Home(): React.JSX.Element {
   ];
   return (
     <Layout title={t("metaTitle")} description={t("metaDescription")}>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Head>
       <main className="wpp-home">
         <section className="wpp-hero wpp-shell" aria-labelledby="hero-title">
           <div className="wpp-hero-copy">
@@ -73,14 +120,11 @@ export default function Home(): React.JSX.Element {
             </h1>
             <p className="wpp-lead">{t("heroDescription")}</p>
             <div className="wpp-actions">
-              <Link className="wpp-action" to="/docs/tutorial/intro">
+              <Link className="wpp-action" to="/docs/tutorial/intro/">
                 {t("startBuilding")}
                 <ArrowRight size={16} aria-hidden="true" />
               </Link>
-              <a
-                className="wpp-action wpp-action-secondary"
-                href="https://cloud.wppconnect.io/"
-              >
+              <a className="wpp-action wpp-action-secondary" href={cloudHome}>
                 {t("exploreCloud")}
                 <Cloud size={16} aria-hidden="true" />
               </a>
@@ -122,7 +166,12 @@ export default function Home(): React.JSX.Element {
               <span className="wpp-label">{t("ecosystemEyebrow")}</span>
               <h2 id="ecosystem-title">{t("ecosystemTitle")}</h2>
             </div>
-            <p>{t("ecosystemDescription")}</p>
+            <div className="wpp-guide-intro">
+              <p>{t("ecosystemDescription")}</p>
+              <Link to="/docs/choosing-the-best-project-of-wppconnect-team/">
+                {t("guideLink")}
+              </Link>
+            </div>
           </div>
           <div className="wpp-product-grid">
             {products.map(({ name, tag, icon: Icon, description, href }) => (
@@ -150,7 +199,7 @@ export default function Home(): React.JSX.Element {
               <span className="wpp-label">WPPConnect Cloud</span>
               <h2 id="cloud-title">{t("cloudTitle")}</h2>
               <p className="wpp-lead">{t("cloudDescription")}</p>
-              <a className="wpp-action" href="https://cloud.wppconnect.io/">
+              <a className="wpp-action" href={cloudHome}>
                 {t("exploreCloud")}
                 <ArrowRight size={16} aria-hidden="true" />
               </a>

@@ -168,7 +168,8 @@
 .wpp-section-heading h2 {
   margin: 0.75rem 0 0;
 }
-.wpp-section-heading > p {
+.wpp-section-heading > p,
+.wpp-guide-intro {
   margin: 0;
   color: var(--muted-foreground);
   line-height: 1.75;
@@ -177,7 +178,7 @@
 }
 .wpp-product-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
@@ -381,7 +382,8 @@
   .wpp-hero-copy {
     max-width: 38rem;
   }
-  .wpp-section-heading > p {
+  .wpp-section-heading > p,
+.wpp-guide-intro {
     justify-self: start;
   }
   .wpp-swatches {
