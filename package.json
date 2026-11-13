@@ -79,7 +79,7 @@
     "uuid": "14.0.3",
     "websocket-driver": "0.7.5",
     "deepmerge": "$deepmerge",
-    "glob": "14.0.5",
+    "glob": "14.0.6",
     "minimatch": "$minimatch",
     "stylus": "0.64.0"
   },
