@@ -4,10 +4,23 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect.io/pt-BR/blog/</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Wed, 11 Nov 2026 21:52:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2026 03:02:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.10.81]]></title>
+            <link>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.81/</link>
+            <guid>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.81/</guid>
+            <pubDate>Fri, 13 Nov 2026 03:02:31 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.10.81 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.81 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.81" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[WPP Server patch release: v2.10.80]]></title>
             <link>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.80/</link>
@@ -447,19 +460,6 @@
             <category>nodejs</category>
             <category>server</category>
             <category>cli</category>
-        </item>
-        <item>
-            <title><![CDATA[WPP Server patch release: v2.10.72]]></title>
-            <link>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.72/</link>
-            <guid>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.72/</guid>
-            <pubDate>Sat, 31 Oct 2026 06:15:15 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v2.10.72 for WPP Server.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.72 for WPP Server.</p>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.72" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
         </item>
     </channel>
 </rss>
