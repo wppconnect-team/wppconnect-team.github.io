@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write # push the new blog posts
+  actions: write # dispatch publish.yml
 
 jobs:
   update_blog:
@@ -14,8 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Setup GIT
         run: |
@@ -68,6 +67,8 @@ jobs:
         run: npm run build
 
       - name: Commit Blog Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git add -A
           if git diff --cached --quiet; then
@@ -76,3 +77,5 @@ jobs:
           fi
           git commit -m "chore: Update releases for blog"
           git push
+          # Pushes with GITHUB_TOKEN don't trigger publish.yml; dispatch is exempt
+          gh workflow run publish.yml
