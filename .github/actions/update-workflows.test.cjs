@@ -73,7 +73,7 @@ function fixture(t, commitStep, filename) {
     filename,
     advance,
     execute: () =>
-      run(bash, ['-e', '-c', `gh() { return 0; }\n${commitStep}`], updater),
+      run(bash, ['-e', '-c', `gh() { return 0; }\nGITHUB_REF_NAME=main\n${commitStep}`], updater),
     versions: () => git(root, '--git-dir', remote, 'show', `main:${filename}`),
   };
 }
