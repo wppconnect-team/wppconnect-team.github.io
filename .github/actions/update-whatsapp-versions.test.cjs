@@ -18,6 +18,7 @@ const workflow = readFileSync(
 );
 const commitStep = workflow
   .split('      - name: Commit WhatsApp Versions')[1]
+  .split('\n      - name: ')[0]
   .split('        run: |')[1]
   .trimEnd()
   .split(/\r?\n/)
