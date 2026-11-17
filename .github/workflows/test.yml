@@ -25,8 +25,8 @@ jobs:
         with:
           node-version: 26.13.1
 
-      - name: Test WhatsApp versions workflow
-        run: node --test .github/actions/update-whatsapp-versions.test.cjs
+      - name: Test update workflows
+        run: node --test .github/actions/update-workflows.test.cjs
 
       - name: Get npm cache directory
         id: npm-cache
