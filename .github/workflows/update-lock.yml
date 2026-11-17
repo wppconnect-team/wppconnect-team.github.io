@@ -65,7 +65,7 @@ jobs:
           fi
           git commit -m "chore: Updated package-lock.json"
           for attempt in 1 2 3; do
-            git pull --rebase
+            git pull --rebase origin "${GITHUB_REF_NAME:-main}"
             if git push; then
               exit 0
             fi
