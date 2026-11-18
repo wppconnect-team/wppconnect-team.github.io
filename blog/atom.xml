@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wppconnect.io/blog/</id>
     <title>WPPConnect Blog</title>
-    <updated>2026-11-17T13:31:05.000Z</updated>
+    <updated>2026-11-18T03:44:18.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wppconnect.io/blog/"/>
     <subtitle>WPPConnect Blog</subtitle>
     <icon>https://wppconnect.io/brand/v2/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[WA-JS patch release: v4.8.2]]></title>
+        <id>https://wppconnect.io/blog/wa-js/v4.8.2/</id>
+        <link href="https://wppconnect.io/blog/wa-js/v4.8.2/"/>
+        <updated>2026-11-18T03:44:18.000Z</updated>
+        <summary type="html"><![CDATA[Today we are releasing a patch version v4.8.2 for WA-JS with Bug Fixes, Build System and Continuous Integration.]]></summary>
+        <content type="html"><![CDATA[<p>Today we are releasing a patch version v4.8.2 for WA-JS with Bug Fixes, Build System and Continuous Integration.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="482-2026-11-18"><small>4.8.2 (2026-11-18)</small><a href="https://wppconnect.io/blog/wa-js/v4.8.2/#482-2026-11-18" class="hash-link" aria-label="Direct link to 482-2026-11-18" title="Direct link to 482-2026-11-18" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/blog/wa-js/v4.8.2/#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>conn:</strong> fall back to nullable account LID getter (#3796) (<a href="https://github.com/wppconnect-team/wa-js/commit/69d59d3" target="_blank" rel="noopener noreferrer" class="">69d59d3</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3796" target="_blank" rel="noopener noreferrer" class="">#3796</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect.io/blog/wa-js/v4.8.2/#build-system" class="hash-link" aria-label="Direct link to Build System" title="Direct link to Build System" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.5218 (#3792) (<a href="https://github.com/wppconnect-team/wa-js/commit/d66f3f8" target="_blank" rel="noopener noreferrer" class="">d66f3f8</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3792" target="_blank" rel="noopener noreferrer" class="">#3792</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="continuous-integration">Continuous Integration<a href="https://wppconnect.io/blog/wa-js/v4.8.2/#continuous-integration" class="hash-link" aria-label="Direct link to Continuous Integration" title="Direct link to Continuous Integration" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>publish:</strong> drop the site update dispatch (#3791) (<a href="https://github.com/wppconnect-team/wa-js/commit/1d33107" target="_blank" rel="noopener noreferrer" class="">1d33107</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3791" target="_blank" rel="noopener noreferrer" class="">#3791</a></li>
+</ul>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.8.2" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
+        <author>
+            <name>WPPConnect Team</name>
+            <uri>https://github.com/wppconnect-team</uri>
+        </author>
+        <category label="wppconnect" term="wppconnect"/>
+        <category label="wa-js" term="wa-js"/>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Server CLI patch release: v1.3.73]]></title>
         <id>https://wppconnect.io/blog/server-cli/v1.3.73/</id>
@@ -605,27 +635,6 @@
         <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.78 for WPP Server.]]></summary>
         <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.78 for WPP Server.</p>
 <p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.78" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
-        <author>
-            <name>WPPConnect Team</name>
-            <uri>https://github.com/wppconnect-team</uri>
-        </author>
-        <category label="wppconnect" term="wppconnect"/>
-        <category label="javascript" term="javascript"/>
-        <category label="nodejs" term="nodejs"/>
-        <category label="server" term="server"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WPP Server patch release: v2.10.77]]></title>
-        <id>https://wppconnect.io/blog/wppconnect-server/v2.10.77/</id>
-        <link href="https://wppconnect.io/blog/wppconnect-server/v2.10.77/"/>
-        <updated>2026-11-06T23:22:44.000Z</updated>
-        <summary type="html"><![CDATA[Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.]]></summary>
-        <content type="html"><![CDATA[<p>Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/blog/wppconnect-server/v2.10.77/#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>security:</strong> stop serving the private media cache over HTTP (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2709" target="_blank" rel="noopener noreferrer" class="">#2709</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/bf1faac7a14892207348c3dc5f6e03ed180e09e8" target="_blank" rel="noopener noreferrer" class="">bf1faac</a>)</li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.77" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content>
         <author>
             <name>WPPConnect Team</name>
             <uri>https://github.com/wppconnect-team</uri>

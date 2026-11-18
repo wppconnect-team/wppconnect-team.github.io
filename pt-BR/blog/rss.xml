@@ -4,10 +4,36 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect.io/pt-BR/blog/</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 17 Nov 2026 13:31:05 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Nov 2026 03:44:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
+        <item>
+            <title><![CDATA[WA-JS patch release: v4.8.2]]></title>
+            <link>https://wppconnect.io/pt-BR/blog/wa-js/v4.8.2/</link>
+            <guid>https://wppconnect.io/pt-BR/blog/wa-js/v4.8.2/</guid>
+            <pubDate>Wed, 18 Nov 2026 03:44:18 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v4.8.2 for WA-JS with Bug Fixes, Build System and Continuous Integration.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v4.8.2 for WA-JS with Bug Fixes, Build System and Continuous Integration.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="482-2026-11-18"><small>4.8.2 (2026-11-18)</small><a href="https://wppconnect.io/pt-BR/blog/wa-js/v4.8.2/#482-2026-11-18" class="hash-link" aria-label="Link direto para 482-2026-11-18" title="Link direto para 482-2026-11-18" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/pt-BR/blog/wa-js/v4.8.2/#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>conn:</strong> fall back to nullable account LID getter (#3796) (<a href="https://github.com/wppconnect-team/wa-js/commit/69d59d3" target="_blank" rel="noopener noreferrer" class="">69d59d3</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3796" target="_blank" rel="noopener noreferrer" class="">#3796</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="build-system">Build System<a href="https://wppconnect.io/pt-BR/blog/wa-js/v4.8.2/#build-system" class="hash-link" aria-label="Link direto para Build System" title="Link direto para Build System" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>deps-dev:</strong> update dependency @wppconnect/wa-version to ^1.5.5218 (#3792) (<a href="https://github.com/wppconnect-team/wa-js/commit/d66f3f8" target="_blank" rel="noopener noreferrer" class="">d66f3f8</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3792" target="_blank" rel="noopener noreferrer" class="">#3792</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="continuous-integration">Continuous Integration<a href="https://wppconnect.io/pt-BR/blog/wa-js/v4.8.2/#continuous-integration" class="hash-link" aria-label="Link direto para Continuous Integration" title="Link direto para Continuous Integration" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>publish:</strong> drop the site update dispatch (#3791) (<a href="https://github.com/wppconnect-team/wa-js/commit/1d33107" target="_blank" rel="noopener noreferrer" class="">1d33107</a>), closes <a href="https://github.com/wppconnect-team/wa-js/issues/3791" target="_blank" rel="noopener noreferrer" class="">#3791</a></li>
+</ul>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wa-js/releases/tag/v4.8.2" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>wa-js</category>
+            <category>javascript</category>
+            <category>browser</category>
+        </item>
         <item>
             <title><![CDATA[Server CLI patch release: v1.3.73]]></title>
             <link>https://wppconnect.io/pt-BR/blog/server-cli/v1.3.73/</link>
@@ -534,23 +560,6 @@
             <description><![CDATA[Today we are releasing a patch version v2.10.78 for WPP Server.]]></description>
             <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.78 for WPP Server.</p>
 <p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.78" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-        </item>
-        <item>
-            <title><![CDATA[WPP Server patch release: v2.10.77]]></title>
-            <link>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.77/</link>
-            <guid>https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.77/</guid>
-            <pubDate>Fri, 06 Nov 2026 23:22:44 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.77 for WPP Server with Bug Fixes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bug-fixes">Bug Fixes<a href="https://wppconnect.io/pt-BR/blog/wppconnect-server/v2.10.77/#bug-fixes" class="hash-link" aria-label="Link direto para Bug Fixes" title="Link direto para Bug Fixes" translate="no">​</a></h3>
-<ul>
-<li class=""><strong>security:</strong> stop serving the private media cache over HTTP (<a href="https://github.com/wppconnect-team/wppconnect-server/issues/2709" target="_blank" rel="noopener noreferrer" class="">#2709</a>) (<a href="https://github.com/wppconnect-team/wppconnect-server/commit/bf1faac7a14892207348c3dc5f6e03ed180e09e8" target="_blank" rel="noopener noreferrer" class="">bf1faac</a>)</li>
-</ul>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.77" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
             <category>wppconnect</category>
             <category>javascript</category>
             <category>nodejs</category>
