@@ -75,7 +75,7 @@
     "serialize-javascript": "7.1.4",
     "shell-quote": "1.12.0",
     "tinypool": "2.2.0",
-    "undici": "8.12.4",
+    "undici": "8.13.1",
     "uuid": "14.0.3",
     "websocket-driver": "0.8.0",
     "deepmerge": "$deepmerge",
