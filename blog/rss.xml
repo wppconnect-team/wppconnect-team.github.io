@@ -4,10 +4,75 @@
         <title>WPPConnect Blog</title>
         <link>https://wppconnect.io/blog/</link>
         <description>WPPConnect Blog</description>
-        <lastBuildDate>Tue, 24 Nov 2026 02:49:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Nov 2026 16:46:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.10.97]]></title>
+            <link>https://wppconnect.io/blog/wppconnect-server/v2.10.97/</link>
+            <guid>https://wppconnect.io/blog/wppconnect-server/v2.10.97/</guid>
+            <pubDate>Tue, 24 Nov 2026 16:46:50 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.10.97 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.97 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.97" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.10.96]]></title>
+            <link>https://wppconnect.io/blog/wppconnect-server/v2.10.96/</link>
+            <guid>https://wppconnect.io/blog/wppconnect-server/v2.10.96/</guid>
+            <pubDate>Tue, 24 Nov 2026 16:41:37 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.10.96 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.96 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.96" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.10.95]]></title>
+            <link>https://wppconnect.io/blog/wppconnect-server/v2.10.95/</link>
+            <guid>https://wppconnect.io/blog/wppconnect-server/v2.10.95/</guid>
+            <pubDate>Tue, 24 Nov 2026 16:30:23 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.10.95 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.95 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.95" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.10.94]]></title>
+            <link>https://wppconnect.io/blog/wppconnect-server/v2.10.94/</link>
+            <guid>https://wppconnect.io/blog/wppconnect-server/v2.10.94/</guid>
+            <pubDate>Tue, 24 Nov 2026 16:16:31 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.10.94 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.94 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.94" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
+        <item>
+            <title><![CDATA[WPP Server patch release: v2.10.93]]></title>
+            <link>https://wppconnect.io/blog/wppconnect-server/v2.10.93/</link>
+            <guid>https://wppconnect.io/blog/wppconnect-server/v2.10.93/</guid>
+            <pubDate>Tue, 24 Nov 2026 16:15:29 GMT</pubDate>
+            <description><![CDATA[Today we are releasing a patch version v2.10.93 for WPP Server.]]></description>
+            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.93 for WPP Server.</p>
+<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.93" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
+            <category>wppconnect</category>
+            <category>javascript</category>
+            <category>nodejs</category>
+            <category>server</category>
+        </item>
         <item>
             <title><![CDATA[Server CLI patch release: v1.3.78]]></title>
             <link>https://wppconnect.io/blog/server-cli/v1.3.78/</link>
@@ -479,121 +544,6 @@
             <category>wa-js</category>
             <category>javascript</category>
             <category>browser</category>
-        </item>
-        <item>
-            <title><![CDATA[Server CLI patch release: v1.3.70]]></title>
-            <link>https://wppconnect.io/blog/server-cli/v1.3.70/</link>
-            <guid>https://wppconnect.io/blog/server-cli/v1.3.70/</guid>
-            <pubDate>Fri, 13 Nov 2026 05:37:33 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v1.3.70 for Server CLI.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.70 for Server CLI.</p>
-<p>Docker image tags:</p>
-<ul>
-<li class=""><code>wppconnect/server-cli:1.3.70</code></li>
-<li class=""><code>wppconnect/server-cli:1.3</code></li>
-<li class=""><code>wppconnect/server-cli:1</code></li>
-<li class=""><code>wppconnect/server-cli:v1.3.70</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-<li class=""><code>wppconnect/server-cli:sha-182a78b</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.70/#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
-<ul>
-<li class="">build(deps): update dependency mongoose to ^9.12.1 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/903" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/903</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.69...v1.3.70" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.69...v1.3.70</a></p>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.70" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-            <category>cli</category>
-        </item>
-        <item>
-            <title><![CDATA[Server CLI patch release: v1.3.69]]></title>
-            <link>https://wppconnect.io/blog/server-cli/v1.3.69/</link>
-            <guid>https://wppconnect.io/blog/server-cli/v1.3.69/</guid>
-            <pubDate>Fri, 13 Nov 2026 03:38:26 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v1.3.69 for Server CLI.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.69 for Server CLI.</p>
-<p>Docker image tags:</p>
-<ul>
-<li class=""><code>wppconnect/server-cli:1.3.69</code></li>
-<li class=""><code>wppconnect/server-cli:1.3</code></li>
-<li class=""><code>wppconnect/server-cli:1</code></li>
-<li class=""><code>wppconnect/server-cli:v1.3.69</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-<li class=""><code>wppconnect/server-cli:sha-a54e248</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.69/#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
-<ul>
-<li class="">fix(deps): update dependency @wppconnect/server to v2.10.79 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/896" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/896</a></li>
-<li class="">build(deps): update dependency browserslist to v4.29.5 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/897" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/897</a></li>
-<li class="">build(deps): update dependency brace-expansion to v2.1.8 by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/901" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/901</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.68...v1.3.69" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.68...v1.3.69</a></p>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.69" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-            <category>cli</category>
-        </item>
-        <item>
-            <title><![CDATA[WPP Server patch release: v2.10.81]]></title>
-            <link>https://wppconnect.io/blog/wppconnect-server/v2.10.81/</link>
-            <guid>https://wppconnect.io/blog/wppconnect-server/v2.10.81/</guid>
-            <pubDate>Fri, 13 Nov 2026 03:02:31 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v2.10.81 for WPP Server.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.81 for WPP Server.</p>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.81" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-        </item>
-        <item>
-            <title><![CDATA[WPP Server patch release: v2.10.80]]></title>
-            <link>https://wppconnect.io/blog/wppconnect-server/v2.10.80/</link>
-            <guid>https://wppconnect.io/blog/wppconnect-server/v2.10.80/</guid>
-            <pubDate>Wed, 11 Nov 2026 21:52:18 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v2.10.80 for WPP Server.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v2.10.80 for WPP Server.</p>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/wppconnect-server/releases/tag/v2.10.80" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-        </item>
-        <item>
-            <title><![CDATA[Server CLI patch release: v1.3.68]]></title>
-            <link>https://wppconnect.io/blog/server-cli/v1.3.68/</link>
-            <guid>https://wppconnect.io/blog/server-cli/v1.3.68/</guid>
-            <pubDate>Wed, 11 Nov 2026 14:41:38 GMT</pubDate>
-            <description><![CDATA[Today we are releasing a patch version v1.3.68 for Server CLI.]]></description>
-            <content:encoded><![CDATA[<p>Today we are releasing a patch version v1.3.68 for Server CLI.</p>
-<p>Docker image tags:</p>
-<ul>
-<li class=""><code>wppconnect/server-cli:1.3.68</code></li>
-<li class=""><code>wppconnect/server-cli:1.3</code></li>
-<li class=""><code>wppconnect/server-cli:1</code></li>
-<li class=""><code>wppconnect/server-cli:v1.3.68</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-<li class=""><code>wppconnect/server-cli:sha-5aa0e09</code></li>
-<li class=""><code>wppconnect/server-cli:latest</code></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-changed">What's Changed<a href="https://wppconnect.io/blog/server-cli/v1.3.68/#whats-changed" class="hash-link" aria-label="Direct link to What's Changed" title="Direct link to What's Changed" translate="no">​</a></h2>
-<ul>
-<li class="">build(deps): update dependency mongoose to v9.11.4 [security] by @renovate[bot] in <a href="https://github.com/wppconnect-team/server-cli/pull/899" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/pull/899</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/wppconnect-team/server-cli/compare/v1.3.67...v1.3.68" target="_blank" rel="noopener noreferrer" class="">https://github.com/wppconnect-team/server-cli/compare/v1.3.67...v1.3.68</a></p>
-<p>For more information, see the <a href="https://github.com/wppconnect-team/server-cli/releases/tag/v1.3.68" target="_blank" rel="noopener noreferrer" class="">release page</a>.</p>]]></content:encoded>
-            <category>wppconnect</category>
-            <category>javascript</category>
-            <category>nodejs</category>
-            <category>server</category>
-            <category>cli</category>
         </item>
     </channel>
 </rss>
