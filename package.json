@@ -54,7 +54,7 @@
     "react-feather": "^2.0.10",
     "react-is": "^19.3.1",
     "redocusaurus": "^2.5.2",
-    "styled-components": "^6.6.0"
+    "styled-components": "^6.7.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.2",
